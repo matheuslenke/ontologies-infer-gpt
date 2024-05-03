@@ -1,0 +1,113 @@
+package Petroleum_System
+
+class Boundary {
+    boundary: BoundaryType
+}
+
+quality Porosity {
+    value_: Value
+}
+
+quality Quantity_Organic_matter {
+    value_: Value
+}
+
+quantity Hidrocarbon
+
+quantity Oil specializes Hidrocarbon
+
+situation Pregeneration{
+    pressure: undefined
+    temperature: undefined
+}
+
+event Generation
+
+situation Oil__Mudstone__Porous_Rock
+
+event Migration
+
+situation Oil__Porous_rock
+
+event Acumulation
+
+class Oil__Trap
+
+role Source_Rock of functional-complexes  specializes LithologicUnit_qua_shale {
+    porosity: Value  { const }
+    organic_matter: Value  { const }
+}
+
+role Seal of functional-complexes  specializes LithologicUnit_qua_shale {
+    porosity: Value  { const }
+}
+
+role Reservoir of functional-complexes  specializes LithologicUnit_qua_sandstone {
+    porosity: Value  { const }
+}
+
+mixin Trap of functional-complexes {
+    structure: Structure
+}
+
+quantity Shale specializes Siliciclastic_Rock {
+    granulometry: Granulometry  { const }
+    qtyOrganicMatter: Value  { const }
+}
+
+quantity Sandstone specializes Siliciclastic_Rock {
+    granulometry: Granulometry
+    qtyOrganicMatter: Value  { const }
+}
+
+kind LithologicUnit_qua_shale specializes Lithological_unit
+
+kind LithologicUnit_qua_sandstone specializes Lithological_unit
+
+quantity Siliciclastic_Rock specializes Rock
+
+quantity Rock
+
+kind Lithological_unit{
+    Dimensions: Dimensions
+    Top_Contact: contact
+    Bottom_Contact: contact
+}
+
+datatype contact
+enum Dimensions{
+    thickness, length, depth
+}
+enum Structure{
+    anticlinal, dome, fault
+}
+enum Value{
+    high, medium, low, not_present
+}
+enum BoundaryType{
+    abrupt, gradational
+}
+enum Granulometry{
+    argile, sand
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -50,11 +50,11 @@ As opposed to sortals, 'non-sortals are types that represent common properties o
 
 instructions = f"""
 Follow these steps to answer the user queries. The user query will be delimited with four hashtags, i.e. {delimiter}.
-The user query will be a Turtle file. You should infer the type using gUFO-OWL
+The user query will be a Tonto file. You should read every elements from the file. you MUST Ignore the package element and do not infer nothing about the package.
 
 Your task is to perform the following actions: 
-1 - Read the name of each element provided
-2 - Infer possible OntoUML stereotypes for each element, adding each step of your reasoning to the explanation
+1 - Read the name of each element provided after the package
+2 - Infer possible OntoUML stereotypes for each element with a missing stereotype, adding each step of your reasoning to the explanation
 3 - Provide the explanation for each stereotype infered
 4 - Output a json array, where each object contains the following keys: name, infered_stereotype, explanation. Each infered stereotype must generate a different object inside the array. You MUST provide the JSON at the end, always.
 
@@ -70,3 +70,42 @@ infered_stereotype: <stereotype infered for element>
 explanation: <reason of infered stereotype>
 Output JSON: <json with the required format>
 """
+
+tonto_explanation = f"""
+    You are going to receive an input file in a language named Tonto, which structure is going to be explained. 
+    The first element is the package declaration with the name of the package:
+    Example: package PackageName
+        
+    Then, every declaration is an element or a relation. If it is an element, the declaration is the stereotype followed by the element name and optionally, its specializations:
+    Example 1: kind KindName
+    Example 2: phase PhaseName 
+        
+    If it is a relation, it starts with the keyword relation. The keyword 'class' is a special keyword that indicates that this element does not contains
+    a defined stereotype, and you must infer its stereotype based on all elements declared on a model.
+    
+    Example 1: relation KindName -- namedRelation -- PhaseName
+    Example 2: relation KindName [1..*] -- namedRelation -- [1] PhaseName
+    
+    Each element can contain inner attributes or relations, delimited inside brackets.
+"""
+
+
+def get_messages(prompt):
+    messages = [
+        {"role": "system", "content": ufo_explanation},
+        {"role": "system", "content": stereotypes_explanation},
+        {"role": "system", "content": tonto_explanation},
+        {"role": "system", "content": instructions},
+        {"role": "user", "content": f"{delimiter} {prompt} {delimiter}"}
+    ]
+    return messages
+
+def get_messages_tuple(prompt):
+    messages = [
+        ("system", ufo_explanation),
+        ("system", stereotypes_explanation),
+        ("system", tonto_explanation),
+        ("system",  instructions),
+        ("user", f"{delimiter} {prompt} {delimiter}")
+    ]
+    return messages
