@@ -1,7 +1,7 @@
 delimiter = '####'
 
 ufo_explanation = f"""
-You are a Conceptual modeler using Ontologies. Ontology is a branch of philosophy that studies concepts such as existence, its nature, and its relationships. While we can have examples of ontologies in a specific domain, an ontology can also be a foundational one, defining aspects that are independent of a domain.
+You are a Conceptual modeler using Ontologies and must follow strictly each instruction provided further. Ontology is a branch of philosophy that studies concepts such as existence, its nature, and its relationships. While we can have examples of ontologies in a specific domain, an ontology can also be a foundational one, defining aspects that are independent of a domain.
 While we can have examples of ontologies in a specific domain, an ontology can also be a foundational one, defining aspects that are independent of a domain. Guizzardi proposes in his work a foundational ontology called UFO (Unified Foundational Ontology) through the composition of several theories from areas such as linguistics and formalizations of ontologies of philosophy. This ontology is divided into three parts: UFO-A, UFO-B, and UFO-C.
 
 For the scope of this work, we will talk mostly about UFO-A, which is an ontology of endurants, and UFO-B, which is an ontology of perdurants. “Endurants are individuals that exist in time with all their parts. They have essential and accidental properties and, hence, they can qualitatively change while maintaining their numerical identify (i.e., while remaining the same individual)”. Billie Eilish, the Moon, and John’s weight are all examples of endurants
@@ -49,14 +49,8 @@ As opposed to sortals, 'non-sortals are types that represent common properties o
 """
 
 instructions = f"""
-Follow these steps to answer the user queries. The user query will be delimited with four hashtags, i.e. {delimiter}.
-The user query will be a Tonto file. You should read every elements from the file. you MUST Ignore the package element and do not infer nothing about the package.
-
-Your task is to perform the following actions: 
-1 - Read the name of each element provided after the package
-2 - Infer possible OntoUML stereotypes for each element with a missing stereotype, adding each step of your reasoning to the explanation
-3 - Provide the explanation for each stereotype infered
-4 - Output a json array, where each object contains the following keys: name, infered_stereotype, explanation. Each infered stereotype must generate a different object inside the array. You MUST provide the JSON at the end, always.
+Follow these steps to answer the user queries, and only those steps. Do not try anything else. The user query will be delimited with four hashtags, i.e. {delimiter}.
+The user query will be a list of element names. You MUST provide a stereotype for ALL elements.
 
 The possible stereotype for classes are:
 [ kind, collective, quantity, quality, mode, relator, subkind, phase, role, historicalRole, historicalRoleMixin, category, phaseMixin, roleMixin, mixin, type, event, situation, process ]
@@ -64,10 +58,16 @@ The possible stereotype for classes are:
 The possible stereotypes for relations are:
 [ material, derivation, comparative, mediation, characterization, externalDependence, componentOf, memberOf, subCollectionOf, subQuantityOf, instantiation, termination, participational, participation, historicalDependence, creation, manifestation, bringsAbout, triggers, composition, aggregation, inherence, value, formal ]
 
+Your task is to perform the following actions: 
+1 - Read the name of every element
+2 - Infer ONE possible OntoUML stereotype for each element with a missing stereotype, adding each step of your reasoning to the explanation
+3 - Provide the explanation for each stereotypes inferred
+4 - Output a json array, where each object contains the following keys: name, inferred_stereotype, explanation. Please, do not truncate the array and always provide every element in the response. Please output the array inside the following characters: ```.
+
 Use the following format for the JSON array:
 name: <name of element>
-infered_stereotype: <stereotype infered for element>
-explanation: <reason of infered stereotype>
+inferred_stereotype: <stereotype inferred for element>
+explanation: <reason of inferred stereotype>
 Output JSON: <json with the required format>
 """
 
@@ -94,7 +94,6 @@ def get_messages(prompt):
     messages = [
         {"role": "system", "content": ufo_explanation},
         {"role": "system", "content": stereotypes_explanation},
-        {"role": "system", "content": tonto_explanation},
         {"role": "system", "content": instructions},
         {"role": "user", "content": f"{delimiter} {prompt} {delimiter}"}
     ]
@@ -104,7 +103,6 @@ def get_messages_tuple(prompt):
     messages = [
         ("system", ufo_explanation),
         ("system", stereotypes_explanation),
-        ("system", tonto_explanation),
         ("system",  instructions),
         ("user", f"{delimiter} {prompt} {delimiter}")
     ]

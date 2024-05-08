@@ -1,4 +1,6 @@
 import os
+
+import rdflib.term
 from owlready2 import *
 import pandas as pd
 from typing import Dict, List
@@ -18,7 +20,10 @@ def load_ontologies():
     data_onto_path = os.path.join(data_path, "ontologies")
     data_csv_path = os.path.join(data_path, "csv_data")
 
-    for filename in os.listdir(data_onto_path):
+    all_dfs = []
+    print("Analyzing ontologies")
+    files_list = sorted(os.listdir(data_onto_path))
+    for filename in files_list:
         f = os.path.join(data_onto_path, filename)
         g = Graph()
         g.parse(f)
@@ -41,5 +46,11 @@ def load_ontologies():
 
         for d in row.keys():
             df.loc[len(df)] = row[d]
-        filename = filename.split(".")[0]
-        df.to_csv(os.path.join(data_csv_path, filename+"2501.csv"))
+        ontouml_class = rdflib.term.URIRef("https://w3id.org/ontouml#Class")
+
+        filtered_df = df[df['type'].str.contains(ontouml_class)]
+        all_dfs.append(filtered_df)
+
+        # filename = filename.split(".")[0]
+        # df.to_csv(os.path.join(data_csv_path, filename+"2501.csv"))
+    return all_dfs

@@ -10,7 +10,7 @@ from prompts import zero_shot
 
 class LocalInfer(object):
     def __init__(self):
-        self.llm = Ollama(model="llama2")
+        self.llm = Ollama(model="llama3")
         self.embeddings = OllamaEmbeddings()
 
     def create_embeddings(self):
@@ -19,7 +19,7 @@ class LocalInfer(object):
         text_splitter = RecursiveCharacterTextSplitter()
         documents = text_splitter.split_documents()
 
-    async def get_local_completion(self, user_prompt: string):
+    async def get_completion(self, user_prompt: string):
         prompt = ChatPromptTemplate.from_messages(zero_shot.get_messages_tuple(prompt=user_prompt))
 
         chain = prompt | self.llm
@@ -27,7 +27,8 @@ class LocalInfer(object):
         async for chunk in chain.astream({"input": f"####{user_prompt}####"}):
             chunks.append(chunk)
             print(chunk, end="")
-        return chunks
+        print("\n")
+        return "".join(chunks)
 
 
     # def save_to_file(self, chunks: [string]):

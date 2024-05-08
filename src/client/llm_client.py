@@ -1,6 +1,6 @@
 import string
 
-from azure_authentication_client import authenticate_device_flow
+# from azure_authentication_client import authenticate_device_flow
 from langchain.chains import LLMChain
 from langchain_community.llms.ollama import Ollama
 from langchain_openai import ChatOpenAI
@@ -16,7 +16,7 @@ class LLMClient:
             LLMClient.use_local_api_key()
             # self.client.api_key = os.getenv('OPENAI_API_KEY')
             # Authentication with Accenture Lib
-            authenticate_device_flow()
+            # authenticate_device_flow()
             self.client = ChatOpenAI(
                 callbacks=[StreamingStdOutCallbackHandler()],
                 streaming=True
