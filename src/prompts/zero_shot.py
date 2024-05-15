@@ -60,7 +60,7 @@ The possible stereotypes for relations are:
 
 Your task is to perform the following actions: 
 1 - Read the name of every element
-2 - Infer ONE possible OntoUML stereotype for each element with a missing stereotype, adding each step of your reasoning to the explanation
+2 - Infer ONE possible OntoUML stereotype for each element with a missing stereotype
 3 - Provide the explanation for each stereotypes inferred
 4 - Output a json array, where each object contains the following keys: name, inferred_stereotype, explanation. Please, do not truncate the array and always provide every element in the response. Please output the array inside the following characters: ```.
 
@@ -69,6 +69,30 @@ name: <name of element>
 inferred_stereotype: <stereotype inferred for element>
 explanation: <reason of inferred stereotype>
 Output JSON: <json with the required format>
+"""
+
+csv_instructions = f"""
+Follow these steps to answer the user queries, and only those steps. Do not try anything else. The user query will be delimited with four hashtags, i.e. {delimiter}.
+The user query will be a element name. You MUST provide a stereotype to it.
+
+The possible stereotype for classes are:
+[ kind, collective, quantity, quality, mode, relator, subkind, phase, role, historicalRole, historicalRoleMixin, category, phaseMixin, roleMixin, mixin, type, event, situation, process ]
+
+The possible stereotypes for relations are:
+[ material, derivation, comparative, mediation, characterization, externalDependence, componentOf, memberOf, subCollectionOf, subQuantityOf, instantiation, termination, participational, participation, historicalDependence, creation, manifestation, bringsAbout, triggers, composition, aggregation, inherence, value, formal ]
+
+Your task is to perform the following actions: 
+1 - Read the name of the element
+2 - Infer ONE possible OntoUML stereotype for the element
+3 - Output the inferred stereotype, and ONLY that stereotype.
+
+Do not output any other text. I want the answer to be exactly one stereotype and nothing more. If you don't understand the prompt, output "None"
+
+An example:
+```
+prompt: Person
+kind
+```
 """
 
 tonto_explanation = f"""
@@ -94,7 +118,7 @@ def get_messages(prompt):
     messages = [
         {"role": "system", "content": ufo_explanation},
         {"role": "system", "content": stereotypes_explanation},
-        {"role": "system", "content": instructions},
+        {"role": "system", "content": csv_instructions},
         {"role": "user", "content": f"{delimiter} {prompt} {delimiter}"}
     ]
     return messages
@@ -103,7 +127,7 @@ def get_messages_tuple(prompt):
     messages = [
         ("system", ufo_explanation),
         ("system", stereotypes_explanation),
-        ("system",  instructions),
+        ("system",  csv_instructions),
         ("user", f"{delimiter} {prompt} {delimiter}")
     ]
     return messages

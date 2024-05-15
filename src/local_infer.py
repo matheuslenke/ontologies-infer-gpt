@@ -20,11 +20,13 @@ class LocalInfer(object):
         documents = text_splitter.split_documents()
 
     async def get_completion(self, user_prompt: string):
+        if user_prompt is None:
+            return ''
         prompt = ChatPromptTemplate.from_messages(zero_shot.get_messages_tuple(prompt=user_prompt))
 
         chain = prompt | self.llm
         chunks = []
-        async for chunk in chain.astream({"input": f"####{user_prompt}####"}):
+        async for chunk in chain.astream({"input": f'#### Element name: "{user_prompt}"####'}):
             chunks.append(chunk)
             print(chunk, end="")
         print("\n")

@@ -53,4 +53,5 @@ def load_ontologies():
 
         # filename = filename.split(".")[0]
         # df.to_csv(os.path.join(data_csv_path, filename+"2501.csv"))
+        break
     return all_dfs
