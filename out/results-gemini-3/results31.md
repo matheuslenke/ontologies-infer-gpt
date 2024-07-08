@@ -1,0 +1,33 @@
+```json
+[
+  {"name": "Seal", "description": "An impermeable rock layer that prevents the upward migration of hydrocarbons.", "inferred_stereotype": "role"},
+  {"name": "Reservoir", "description": "A subsurface volume of porous and permeable rock that can store and transmit fluids, particularly hydrocarbons.", "inferred_stereotype": "role"},
+  {"name": "Accumulation", "description": "A concentrated volume of hydrocarbons trapped in a reservoir.", "inferred_stereotype": "situation"}, 
+  {"name": "Pre-generation", "description": "The stage in hydrocarbon formation before significant generation of oil or gas occurs.", "inferred_stereotype": "phase"},
+  {"name": "Migration", "description": "The movement of hydrocarbons from their source rock to a trap.", "inferred_stereotype": "process"}, 
+  {"name": "Oil + Mudstone + Porous Rock", "description": "This seems to represent a combination of elements related to hydrocarbon systems.  It's too broad for a single stereotype without more context. ", "inferred_stereotype": ""},
+  {"name": "Dimensions", "description": "The spatial extent (length, width, thickness) of a geological feature.", "inferred_stereotype": "quality"},
+  {"name": "Rock", "description": "A naturally occurring solid material made up of minerals.", "inferred_stereotype": "kind"},
+  {"name": "Generation", "description": "The process of forming hydrocarbons from organic matter in source rocks.", "inferred_stereotype": "process"},
+  {"name": "Hidrocarbon", "description": "Organic compounds primarily composed of hydrogen and carbon, such as oil and gas.", "inferred_stereotype": "kind"},
+  {"name": "Trap", "description": "A geological configuration that traps hydrocarbons in a reservoir.", "inferred_stereotype": "role"},
+  {"name": "Sandstone", "description": "A clastic sedimentary rock composed mainly of sand-sized grains.", "inferred_stereotype": "subkind"},
+  {"name": "LithologicUnit qua shale", "description": "A lithologic unit that is specifically a shale.", "inferred_stereotype": "subkind"}, 
+  {"name": "Granulometry", "description": "The study of the size distribution of particles in a material, such as sand or sediment.", "inferred_stereotype": "kind"}, 
+  {"name": "LithologicUnit qua sandstone", "description": "A lithologic unit that is specifically a sandstone.", "inferred_stereotype": "subkind"}, 
+  {"name": "Oil + Porous rock", "description": " This likely indicates the presence of oil within a porous rock, but it's not clear enough for a single stereotype.", "inferred_stereotype": ""}, 
+  {"name": "Shale", "description": "A fine-grained sedimentary rock formed from mud and clay.", "inferred_stereotype": "subkind"},
+  {"name": "Boundary", "description": "The interface separating two different rock units or geological features.", "inferred_stereotype": "kind"},
+  {"name": "contact", "description": "The surface where two different rock units or geological features are in direct contact.", "inferred_stereotype": "subkind"},
+  {"name": "Quantity Organic matter", "description": "The amount of organic matter present, which is a factor in hydrocarbon generation potential.", "inferred_stereotype": "quantity"},
+  {"name": "Siliciclastic Rock", "description": "A clastic sedimentary rock composed primarily of silicate minerals.", "inferred_stereotype": "subkind"},
+  {"name": "Oil + Trap", "description": "Similar to 'Oil + Porous rock,' this likely points to oil contained within a trap. More context is needed.", "inferred_stereotype": ""},
+  {"name": "Porosity", "description": "The percentage of void space in a rock, indicating its ability to store fluids.", "inferred_stereotype": "quality"},
+  {"name": "Value", "description": "The economic worth, which in this context likely refers to the value of hydrocarbons.", "inferred_stereotype": "quality"}, 
+  {"name": "Structure", "description": "The arrangement of rock layers and geological features in the subsurface.", "inferred_stereotype": "kind"}, 
+  {"name": "BoundaryType", "description": "A classification of different types of boundaries between geological units.", "inferred_stereotype": "kind"}, 
+  {"name": "Oil", "description": "A liquid hydrocarbon found in underground reservoirs.", "inferred_stereotype": "subkind"},
+  {"name": "Lithological unit", "description": "A body of rock with a consistent set of physical characteristics distinguishing it from adjacent rock units.", "inferred_stereotype": "kind"},
+  {"name": "Source Rock", "description": "A rock with abundant organic matter that can generate hydrocarbons.", "inferred_stereotype": "role"}
+]
+```

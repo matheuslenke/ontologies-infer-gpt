@@ -1,0 +1,33 @@
+```json
+[
+  {"name": "BikePath", "description": "A dedicated lane or path for bicycles.", "inferred_stereotype": "subkind"},
+  {"name": "Certificate", "description": "An official document attesting to a fact.", "inferred_stereotype": "kind"}, 
+  {"name": "Equipment", "description": "The necessary items for a particular purpose.", "inferred_stereotype": "kind"},
+  {"name": "Geometry", "description": "The branch of mathematics concerned with the properties and relations of points, lines, surfaces, solids, and higher dimensional analogs.", "inferred_stereotype": "kind"}, 
+  {"name": "LEEDCertified", "description": "A property or building that has been certified by LEED (Leadership in Energy and Environmental Design).", "inferred_stereotype": "role"}, 
+  {"name": "LEEDGold", "description": "A level of LEED certification, signifying a high standard of sustainability.", "inferred_stereotype": "subkind"},
+  {"name": "Zone", "description": "An area or stretch of land having a particular characteristic, purpose, or use, or subject to particular restrictions.", "inferred_stereotype": "kind"}, 
+  {"name": "BuildinCertified", "description": "Unclear. Potentially refers to a building that holds a certain certification.", "inferred_stereotype": ""},
+  {"name": "Floor", "description": "A level of a building.", "inferred_stereotype": "subkind"}, 
+  {"name": "SustainableSite", "description": "A site that is designed and managed to minimize its impact on the environment.", "inferred_stereotype": "roleMixin"},
+  {"name": "BusStop", "description": "A designated place where buses stop for passengers to get on or off.", "inferred_stereotype": "subkind"}, 
+  {"name": "MaterialResource", "description": "A substance that is used to make something.", "inferred_stereotype": "kind"},
+  {"name": "Park", "description": "A large public garden or area of land used for recreation.", "inferred_stereotype": "subkind"},
+  {"name": "CityData", "description": "Data that pertains to a city, such as demographics, infrastructure, or environment.", "inferred_stereotype": "kind"}, 
+  {"name": "IndoorEnvironmentQuality", "description": "The quality of the environment inside a building, in terms of air quality, lighting, and acoustics.", "inferred_stereotype": "quality"}, 
+  {"name": "Certification", "description": "The action or process of certifying something.", "inferred_stereotype": "kind"},
+  {"name": "MaterialClassification", "description": "The system of classifying materials based on their properties and uses.", "inferred_stereotype": "kind"},
+  {"name": "IntegrativeProcess", "description": "A process that integrates different parts or aspects of something.", "inferred_stereotype": "kind"},
+  {"name": "EnergyAtmosphere", "description": "Unclear. Potentially refers to the energy consumption and its impact on the atmosphere.", "inferred_stereotype": ""},
+  {"name": "CertificationArea", "description": "The area or scope of a certification.", "inferred_stereotype": "subkind"}, 
+  {"name": "Material", "description": "The matter from which a thing is or can be made.", "inferred_stereotype": "kind"}, 
+  {"name": "Score", "description": "A number of points, goals, or runs achieved in a game or by a team or an individual.", "inferred_stereotype": "quantity"}, 
+  {"name": "LEEDPlatinum", "description": "The highest level of LEED certification, signifying the highest standard of sustainability.", "inferred_stereotype": "subkind"}, 
+  {"name": "Space", "description": "A continuous area or expanse which is free, available, or unoccupied.", "inferred_stereotype": "kind"}, 
+  {"name": "WaterEfficiency", "description": "The use of water in a way that minimizes waste.", "inferred_stereotype": "quality"},
+  {"name": "Construction", "description": "The building or making of something, typically a large structure.", "inferred_stereotype": "kind"}, 
+  {"name": "LocationTransportation", "description": "Unclear. Potentially refers to the transportation options available at a particular location.", "inferred_stereotype": ""}, 
+  {"name": "LEEDSilver", "description": "A level of LEED certification.", "inferred_stereotype": "subkind"}, 
+  {"name": "Area", "description": "A region or part of a town, a country, or the world.", "inferred_stereotype": "kind"}
+]
+```

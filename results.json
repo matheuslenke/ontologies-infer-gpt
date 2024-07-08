@@ -1,0 +1,317 @@
+[
+    {
+    "name": "Generic Intention",
+    "inferred_stereotype": "role",
+    "explanation": "Represents a role that an Agent might have, indicating a general goal or desire they possess."
+    },
+    {
+    "name": "Protected Subject",
+    "inferred_stereotype": "role",
+    "explanation": "Represents an entity that is the target of protection efforts. It could be a person, system, or asset."
+    },
+    {
+    "name": "Value",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents anything that holds significance, importance, or usefulness."
+    },
+    {
+    "name": "Experience Value Asc.",
+    "inferred_stereotype": "role",
+    "explanation": "Represents an entity that assesses the value of an experience. "
+    },
+    {
+    "name": "Risk",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents the possibility of a negative outcome or event occurring."
+    },
+    {
+    "name": "Risk Assessor",
+    "inferred_stereotype": "role",
+    "explanation": "Represents an entity responsible for evaluating and analyzing risks."
+    },
+    {
+    "name": "Control Capability",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a means or measure to mitigate or manage risks."
+    },
+    {
+    "name": "Risk Event",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a specific event that poses a risk."
+    },
+    {
+    "name": "Value Subject",
+    "inferred_stereotype": "role",
+    "explanation": "Represents an entity that is the subject of value judgments or assessments."
+    },
+    {
+    "name": "Security Mechanism",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a specific tool, technique, or process used to enhance security."
+    },
+    {
+    "name": "Event Type",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a categorization or classification of events based on their nature."
+    },
+    {
+    "name": "Value Ascription",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents the act of attributing value to something."
+    },
+    {
+    "name": "Loss Event Type",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a category or type of event that results in a loss."
+    },
+    {
+    "name": "Risk Enabler",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a factor or condition that increases the likelihood or impact of a risk."
+    },
+    {
+    "name": "Object at Risk",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents an asset, entity, or resource that is exposed to potential risks."
+    },
+    {
+    "name": "Impact Event",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents an event that has a significant effect or consequence."
+    },
+    {
+    "name": "Threatening Situation Type",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a category of situations that pose a threat."
+    },
+    {
+    "name": "Attacker",
+    "inferred_stereotype": "role",
+    "explanation": "Represents an entity that attempts to exploit vulnerabilities or cause harm."
+    },
+    {
+    "name": "Threat Event",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents an event that poses a direct threat to an asset or system."
+    },
+    {
+    "name": "Control Event",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents an event related to the implementation or operation of controls."
+    },
+    {
+    "name": "Loss Situation",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a situation or context that could lead to a loss."
+    },
+    {
+    "name": "Intention",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a conscious plan or objective."
+    },
+    {
+    "name": "Threat Capability Type",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a classification of threats based on their capabilities."
+    },
+    {
+    "name": "Value Enabler",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a factor or element that contributes to or enhances value."
+    },
+    {
+    "name": "Intention Type",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a categorization of intentions based on their nature or purpose."
+    },
+    {
+    "name": "Impactful Outcome",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a result or consequence that has a significant impact."
+    },
+    {
+    "name": "Loss Event",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents an event that results in a loss or negative consequence."
+    },
+    {
+    "name": "Object Value Asc.",
+    "inferred_stereotype": "role",
+    "explanation": "Represents an entity that assigns or determines the value of an object."
+    },
+    {
+    "name": "Vulnerability",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a weakness or flaw that could be exploited."
+    },
+    {
+    "name": "Risk Subject",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents an entity that is subject to or affected by risks."
+    },
+    {
+    "name": "Object Risk Assesment",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a process of assessing risks related to a specific object."
+    },
+    {
+    "name": "Controlled Situation",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a situation that is under control or managed."
+    },
+    {
+    "name": "Trigger Event",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents an event that initiates or sets off a chain of events."
+    },
+    {
+    "name": "Loss Triggering Situation Type",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a category of situations that can trigger a loss event."
+    },
+    {
+    "name": "Event",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a significant occurrence or happening."
+    },
+    {
+    "name": "Control Chain Event",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents an event that is part of a sequence of events related to controls."
+    },
+    {
+    "name": "Security Designer",
+    "inferred_stereotype": "role",
+    "explanation": "Represents an entity responsible for designing and implementing security measures."
+    },
+    {
+    "name": "Control Event Type",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a classification of control-related events."
+    },
+    {
+    "name": "Disposition",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a tendency, inclination, or habit."
+    },
+    {
+    "name": "Value Assessor",
+    "inferred_stereotype": "role",
+    "explanation": "Represents an entity responsible for determining or assessing value."
+    },
+    {
+    "name": "Causal Likelihood",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents the probability of an event occurring due to a specific cause."
+    },
+    {
+    "name": "Protection Event",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents an event that contributes to the protection of an asset."
+    },
+    {
+    "name": "Agent",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents an entity that can act or perform actions."
+    },
+    {
+    "name": "Situation Type",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a classification or category of situations."
+    },
+    {
+    "name": "Controlled Situation Type",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a category of controlled situations."
+    },
+    {
+    "name": "Action",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a deliberate act or behavior."
+    },
+    {
+    "name": "Attack",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a deliberate attempt to cause harm or exploit vulnerabilities."
+    },
+    {
+    "name": "Triggering Likelihood",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents the probability of an event triggering another event."
+    },
+    {
+    "name": "Vulnerability Type",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a classification of vulnerabilities based on their nature."
+    },
+    {
+    "name": "Threat Capability",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents the ability or potential of a threat to cause harm."
+    },
+    {
+    "name": "Threat Object",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents an entity or asset that is the target of a threat."
+    },
+    {
+    "name": "Situation",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents a set of circumstances or conditions."
+    },
+    {
+    "name": "Threatening Situation",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a situation that poses a threat or risk."
+    },
+    {
+    "name": "Specific Intention",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a particular and well-defined intention."
+    },
+    {
+    "name": "Threat Event Type",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a category or type of event that poses a threat."
+    },
+    {
+    "name": "Risk Event Type",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents a category or type of event that poses a risk."
+    },
+    {
+    "name": "Experience Risk Assesment",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents the assessment of risks associated with an experience."
+    },
+    {
+    "name": "Risk Assessment",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents the process of identifying, analyzing, and evaluating risks."
+    },
+    {
+    "name": "Value Experience",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents an experience that has value or significance."
+    },
+    {
+    "name": "Value Object",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents an object that holds value."
+    },
+    {
+    "name": "Protection Trigger",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents an event or condition that initiates protection measures."
+    },
+    {
+    "name": "Risk Experience",
+    "inferred_stereotype": "kind",
+    "explanation": "Represents an experience that involves or relates to risk."
+    },
+    {
+    "name": "Value Event",
+    "inferred_stereotype": "subkind",
+    "explanation": "Represents an event that affects or involves value."
+    }
+]

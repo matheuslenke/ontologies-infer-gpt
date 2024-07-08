@@ -1,0 +1,1441 @@
+name;inferred_stereotype;explanation
+Acumulation;situation;A situation is an occurrent type that is instantaneous, it represents a state of affairs, that holds or not in a given instant of time, an aggregation of other entities that characterizes a state of affairs. In this specific domain, Acumulation represents a state of affairs in which oil is trapped in a reservoir, so it can be considered a situation.
+BoundaryType;kind;A fundamental sort of endurant type, a type that provides uniform principles of individuation, identity, and persistence to its instances. Boundary type seems to be a fundamental type in the domain, as it classifies different types of boudaries, so it can be considered a kind.
+Structure;kind;A fundamental sort of endurant type, a type that provides uniform principles of individuation, identity, and persistence to its instances. Structure seems to be a fundamental type in the domain, as it classifies different types of structures, so it can be considered a kind.
+Reservoir;subkind;Subkinds are rigid specializations of a kind, representing a subtype that inherits all its characteristics. Reservoir seems to be a specialization of a geological structure, inheriting its characteristics, so it can be considered a subkind.
+LithologicUnit qua sandstone;role;Roles are 'sortals whose contingent classification conditions are relational'. They are anti-rigid specializations of kinds. In this case, LithologicUnit qua sandstone represents a Lithologic Unit acting as a sandstone, which is a contingent classification, so it can be considered a role.
+Trap;subkind;Subkinds are rigid specializations of a kind, representing a subtype that inherits all its characteristics. Trap seems to be a specialization of a geological structure, inheriting its characteristics, so it can be considered a subkind.
+Rock;kind;A fundamental sort of endurant type, a type that provides uniform principles of individuation, identity, and persistence to its instances. Rock seems to be a fundamental type in the domain, as it classifies different types of rocks, so it can be considered a kind.
+Porosity;quality;An instance of a class stereotyped quality is a particularized property that can be understood as a value in a conceptual space. Porosity represents a measurable property of rocks, so it can be considered a quality.
+Lithological unit;kind;A fundamental sort of endurant type, a type that provides uniform principles of individuation, identity, and persistence to its instances. Lithological unit seems to be a fundamental type in the domain, as it classifies different types of lithological units, so it can be considered a kind.
+Oil + Trap;situation;A situation is an occurrent type that is instantaneous, it represents a state of affairs, that holds or not in a given instant of time, an aggregation of other entities that characterizes a state of affairs. Oil + Trap represents the state of affairs in which oil is contained within a trap, so it can be considered a situation
+Oil;kind;A fundamental sort of endurant type, a type that provides uniform principles of individuation, identity, and persistence to its instances. Oil, as a natural resource, can be considered a kind, as it classifies different types of oil
+LithologicUnit qua shale;role;Roles are 'sortals whose contingent classification conditions are relational'. They are anti-rigid specializations of kinds. In this case, LithologicUnit qua shale represents a Lithologic Unit acting as a shale, which is a contingent classification, so it can be considered a role.
+Boundary;subkind;Subkinds are rigid specializations of a kind, representing a subtype that inherits all its characteristics. Boundary represents a specific type of geological feature, so it can be considered a subkind.
+Quantity Organic matter;quantity;An instance of a class stereotyped quantity is a portion of home- omerous amount of matter. Organic matter, in this context, seems to refer to a measurable amount, so it can be considered a quantity
+Seal;subkind;Subkinds are rigid specializations of a kind, representing a subtype that inherits all its characteristics. Seal, in a geological context, represents a specific type of geological formation, so it can be considered a subkind
+Dimensions;quality;An instance of a class stereotyped quality is a particularized property that can be understood as a value in a conceptual space. Dimensions refer to measurable spatial extents, so it can be considered a quality.
+Generation;process;A process is an occurrent that unfolds in time, being characterized by the changes it brings to the world. Generation, in this context, likely refers to the process of oil formation, so it can be considered a process
+Value;quality;An instance of a class stereotyped quality is a particularized property that can be understood as a value in a conceptual space. Value, in this context, could refer to a measurable characteristic such as the economic value of oil, so it can be considered a quality
+Granulometry;quality;An instance of a class stereotyped quality is a particularized property that can be understood as a value in a conceptual space. Granulometry, which describes the size distribution of grains in a rock, represents a measurable property, so it can be considered a quality
+Oil + Porous rock;situation;A situation is an occurrent type that is instantaneous, it represents a state of affairs, that holds or not in a given instant of time, an aggregation of other entities that characterizes a state of affairs. In this specific domain, Oil + Porous rock represents a state of affairs in which oil is contained within porous rocks, so it can be considered a situation.
+Sandstone;subkind;Subkinds are rigid specializations of a kind, representing a subtype that inherits all its characteristics. Sandstone represents a specific type of rock, inheriting the characteristics of the rock kind, so it can be considered a subkind
+Oil + Mudstone + Porous Rock;situation;A situation is an occurrent type that is instantaneous, it represents a state of affairs, that holds or not in a given instant of time, an aggregation of other entities that characterizes a state of affairs. In this specific domain, Oil + Mudstone + Porous Rock represents a state of affairs in which oil is contained within mudstone and porous rocks, so it can be considered a situation.
+Shale;subkind;Subkinds are rigid specializations of a kind, representing a subtype that inherits all its characteristics. Shale represents a specific type of rock, inheriting the characteristics of the rock kind, so it can be considered a subkind
+Migration;process;A process is an occurrent that unfolds in time, being characterized by the changes it brings to the world. Migration, in this context, likely refers to the process of oil movement, so it can be considered a process
+Siliciclastic Rock;subkind;Subkinds are rigid specializations of a kind, representing a subtype that inherits all its characteristics. Siliciclastic Rock represents a specific type of rock, inheriting the characteristics of the rock kind, so it can be considered a subkind
+Source Rock;subkind;Subkinds are rigid specializations of a kind, representing a subtype that inherits all its characteristics. Source Rock represents a specific type of rock, inheriting the characteristics of the rock kind, so it can be considered a subkind
+Hidrocarbon;kind;A fundamental sort of endurant type, a type that provides uniform principles of individuation, identity, and persistence to its instances. Hidrocarbon, as a chemical compound, can be considered a kind, as it classifies different types of hidrocarbons
+Pre-generation;phase;Phases are 'sortals whose contingent classification conditions are intrinsic'. They represent changes in intrinsic properties of instances of a kind. In this specific case, it seems to represent a phase in the formation of oil or a related substance, so it can be considered a phase
+contact;situation;A situation is an occurrent type that is instantaneous, it represents a state of affairs, that holds or not in a given instant of time, an aggregation of other entities that characterizes a state of affairs. In this context, contact represents the state of affairs in which two or more geological formations are touching, so it can be considered a situation
+name;inferred_stereotype;explanation
+organization;kind;A fundamental sort of endurant type that represents entities like organizations. It provides principles of individuation, identity, and persistence to its instances.
+storeLocation;subkind;A rigid specialization of a kind, likely specializing 'location' to represent places where stores are situated.
+profileMessage;subkind;A rigid specialization of a kind, probably specializing 'post' or 'message' to represent messages specific to a user profile.
+text;category;A rigid type defining essential properties of being textual content. It can be used for things like profile messages, posts, etc.
+numberOfRooms;quality;Represents a measurable property (number) of an entity, likely a house or building.
+neutralSport;subkind;A specialization of the kind 'sport', specifically for sports that are not season-dependent.
+postalAddress;subkind;A specialization of 'address' containing details related to postal services.
+kitchenAmenity;subkind;Specialization of 'amenity', referring specifically to amenities found in a kitchen.
+postEditing;event;Represents the activity of modifying a post.
+entertainmentAmentity;subkind;Specialization of 'amenity' for those providing entertainment purposes.
+creativeWork;kind;A fundamental type representing creations like art, music, writing, etc. It has its own principles of identity and persistence.
+amenitiesCollection;collective;Represents a group of amenities where each member plays an identical role in relation to the whole.
+video;subkind;Specialization of 'creativeWork' or 'media', specifically for video content.
+summerSport;subkind;Specialization of 'sport' for those typically played in summer.
+masterStudent;role;Anti-rigid specialization of 'student' representing a specific academic role.
+outdoor;category;A rigid type for entities or activities typically associated with being outdoors.
+label;kind;Represents tags or categories used for organization and often applied to other entities.
+appRegistration;event;The process of a user registering on an application.
+sportorganizationBoard;collective;Group of people forming the governing body of a sport organization.
+nearbyHouseFacilities;collective;Group of facilities positioned close to a house, each serving a distinct purpose for residents.
+profileLearningLanguage;subkind;Specialization of 'language' indicating languages a user is learning.
+discountAmount;quality;Measurable property, likely a numerical value, representing a price reduction.
+audio;subkind;Specialization of 'creativeWork' or 'media' focused on sound content.
+houseLocation;subkind;Specialization of 'location' specifically indicating where a house is situated.
+postComment;subkind;Specialization of 'post' or 'comment' representing text responses to posts.
+professor;role;An academic role held by a person within an educational institution.
+user;role;An individual interacting with a system or platform.
+bachelorStudent;role;Represents the academic role of a student pursuing a bachelor's degree.
+ownProfileInteraction;subkind;Specialization of 'interaction' where a user interacts with their own profile.
+profileSearch;event;The action of a user looking for specific profiles.
+rating;kind;Represents a system for evaluating something, typically with stars or numerical values.
+sportActivity;subkind;Specialization of 'activity' focusing on actions and events within sports.
+indoor;category;Entities or activities typically associated with being inside a building or enclosed space.
+sportOrganizationMember;role;Represents the role of an individual within a sports organization.
+universityBoard;collective;Governing body of a university.
+store;kind;A business establishment selling goods or services.
+eventHostsBoard;collective;Group responsible for organizing and managing events.
+date;quality;Represents a specific point or range in time.
+parkArea;subkind;Specialization of 'area' for zones within a park.
+school;subkind;Specialization of 'EducationalOrganization' for institutions providing primary education.
+profileUserAge;quality;Measurable property indicating a profile user's age.
+postDeletion;event;The action of removing a post from a system.
+profileSpokenLanguage;subkind;Specialization of 'language' for those a profile user can speak.
+winterSport;subkind;Specialization of 'sport' for those usually played in winter.
+postInteraction;subkind;Specialization of 'interaction' related to engaging with posts.
+EducationalOrganization;kind;Represents institutions focused on education and learning.
+phdStudent;role;Role of a student pursuing a doctorate degree.
+sportOrganization;subkind;Specialization of 'organization' for entities related to sports.
+teachingAssistant;role;Individual assisting in teaching activities.
+ownProfileEditing;event;The act of modifying one's own profile.
+othersProfileInteraction;subkind;Engaging with profiles belonging to other users.
+SportActivityPost;subkind;Specialization of 'post' about sports activities.
+product;kind;Tangible or intangible items offered for sale.
+profileEmail;subkind;An electronic mail address associated with a user profile.
+university;subkind;Specialization of 'EducationalOrganization' providing higher education.
+postCreation;event;The act of creating and publishing a post.
+clothing;subkind;Garments and wearable items.
+postInteractor;role;User engaging with posts.
+productRegularPrice;quality;Standard price of a product.
+services;kind;Actions or activities performed for a fee.
+profileName;quality;A user's name displayed on their profile.
+person;kind;A human being.
+bathroomAmenity;subkind;Amenities in a bathroom.
+ownProfileDetetion;event;The action of a user deleting their own profile.
+houseNumOfOccupants;quality;Number of people living in a house.
+housePrice;quality;Monetary value of a house.
+pub;subkind;Establishment serving alcoholic beverages.
+postRating;subkind;Ratings specifically given to posts.
+locationCollection;collective;A group of locations.
+productDiscount;subkind;Reduction in a product's price.
+event;kind;Occurrence or happening, often time-bound.
+house;subkind;Building intended for residential use.
+location;kind;Geographical position or area.
+postAuthor;role;Creator of a post.
+profileView;event;Instance of accessing and viewing a profile.
+hospital;subkind;Institution providing medical care.
+profileInteractor;role;User who interacts with a profile.
+sportLocation;subkind;Place where sports are played.
+sportEvent;subkind;Event related to sports.
+food;kind;Edible substances.
+Profile;kind;Represents a user's presence and information on a platform.
+bedroomAmentity;subkind;Amenities within a bedroom.
+ownProfileView;event;Viewing one's own profile.
+postLabeling;event;Act of adding labels to a post.
+amenity;kind;Feature or service adding value to a place or experience.
+post;kind;User-generated content published on a platform.
+discountPost;subkind;Post specifically about discounts or sales.
+image;subkind;Visual content, often a photograph.
+profilePicture;subkind;Image representing a user on their profile.
+housingAdPost;subkind;Post advertising housing.
+postSearch;event;Action of searching for posts.
+name;inferred_stereotype;explanation
+Caused State;roleMixin;A 'Caused State' implies a contingent property that an entity might hold as a result of some action or event. It describes a temporary condition rather than an inherent characteristic, making 'roleMixin' suitable.
+Value;mode;'Value' in this context likely signifies a specific worth, quality, or importance. This aligns with the definition of 'mode', which represents particularized properties not conceived as measurable values in a conceptual space.  It could refer to the worth of a 'Value Proposition'.
+Action;event;An 'Action' signifies a discrete occurrence or happening, which aligns perfectly with the definition of an 'event' in OntoUML.
+Resource;kind;A 'Resource' suggests a tangible or intangible asset with distinct identity and properties. It can exist independently, making 'kind' a suitable stereotype. Examples could include physical goods, data, or expertise.
+Value Proposition;kind;A 'Value Proposition' represents a distinct offering or promise of value to a customer or beneficiary. It has its own unique attributes and can exist as a standalone concept, justifying the 'kind' stereotype. 
+Intention;mode;An 'Intention' reflects a mental state or aim driving an action. As it's a particularized property not quantifiable within a conceptual space, 'mode' fits best.
+Problem Solution;kind;A 'Problem Solution' represents a distinct method or approach for resolving a specific issue. It has its own unique attributes and can exist as a standalone concept, justifying the 'kind' stereotype.
+Provider;role;'Provider' implies a specific function or role that an entity (likely a 'kind') performs in a given context. This aligns with the 'role' stereotype, indicating a contingent classification based on relational conditions.
+Capability;mode;A 'Capability' signifies an inherent capacity or potential of an entity to perform an action. As it represents a particularized property not directly measurable, 'mode' is appropriate.
+Control;subkind;Without further context, 'Control' can be interpreted as a specialized type of something more general. 'Subkind' acts as a placeholder, implying it inherits properties from a 'kind' but represents a more specific category. For instance, 'Control' could be a subkind of 'Mechanism'.
+Satisfaction Level;quality;'Satisfaction Level' suggests a measurable degree or extent of contentment. This maps directly to the 'quality' stereotype, representing a particularized property with a value within a conceptual space.
+Recipient;role;Similar to 'Provider', 'Recipient' signifies a specific function or role an entity assumes—the one receiving something. This relational dependency makes 'role' fitting.
+name;inferred_stereotype;explanation
+Competitor;role;A Competitor is an anti-rigid specialization of an Economic Agent that engages in competition within a market.
+Value Proposition;kind;A Value Proposition represents a fundamental concept and acts as a distinct entity within a market, outlining the benefits offered to customers.
+Direct Competitor;subkind;A Direct Competitor is a specialization of the Competitor role, indicating a more specific type of competitor within a market.
+Resource;kind;Resource represents a fundamental concept and serves as a distinct entity, denoting assets or inputs utilized in economic activities.
+Agent;role;Agent represents a contingent classification of an entity that performs actions or participates in interactions within a system.
+Competition;relator;Competition acts as a truth-maker, establishing a relationship of rivalry among entities like competitors within a specific context.
+Market Competitor;role;Market Competitor is a specialized type of Competitor role, emphasizing the competitor's participation in a specific market.
+Market Competition;subkind;Market Competition represents a specific form of Competition occurring within a defined market, specializing the concept of competition.
+Demand for Market;kind;Demand for Market is treated as a distinct entity representing the overall customer demand within a particular market.
+Indirect Competitor;subkind;Indirect Competitor further specializes the Competitor role, indicating competitors offering alternatives but not directly competing.
+Non-Competition;relator;Non-Competition serves as a truth-maker, defining a relationship of absence of rivalry between entities within a context.
+Supplier;role;Supplier represents an anti-rigid specialization, indicating an entity's function of providing goods or services.
+Resource Demand;kind;Resource Demand is a distinct entity, representing the need or request for specific resources within a system.
+Collective Demand;subkind;Collective Demand represents a specialized form of demand, encompassing the combined demand from multiple entities.
+Market;kind;Market represents a fundamental concept, signifying a distinct entity where buyers and sellers interact to exchange goods.
+Resource Stock;quantity;Resource Stock represents a measurable quantity or amount of specific resources available.
+Potential Competitor;role;Potential Competitor represents a possible future state of an entity that could engage in competition.
+Potential Competition;subkind;Potential Competition specializes the Competition concept, signifying a possible future state of rivalry.
+Supplier Capability;mode;Supplier Capability represents a property or characteristic possessed by a Supplier, influencing their ability to provide goods.
+Capability;mode;Capability signifies an inherent property or characteristic of an entity, reflecting its potential to perform actions.
+Composed Market;subkind;Composed Market represents a specific type of Market characterized by multiple interconnected segments or components.
+Simple Market;subkind;Simple Market is a specialization of Market, signifying a basic market structure with straightforward interactions.
+Resource Type;kind;Resource Type acts as a fundamental concept, classifying resources into distinct categories based on shared characteristics.
+Scarce Resource;subkind;Scarce Resource represents a specific category of Resource characterized by its limited availability relative to demand.
+Economic Agent;kind;Economic Agent serves as a fundamental concept, representing a distinct entity that participates in economic activities.
+Single Resource;subkind;Single Resource represents a specific type of Resource that is distinct and not composed of other resources.
+Equivalent Capability;subkind;Equivalent Capability represents a specific type of Capability that is comparable or similar in effect to another capability.
+name;inferred_stereotype;explanation
+PublicCompany;kind;A Public Company is a fundamental type of organization, representing a distinct entity with its own identity, principles of individuation, and persistence.
+Organization;kind;An Organization is a fundamental type representing a structured group of people with a common purpose, distinct identity, and persistence over time.
+Órgão;kind;Assuming 'Órgão' refers to a government body or entity, it represents a fundamental type with distinct identity, functions, and persistence. It signifies a unique kind of entity within a governmental or organizational structure.
+NonEmpresarialPublicEntity;kind;This represents a fundamental type of public entity that is not focused on entrepreneurial activities. It has a distinct identity, purpose, and operates under specific regulations.
+UnityOfOrganization;role;This likely refers to a specific function or role that an entity might hold within an organization, making it a contingent classification dependent on the organizational context.
+Company;kind;A Company is a fundamental type of business organization, representing a distinct legal and economic entity with a specific purpose.
+OrganizationalUnit;subkind;This represents a specialized type of organization, further defining a more specific category within the broader concept of organizations. It inherits the fundamental characteristics of an Organization but with additional, specific attributes.
+Órgão Colegiado;collective;Assuming 'Órgão Colegiado' refers to a collective body or council (e.g., a board of directors), it represents a collection of individuals acting as a single unit with shared responsibilities.
+Autarchy;phase;Autarchy, often referring to self-governance or independence, can represent a phase in an organization's lifecycle where it operates with a high degree of autonomy. This phase is characterized by specific intrinsic properties and may transition into other phases.
+MixedEconomyCompany;subkind;This is a specialized type of company operating within a mixed economy, inheriting the fundamental characteristics of a company but with specific attributes related to its operation in a mixed economic system.
+Foundation;kind;A Foundation represents a fundamental type of organization, typically non-profit, with a distinct identity, mission, and dedicated resources.
+StateCompany;subkind;A State Company is a specialized type of company, owned or controlled by the state, inheriting characteristics of a company while having unique attributes due to state ownership.
+PublicEntity;category;Public Entity represents a broad category encompassing entities that are related to or operate within the public sphere. It defines common characteristics and properties shared by different kinds of public entities.
+PublicAdmnistrativeUnit;subkind;This represents a specialized type of public entity with administrative functions. It inherits the characteristics of a Public Entity while having additional, specific attributes related to its administrative role.
+PublicOrganization;subkind;This represents a specialized type of organization operating within the public sector. It inherits characteristics from the 'Organization' kind while incorporating features specific to public entities.
+name;inferred_stereotype;explanation
+Artifact;kind;An Artifact represents a fundamental sort of endurant type, specifically a kind. It serves as a general concept for human-made objects with a purpose, encompassing various subtypes like 'Code,' 'Software System,' and 'Document.' Examples: A specific line of code, a software system like Linux, a physical book.
+Code;subkind;Code represents a specialization of the 'Artifact' kind, indicating a more specific type of artifact that involves instructions for computers. It can be further specialized into types like 'Source Code' or 'Machine Code.' Examples: A specific function in Python, a line of assembly code.
+Software System;subkind;Software System is a subkind of 'Artifact,' representing a collection of interacting software components that form a complete system. It is a specific category of artifacts designed for execution on computer hardware. Examples: The Linux kernel, a web browser like Firefox.
+Program;subkind;Program is another subkind of 'Artifact' that refers to a set of instructions that a computer can execute to perform a specific task. It can be further specialized into types like 'Application Software' or 'System Software.' Examples: A text editor, a video game.
+Information Item;kind;Information Item represents a fundamental type, distinct from 'Artifact,' capturing the concept of information content. It can be embodied in various forms, including 'Document' or 'Software Item.' Examples: The content of a news article, the data stored in a database.
+System Specification;subkind;System Specification is a subkind of 'Information Item' that details the requirements and design of a system. It is a specific type of information focused on describing how a system should function. Examples: A document outlining the requirements for a new software feature, a diagram illustrating the architecture of a network.
+Simple Artifact;subkind;Simple Artifact represents a specialization of 'Artifact' that denotes single, indivisible artifacts. It contrasts with 'Composite Artifact' and signifies artifacts that cannot be broken down further. Examples: A single physical book, a standalone script file.
+Program Specification;subkind;Program Specification is a subkind of 'System Specification' that specifically describes the requirements and design of a program. It is a specialized type of information focused on defining the behavior of a program. Examples: A document outlining the expected inputs and outputs of a function, a flowchart depicting the logic of an algorithm.
+Software Product;subkind;Software Product is a subkind of 'Artifact' that represents a complete software package intended for distribution and use. It encompasses all the components and documentation necessary for installation and operation. Examples: A commercial operating system like Windows, a mobile application available on an app store.
+Programming Language;kind;Programming Language represents a fundamental type, distinct from 'Artifact,' encompassing the formal languages used to create programs. It defines the syntax and semantics for instructing computers. Examples: Python, Java, C++.
+Model;subkind;Model is a subkind of 'Information Item' that represents a simplified representation of a system or concept. It is a specific type of information used for understanding, analysis, or communication. Examples: A UML diagram of a software system, a mathematical model of a physical phenomenon.
+Software Item;subkind;Software Item is a subkind of 'Information Item' that represents information specifically related to software. It encompasses various forms of software-related content. Examples: The content of a source code file, the data structures used in a program.
+Document;subkind;Document is a subkind of 'Information Item' that represents a human-readable record of information. It is a specific type of information intended for communication or storage. Examples: A text file, a PDF document.
+Source Code;subkind;Source Code is a subkind of 'Code' that represents human-readable instructions written in a programming language. It is a specific type of code that is later translated into machine-executable form. Examples: A Python script, a Java class definition.
+Machine Code;subkind;Machine Code is a subkind of 'Code' that represents instructions in a form that a computer can directly execute. It is the lowest-level representation of a program. Examples: A sequence of binary instructions, assembly language instructions.
+Composite Artifact;subkind;Composite Artifact represents a specialization of 'Artifact' that denotes artifacts composed of multiple parts or components. It contrasts with 'Simple Artifact' and signifies artifacts with internal structure. Examples: A software system consisting of multiple modules, a book series comprising several volumes.
+name;inferred_stereotype;explanation
+System Requirements Specification;Artifact;A system requirements specification is a documentation artifact that describes the features and behavior of a system to be developed. 
+Machine;Kind;A machine represents a fundamental kind of entity, encompassing physical or virtual devices capable of performing tasks. It serves as a foundational concept for classifying various types of machines.
+Disposition;Mode;Disposition refers to a particularized property or state of an entity, representing its inherent tendency or inclination. It is a mode as it describes a characteristic that is not quantifiable or measurable on a conceptual space.
+Software System;Subkind;A software system is a specialized type of system that consists of software components and represents a more specific category within the broader concept of a system.
+System Component;Subkind;A system component is a constituent part of a system, representing a modular unit with specific functionality, and is a specialized type of component within a system.
+Loaded Program Copy;Subkind;A loaded program copy represents a specific instance of a program that has been loaded into memory for execution, distinguishing it from the general concept of a program.
+Hardware Equipment;Subkind;Hardware equipment refers to physical components of a computer system, representing a specialized category within the broader concept of equipment.
+Artifact;Kind;An artifact represents a fundamental kind of entity that encompasses human-made objects or products, serving as a foundational concept for classifying various types of artifacts.
+External Business Regulations;Collective;External business regulations refer to a collection of rules and guidelines imposed on an organization from external entities. It represents a collective entity as it comprises multiple individual regulations.
+Stakeholder Requirements Specification;Artifact;A stakeholder requirements specification is a documentation artifact that outlines the specific requirements and expectations of stakeholders.
+Stakeholder Requirement;Subkind;A stakeholder requirement is a specialized type of requirement that is specific to the needs and expectations of a stakeholder.
+Program Requirement;Subkind;A program requirement is a specialized type of requirement that pertains specifically to the development or operation of a program.
+System Requirement;Subkind;A system requirement is a specialized type of requirement that pertains specifically to the functionality or characteristics of a system.
+Normative Description;Artifact;A normative description is a documentation artifact that provides prescriptive guidelines, standards, or rules.
+Machine Assumption;Proposition;A machine assumption is a statement or belief about the characteristics or behavior of a machine.
+Program Copy Execution;Process;Program copy execution represents the dynamic process of running or executing a loaded program copy, involving a series of steps and actions.
+Program Specification;Artifact;A program specification is a documentation artifact that defines the requirements, design, and behavior of a program.
+Stakeholder;Role;Stakeholder represents a role that an individual or group can assume in relation to a system or project. 
+World Assumption;Proposition;A world assumption is a statement or belief about the external environment or context in which a system operates.
+SubSystem;Subkind;A subsystem is a specialized type of system that is a smaller part of a larger system.
+Business Requirement;Subkind;A business requirement is a specialized type of requirement that is derived from business needs and goals.
+Business Constraint;Subkind;A business constraint is a specialized type of constraint that limits or restricts business operations or decisions.
+(Internal) Business Rule;Subkind;An internal business rule is a specialized type of business rule that is specific to an organization and governs its internal operations.
+Business Requirements Specification;Artifact;A business requirements specification is a documentation artifact that outlines the high-level business requirements for a system or project.
+System Element;Subkind;A system element is a generic term that refers to any constituent part of a system.
+Proposition;Kind;A proposition represents a fundamental kind of entity that is a statement or assertion that can be either true or false. It serves as a foundational concept for logical reasoning.
+Program;Kind;A program represents a fundamental kind of entity, encompassing a set of instructions that a computer can execute.
+Event;Event;An event represents a fundamental concept that occurs at a specific point in time and typically causes a change in the state of a system or process.
+Agent;Role;Agent represents a role that an entity, such as a person, organization, or software system, can play by performing actions or initiating events.
+Goal;Kind;A goal represents a fundamental kind of entity that is a desired state or outcome that an agent seeks to achieve.
+Organization;Kind;An organization represents a fundamental kind of entity that is a structured group of people with a common purpose or goal.
+name;inferred_stereotype;explanation
+Air_Relative_Humidity;quality;It represents a measurable property (humidity) that can be expressed as a value within a conceptual space (percentage).
+Satellite_Images;kind;Represents a fundamental type of digital image specifically obtained from satellites.
+TIFF;subkind;"Represents a specialized type of digital image adhering to the TIFF format, inheriting characteristics from ""Digital_Images."""
+Production_Evolution_States;phase;Represents distinct stages or periods within the process of crop production, signifying changes in the state of the crop over time.
+Accumulated_Precipitation;quality;Represents a measurable property (accumulated rainfall) that can be expressed as a value (millimeters).
+Percentage;kind;Represents a fundamental concept for expressing proportions as a fraction of 100.
+Maximum_Temperature;quality;Represents a measurable property (highest temperature) that exists within a conceptual space (degrees Celsius).
+Crop;kind;Represents a fundamental type of cultivated plant, encompassing various species grown for specific purposes.
+Digital_Images;kind;Represents a fundamental type of image existing in a digital format, encompassing various subtypes like satellite images.
+Degrees_Celsius;kind;Represents a fundamental unit for measuring temperature, serving as a standard for quantifying temperature values.
+Geolocation;kind;Represents a fundamental concept of a point on Earth defined by coordinates.
+Climate_Station;kind;Represents a fundamental type of facility specifically designed and equipped for meteorological observations and data collection.
+Hours/day;kind;Represents a fundamental unit for measuring time, serving as a standard for quantifying durations.
+Minimum_Temperature;quality;Represents a measurable property (lowest temperature) that can be represented as a value within a conceptual space (degrees Celsius).
+NDVI_Index;quality; Represents a measurable property derived from remote sensing data, often used to assess vegetation health and density.
+Milimeters;kind;Represents a fundamental unit for measuring length, widely recognized and used for quantifying distances.
+Leaf_Wetting_Duration;quality;Represents a measurable property indicating the duration for which crop leaves remain wet, a factor influenced by environmental conditions.
+Other_Variables;mixin;Represents a collection of properties or characteristics that might be relevant but do not fit neatly into predefined categories, allowing for flexibility in representing diverse data.
+name;inferred_stereotype;explanation
+Funds;kind;A Funds represents a fundamental concept, a type of entity that exists on its own and has unique instances. For example, a specific source of money set aside for a particular purpose.
+Operation;kind;An Operation represents a kind, an action or set of actions undertaken to achieve a specific end. For example, a defined procedure within an archive.
+Document Operated;role;Document Operated is a role that a Document plays when it is part of an Operation in an archive.
+Document;kind;A Document represents a fundamental concept, a type of entity, likely a record or item of information. For example, a letter, photograph, or report within an archive.
+Management;category;Management refers to a category that encompasses a set of activities like planning, organizing, controlling resources, likely related to archival practices.
+Photography;subkind;Photography is a specific type of Document, therefore it is a subkind. It likely refers to photographic records within an archive.
+Organization;kind;An Organization represents a kind, a structured group of people with a common purpose. For example, the institution responsible for an archive.
+Archive;kind;An Archive represents a fundamental concept, a type of entity. For example, a collection of historical documents or records.
+Principle of Respect for Original Order;category;Principle of Respect for Original Order  is a fundamental principle or concept within archival science, hence a category, emphasizing the importance of maintaining the original order of documents.
+Operator;role;Operator refers to the role an individual plays when performing an operation. It likely refers to someone interacting with or managing the archive.
+ArchiveManaged;role;An ArchiveManaged represents a role that an Archive can have, specifically the one of being managed. It depends on other entities like organizations or individuals to exist.
+Individual;kind;An Individual represents a fundamental concept, a type of entity, likely referring to a person. For example, an archivist or someone interacting with the archive.
+Traditional;phase;Traditional likely refers to a specific phase or characteristic of something, potentially an approach to archiving or a type of archive.
+Archivist;role;Archivist represents a specific role an Individual can have, someone responsible for managing and preserving archival materials.
+Collection;subkind;A Collection represents a specific type of Archive, a grouping of related materials, making it a subkind.
+Digital;phase;Digital refers to a specific characteristic or phase, likely indicating a type of archive or format of archival materials.
+Principle of Provenance;category;Principle of Provenance represents a fundamental principle in archival science, hence a category, emphasizing the importance of documenting the origin and custody of archival materials.
+Theory of the Tree Ages;category;Theory of the Tree Ages likely represents a concept or theory, making it a category, potentially related to archival practices or organization.
+name;inferred_stereotype;explanation
+Artifact;kind;A fundamental type of endurant, representing a broad concept like 'Artifact'. It likely has subtypes and instances.
+Reviewed CR;phase;Represents a stage in the lifecycle of a 'Change Request', indicating it has been reviewed.
+Configuration Management Planning;process;Denotes a series of actions or steps taken for planning configuration management activities.
+Perofrmed Specific Process;situation;Represents a state of affairs where a specific process has been executed or carried out.
+Baseline Establishment;process;Describes the actions involved in establishing a baseline in configuration management.
+Performed Activity;situation;A state where a particular activity has been performed or completed.
+Configuration Auditor;role;Refers to the function or role of a person who conducts configuration audits.
+Release Management and Delivery;process;A series of actions for managing and delivering releases of software or systems.
+Deliverable Product;subkind;A specific category or type of 'Product' that is intended to be delivered.
+Closed CR;phase;Represents the 'Change Request' being in a closed state, likely after resolution.
+Checkin;process;The act of submitting or committing changes to a version control system or repository.
+Configuration Audit Report;subkind;A type of 'Report' specifically related to a configuration audit.
+Artifact CI;role;Indicates a role or relationship of an 'Artifact' to a 'Configuration Item (CI)'.
+Change Implementer;role;The role of a person or entity responsible for implementing changes.
+Simple Artifact;subkind;A specific category or subtype of 'Artifact', likely contrasting with a 'Composite Artifact'.
+Communicate CR;process;Actions involved in communicating a 'Change Request' to stakeholders.
+Object;kind;Represents a fundamental concept in object-oriented paradigms, might be too generic without further context.
+Model;kind;Represents a conceptual, mathematical, or physical representation of a system or process.
+Configuration Management Process;subkind;A specialized type of 'Process' specifically for managing configurations.
+Configuration Manager;role;The role responsible for managing and controlling configurations.
+Change Request (CR);kind;Represents the concept of a formal request for a change to be made.
+Performed General Process;situation;A state where a general or non-specific process has been carried out.
+Change Control;process;Actions and procedures for managing and controlling changes.
+Perfomed Composite Activity;situation;Indicates a state where a complex activity composed of sub-activities has been performed.
+Configuration Auditing;process;The process of systematically examining and verifying configurations.
+Request Evaluation;process;Actions taken to evaluate or assess a request, such as a 'Change Request'.
+Composite Artifact;subkind;An artifact made up of other artifacts, creating a hierarchical structure.
+Change Requester;role;The role of the person or entity initiating a 'Change Request'.
+Software Product;subkind;A specific type of 'Product' that is a software application or system.
+Solved CR;phase;Represents the state of a 'Change Request' being resolved or addressed.
+Configuration Management Plan;subkind;A type of 'Plan' specifically for outlining configuration management processes.
+Document;kind;A general representation of a document, which can have various subtypes.
+Software Item;subkind;A specific category or type of 'Item' that is software-related.
+Evaluate CR;process;Actions involved in evaluating or assessing a 'Change Request'.
+Change Requesting;process;The process of submitting and handling 'Change Requests'.
+Change Reviewer;role;The role of someone who reviews 'Change Requests'.
+Change Implementation;process;The process of putting a change into effect.
+Stakeholder;role;Represents any individual or group interested in or affected by a project or system.
+Performed Process;situation;Represents a state where a process has been carried out.
+Information Item;subkind;A specific category or type of 'Item' that represents information.
+Configuration Management System Establishment;process;The actions of setting up a configuration management system.
+Configuration Items Identification;process;The process of identifying and listing configuration items.
+Noncompliance Register;subkind;A register or list specifically for tracking non-compliance issues.
+Change Accomplishment;process;The process of completing or achieving a change.
+Change Request Evaluator;role;The role responsible for evaluating change requests.
+Item;kind;"A very general term; more context is needed to give it a more specific stereotype."
+Artifact Copy;subkind;Represents a copy of an 'Artifact'.
+Performed Simple Activity;situation;A state where a simple activity has been completed.
+Configuration Item (CI);kind;Represents a fundamental concept in configuration management - an item under management.
+Baseline;kind;A fixed reference point in a project lifecycle, used for comparison.
+Change Review;process;The act of reviewing proposed changes.
+Version;kind;A specific iteration or release of something, like a document or software.
+Change Request Closing;process;The process of formally closing a change request.
+Checkout;process;The process of retrieving a version of an item from a repository.
+CR Being Solved;phase;Represents the state of a change request while it is actively being addressed.
+name;inferred_stereotype;explanation
+Severe Weather Event Moment;phase;A 'Severe Weather Event Moment' represents a specific period or phase within the existence of a more general weather event, marked by specific conditions or characteristics.
+Cloudiness;quality;Cloudiness represents a measurable property of the atmosphere, existing as a value on a scale (e.g., clear, partly cloudy, overcast).
+Relative Humidity;quality;Relative Humidity is a quantifiable property of the air, expressing the amount of moisture present as a percentage.
+Precipitation;quantity;Precipitation refers to a measurable amount of condensed water vapor falling to the Earth's surface (rain, snow, etc.).
+Material Property;category;A 'Material Property' describes characteristics inherent to physical entities, encompassing concepts like 'Cloudiness,' 'Relative Humidity,' and 'Precipitation,' which are essential for defining weather phenomena.
+Spatial Thing;category;'Spatial Thing' acts as a high-level category, encompassing entities like 'Geographic Object' that possess spatial properties and relations.
+Severe Weather Indicators;role;'Severe Weather Indicators' represent specific roles assumed by 'Meteorological Parameters' when their values meet certain criteria, indicating a high likelihood of severe weather.
+VIctim;role;'Victim' signifies a role that a 'Person' might assume in the unfortunate event of being adversely affected by a 'Severe Weather Events'.
+Damage;kind;'Damage' can be conceived as a distinct entity representing the physical harm or destruction inflicted upon 'Property' due to severe weather events, possessing its own set of properties and relations
+World Numerical Models;subkind;'World Numerical Models' represents a specialized type of 'Numerical Weather Prediction Models' focusing on global atmospheric and weather patterns.
+Software Agent;kind;'Software Agent' denotes an autonomous software program capable of performing tasks and interacting with other agents or systems, such as collecting data, running simulations, or generating reports.
+Air Temperature;quality;'Air Temperature' represents a measurable property of the air, quantified on a temperature scale.
+Atmospheric Pressure;quality;'Atmospheric Pressure' signifies the force exerted by the weight of the atmosphere on a given surface area, measurable and quantifiable.
+Global Observation System;kind;'Global Observation System' refers to a complex system, potentially encompassing hardware and organizational aspects, designed to collect and provide weather-related data on a global scale.
+Weather Forecast;kind;A 'Weather Forecast' represents a distinct entity, containing predictions about future weather conditions based on various data sources and models.
+Regional Numerical Models;subkind;'Regional Numerical Models' are specialized 'Numerical Weather Prediction Models' with a focus on simulating atmospheric conditions over a specific geographical region.
+Person;kind;'Person' denotes a human being, representing a fundamental kind in many ontologies.
+Meteorological Parameters;subkind;'Meteorological Parameters' are specialized 'Material Properties' specifically related to weather and atmospheric conditions.
+Local Data Manager;role;'Local Data Manager' refers to a specific role that a 'Software Agent' might assume, responsible for managing and processing weather data at a local level.
+Weather Forecaster;role;'Weather Forecaster' represents a role played by a 'Person,' involving the analysis of weather data and the issuance of forecasts.
+Property;kind;'Property' signifies any tangible or intangible asset owned by an individual or entity.
+Sea Surface;kind;'Sea Surface' represents the boundary between the ocean and the atmosphere.
+Severe Weather Events;subkind;'Severe Weather Events' denotes specific types of weather phenomena that pose significant risks, such as hurricanes, tornadoes, or severe thunderstorms.
+Time Interval;kind;'Time Interval' represents a duration or period of time.
+Point;kind;In a geographic context, 'Point' often represents a specific location defined by its coordinates.
+Weather Reports;kind;'Weather Reports' are distinct entities containing observed or forecasted weather information for a specific time and location.
+Geographic Coverage;relator;'Geographic Coverage' acts as a relator, connecting a 'Weather Forecast' to a specific 'Geographic Object' or area for which the forecast is valid.
+Numerical Weather Prediction Models;kind;'Numerical Weather Prediction Models' represent complex computer programs that simulate atmospheric processes to forecast weather conditions.
+Line;kind;'Line' is a fundamental geometric shape, often used to represent boundaries or paths in geographic contexts.
+Temperature;quality;'Temperature' is a fundamental property of matter, representing the degree of hotness or coldness.
+National Meteorological Service;kind;'National Meteorological Service' refers to a governmental organization responsible for monitoring and forecasting weather conditions within a specific country.
+Weather Forecast Time Point;kind;'Weather Forecast Time Point' represents a specific point in time for which a 'Weather Forecast' provides predictions.
+Surface Wind;kind;'Surface Wind' represents the movement of air near the Earth's surface, characterized by speed and direction.
+Polygon;kind;'Polygon' is a geometric shape with multiple sides, often used to represent areas on a map.
+Geographic Object;kind;'Geographic Object' represents any entity or feature associated with a specific location or region on the Earth's surface.
+name;inferred_stereotype;explanation
+FunctionalConcern;subkind;It is a specific type of Concern, representing concerns related to the functions of a system. As it specializes a more general concept, 'subkind' seems appropriate.
+Keyword;kind;Keywords are distinct entities used for indexing or classification. They exist independently, making 'kind' a suitable stereotype.
+Relationship;relator;Relationships connect entities, and 'relator' represents entities that act as truth-makers for material relations, making it fitting for connecting other elements in the domain.
+ContributionType;kind;Contribution types categorize different ways entities can contribute. It represents a distinct concept, hence 'kind'.
+Concern;kind;Concern represents a core concept in this domain, likely with its own properties and relationships. Being a fundamental, independent entity, 'kind' fits.
+Dependency;relator;Dependency signifies a relation between entities where one relies on another. 'Relator' is apt as it represents entities establishing such connections.
+Contribution;relator;Contribution implies a connection between entities, with one contributing to another. 'Relator' accurately depicts this as it connects elements based on this relation.
+Source;kind;Source seems to represent the origin of something, which can be an independent entity. Therefore, 'kind' is a reasonable choice.
+SourceType;subkind;As it suggests a specialization of 'Source', indicating different types of sources, 'subkind' is a suitable stereotype.
+Composition;relator;Composition suggests a whole-part relationship, indicating one entity being composed of others. 'Relator' is fitting as it represents entities establishing this type of connection.
+NonFunctionalConcern;subkind;Similar to 'FunctionalConcern', it specializes 'Concern', focusing on non-functional aspects. Thus, 'subkind' appropriately reflects its nature.
+name;inferred_stereotype;explanation
+Object Risk Assesment;situation;Represents a static configuration of entities and relationships relevant for assessing risks related to objects.
+Event;event;Represents a generic occurrence or happening that may have consequences.
+Value Enabler;roleMixin;Represents a role or characteristic of something that contributes to or enables the realization of value.
+Threat Object;kind;Represents a concrete entity or thing that poses a potential threat to something else.
+Risk Subject;roleMixin;Represents an entity that is exposed to or affected by a particular risk.
+Value;kind;Represents something that is considered important, beneficial, or desirable.
+Vulnerability Type;kind;Represents a class or category of vulnerabilities that can be exploited.
+Security Mechanism;kind;Represents a safeguard, measure, or control implemented to enhance security.
+Threat Event;subkind;Represents a specific type of event that poses a threat.
+Disposition;mode;Represents a tendency, inclination, or characteristic of something that makes it susceptible to certain events or outcomes.
+Experience Risk Assesment;situation;Represents a static configuration of entities and relationships related to risk assessment based on experience.
+Intention Type;kind;Represents a category or classification of intentions.
+Control Chain Event;subkind;Represents an event that is part of a sequence of events aimed at controlling or mitigating a risk.
+Value Object;kind;Represents a concrete entity or thing that embodies or holds value.
+Value Ascription;relator;Represents the act of attributing or assigning value to something.
+Risk Enabler;roleMixin;Represents a role or characteristic of something that contributes to the possibility or likelihood of a risk.
+Risk Assessment;kind;Represents a systematic process of evaluating and analyzing risks.
+Object at Risk;roleMixin;Represents an entity that is potentially subject to a particular risk.
+Loss Event Type;kind;Represents a category or classification of events that can result in losses.
+Risk Event Type;kind;Represents a category or classification of events that can potentially lead to risks.
+Loss Situation;situation;Represents a static configuration of entities and relationships that describes a state of loss.
+Causal Likelihood;mode;Represents the likelihood or probability of a causal relationship between events.
+Value Subject;roleMixin;Represents an entity that is the subject or recipient of value.
+Action;kind;Represents a deliberate activity or behavior performed by an agent.
+Attacker;role;Represents the role of an entity that initiates an attack or exploits a vulnerability.
+Protected Subject;roleMixin;Represents an entity that is intended to be protected from threats or risks.
+Value Experience;kind;Represents an instance or occurrence of experiencing value.
+Risk Event;subkind;Represents a specific type of event that poses a risk.
+Generic Intention;kind;Represents a general or broad intention without specific details.
+Impact Event;subkind;Represents a specific type of event that causes an impact or consequence.
+Threatening Situation;situation;Represents a static configuration of entities and relationships that creates a threatening environment.
+Loss Event;subkind;Represents a specific type of event that results in a loss.
+Specific Intention;kind;Represents a well-defined and detailed intention.
+Value Event;subkind;Represents a specific type of event that is related to value creation, realization, or loss.
+Vulnerability;kind;Represents a weakness or flaw that can be exploited to compromise security.
+Threat Event Type;kind;Represents a category or classification of threat events.
+Protection Trigger;kind;Represents an event or condition that initiates or triggers a protection mechanism.
+Threat Capability Type;kind;Represents a category or classification of threat capabilities.
+Threatening Situation Type;kind;Represents a category or classification of threatening situations.
+Attack;kind;Represents an intentional act of attempting to cause harm or compromise security.
+Experience Value Asc.;relator;Represents the act of ascribing or assigning value based on experience.
+Value Assessor;role;Represents the role of an entity that assesses or evaluates value.
+Control Event Type;kind;Represents a category or classification of control events.
+Agent;kind;Represents an entity that can act or perform actions.
+Event Type;kind;Represents a category or classification of events.
+Situation Type;kind;Represents a category or classification of situations.
+Controlled Situation Type;kind;Represents a category or classification of situations that are under control.
+Risk Experience;kind;Represents an instance or occurrence of experiencing risk.
+Risk;kind;Represents the possibility of something bad happening.
+Trigger Event;subkind;Represents a specific type of event that triggers another event or process.
+Security Designer;role;Represents the role of an entity responsible for designing security measures.
+Risk Assessor;role;Represents the role of an entity responsible for assessing risks.
+Triggering Likelihood;mode;Represents the likelihood or probability of an event triggering another event.
+Intention;kind;Represents a plan or aim to do something.
+Control Event;subkind;Represents a specific type of event that is related to controlling or mitigating risks.
+Protection Event;subkind;Represents a specific type of event that provides protection or mitigation.
+Controlled Situation;subkind;Represents a specific type of situation that is under control.
+Threat Capability;kind;Represents the ability of a threat to cause harm or compromise security.
+Control Capability;kind;Represents the ability to control or mitigate risks.
+Object Value Asc.;relator;Represents the act of ascribing or assigning value to an object.
+Loss Triggering Situation Type;kind;Represents a category or classification of situations that can trigger losses.
+Impactful Outcome;kind;Represents the result or consequence of an event or situation that has a significant impact.
+Situation;kind;Represents a set of circumstances or conditions at a particular time and place.
+name;inferred_stereotype;explanation
+Opportunity Event;event;An event that represents an opportunity.
+Triggering Likelihood;quality;A quality representing the likelihood of a triggering event occurring.
+Vulnerability;disposition;A disposition that represents a weakness or flaw that can be exploited.
+Situation;situation;Represents a set of circumstances or state of affairs.
+Substantial;kind;A fundamental type of independent entity.
+Object at Risk;subkind;A specialization of Object that is susceptible to risk.
+Risk Event;event;An event that represents a potential risk.
+Causal Likelihood;quality;A quality representing the likelihood of a causal relationship between events.
+Impactful Outcome;situation;A situation that results from an event and has a significant impact.
+Loss Event;event;An event that results in a loss.
+Object;kind;A fundamental, independent type of entity.
+Threat Capability;disposition;A disposition of a threat agent that represents its potential to cause harm.
+Attack;event;An event in which a threat agent attempts to exploit a vulnerability.
+Relator;relator;An entity that connects two or more related individuals in a material relation.
+Intention;mode;A mode representing the aim or plan of an agent.
+Value Assertion;situation;A statement or claim about the value of something.
+Impact Event;event;An event that has a significant impact.
+Experience Risk Assessment;role;The role of performing a risk assessment based on experience.
+Risk Assessment;process;A process of identifying, analyzing, and evaluating risks.
+Likelihood;quality;A quality representing the probability of something happening.
+Root Cause Event;event;The initial event that leads to a chain of events resulting in a particular outcome.
+Risk Enabler;disposition;A disposition that increases the likelihood or impact of a risk.
+Value Enabler;disposition;A disposition that increases the likelihood or positive impact of achieving value.
+Value Object;subkind;An object that has value or is associated with value.
+Mental Aspect;mode;A mode that represents a mental state or process.
+Agent;role;A role representing an entity that can act or take actions.
+Gain Ascription;situation;Ascribing a gain to a particular entity or event.
+Endurant;type;A general type representing entities that persist in time.
+Event;event;A type representing something that happens in time.
+Experience Value Asc.;role;The role of ascribing value based on experience.
+Object Risk Assess.;role;The role of assessing risks associated with objects.
+Value Experience;situation;The experience of something being valuable.
+Threat Agent;subkind;A specialization of Agent that poses a threat.
+Risk Assessor;role;The role of performing risk assessments.
+Value;quality;A quality representing the worth or usefulness of something.
+Situation Type;type;A type representing different kinds of situations.
+Value Subject;subkind;An entity that is the subject of a value ascription.
+Loss Ascription;situation;Ascribing a loss to a particular entity or event.
+Mode;mode;A type representing particularized properties that are not values in a conceptual space.
+Value Assessor;role;The role of assessing value.
+Event Type;type;A type representing different kinds of events.
+Capability;disposition;A disposition representing the ability to do something.
+Value Asc. Ex Ante;situation;Value ascription made before an event or experience.
+Hazardous Situation;situation;A situation that poses a hazard or danger.
+Disposition;disposition;A type representing an entity's tendency or inclination to behave in a certain way.
+Action;event;An event that is a deliberate activity by an agent.
+Trigger Event;event;An event that initiates or triggers another event or process.
+Risk Experience;situation;The experience of being exposed to or affected by risk.
+Value Asc. Component;situation;A component or aspect of a value ascription.
+Risk;situation;A situation involving exposure to danger or loss.
+Loss Situation;situation;A situation that involves a loss.
+Object Value Asc.;role;The role of ascribing value to an object.
+Valuation;process;The process of determining the value of something.
+Value Asc. Ex Post;situation;Value ascription made after an event or experience.
+Gain Event;event;An event that results in a gain.
+Quality;quality;A type representing properties that can be measured or compared.
+Value Event;event;An event that affects value.
+Threat Event;event;An event that poses a threat.
+Value Perception;mode;The subjective perception of value.
+Risk Subject;subkind;An entity that is subject to risk.
+Threat Object;subkind;An object that poses a threat.
+Trope;relator;A relator that represents a specific instance of a property or relation.
+Value Ascription;situation;The act of ascribing value to something.
+name;inferred_stereotype;explanation
+Operational Organization;subkind;It represents a specialization of the kind 'Organization', focusing on operational aspects.
+Technical Support;role;Represents a role that individuals within an organization can have, related to providing technical assistance.
+Technical Department;subkind;A specific type of 'Department' specializing in technical matters.
+Plant Health Inspector;role;Represents the role of someone who inspects the health of plants.
+Natural Resources Technician;role;Represents the role of a technician specializing in natural resources.
+Cartography Technician;role;Represents the role of a technician specializing in cartography.
+Allocated Office;subkind;Represents a specific type of 'Office' that has been allocated for a particular purpose or to a specific entity.
+Station;kind;Represents a fundamental entity type, a place or facility equipped for a specific purpose.
+Laboratory Technician;role;Represents the role of a technician working in a laboratory setting.
+Office;kind;Represents a fundamental entity type, a room or building used as a place of business.
+Ancillary Service;subkind;A specific type of 'Service' that is supplementary or auxiliary in nature.
+Administrative Structure;subkind;A specialization of the concept 'Structure' focusing on administrative aspects.
+Occupational Group;collective;Represents a collection of occupations or job roles with shared characteristics.
+Department Allocation;subkind;Represents the act of assigning resources or personnel to a 'Department'.
+Server;kind;Represents a fundamental entity type, a computer designed to process requests and deliver data to other computers over a network.
+Organizational Structure;subkind;A specialization of the concept 'Structure', focusing on the arrangement of an organization.
+Person;kind;Represents a fundamental entity type, a human being.
+Assignment;relator;Represents the act of assigning something to someone or something else. It's a relator as it connects two entities.
+Land Development Technician;role;Represents the role of a technician specializing in land development.
+Board;collective;Represents a group of people assembled for a specific purpose, often with governing or advisory roles.
+Administrative Organization;subkind;A specialization of the kind 'Organization' focusing on administrative functions.
+Technical Admnistrative Support;role;Represents a role combining technical skills with administrative support.
+Server Allocation;subkind;Represents the act of assigning a 'Server' for a specific purpose.
+Mobile Unit;subkind;Represents a specific type of 'Unit' characterized by its mobility.
+Allocation Unit;subkind;A specialized type of 'Unit' designated for the purpose of allocation.
+Occupied Position;subkind;A particular state of a 'Position' that is currently filled.
+Occupational Structure;subkind;A specialization of the concept 'Structure',  focusing on the organization of occupations.
+Allocated Department;subkind;Represents a 'Department' that has been assigned resources or responsibilities.
+Position;kind;Represents a fundamental entity type, a job or post within an organization.
+Animal Health Inspector;role;Represents the role of someone who inspects the health of animals.
+Finalistico;role;Without further context, it's impossible to infer a specific meaning. 'Finalistico' might represent a role specific to the domain being modeled.
+Central Office;subkind;A specific type of 'Office' serving as the primary location or headquarters.
+Service Station;subkind;A specific type of 'Station' providing services.
+Administrative Department;subkind;Represents a specific type of 'Department' handling administrative tasks.
+Diagnostic Laboratory;subkind;Represents a specific type of 'Laboratory' focused on diagnosis.
+Structure;kind;Represents a fundamental entity type, the arrangement of and relations between the parts of something complex.
+Advisory;role;Represents a role focused on providing advice or guidance.
+Ancillary Server;subkind;A specific type of 'Server' providing supplementary or auxiliary functions.
+Administrative Support;role;Represents a role providing assistance with administrative tasks.
+Section;subkind;Represents a distinct part or subdivision of something, often within an organization.
+Department;kind;Represents a fundamental entity type, a division of a large organization.
+Local Office;subkind;Represents a specific type of 'Office' serving a particular geographic area.
+Operational Structure;subkind;A specialization of 'Structure', focusing on aspects related to operations.
+Organization;kind;Represents a fundamental entity type, a group of people with a particular purpose.
+Border Station;subkind;A specific type of 'Station' located at a border or boundary.
+Regional Office;subkind;A specific type of 'Office' serving a particular region.
+name;inferred_stereotype;explanation
+Handling;kind;It represents a fundamental sort of endurant type, it represents the concept of handling an aircraft, encompassing various aspects and instances related to the process.
+Object;category;It represents a very broad concept and can be considered a rigid type that defines essential properties for a wide range of entities.
+Event;event;It directly maps to the ontoUML stereotype representing occurrences that happen in time.
+Data;category;It represents a broad concept encompassing various forms of information, exhibiting properties common to different data types.
+Landing;kind;It is a fundamental sort of entity representing a specific stage or phase in the operation of aircraft.
+Flight;kind;Represents a fundamental sort of endurant type, encompassing specific instances and characteristics associated with aircraft journeys.
+Accident;kind;Represents a fundamental concept, a specific and distinguishable type of occurrence, in this case, an undesirable event.
+Ground Object;kind;Represents a fundamental sort of endurant type, as it refers to distinct entities located on the ground within the aviation domain.
+Agent;role;It represents the role that some kinds of entities can assume, for example, a Person can assume the role of Agent in an aviation context.
+Aircraft Part-i;kind;Represents a fundamental sort of entity, referring to distinct physical components that constitute an aircraft.
+Aerodrome;kind;Represents a fundamental sort of endurant type, as it refers to a specific type of location designed for aircraft operations.
+Cabin Crew;collective;It represents a collection of individuals, 'Cabin Crew Member', that work together in a flight.
+Aircraft;kind;Represents a fundamental sort of endurant type, as it refers to a specific type of vehicle designed for air travel.
+Crew;collective;It represents a group of individuals working together in a flight, usually composed by 'Cabin Crew' and 'Flight Crew'.
+Spatial Object;category;It represents a broad concept encompassing entities defined by their spatial properties and relations.
+Action;perdurant;It doesn't completely fit as an Event but still represents something that happens over a period of time.
+Vehicle;kind;Represents a fundamental sort of endurant type that can be instantiated by several other individuals, for example, Car, Airplane, Motorcycle.
+Aerodrome Part;kind;Represents a fundamental sort of endurant type, referring to distinct components that constitute an aerodrome.
+Technical System;category;Represents a high-level concept encompassing various systems designed and engineered for specific purposes, often characterized by their technical complexity.
+Trope;category;It's a philosophical concept that can be applied to many other concepts.
+Physical Object;category;Represents a broad class of entities characterized by their physical existence and properties, encompassing both natural and man-made objects.
+name;inferred_stereotype;explanation
+DeclaredProvenance;kind;Represents a fundamental type of provenance information, thus classified as a kind.
+Provider;role;Represents a role that someone or something can play in a transaction or process.
+Consumer;role;Represents a role that someone or something can play in a transaction or process.
+DeclaredValue;kind;Represents a fundamental type of value that can be declared, thus classified as a kind.
+ConsumerNeed;kind;Represents a fundamental concept of a need that a consumer has, thus classified as a kind.
+Payment;kind;Represents a fundamental concept of a financial transaction, thus classified as a kind.
+Receipt;kind;Represents a fundamental document that acknowledges a transaction, thus classified as a kind.
+Production;kind;Represents a fundamental process of creating or manufacturing something, thus classified as a kind.
+RawProduct;kind;Represents a fundamental type of product that is unprocessed or minimally processed, thus classified as a kind.
+CounterObject;kind;Represents a fundamental concept of an object that can be counted or quantified, thus classified as a kind.
+ProvenanceEvaluation;kind;Represents a fundamental process of assessing or analyzing provenance information, thus classified as a kind.
+Purchase;kind;Represents a fundamental type of transaction involving the buying of something, thus classified as a kind.
+Policy;kind;Represents a fundamental set of rules or guidelines, thus classified as a kind.
+Provenance;kind;Represents a fundamental concept of the origin or history of something, thus classified as a kind.
+ValueObject;category;Represents a common characteristic of objects that hold value. It is not restricted to a specific type of value, thus classified as a category.
+GeographicIndication;kind;Represents a fundamental type of indication that identifies the geographical origin of a product, thus classified as a kind.
+Sale;kind;Represents a fundamental type of transaction involving the selling of something, thus classified as a kind.
+Actor;role;Represents a role that someone or something can play in an activity or event.
+ValueActivity;kind;Represents a fundamental type of activity that involves or influences value, thus classified as a kind.
+Agent;role;Represents a role of something or someone that acts or has the power to act.
+BusinessNeed;kind;Represents a fundamental concept of a need that a business has, thus classified as a kind.
+EndProduct;kind;Represents a fundamental type of product that is finished and ready for use, thus classified as a kind.
+name;inferred_stereotype;explanation
+Consumer;kind;It represents a fundamental type of entity that consumes goods or services.
+User;subkind;It represents a specialization of the kind 'Consumer', referring to individuals who use a particular system or service.
+Consumer Person;subkind;It represents a specialization of both 'Consumer' and 'Person', indicating individuals who consume goods or services.
+Uncertain Event;event;It represents an event with an uncertain outcome or occurrence time.
+IaaS Environment;kind;It represents a fundamental type of entity that provides Infrastructure as a Service.
+Software;kind;It represents a fundamental type of digital entity.
+Administrative Vulnerability;kind;It represents a fundamental type of vulnerability related to administrative processes and policies.
+Contract;kind;It represents a fundamental type of legal agreement.
+Agreed Function;kind;It represents a fundamental type of function that has been agreed upon.
+IT Service;kind;It represents a fundamental type of service provided in the IT domain.
+IT Service Provider;kind;It represents a fundamental type of entity that provides IT services.
+Incident;event;It represents an event that disrupts normal operations.
+Threat;kind;It represents a fundamental type of entity that poses a potential risk.
+Data Storage;kind;It represents a fundamental type of entity used to store data.
+Technical Vulnerability;kind;It represents a fundamental type of vulnerability related to technical aspects of a system or software.
+Hardware;kind;It represents a fundamental type of physical component of a computing system.
+Occurrence;event;It represents an instance of an event.
+Vulnerability;kind;It represents a fundamental type of weakness that can be exploited.
+IT Infrastructure;kind;It represents a fundamental type of infrastructure used for IT operations.
+Provide Service;role;It represents a role played by an entity, typically a service provider.
+Access Policy;kind;It represents a fundamental type of policy that governs access to resources.
+Certain Event;event;It represents an event with a certain outcome or occurrence time.
+Data Processing;kind;It represents a fundamental type of activity involving the manipulation of data.
+Authentication;kind;It represents a fundamental type of security mechanism used to verify the identity of an entity.
+Authorization;kind;It represents a fundamental type of security mechanism used to determine the permissions of an entity.
+Availability;kind;It represents a fundamental type of aspect related to the accessibility of a system or service.
+Event;type;It represents a general type that encompasses both certain and uncertain events.
+Public Cloud;subkind;It represents a specialization of the kind 'Cloud', referring to cloud environments that are publicly accessible.
+IaaS;subkind;It represents a specialization of the kind 'Cloud Service Model', referring specifically to Infrastructure as a Service.
+Process;type;It represents a general type that encompasses a series of actions or steps.
+Consumer Organization;subkind;It represents a specialization of both 'Consumer' and 'Organization', indicating organizations that consume goods or services.
+IT Resource;kind;It represents a fundamental type of resource used in IT operations.
+name;inferred_stereotype;explanation
+Recommendation Version;phase;It represents a phase in the life cycle of a Recommendation.
+Recommendation;kind;Represents a type of thing that can be recommended.
+Concept Definition;kind;Represents a type of thing that defines a concept.
+Concept Defining Recommendation;relator;Represents a relationship between a concept definition and a recommendation.
+Publication;kind;Represents a type of thing that is published, like a research paper.
+Indirectly Recommendation Referencing Recomendation;relator;Represents an indirect relationship between two recommendations that reference the same recommendation.
+int;type;It is a primitive type representing integer numbers.
+Referenced Concept;role;Represents a role that a concept can play in a recommendation.
+Correct Concept;role;Represents a role that a concept can play in a recommendation.
+Indirectly Recommendation Referenced Recomendation;relator;Represents an indirect relationship between two recommendations that reference the same recommendation.
+Recommendation Referencing Recomendation;relator;Represents a relationship between two recommendations where one references the other.
+Problematic Concetp;role;Represents a role that a concept can play in a recommendation.
+char;type;It is a primitive type representing characters.
+Concept;kind;Represents a type of thing that can be a concept.
+Possibly Problematic Recommendation;role;Represents a role that a recommendation can play.
+Problematic Recommendation;role;Represents a role that a recommendation can play.
+Concept Referencing Recommendation;relator;Represents a relationship between a concept and a recommendation, where the concept references the recommendation.
+Recommendation Referenced Recomendation;relator;Represents a relationship between two recommendations where one is referenced by the other.
+name;inferred_stereotype;explanation
+Instance Variable;mode;An instance variable represents a specific attribute or characteristic of an instance of a class. It holds a particular value that can vary from instance to instance. This concept aligns well with the notion of 'mode' in OntoUML, which represents a particularized property that is not conceived as a value in a conceptual space. For instance, the color of a car (an instance of the class Car) would be an instance variable, and 'color' itself, as a property that can have different values like 'red,' 'blue,' or 'green,' would be considered a 'mode.'
+Class;kind;In object-oriented programming, a 'class' is a blueprint for creating objects, which are instances of the class. It defines a set of attributes and methods that characterize the objects created from it.  This closely resembles the concept of 'kind' in OntoUML, which represents a fundamental sort of entity type.  For example, a 'Car' class would be a 'kind' as it defines the blueprint for creating individual car objects, each with its own specific properties like color, model, and make.
+Subclass;subkind;A 'subclass' is a specialized version of a 'class' that inherits properties and methods from its parent class while potentially adding its own unique characteristics. This aligns with the 'subkind' stereotype in OntoUML. For instance, if 'Car' is a 'kind,' then 'ElectricCar' could be a 'subkind' as it inherits the general properties of a car but adds specific features related to being electric, like battery capacity.
+Table;kind;In the context of databases, a 'table' represents a collection of related data organized in rows and columns.  Each row in a table corresponds to a unique record, and each column represents a specific attribute. Given its role as a fundamental building block for storing and organizing data, 'table' can be considered a 'kind' in OntoUML. For example, a 'Customers' table in a database would be a 'kind' as it represents the concept of customers and their associated information.
+Variable Mapping;relator;'Variable Mapping' suggests a connection or correspondence between variables. This aligns with the 'relator' stereotype, which represents an entity that establishes a relationship between two or more other entities. In this context, 'Variable Mapping' acts as the 'relator' that links or maps variables to each other. For instance, in a programming scenario, a variable representing a customer's name in one part of the code might be mapped to a variable representing the same customer's name in a different part of the code, and this mapping relationship is what 'Variable Mapping' represents.
+Entity Table;kind;An 'Entity Table' in database design typically represents a table that stores information about a specific entity or concept within the system being modeled. Since it serves as a fundamental structure for representing a distinct entity type, it aligns with the concept of 'kind' in OntoUML. For instance, in a database for an e-commerce platform, a 'Products' entity table would be considered a 'kind' as it represents the concept of 'products' and their associated attributes.
+Table per Concrete Class Inheritance Mapping;relator;'Table per Concrete Class Inheritance Mapping' points towards a specific database inheritance mapping strategy. This strategy is about establishing a relationship between concrete classes and database tables. Considering its role in connecting these elements, 'Table per Concrete Class Inheritance Mapping' can be categorized as a 'relator' in OntoUML.
+Inheritance Mapping;relator;'Inheritance Mapping,' as the term suggests, deals with representing inheritance relationships, typically between classes, in a different context like a database. Given its function in connecting elements based on inheritance, 'Inheritance Mapping' acts as a 'relator' in the OntoUML framework.
+Multiple Entities Table;kind;A 'Multiple Entities Table' suggests a table designed to store information about multiple types of entities.  While not a conventional database design approach, it still points towards a structure used for data organization.  In that sense, it can be considered a 'kind' in OntoUML. For instance, a table designed to store details of both 'Customers' and 'Suppliers' could be seen as a 'Multiple Entities Table.' 
+Primary Key Column;mode;A 'Primary Key Column' is a column within a database table that uniquely identifies each row in that table. It represents a specific characteristic or attribute of the table itself, making it suitable to be classified as a 'mode' in OntoUML.  
+Single Entity Table;kind;As the name suggests, a 'Single Entity Table' is designed to store information about a single type of entity. This aligns well with the 'kind' stereotype as it represents a fundamental entity type in the system. For example, a 'Customers' table intended to store data exclusively about customers would be a 'Single Entity Table.'
+Many To One Relationship Mapping;relator;'Many To One Relationship Mapping' refers to a way of representing relationships between entities where multiple instances of one entity can be associated with a single instance of another entity. This mapping itself acts as the connector between these entities, hence categorized as a 'relator' in OntoUML.
+One To Many Relationship Mapping;relator;Similar to 'Many To One Relationship Mapping,' 'One To Many Relationship Mapping' also represents a way of mapping relationships between entities. It signifies that a single instance of an entity can be linked to multiple instances of another entity. As it connects entities based on a relationship, it fits the definition of a 'relator.'
+Spuerclass;kind;While potentially a typo for 'Superclass,' the intended meaning likely refers to a class higher in the inheritance hierarchy. 'Superclass' acts as a general blueprint for its subclasses, aligning with the concept of 'kind' in OntoUML.  For instance, 'Vehicle' could be a 'Superclass' for 'Car' and 'Motorcycle.'
+Mapped Foreign Key;mode;A 'Mapped Foreign Key' usually refers to a foreign key column in a database table that has been mapped to a primary key column in another table. This mapping is a characteristic of the foreign key itself, indicating how it relates to another table. Therefore, it's fitting to classify it as a 'mode' in OntoUML.
+Entity Superclass;kind;An 'Entity Superclass' typically represents a superclass that defines common characteristics for entity subclasses. It acts as a fundamental entity type, making it suitable to be classified as a 'kind' in OntoUML.
+Mapped Variable;mode;'Mapped Variable' likely refers to a variable that has been mapped to another entity, such as a column in a database table. This mapping is a specific characteristic of the variable, indicating its correspondence with another element. Therefore, it's appropriate to classify 'Mapped Variable' as a 'mode' in OntoUML.
+Relationship Association Table;relator;A 'Relationship Association Table' is typically used in database design to represent a many-to-many relationship between entities. It acts as an intermediary table connecting these entities, making it suitable to be categorized as a 'relator' in OntoUML.
+One To One Relationship Mapping;relator;Similar to other relationship mappings, 'One To One Relationship Mapping' denotes a way to represent a one-to-one relationship between entities.  It signifies that one instance of an entity is associated with only one instance of another entity. As it establishes a connection between entities, it falls under the 'relator' stereotype.
+Relationship Mapping;relator;'Relationship Mapping,' in a general sense, refers to the process of representing relationships between entities in a system.  As it focuses on connections and associations between entities, it's categorized as a 'relator' in OntoUML.
+Entity Class;kind;An 'Entity Class' usually represents a class in object-oriented programming that corresponds to a real-world entity or concept. Given that it acts as a blueprint for creating objects representing those entities, it's fitting to classify 'Entity Class' as a 'kind' in OntoUML.
+Single Table Inheritance Mapping;relator;'Single Table Inheritance Mapping' represents a specific strategy for mapping inheritance relationships to a database. As a mapping technique, it connects classes to database tables, aligning with the 'relator' stereotype.
+Many to Many Relationship Mapping;relator;Similar to other relationship mapping types, 'Many to Many Relationship Mapping' refers to representing relationships where multiple instances of one entity can be associated with multiple instances of another entity.  Its role in connecting entities based on a relationship makes it a 'relator' in OntoUML.
+Column;mode;In the context of databases, a 'Column' represents a specific attribute or characteristic of the entities stored in a table. It defines what type of data can be stored in that column.  Given that it represents a particularized property, it aligns with the 'mode' stereotype in OntoUML.
+Mapped Primary Key;mode;A 'Mapped Primary Key' likely refers to a primary key column that has been mapped to another entity or element. This mapping is a specific characteristic of the primary key itself, making it suitable to be categorized as a 'mode' in OntoUML.
+Primary Key Mapping;relator;'Primary Key Mapping' suggests a connection or association established between a primary key and another element. This connection is central to database relationships, making 'Primary Key Mapping' a 'relator' in OntoUML.
+Nullability;mode;In database design, 'Nullability' is an attribute of a column that determines whether it can contain NULL values or not. It's a characteristic of the column itself, making it suitable to be categorized as a 'mode' in OntoUML.
+Class Mapping;relator;'Class Mapping' broadly refers to the process of creating a correspondence between classes and other elements. Given its role in connecting classes to other elements, 'Class Mapping' can be classified as a 'relator' in OntoUML.
+Foreign Key Mapping;relator;Similar to 'Primary Key Mapping,' 'Foreign Key Mapping' denotes the connection established between a foreign key column and a primary key column in another table. This relationship is fundamental to database integrity, hence classifying 'Foreign Key Mapping' as a 'relator' in OntoUML.
+Foreign Key Column;mode;A 'Foreign Key Column' is a column that creates a link between two tables by referencing the primary key of another table. It represents a specific attribute of a table and how it relates to another table, making it a 'mode' in OntoUML.
+Table per Class Inheritance Mapping;relator;'Table per Class Inheritance Mapping' indicates a strategy for mapping inheritance relationships to a database, where each class in the hierarchy has a corresponding table. As it establishes connections between classes and tables based on inheritance, it acts as a 'relator.'
+Extendable Class;kind;An 'Extendable Class' likely refers to a class that can be extended or subclassed. Given its role as a blueprint that can be further specialized, it fits the description of a 'kind' in OntoUML.
+Entity Subclass;subkind;An 'Entity Subclass' represents a subclass that inherits characteristics from its entity superclass. It specializes the concept represented by its superclass, aligning with the 'subkind' stereotype in OntoUML.
+Inheritance;formal;'Inheritance,' in the context of object-oriented programming, describes a relationship where a subclass inherits properties and behaviors from its superclass.  This is a fundamental concept that defines the structure and organization of classes.  In OntoUML, 'formal' relations are used to represent such structuring mechanisms that determine how other relations in the model are to be interpreted. Therefore, 'Inheritance' can be considered a 'formal' relation.
+name;inferred_stereotype;explanation
+Wisdom;mode;Wisdom can be understood as a particularized property that is not a value in a conceptual space, representing a certain state or condition.
+Oligarchic;phase;An Oligarchic system represents a particular phase or stage in the development or organization of a state, marked by rule of the few.
+NameBearerObject;category;NameBearerObject refers to the broad category of objects that can have names, encompassing a variety of entities across different types.
+Demiurge;kind;In Plato's philosophy, the Demiurge is a unique entity, a kind unto itself, responsible for shaping the physical world.
+Guardians;role;Guardians represent a specific social role within a society, responsible for its protection and governance.
+Form;kind;Forms in Platonic philosophy are eternal, unchanging archetypes, representing a fundamental kind of being.
+Citiznship;role;Citizenship is a social and political role that an individual holds within a state or society.
+ProducerPerson;role;ProducerPerson designates a role based on the function of producing goods or services within an economic system.
+Essence;category;Essence refers to the inherent nature or defining characteristics of something, making it a category encompassing different types of entities.
+Particular;category;Particular denotes individual instances or manifestations as opposed to universal concepts, categorizing specific entities.
+Producers;role;Similar to ProducerPerson, 'Producers' signifies a role focused on the production of goods, likely within a social or economic context.
+Air;kind;Air, as a fundamental element in many philosophies, represents a basic kind of matter with distinct properties.
+Difference;category;Difference, representing the state of being dissimilar, categorizes relationships between entities rather than entities themselves.
+Timocratic;phase;A Timocratic state reflects a specific phase in a society's evolution, characterized by the rule of those who prioritize honor and military virtue.
+Scalene;subkind;Scalene is a specific type of triangle, making it a subkind within the broader kind of Triangles.
+World'sSoul;kind;The concept of the World's Soul suggests a unique entity, a kind in itself, governing the cosmos or a specific realm.
+Intellect;mode;Intellect can be seen as a particularized property representing the faculty of reasoning and understanding.
+Fire;kind;Fire, as a classical element, represents a fundamental kind of matter with its own distinct properties.
+IdealCity;kind;An Ideal City, in the context of philosophy, often represents a unique and perfect entity, making it its own kind.
+Earth;kind;Earth, as one of the classical elements, constitutes a fundamental kind of matter.
+AuxiliaryPerson;role;AuxiliaryPerson likely signifies a supporting role within a specific social or organizational structure.
+GuardianPerson;role;GuardianPerson suggests a role focused on protection or safeguarding, likely within a societal context.
+Water;kind;Water, as a classical element, is considered a fundamental kind of matter.
+God;kind;God, in many theological and philosophical systems, is considered a supreme and unique being, thus representing a distinct kind.
+Courage;mode;Courage is a quality or attribute, representing a state of being brave, and thus categorized as a mode.
+PsychologicalConstitution;category;PsychologicalConstitution refers to the composition and structure of the mind, categorizing mental attributes rather than being an entity itself.
+Justice;mode;Justice is often seen as a virtue or principle, representing a particular way of being or acting, making it a mode.
+Spirit;mode;Spirit often refers to an immaterial essence or animating force, not a physical entity, making it a mode.
+Receptacle;category;Receptacle implies something that can contain or hold other things, categorizing entities based on this capacity rather than a specific type.
+Constitution;category;Constitution refers to the composition, structure, or fundamental principles of something, categorizing entities based on shared characteristics.
+Education;process;Education is a process of teaching and learning, involving a series of actions and changes over time.
+CardinalVirtue;category;CardinalVirtue represents a category of fundamental ethical virtues, encompassing specific virtues like justice, wisdom, etc.
+Good;category;Good is a broad and abstract concept representing moral excellence or value, categorizing actions, things, or states of being.
+HumanSoul;kind;The Human Soul, in many philosophical and religious traditions, is considered a distinct entity, a kind separate from the body.
+Element;kind;Element, especially in the context of classical elements, denotes a fundamental kind of matter.
+PresentName;roleMixin;PresentName implies a temporary state of having a particular name, making it a roleMixin as it's contingent and related to identity.
+Tyrannical;phase;Tyrannical describes a particular stage or phase of government or rule, characterized by absolute power and oppression.
+HumanBeing;kind;HumanBeing signifies a distinct biological and rational species, making it a kind.
+PrivateProperty;category;PrivateProperty refers to a category of ownership rights over possessions, not a specific type of object.
+SpecificFormOfTheName;subkind;SpecificFormOfTheName suggests a particular variation or subtype within the broader category of names, making it a subkind.
+Reason;mode;Reason is a cognitive faculty or process, representing a particular capacity of the mind.
+Recollection;process;Recollection is a mental process of retrieving memories, involving a series of actions over time.
+HumanBody;kind;HumanBody denotes the physical structure of a human being, representing a distinct kind.
+LesserGod;subkind;LesserGod implies a hierarchical distinction within the category of Gods, suggesting a subkind.
+Appetite;mode;Appetite refers to a desire or craving, often for food or pleasure, representing a particular state or inclination.
+Isosceles;subkind;Isosceles is a specific type of triangle, making it a subkind within the category of Triangles.
+Universe;kind;The Universe, encompassing all of space and time, is often considered a unique and singular entity, thus representing a distinct kind.
+Democratic;phase;Democratic represents a particular system or phase of government characterized by rule of the people.
+NobleLie;kind;The Noble Lie, a philosophical concept, represents a unique type of falsehood with specific purposes, making it its own kind.
+Property;category;Property refers to possessions or attributes that belong to something, making it a broad category encompassing various types of entities.
+Philosopher-king;role;Philosopher-king signifies a specific role within a society, combining governance with philosophical wisdom.
+Citizen;role;Citizen designates a social and political role within a state or community.
+Class;category;Class refers to a group or set with common characteristics, used to categorize entities based on shared attributes.
+LivingThing;category;LivingThing represents a broad category encompassing all organisms exhibiting life, encompassing various species and forms.
+Imagination;mode;Imagination is a cognitive faculty or process, representing a particular ability of the mind to form images and ideas.
+Temperance;mode;Temperance is often considered a virtue, representing a state of moderation and self-control, making it a mode.
+Family;collective;Family is a social group consisting of individuals with kinship ties, forming a collective entity.
+Belief;mode;Belief represents a mental state of acceptance or conviction, making it a mode.
+Sameness;category;Sameness denotes the state of being identical or alike, categorizing relationships between entities rather than the entities themselves.
+Convention;collective;Convention often refers to agreed-upon practices or customs within a group, implying a collective agreement or understanding.
+HeavenlyBody;kind;HeavenlyBody suggests astronomical objects like stars and planets, representing a distinct kind of entity.
+Aristocratic;phase;Aristocratic describes a phase or system of government characterized by rule by a privileged elite.
+World'sBody;kind;World'sBody suggests a unique entity, a kind in itself, representing the physical or material aspect of the world.
+boolean;type;Boolean is a data type representing truth values (true or false), indicating a fundamental type.
+Being;category;Being is a fundamental philosophical concept referring to existence itself, encompassing all entities and forms of existence.
+Name;mode;Name represents a linguistic element used to identify something, making it a mode.
+Triangle;kind;Triangle, a geometric shape, represents a distinct kind with specific properties.
+OriginalName;roleMixin;OriginalName suggests a temporary state of having a particular name at a certain point in time, making it a roleMixin.
+Thinking;process;Thinking is a mental process involving cognitive activities, representing a series of actions over time.
+SensePerception;process;SensePerception refers to the process of perceiving the environment through senses, involving a series of actions.
+string;type;String is a data type representing a sequence of characters, making it a fundamental type.
+Auxiliaries;role;Similar to AuxiliaryPerson, 'Auxiliaries' signifies individuals in a supporting role.
+StateProperty;category;StateProperty refers to characteristics or attributes belonging to a state, making it a category encompassing various aspects.
+name;inferred_stereotype;explanation
+QualidadeRegra;quality;Represents the quality of a rule in a game, which can be measured.
+Regra;kind;Represents a rule, which is a fundamental concept in games and can be instantiated by multiple games.
+Jogador;role;Represents the role of a player, which is anti-rigid and depends on the relation with the game.
+Mecânica;kind;Represents a fundamental concept of game design and can be instantiated in different ways.
+QualidadeDesign;quality;Represents the quality of the design, a measurable aspect.
+Jogo de Videogame (software);kind;Represents a specific type of software, a videogame.
+QualidadeMecânica;quality;Represents the quality of the mechanics, a measurable aspect.
+Design;kind;Represents a design, a fundamental concept.
+Jogar;event;Represents the action of playing a game, which is an event.
+Jogo qua agente;kind;Represents a game as an agent, which can perform actions and interact.
+Inicio da partida de videogame;event;Represents the event of a videogame match starting.
+Pessoa;kind;Represents a person, which is a fundamental entity.
+Usabilidade;quality;Represents the quality of usability, a measurable aspect of a game.
+Gameplay;kind;Represents the gameplay, a fundamental concept in game design.
+MedidaQualidadeRegra;quantity;Represents the measure of a rule's quality, which is a quantity.
+Final da partidade de videogame;event;Represents the event of a videogame match ending.
+Jogabilidade;quality;Represents the quality of the gameplay, which can be measured.
+MedidaQualidadeDesign;quantity;Represents the measure of design quality, which is a quantity.
+MedidaQualidadeMecânica;quantity;Represents the measure of mechanic quality, which is a quantity.
+name;inferred_stereotype;explanation
+Behaviour;category;This represents a broad concept that classifies different aspects of how elements within the game interact and function. It's a rigid type, as these behaviors have essential properties defining them.
+Aesthetics;category;This refers to the sensory experience of the game, encompassing visual style, components, and overall presentation. It's a rigid type, as these aesthetics are essential to defining the game's look and feel.
+Variable Player Powers;mixin;This indicates a game mechanic where player abilities can change. It's semi-rigid: essential to games with this mechanic, accidental to those without.
+Grid Movement;mixin;A mechanic where movement is restricted to a grid. Semi-rigid: essential to games using grids, accidental to others.
+Paper And Pencil;category;Refers to the core components of the game. It's a rigid type, as it essentially defines the game's reliance on these materials.
+Survival_A;goal;Indicates a fundamental objective in the game related to survival. Goals drive player actions and are essential to understanding motivations within the game.
+Bluffing;mixin;Mechanic allowing players to deceive one another. Semi-rigid: essential to games with bluffing, accidental to those without.
+Desperation;phaseMixin;Represents a contingent state a player or the game can be in. Anti-rigid, as it depends on specific game conditions.
+Pick-up and Delivery;mixin;A mechanic where players collect and transport items. Semi-rigid: essential for games with this mechanic, accidental to others.
+Loathing;roleMixin;Represents a role or behavior pattern within the game, likely associated with an antagonist or a negative player interaction.
+Auction;mixin;A mechanic where players bid on items or opportunities. Semi-rigid: essential to games with auctions, accidental to others.
+Argumentativeness;roleMixin;Represents a role or behavior pattern within the game, likely associated with player interaction and negotiation.
+Point-toPointMovement;mixin;A mechanic where movement is along defined paths. Semi-rigid: essential to games using this, accidental to others.
+Grouping;mixin;A mechanic allowing entities to form groups. Semi-rigid: essential to games with grouping, accidental to others.
+Ruleset;category;Defines the essential framework within which the game operates, governing actions and interactions.
+Grief;phaseMixin;Represents a contingent emotional state a player may experience, influenced by game events.
+Trick-Taking;mixin;A specific mechanic where players win rounds by having the best combination of cards. Semi-rigid, as its essentiality depends on the game.
+Player Elimination;mixin;A mechanic where players can be removed from the game. Semi-rigid: essential to games with this, accidental to others.
+Relief;phaseMixin;Represents a contingent emotional state a player might experience, likely after a period of tension or stress within the game.
+Indirect effect;category;Refers to a broad category of game mechanics where actions have consequences beyond their immediate impact, influencing the game state in less direct ways.
+Victory Points;category;A common element in games, often used as a quantifiable measure of progress or success towards winning.
+Disapointment;phaseMixin;Represents a contingent emotional state a player might experience, likely due to setbacks or unfulfilled expectations within the game.
+Alliance;relator;Represents a relationship between players, signifying cooperation and shared goals.
+Naches;phaseMixin;This term, meaning pride and joy in another's accomplishment, likely represents a contingent emotional state players can experience, linked to observing others' successes within the game.
+Game state change;event;Represents a transition or shift in the current state of the game, usually triggered by player actions or game mechanics.
+Communication;category;A fundamental aspect of many games, encompassing how players exchange information or interact verbally.
+Blocking;mixin;A mechanic where players can obstruct opponents' actions or movements. Semi-rigid: essential to games with blocking, accidental to others.
+Anger;phaseMixin;Represents a contingent emotional state a player might experience, likely triggered by in-game events or interactions with other players.
+Disgust;phaseMixin;Represents a contingent emotional state, likely triggered by specific game elements or the actions of other players.
+Camping;roleMixin;Represents a specific behavior pattern, likely referring to a defensive strategy or playstyle within the game.
+Exasperation;phaseMixin;Represents a contingent emotional state a player might experience, likely due to repeated frustrations or a sense of being stuck within the game.
+Deck;collective;Refers to a collection of cards, treated as a single unit within the game.
+Draft;mixin;A mechanic where players select from available options to build a personal set of components. Semi-rigid: essential to games with drafting, accidental to others.
+Resource Management;category;Represents a fundamental aspect of gameplay, encompassing the gathering, utilization, and potentially the trading or consumption of various in-game resources.
+Meta-Game;category;Represents aspects of the game that extend beyond the defined rules and mechanics, often involving player interactions, strategies, and social dynamics that develop outside the game itself.
+Action Programming;mixin;A mechanic where players determine actions in advance, often with limited ability to adjust later. Semi-rigid: essential to games with this, accidental to others.
+Stock Holding;mixin;A mechanic where players buy, sell, or manage shares, simulating economic aspects. Semi-rigid: essential to economic games, accidental to others.
+Competition;category;Represents a core aspect of many games, highlighting the element of rivalry and the pursuit of victory against opponents.
+Card Draft;mixin;A specific type of drafting where the chosen components are cards. Semi-rigid, as its essentiality depends on the game.
+Impulse;phaseMixin;Represents a sudden urge or motivation for a player to act, likely influenced by the game state.
+Secret Unit Depoyment;mixin;A mechanic where players keep units hidden until a strategic moment. Semi-rigid: essential to games with this, accidental to others.
+One versus all;category;Represents a game structure where one player is set against all others, often involving asymmetric roles and objectives.
+Modular Board;category;Indicates the game's physical design, where the play area is made up of reconfigurable parts.
+Small talk;roleMixin;Represents a form of player interaction, likely involving casual conversation or negotiation, that can influence the game.
+Pattern Building;mixin;A mechanic where players create specific arrangements of components to score points or achieve goals. Semi-rigid, as its essentiality depends on the game.
+Take That;mixin;A mechanic involving direct and often aggressive actions to hinder opponents. Semi-rigid, as its presence is essential to some games, accidental to others.
+Action Planning;category;Represents a core gameplay element, highlighting the strategic decision-making process of players choosing and executing actions.
+Resource;category;Represents any element that holds value and can be used or consumed during the game to perform actions or achieve objectives.
+Card;category;A common component in many games, often representing actions, resources, events, or other game elements.
+Enjoyment;phaseMixin;Represents a positive emotional state players might experience during gameplay, often linked to engagement and satisfaction.
+Token;category;Represents a physical component used to track progress, represent units, or mark specific elements on the game board.
+Expression;category;Represents the various ways players can communicate or convey information, strategies, or emotions during the game.
+Chit-pull;mixin;A specific mechanic where players draw tokens blindly to determine outcomes or resources. Semi-rigid, as its essentiality depends on the game.
+Horror;category;A genre or theme within games, often associated with fear, suspense, and unsettling narratives or visuals.
+Rock-Paper-Scizors;mixin;A mechanic based on a cyclical relationship between options, where each choice has strengths and weaknesses. Semi-rigid, as its essentiality depends on the game.
+Pool Building;mixin;A mechanic where players gather and manage a set of resources or elements, which can be used for various actions. Semi-rigid: essential to games with pool building, accidental to others.
+Die Marker;category;Refers to a die used not for random generation but to track a value or state within the game.
+Sacrifice;mixin;A mechanic where players can give up something valuable for a strategic advantage. Semi-rigid: essential to games with this, accidental to others.
+Mechanics;category;Represents the specific rules and procedures that govern how the game is played, how players interact, and how actions are resolved.
+Terror;phaseMixin;Represents an intense form of fear that a player might experience, likely triggered by specific game events or threats.
+Fiero;phaseMixin;Represents a feeling of intense pride and accomplishment, likely triggered by overcoming challenges or achieving significant milestones in the game.
+Rush the game;roleMixin;Represents a specific gameplay strategy or approach, where players prioritize speed and early aggression.
+Pride;phaseMixin;Represents a positive emotional state, likely triggered by a player's accomplishments or successful execution of strategies.
+Goal;category;Represents the objective or desired outcome that players strive to achieve within the game, driving their actions and decisions.
+Partnership;relator;Represents a specific type of player relationship, characterized by cooperation and a shared objective, often within a team-based game.
+Amusement;phaseMixin;Represents a lighthearted form of enjoyment, often associated with humor or entertainment value within the game.
+Area Enclosure;mixin;A mechanic where controlling specific areas on the game board provides advantages. Semi-rigid: essential to area control games, accidental to others.
+Variable Phase Order;mixin;Indicates that the sequence of game phases or turns is not fixed and can change dynamically. Semi-rigid: essential to games with variable turn order, accidental to others.
+Dice Rolling;mixin;A mechanic using dice to introduce randomness and determine outcomes. Semi-rigid: essential to games with dice, accidental to those without.
+Repugnance;phaseMixin;Represents a strong feeling of disgust and aversion, likely triggered by specific game themes or actions.
+Fear;phaseMixin;Represents an emotional state of apprehension and anxiety, often triggered by threats, uncertainty, or the risk of negative consequences within the game.
+Despair;phaseMixin;Represents an intense feeling of hopelessness and loss, likely triggered by significant setbacks or a perceived inability to succeed.
+Distraughtness;phaseMixin;Represents an emotional state of distress and agitation, likely triggered by stressful or emotionally charged events within the game.
+Deduction;category;Represents a core element of gameplay where players use logic and reasoning to interpret information, solve puzzles, or uncover hidden elements.
+Reject objectives;mixin;A mechanic that allows players to refuse or discard objectives, adding a layer of strategy to objective management. Semi-rigid: essential to games with this option, accidental to those without.
+Areas;category;Represents distinct zones or sections on the game board or within the game environment, often associated with specific rules, resources, or objectives.
+Playing patterns;category;Represents recognizable and recurring strategies, tactics, or approaches that players might employ during gameplay.
+Assymetry;category;Represents a game design principle where players have different starting conditions, abilities, or objectives, leading to uneven gameplay and strategic considerations.
+Dread;phaseMixin;Represents a feeling of apprehension and anticipation of something negative, often used in games to build suspense or create a sense of unease.
+Wonder;phaseMixin;Represents a feeling of awe and amazement, likely triggered by the game's visuals, narrative, or unexpected events.
+Data Representation;category;Represents the ways in which information is presented and managed within the game, including the use of symbols, numbers, charts, or other visual aids.
+Anguish;phaseMixin;Represents an intense feeling of suffering and distress, likely triggered by significant losses or setbacks within the game.
+Dynamics;category;Represents the interactions between different game elements, player choices, and game mechanics, creating the overall flow and feel of the gameplay.
+Helplessness;phaseMixin;Represents a negative emotional state where players feel a lack of agency or control over the game's outcome, potentially leading to frustration or disengagement.
+Co-operative Play;category;Represents a style of gameplay where players work together as a team towards a common objective, emphasizing collaboration and shared success.
+Human Shield;roleMixin;Represents a specific tactic or behavior pattern, often considered controversial, where a player uses other game entities or even other players for protection.
+Combo;category;Represents a sequence of actions or a combination of elements that, when executed together, produce a greater effect than the sum of their individual parts.
+Phase;category;Represents a distinct stage or period within a game turn or the overall game progression, often associated with specific actions or events.
+Peace;phaseMixin;Represents a state within the game characterized by a lack of conflict, often temporary and subject to change based on player actions or game events.
+Self objective;category;Represents personal goals or milestones that individual players might set for themselves within the context of the game, adding a layer of individual challenge or motivation.
+Annoyance;phaseMixin;Represents a mild form of irritation or frustration, likely triggered by minor setbacks, inconveniences, or the actions of other players.
+Excitement;phaseMixin;Represents a heightened emotional state of anticipation and enthusiasm, often triggered by unexpected events, risky situations, or the potential for rewards within the game.
+Commodity Speculation;mixin;Represents a specific economic mechanic where players attempt to profit from fluctuations in the value of goods, often involving risk assessment and market prediction.
+Game;kind;Represents the overarching concept of a structured form of play, encompassing all the rules, mechanics, components, and experiences associated with it.
+Strategic choices;category;Represents the decision-making process players engage in, weighing options, considering consequences, and choosing courses of action that align with their goals.
+Frustration;phaseMixin;Represents a negative emotional state arising from obstacles, setbacks, or the inability to achieve desired outcomes within the game.
+Color Appreciation;phaseMixin;Represents a player's positive response to the visual elements and color palettes used in the game, potentially influencing their enjoyment or immersion.
+Anxiety;phaseMixin;Represents a feeling of unease and worry, often triggered by uncertainty, time pressure, or the potential for negative consequences within the game.
+Movement;category;Represents a fundamental action in many games, describing how entities change positions, navigate the game board, or interact with different locations.
+Component;category;Represents a physical or digital element that makes up the game, such as cards, dice, boards, meeples, or tokens.
+Reduce options;mixin;Represents a mechanic where possibilities are narrowed down, often forcing players to make difficult choices with limited information or resources. Semi-rigid: essential to games with this mechanic, accidental to those without.
+Press Your Luck;mixin;Represents a mechanic where players take risks, pushing their luck for potential rewards but also facing increasing chances of failure or penalties.
+Bitterness;phaseMixin;Represents a negative emotional state of resentment and anger, likely triggered by perceived unfairness, betrayal, or repeated losses within the game.
+Forcefull interpretation;roleMixin;Represents a behavior pattern where players try to impose their own interpretation of rules or game situations, potentially leading to conflict or disputes.
+All versus one;category;Represents a game structure where all players cooperate against a single opponent, often controlled by the game itself or taking on a specific role.
+Abhorrence;phaseMixin;Represents an intense feeling of disgust and loathing, likely triggered by specific game themes, actions, or the consequences of player choices.
+Convince;roleMixin;Represents a player interaction where one player attempts to persuade others to adopt a particular course of action, often involving negotiation, deception, or appeals to logic or emotion.
+Revulsion;phaseMixin;Represents an intense feeling of disgust and aversion, likely triggered by disturbing visuals, themes, or actions within the game.
+Nervousness;phaseMixin;Represents an emotional state of unease and apprehension, often triggered by uncertainty, pressure, or the potential for negative consequences within the game.
+Teams;collective;Represents groups of players working together towards shared goals, often with a sense of camaraderie and shared responsibility.
+Area Movement;category;Represents actions related to changing positions within the game's defined areas or regions, often subject to specific rules or limitations.
+Algorithm;category;Represents a set of rules or instructions that determine specific game mechanics or behaviors, often used to automate processes or create predictable outcomes.
+Storytelling;category;Represents the narrative aspect of the game, encompassing the plot, characters, setting, and themes that create an immersive experience.
+Area Control;mixin;Represents a game mechanic where players compete to dominate or hold specific areas on the game board, often to gain resources, strategic advantages, or victory points.
+Trepidation;phaseMixin;Represents a feeling of fear and apprehension about the future, often used in games to create suspense or uncertainty about upcoming events.
+Rejoicing;phaseMixin;Represents a strong feeling of joy and celebration, likely triggered by a significant victory, achievement, or positive turn of events within the game.
+Safe play;roleMixin;Represents a risk-averse strategy where players prioritize security and minimizing potential losses, often at the expense of potential gains.
+Network Building;mixin;Represents a mechanic where players create connections between elements, often to establish routes, resources, or influence within the game.
+Pattern;category;Represents recurring arrangements, sequences, or relationships between elements within the game, often holding significance for strategy, analysis, or aesthetics.
+Role_Playing;category;Represents a game genre or style where players assume the roles of fictional characters, often within a story-driven narrative, making choices and taking actions that shape the outcome.
+Colection;category;Represents the act of gathering and amassing game elements, often as a core mechanic or a secondary objective, potentially leading to rewards or advantages.
+Intention of use;category;Represents the purpose or goal behind using a particular game element, mechanic, or strategy, often influencing player choices and the flow of the game.
+Revenge;goal;Represents a powerful motivator within games, driving players to retaliate against perceived wrongs or to seek retribution for past losses or betrayals.
+Hopelessness;phaseMixin;Represents a negative emotional state of despair and resignation, often triggered by a perceived lack of options, insurmountable challenges, or an inevitable loss within the game.
+Diversion;mixin;Represents a mechanic or strategy involving the distraction of attention or resources, often used to gain a tactical advantage or to deceive opponents.
+Compound Emotions;category;Represents complex emotional states arising from a blend of multiple emotions, often reflecting the nuanced experiences evoked by game events or interactions.
+Panic;phaseMixin;Represents an intense and sudden feeling of fear and anxiety, often leading to irrational or impulsive actions, triggered by threats or overwhelming situations.
+Action Draft;mixin;Represents a mechanic where players select actions from a shared pool, limiting options and creating competition for desired actions.
+Vengefulness;phaseMixin;Represents a desire for revenge, often fueling aggressive or retaliatory behavior in response to perceived wrongs or injustices within the game.
+Aversion;phaseMixin;Represents a strong feeling of dislike or disgust, potentially influencing player choices and leading them to avoid specific actions, elements, or strategies.
+Distaste;phaseMixin;Represents a feeling of dislike or aversion, often associated with specific game elements, themes, or the actions of other players.
+Resignation;phaseMixin;Represents an emotional state of acceptance and surrender, often triggered by a perceived inability to influence the game's outcome or to overcome challenges.
+Game Balance;category;Represents the fairness and equity of the game design, ensuring that no player or strategy has an inherent advantage, allowing for meaningful choices and competition.
+Line Drawing;mixin;Represents a mechanic involving the creation or manipulation of lines on a game board, often to connect points, create barriers, or form specific patterns.
+Random Draw;mixin;Represents a mechanic involving the random selection of elements, such as cards, tokens, or dice rolls, introducing an element of chance and unpredictability.
+Action based;category;Represents a game design philosophy emphasizing player actions and their consequences as the primary drivers of gameplay and narrative.
+Simultaneous Action Selection;mixin;Represents a mechanic where players choose actions concurrently, often keeping their choices secret until a reveal phase, introducing an element of anticipation and bluffing.
+Acting;category;Represents the physical or verbal expression of a character's actions, intentions, or emotions, often within the context of role-playing games or games with strong narrative elements.
+Voting;mixin;Represents a mechanic where players collectively decide on an outcome or course of action, often by majority rule.
+Set Colection;mixin;Represents a mechanic where players aim to gather specific combinations of elements, often cards, to score points or trigger special abilities.
+Action Card;category;Represents a card that allows the player to perform an action, often influencing the game state or interacting with other elements.
+Memory;category;Represents a cognitive skill often challenged in games, requiring players to remember positions, sequences, or information.
+Identification;category;Represents the act of recognizing and distinguishing between different game elements, patterns, or information, often crucial for decision-making.
+Discouragement;phaseMixin;Represents a negative emotional state characterized by a loss of confidence or motivation, often triggered by setbacks or perceived difficulty within the game.
+Tile Placement;mixin;Represents a mechanic where players place tiles onto a game board, often to create patterns, connect areas, or manage resources.
+Derived;category;Represents elements or mechanics that are based on or influenced by other elements within the game system.
+Action;category;Represents a fundamental element of gameplay, encompassing any choice or move a player can make that affects the game state.
+Sadness;phaseMixin;Represents a negative emotional state of sorrow and unhappiness, often triggered by loss, setbacks, or thematically evocative events within the game.
+Flexible strategy;category;Represents a strategic approach that emphasizes adaptability and responsiveness to changing game conditions, allowing players to adjust their plans.
+Dislike;phaseMixin;Represents a negative feeling of aversion or disapproval, often directed towards specific game elements, the actions of other players, or undesirable outcomes.
+Sorrow;phaseMixin;Represents a deep feeling of sadness and grief, often triggered by significant losses, tragic events, or thematically heavy themes within the game.
+Greed;phaseMixin;Represents an excessive desire for resources, wealth, or possessions, often influencing player choices and potentially leading to conflict or risk-taking behavior.
+Compassion;phaseMixin;Represents a feeling of empathy and concern for others, potentially influencing player choices and leading to acts of altruism or cooperation.
+Die;category;Represents a physical object with numbered sides, rolled to generate random outcomes, often influencing movement, actions, or event resolution.
+Curiosity;phaseMixin;Represents a desire to explore, discover, or learn more about the game world, mechanics, or narrative, often driving player actions and engagement.
+Ecstasy;phaseMixin;Represents a feeling of intense joy and euphoria, often triggered by significant achievements, unexpected victories, or particularly satisfying moments within the game.
+Trading;mixin;Represents a mechanic where players exchange resources, cards, or other game elements, often to acquire needed components or to gain a strategic advantage.
+name;inferred_stereotype;explanation
+Module;kind;Represents a fundamental type of entity.
+UpperPhase;phase;Represents a phase of something, in this case, probably a phase of a module.
+Degree;kind;Represents a fundamental type of entity.
+Regulation;kind;Represents a fundamental type of entity.
+Subject;kind;Represents a fundamental type of entity, could be a person or an area of study.
+Deg_Reg;relator;Represents a relator connecting Degree and Regulation.
+DegreeRegulation;relator;Represents a relator, likely similar or equivalent to Deg_Reg.
+Element_Module;relator;Represents a relator connecting Element and Module.
+Variant;kind;Represents a fundamental type of entity, likely a variation of something else.
+Phase;phase;Represents a stage in a process or lifecycle.
+Element;kind;Represents a fundamental type of entity.
+PhaseWithModule;relator;Represents a relator connecting a Phase and a Module.
+SubPhase;phase;Represents a phase that is a part of a larger phase.
+Sub_Phase;phase;Represents a phase that is a part of a larger phase.
+Var_Reg;relator;Represents a relator connecting Variant and Regulation.
+VariationReg;relator;Represents a relator, likely similar or equivalent to Var_Reg.
+Module_Phase;relator;Represents a relator connecting Module and Phase.
+name;inferred_stereotype;explanation
+DeclaredProvenance;relator;A Declared Provenance represents a relationship between a Provider and a Consumer, indicating the origin or source of something. This aligns with the concept of a relator, which connects two or more individuals through a material relation.
+Provider;role;A Provider is likely a role that an entity plays in the context of providing something.  Roles are anti-rigid specializations of kinds, meaning they represent contingent classifications based on relationships.
+Consumer;role;Similar to Provider, a Consumer is likely a role that an entity plays in the context of consuming or using something. It's a contingent classification based on a relationship.
+DeclaredValue;quality;A Declared Value likely represents a specific attribute or characteristic that can be measured or evaluated, such as a monetary value or a quality assessment. Qualities are particularized properties often understood as values in a conceptual space.
+ConsumerNeed;mode;A Consumer Need represents a particular state or requirement of a Consumer. Modes are particularized properties that are not typically measured as values, like needs or desires.
+Payment;event;A Payment is an action or occurrence that involves the transfer of value, typically as part of a transaction. Events unfold in time and are instances of perdurant types.
+Receipt;relator;A Receipt represents proof or evidence of a transaction, typically involving a buyer and a seller.  It connects entities in a material relation.
+Production;process;Production likely refers to a series of actions or steps involved in creating or manufacturing something.  Processes are types of perdurants.
+RawProduct;kind;A Raw Product is likely a fundamental type of tangible good used as input in a production process. Kinds are fundamental categories of endurants with principles of identity and persistence.
+CounterObject;kind;Without further context, CounterObject seems like a general type of physical object. It could be a placeholder for a more specific kind or require further refinement.
+ProvenanceEvaluation;process;Provenance Evaluation likely refers to the act of assessing or verifying the origin and history of something, making it a process.
+Purchase;event;A Purchase represents a transaction where something is bought, making it an instance of a perdurant type.
+Policy;kind;A Policy is a set of rules or guidelines. While often documented, the policy itself, as a concept, can be considered a kind, representing a fundamental category.
+Provenance;mode;Provenance, referring to the origin or source of something, is a particularized property or characteristic. Since it's not usually measured quantitatively, it aligns more with a mode than a quality.
+ValueObject;kind;Without more context, ValueObject seems like a general type of entity that holds or represents value. It could be refined into a more specific kind depending on its role.
+GeographicIndication;mode;A Geographic Indication denotes the origin of a product or service, often tied to quality or characteristics. It's a property that is not directly measurable as a value, making it a mode.
+Sale;event;A Sale is a transaction involving the exchange of goods or services, making it an event, which is an instance of a perdurant type.
+Actor;role;An Actor is a very general term, but in many contexts, it implies a role that an entity takes on, especially in processes or events.
+ValueActivity;process;Value Activity suggests a series of actions or steps that contribute to producing value, making it a process.
+Agent;role;An Agent often acts on behalf of another entity.  Therefore, it represents a role taken on by an individual or organization.
+BusinessNeed;mode;A Business Need is a condition or requirement that a business has. As a need, it is a particularized property that is not a value in a conceptual space, making it a mode.
+EndProduct;kind;An End Product is likely a final, tangible good resulting from a production process. It represents a fundamental type of object with its own identity, making it a kind.
+name;inferred_stereotype;explanation
+Outcome;kind;"A fundamental sort of endurant type. For example, we can have ""Positive Outcome"" and ""Negative Outcome"" as Outcomes."
+Player Action;event;"Represents a change in the world. For example, a Player Action can be ""Choose a card""."
+Game Player;role;"""Game Player"" is a role that the kind Agent can play."
+Risk Event;subkind;Risk Event is a more specific type of the kind Event.
+Intention;mode;"Intention is a particularized property that is not conceived as a value in a conceptual space. For example, an Intention can be ""To win the game""."
+Value Event;subkind;Value Event is a more specific type of the kind Event.
+Utility Value Magnitude;quantity;"Represents a portion of a home-omerous amount of matter. For example, we can have different Utility Value Magnitudes, such as ""High"", ""Medium"", and ""Low""."
+Action Profile;mixin;Action Profile is a mixin because it represents common properties of individuals of multiple Kinds.
+Gain Event;subkind;Gain Event is a more specific type of the kind Event.
+Value Experience;perdurante;Represents an individual that unfolds in time, accumulating temporal parts.
+Threat Event;subkind;Threat Event is a more specific type of the kind Event.
+Agent;kind;"A fundamental sort of endurant type. For example, we can have ""Human Agent"" and ""Software Agent"" as Agents."
+Threatening Situation;situation;Represents a state of affairs.
+Utility;quality;Represents a particularized property that can be understood as a value in a conceptual space.
+Game;kind;"A fundamental sort of endurant type. For example, we can have ""Board Game"" and ""Card Game"" as Games."
+Resulting Situation;situation;Represents a state of affairs.
+Unity Value Ascription;roleMixin;Represents common properties of individuals of multiple Kinds.
+Successful Situation;situation;Represents a state of affairs.
+Impact Event;subkind;Impact Event is a more specific type of the kind Event.
+Trigger Event;subkind;Trigger Event is a more specific type of the kind Event.
+Loss Event;subkind;Loss Event is a more specific type of the kind Event.
+Utility Value;quality;Represents a particularized property that can be understood as a value in a conceptual space.
+name;inferred_stereotype;explanation
+Rich Provenance Metadata;category;It describes properties of something, in this case, properties about provenance metadata that is rich
+Data Accessibility Requirements;category;It describes essential properties of something related to data accessibility, like a protocol or a data itself
+Resource;kind;It is a fundamental concept and represents an independent entity
+Self-Explanatory Attribute Key;category;It describes properties of an attribute key that explains itself
+Attribute Value;kind;It is a fundamental concept and represents the value of an attribute. It exists independently of the attribute
+Metadata;kind;A fundamental concept, representing data about data. It exists on its own
+Community Standard;kind;It is a fundamental concept that represents a standard defined and followed by a community
+Searchable Resource;category;It describes properties of a resource on which searches can be performed
+Intrinsic Attribute Value;subkind;It represents a specific type of Attribute Value that is inherent to the entity it describes
+Restricted Data Accessibility Requirements;subkind;It is a specialized kind of Data Accessibility Requirements that applies restrictions on how data can be accessed
+Attribute;kind;A fundamental concept representing a characteristic or feature of an entity, existing independently
+Open Data;category;It describes properties of data that is freely available for use
+Registration/Indexing;kind;It is a fundamental concept and represents the mechanism of registering and indexing something, like data or resources
+Searchable Data;category;It describes properties of data that can be searched
+Rich Metadata Item Attribute;subkind;It is a specialized kind of attribute specifically related to rich metadata items
+Data Item;kind;It is a fundamental concept representing a unit or piece of data
+Authorization Protocol;subkind;It is a specialized type of Protocol that defines rules for granting access rights to resources
+Data Entity;kind;Represents a distinct and independent unit of data
+Representation Language;kind;A fundamental concept for a language used to express or represent data or information
+Provenance Metadata Item Attribute;subkind;It is a specialized kind of attribute specifically related to provenance metadata items
+Data Model;kind;A fundamental concept representing an abstract structure and organization of data
+Ground Data;subkind;Represents a specific type or category of data that serves as a foundation or basis for other data or analysis
+Community Consensus;kind;Represents an agreement or shared understanding reached by a community
+Data with Restricted Access;category;Describes properties of data that has limitations on its accessibility
+Identification Service;kind;It is a fundamental concept that provides the function of identifying something
+Provenance Metadata;kind;Represents data about the origin, history, or derivation of other data
+Data;kind;Fundamental concept representing facts, figures, and information
+Data Access Protocol;subkind;A specialized type of Protocol that outlines the procedures and rules for accessing data
+Rich Metadata;subkind;It is a specialized kind of Metadata enriched with additional details and context
+Reusable Data;category;Describes properties of data designed or suitable for multiple uses or purposes
+Community;kind;A fundamental concept representing a group of individuals or entities with shared interests
+ID Registration;subkind;It is a specialized kind of Registration specifically aimed at managing and assigning IDs
+Metadata Item;kind;A fundamental concept representing a single, distinct element or component within metadata
+Protocol;kind;A fundamental concept representing a set of rules or procedures for communication or interaction
+Data ID;subkind;Represents a specialized type of ID used for uniquely identifying data
+Accessible Data;category;Describes properties of data that can be easily accessed or retrieved
+Rich Provenance Metadata Item Attribute;subkind;It is a specialized kind of attribute specifically related to items within rich provenance metadata
+Extrinsic Attribute Value;subkind;It is a specialized kind of Attribute Value that is not inherent, coming from external factors or assignments
+Explained Attribute Key;category;It describes the properties of an attribute key that has an explanation or definition associated with it
+Data Item ID;subkind;It is a specialized kind of ID specifically used for uniquely identifying data items
+Metadata Item Attribute;subkind;It is a specialized kind of attribute specifically related to metadata items
+Data Usage License;kind;A fundamental concept representing a legal agreement that outlines the terms of use for data
+ID;kind;A fundamental concept, representing a unique identifier for an entity
+Authentication Protocol;subkind;It is a specialized type of Protocol that defines methods to verify the identity of entities involved in a system or process
+Attribute Key;kind;A fundamental concept representing the identifier or name that distinguishes an attribute
+Qualified Attribute Item;kind;It is a fundamental concept representing an Attribute that has been qualified or categorized in some way
+name;inferred_stereotype;explanation
+substitution;event;Represents an event of substituting something.
+reward;category;Represents a category of things that can be considered rewards.
+commitment;roleMixin;Represents a role that someone or something can have, implying a commitment to something.
+command;kind;Represents a kind of directive or order.
+document;kind;Represents a kind of written, printed, or electronic text.
+search;event;Represents an event of searching for something.
+penalty;category;Represents a category of punishments for offenses.
+serviceUnit;kind;Represents a kind of unit providing a particular service.
+applicationNorm;kind;Represents a kind of norm that dictates how something should be applied.
+team;collective;Represents a collection of individuals working together.
+individual;kind;Represents a single, distinct entity.
+major premisse;kind;Represents the major premise of a syllogism, a kind of logical argument.
+internalAffairDepartment;kind;Represents a kind of department responsible for internal affairs.
+destiny;category;Represents a category encompassing the predetermined course of events.
+organizationalBase;kind;Represents a kind of foundation or basis for an organization.
+military;roleMixin;Represents the role or function related to the armed forces.
+individualBase;kind;Represents a kind of foundation or basis for an individual.
+secondary premisse;kind;Represents the secondary premise of a syllogism.
+facto;category;Represents a category related to facts and reality.
+system;kind;Represents a kind of complex whole formed from interacting parts.
+organization;kind;Represents a kind of structured group of people with a common purpose.
+Atomic;category;Represents a category of things considered indivisible and fundamental.
+update;event;Represents an event of making something more current.
+phenomenon;kind;Represents a kind of observable event or occurrence.
+designatedSection;kind;Represents a kind of section specifically assigned or appointed.
+activity;perdurant;Represents a process or action that unfolds over time.
+designatedRegistry;kind;Represents a kind of registry specifically assigned or appointed.
+subject;kind;Represents a kind of entity that performs actions or is the focus of something.
+action;perdurant;Represents a discrete, intentional deed or act.
+content;kind;Represents the information or substance contained within something.
+message;kind;Represents a kind of communication conveyed from one entity to another.
+create;event;Represents an event of bringing something into existence.
+section;kind;Represents a kind of distinct part or subdivision of something.
+designationResponsabilitySection;kind;Represents a kind of responsibility assigned to a specific section.
+keyword;kind;Represents a kind of significant word or term used for indexing or searching.
+policeIAD;kind;Represents a kind of Internal Affairs Department specific to a police force.
+delete;event;Represents an event of removing or erasing something.
+civilCommitment;roleMixin;Represents a commitment related to civilian life or affairs.
+title;kind;Represents a kind of name or label given to something.
+sanction;category;Represents a category of penalties or approvals.
+registryResponsible;role;Represents the role of being responsible for a registry.
+civilServiceUnit;kind;Represents a kind of service unit related to civilian matters.
+personal;category;Represents a category related to an individual or their private life.
+generalInspector;role;Represents the role of a high-ranking official who inspects.
+militaryCommitment;roleMixin;Represents a commitment related to military service.
+norm;kind;Represents a kind of rule, standard, or pattern.
+Composed;category;Represents a category for things made up of multiple parts.
+registry;kind;Represents a kind of official record or list.
+source;kind;Represents the origin or provider of something.
+public;category;Represents a category related to the general population.
+keywordSet;collective;Represents a collection of keywords.
+viceInspector;role;Represents the role of an official ranking below an inspector.
+sectionResponsible;role;Represents the role of being responsible for a section.
+organizationalPart;kind;Represents a kind of constituent element of an organization.
+experience;kind;Represents a kind of knowledge or skill gained through involvement.
+conclusion;kind;Represents a kind of judgment or decision reached by reasoning.
+commandUnit;kind;Represents a kind of unit responsible for issuing commands.
+civil;category;Represents a category related to civilian life or society.
+base;kind;Represents a kind of foundation or support.
+attachment;kind;Represents a kind of supplementary document or file.
+designationResponsabilityRegistry;kind;Represents a kind of responsibility assigned to a registry.
+name;inferred_stereotype;explanation
+string;type;A general-purpose type representing textual data.
+process;process;Represents a series of actions or steps taken in order to achieve a particular end.
+output;role;A role representing something that is produced by a process.
+biological_event;event;A type of event that occurs in biological systems.
+degraded_entity;role;A role representing an entity that undergoes degradation in a biological process.
+event;type;A general-purpose type representing a change in the state of affairs.
+role_in_biological_event;role;A role that an entity can play in a biological event.
+Entity_in_process;role;A role representing an entity involved in a process.
+input;role; A role representing something that is required for a process to start.
+regulator;role;A role representing something that controls or regulates a process.
+participation_in_biological_event;role;A role representing an entity's participation in a biological event.
+pathway;subkind;A more specific type of kind that represents a sequence of reactions in a biological system.
+int;type;A general-purpose type representing integer numbers.
+active_entity;role;A role representing an entity that is actively involved in a process or event.
+biological_entity;kind; A fundamental type representing any entity found in the biological realm.
+name;inferred_stereotype;explanation
+Positive Law;kind;It represents a fundamental type of legal entity, potentially with subtypes and instances.
+Social Object;category;Represents common properties of objects existing in a social context, not limited to a single kind.
+Jurisdictional State;subkind;A specialized type of 'State' (presumably existing), possessing jurisdiction as a defining characteristic.
+Event;type;A generic type for events, requiring further specialization to be meaningful.
+Qualified Situation;phase;Implies a situation with specific, intrinsic conditions that distinguish it from other situations.
+Action Contribution;roleMixin;Describes the contributing role in an action, applicable to various entities.
+Able Guarantor Participation;roleMixin;Signifies the role of a capable entity participating as a guarantor.
+CPF;subkind;Brazilian individual taxpayer registry, a specialized form of identification.
+Normative Description;mixin;Can be essential for some legal entities and accidental for others.
+TypicalEvent;subkind;A specific, predefined category of event within a legal context.
+Specific Duty to Act;subkind;A particular type of duty, distinct from general obligations.
+Legal Object;category;Encompasses various entities recognized within a legal framework.
+Guaranteed;role;Refers to the state of being guaranteed, often in a legal context.
+Ancient Rule;subkind;A classification of a rule based on its temporal attribute of being old.
+Legal Care Relator;relator;Represents the relationship that establishes legal care between entities.
+Inferior Rule;subkind;Denotes a rule lower in a hierarchy, subordinate to others.
+Physical Agent;category;Describes entities with physical properties capable of agency.
+Legal Agent;category;Refers to entities recognized as having agency within a legal system.
+Crime Author;role;The role of an entity as the originator of a crime.
+Mentally Sick;phaseMixin;A temporary state of mental health, applicable to various agents.
+Mandatory Situation;phase;A situation where specific actions are obligatory.
+Register;kind;A system for recording and maintaining information.
+Situation;type;A generic type for circumstances or conditions.
+LegalOmission;subkind;Specific type of omission with legal implications.
+Recent Rule;subkind;Categorization of a rule based on its recent enactment.
+Abstract Object;category;Represents intangible entities, contrasting with concrete objects.
+CulpableEvent;subkind;An event involving culpability or blameworthiness.
+Social Relator;relator;Connects entities in social relationships.
+Able Person;phaseMixin;Denotes a person with the capacity to act.
+Social Agent;category;Entities acting within a social context.
+Society;collective;A group of individuals considered as a single entity.
+Duty to Act;kind;A fundamental concept of an obligation to perform an action.
+Allowed Situation;phase;Circumstances where certain actions are permitted.
+General Rule;subkind;A broadly applicable rule, not specific to particular cases.
+Fine;kind;A type of legal penalty, distinct from other punishments.
+Passive Person;role;The role of an individual not actively participating but being subjected to an action or event.
+Crime Agent;role;An entity actively involved in committing a crime.
+Natural Person;subkind;A human being, as opposed to a legal entity.
+Superior Rule;subkind;A higher-ranking rule in a legal hierarchy.
+Permission;kind;Authorization to perform an action.
+Incriminating;roleMixin;Implies involvement in a crime or wrongdoing.
+Comissive Crime;subkind;A crime carried out by performing a prohibited act.
+Principle;kind;A fundamental truth or proposition guiding actions or decisions.
+Juridical Person;subkind;A non-human entity with legal rights and responsibilities.
+Deprive Liberty;kind;An action resulting in the loss of freedom.
+Lex Specialis Relator;relator;Connects legal principles based on the 'lex specialis' rule.
+Felony Omission;subkind;A grave omission with severe legal consequences.
+Disallowed Situation;phase;Circumstances prohibiting specific actions.
+Prohibition;kind;A rule forbidding a particular action.
+Institutional Agent;category;An entity acting on behalf of an institution.
+Qualification;mode;An attribute or characteristic possessed by an entity.
+Adult;phase;A stage in a person's life with specific legal implications.
+Crime Object;kind;The target or subject of a criminal act.
+Collective Social Agent;collective;A group of individuals acting as a single agent.
+Obligation;kind;A legal or moral duty.
+Social Commitment;kind;An agreement or pledge made within a social context.
+Underage;phase;A legal status based on age, implying certain restrictions.
+Object;type;A generic type representing any entity.
+Desire;mode;A mental state representing a longing for something.
+Passive Juridical Person;role;A legal entity in a situation where it's acted upon rather than acting.
+Unfulfilled Duty to Act;subkind;An obligation that has not been met.
+Legal Normative Description;subkind;A specific category of normative description within a legal framework.
+Norm Relator;relator;Connects entities or concepts related to norms.
+Specific Rule;subkind;A rule tailored to a particular situation.
+CNPJ;subkind;Brazilian company/legal entity registry number.
+Agent Participation;roleMixin;Represents an entity's role as a participant, not limited to specific types.
+Criminal Act;subkind;An act that violates criminal law.
+Ability;mode;A capability or skill possessed by an entity.
+Legal Norm;kind;A rule or standard within a legal system.
+UnlawfulEvent;subkind;An event that breaches legal rules or norms.
+Agent;type;An entity with the capacity to act.
+Intrinsic Moment;phaseMixin;A transient state characterized by inherent qualities.
+Able Agent Participation;roleMixin;Describes the involvement of a capable entity as a participant.
+Legal Rule;subkind;A specific type of rule within a legal system.
+Restrict Right;kind;An action that limits or reduces a right.
+Mentally Healthy;phaseMixin;A state of mental well-being.
+Mental Moment;phaseMixin;A temporary mental state or condition.
+State;type;A generic type for conditions or modes of being.
+Mitigating;roleMixin;Describes something that lessens the severity of an offense.
+Material Object;category;Tangible entities existing in the physical world.
+Legal Relator;relator;Connects entities within a legal relationship.
+Crime;kind;An act that violates criminal law.
+Legal Act;subkind;An act with legal significance or consequences.
+Criminally Incapable;phaseMixin;A state of lacking legal responsibility for criminal actions.
+Non Incriminating;roleMixin;Not implying guilt or involvement in wrongdoing.
+Circumstance;kind;A fact or condition relevant to a situation.
+LegalFelonyOmission;subkind;A specific type of felony omission within legal context.
+Physical Object;category;Entities existing in the physical world.
+Lex Posterior Relator;relator;Connects legal principles based on the 'lex posterior' rule.
+Legal Event;subkind;An occurrence with legal implications.
+Passive Agent;role;An agent subjected to an action without actively participating.
+Punishment Act;subkind;An act imposed as a penalty for an offense.
+Aggravating;roleMixin;Describes factors increasing the severity of an offense.
+Active Agent;role;An agent actively participating in an action or event.
+Commitment;kind;A pledge or agreement.
+Criminally Liable;phaseMixin;Subject to criminal prosecution.
+Passive Society;role;Society as a recipient of actions or events.
+Lex Superior Relator;relator;Connects legal principles according to 'lex superior' rule.
+Jurisdiction Agent;role;An agent exercising legal authority within a jurisdiction.
+Guarantor Able Person;subkind;A capable individual acting as a guarantor.
+Unfulfilled Specific Duty to Act;subkind;A particular obligation that remains unfulfilled.
+Pure Omissive Crime;subkind;A crime committed solely by failing to act.
+Guarantor;role;An entity providing a guarantee.
+Unfulfilled;phaseMixin;Describes something that has not been completed or achieved.
+Crime Relator;relator;Connects entities or concepts involved in a crime.
+Intention;mode;A mental state representing a purpose or plan.
+name;inferred_stereotype;explanation
+Child;phase;It represents a phase in the life of a person, with intrinsic contingent conditions.
+Student;role;It represents a role that a person can play, being anti-rigid and relationally contingent.
+Citizen;role;It represents a social role that a person can have, being anti-rigid and relationally contingent.
+Parenthood;relator;It is a relator because it represents the relationship between a parent and their offspring.
+Seeking for employment;phaseMixin;It represents a phase in a person's professional life, with contingent properties.
+Citizen´s Role;roleMixin;Represents common properties of individuals that are citizens, but can also be other things.
+On an Exchange Stay;phaseMixin;Represents contingent properties of being on an exchange program, applicable to students.
+Senior;phase;Represents a phase in the life of a person, typically characterized by age and intrinsic conditions.
+Employed;phaseMixin;Represents a phase in a person's professional life, with contingent properties.
+Doctoral Degree Student;role;Represents a specific type of student, characterized by their enrollment in a doctoral program.
+Unemployed;phaseMixin;Represents a phase in a person's professional life, with contingent properties.
+Employee;role;Represents a role that a person can have in a company or organization.
+Bachelor Degree Student;role;Represents a specific type of student, characterized by their enrollment in a bachelor's degree program.
+Study Interrupted;phaseMixin;Represents a phase in a student's life, where their studies are on hold.
+In requalification;phaseMixin;Represents a phase in a person's professional life, where they are upgrading their skills.
+Old Age Pensioner;role;Represents a role that a person can have after retirement.
+PA Client;role;Represents a role that a person can have in relation to a service provider.
+Parent;role;It represents a role that a person can play, being anti-rigid and relationally contingent.
+Company Pensioner;role;Represents a role that a person can have after retirement from a specific company.
+Pupil;role;Represents a specific type of student, typically in primary education.
+Offspring;subkind;Represents a direct descendant of a parent.
+Secondary School Student;role;Represents a specific type of student, typically in secondary education.
+Master Degree Student;role;Represents a specific type of student, characterized by their enrollment in a master's degree program.
+Enterpreneur;role;Represents a role that a person can have as someone who starts and runs a business.
+Company;kind;Represents a kind, as it is a fundamental sort of endurant type with instances that share common characteristics.
+name;inferred_stereotype;explanation
+transformation-duality;relator;Represents the relationship between a transformation event and its dual.
+trading-partner;role;Represents the role of an economic agent involved in trading.
+give;???;Since there is no description of this element, it is impossible to infer a possible OntoUML stereotype.
+to;???;Since there is no description of this element, it is impossible to infer a possible OntoUML stereotype.
+economic-event;event;Represents an event related to economic activities.
+participation;???;Since there is no description of this element, it is impossible to infer a possible OntoUML stereotype.
+increment-event;phase;Represents a phase in which there is an increment of some kind.
+inside-party;role;Represents a role of a party that's internal to an economic event.
+transformation;event;Represents an event of transforming economic resources.
+economic-agent;kind;Represents a fundamental kind of entity that engages in economic activities.
+economic-resource;kind;Represents a fundamental kind of entity that is used or consumed in economic activities.
+stock-flow;???;Since there is no description of this element, it is impossible to infer a possible OntoUML stereotype.
+decrement-event;phase;Represents a phase in which there is a decrement of some kind.
+outflow;???;Since there is no description of this element, it is impossible to infer a possible OntoUML stereotype.
+inflow;???;Since there is no description of this element, it is impossible to infer a possible OntoUML stereotype.
+transfer;event;Represents an event of transferring economic resources.
+take;???;Since there is no description of this element, it is impossible to infer a possible OntoUML stereotype.
+duality;relator;Represents a generic dual relationship between two elements.
+transfer-duality;relator;Represents the dual relationship in a transfer event.
+produce;???;Since there is no description of this element, it is impossible to infer a possible OntoUML stereotype.
+outside-party;role;Represents a role of a party external to an economic event.
+consume;???;Since there is no description of this element, it is impossible to infer a possible OntoUML stereotype.
+from;???;Since there is no description of this element, it is impossible to infer a possible OntoUML stereotype.
+name;inferred_stereotype;explanation
+Story;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Role;roleMixin;Anti-rigid types that define contingent properties for their instances. Their instantiation is characterized by extrinsic contingent conditions. For example, the role Student of the kind Person.
+Requirements;category;Rigid types that define essential properties for their instances, e.g., the category 'physical object' describing the properties of having a mass and a spatial extension, common to things of the kinds car, person, bridge, cow, etc.
+Attributes;category;Rigid types that define essential properties for their instances, e.g., the category 'physical object' describing the properties of having a mass and a spatial extension, common to things of the kinds car, person, bridge, cow, etc.
+Experience Levels;quality;An instance of a class stereotyped quality is a particularized property that can be understood as a value in a conceptual space, for example, the weight or height of a person which can be measured in centimeters, or the color of an eye that can be represented in an RGB tuple.
+Membership;relator;An instance of a class stereotyped relator is a truth-makers of a material relation, an entity that needs to exist for two or more related individuals to be connected through a material relation. For example, a handshake depends on two individuals of the kind element Person. Examples or relators include social objects such as Marriage, or a purchase order from an online store.
+Person;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Quality attribute;quality;An instance of a class stereotyped quality is a particularized property that can be understood as a value in a conceptual space, for example, the weight or height of a person which can be measured in centimeters, or the color of an eye that can be represented in an RGB tuple.
+Compiler;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Architectural styles;category;Rigid types that define essential properties for their instances, e.g., the category 'physical object' describing the properties of having a mass and a spatial extension, common to things of the kinds car, person, bridge, cow, etc.
+Business Role;role;Roles are 'sortals whose contingent classification conditions are relational'. They are anti-rigid specializations of kinds, for example, the role student of the kind person.
+Programming framework;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Resource;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Non-functional Requirement;subkind;Subkinds are rigid specializations of a kind. For example, we can have Man as a subkind of Person
+Software development project;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+int;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Programming langauge;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Roles;type;Represents a category of elements.
+Types;type;Represents a category of elements.
+Employee;subkind;Subkinds are rigid specializations of a kind. For example, we can have Man as a subkind of Person
+Resources;type;Represents a category of elements.
+Methods;category;Rigid types that define essential properties for their instances, e.g., the category 'physical object' describing the properties of having a mass and a spatial extension, common to things of the kinds car, person, bridge, cow, etc.
+Program increment;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Platforms;type;Represents a category of elements.
+Epic;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Program;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Importance levels;quality;An instance of a class stereotyped quality is a particularized property that can be understood as a value in a conceptual space, for example, the weight or height of a person which can be measured in centimeters, or the color of an eye that can be represented in an RGB tuple.
+Quality Levels;quality;An instance of a class stereotyped quality is a particularized property that can be understood as a value in a conceptual space, for example, the weight or height of a person which can be measured in centimeters, or the color of an eye that can be represented in an RGB tuple.
+Team;collective;An instance of a class stereotyped collective is a collective entity whose parts (members of the collective) fulfill identical roles in relation to the whole, for example, a deck of cards or a forest as a collective of trees
+Platform;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Proficiency Levels;quality;An instance of a class stereotyped quality is a particularized property that can be understood as a value in a conceptual space, for example, the weight or height of a person which can be measured in centimeters, or the color of an eye that can be represented in an RGB tuple.
+Proficiency level;quality;An instance of a class stereotyped quality is a particularized property that can be understood as a value in a conceptual space, for example, the weight or height of a person which can be measured in centimeters, or the color of an eye that can be represented in an RGB tuple.
+Programming environment;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+Sprint;kind;A fundamental sort of endurant type. For example, the types person, dog, computer, car, organization and marriage are typically considered to be kinds.
+name;inferred_stereotype;explanation
+Match;event;A match represents a single, complete playthrough of a digital game, typically involving multiple players or teams competing against each other. As such, it unfolds over time, accumulating temporal parts, making it suitable for the 'event' stereotype.
+Adventure;process;An adventure in a digital game typically involves a series of events and actions that unfold over time, leading towards a specific objective or a broader storyline. This progression of steps aligns with the concept of a 'process'.
+NonPlayerCharacter;kind;Non-player characters (NPCs) in digital games are distinct entities with their own set of properties, behaviors, and roles within the game world. They exist independently and can be considered a fundamental kind of entity within the game's ontology. Therefore, 'kind' is an appropriate stereotype.
+Etc;type;Without further context, 'Etc'  is too generic to assign a specific OntoUML stereotype. It could represent various things in a digital game, and it's best to avoid making assumptions.  'type' provides a general categorization without specifying a particular ontological nature.
+DigitalGame;kind;A digital game represents a distinct entity, encompassing rules, mechanics, and a virtual world. It exists as a fundamental concept within the domain and can be considered a 'kind' as it represents a category with instances that share common characteristics.
+State;phaseMixin;In the context of a digital game, 'State' likely refers to the condition or status of an entity or the game itself. States are typically contingent and can change over time, influencing the properties or behavior of the entities they are associated with. 'phaseMixin' is appropriate as it represents a blend of characteristics that apply temporarily.
+Equipment;kind;Equipment in digital games represents a category of objects that characters can use or wear, providing various benefits or enhancements. These objects exist independently as distinct entities within the game world and share common traits, making 'kind' a suitable stereotype.
+Location;kind;Locations in digital games are distinct areas or zones within the game world where events can occur and entities can exist. They have a persistent existence and can be considered fundamental building blocks of the game environment, thus categorized as a 'kind'.
+Session;event;A session refers to a period of time during which a player interacts with a digital game. It has a defined start and end point and represents a specific instance of gameplay. As it unfolds over time, 'event' accurately reflects its temporal nature.
+Mission;process;A mission in a digital game typically involves a sequence of objectives or tasks that players need to complete. It implies a series of steps or actions leading towards a specific outcome, aligning with the concept of a 'process'.
+Goal;situation;A goal in a digital game represents a desired state or objective that players aim to achieve. It describes a specific arrangement of affairs within the game world and may or may not hold true at a given time, making 'situation' an appropriate stereotype.
+Consumable;subkind;Consumables are a specific category of items within a digital game, typically belonging to a broader category like 'Item.' 'subkind' is suitable as it represents a specialization of a more general kind, inheriting its properties while introducing specific characteristics.
+Game;kind;Similar to 'DigitalGame,' 'Game' represents a fundamental category of entertainment with rules and mechanics. It serves as a blueprint for creating instances of games and can be considered a 'kind' as it defines a class of similar entities.
+Character;kind;In the context of games, 'Character' refers to a fundamental entity representing a participant in the game world. It can be a player-controlled character or a non-player character (NPC). As a fundamental category of entities, 'kind' is an appropriate stereotype.
+Scenario;situation;A scenario represents a specific set of circumstances or conditions within a game, often associated with a particular event, mission, or challenge. It describes a specific arrangement of affairs in the game world, making 'situation' a suitable stereotype.
+Event;event;Events are occurrences or happenings within a digital game that unfold over time and potentially affect the game state or entities. They are time-bound and represent changes or actions within the game world, thus aligning with the 'event' stereotype.
+Planning;process;'Planning' in a game context suggests a series of mental actions or strategies devised by players or AI to achieve specific objectives. This process involves steps, considerations, and decision-making, aligning with the concept of a 'process'.
+Entity;type;In the context of digital games, 'Entity' is a very general term referring to any distinct object, character, or element within the game world. Due to its broad nature, it's best categorized as a 'type' without specifying a more specific ontological nature.
+Action;event;Actions in a digital game are specific events initiated by players or non-player characters, resulting in changes to the game state or affecting other entities. They represent time-bound occurrences, making 'event' a suitable stereotype.
+Player;role;In the context of games, a 'Player' represents the role an individual assumes while interacting with the game. While a person exists independently of the game, the 'Player' role is specific to their participation within the game environment, making 'role' an appropriate stereotype.
+Campaign;process;A campaign in a digital game typically involves a series of interconnected missions or levels that contribute to a larger narrative or objective. It represents a structured sequence of challenges and events, aligning with the concept of a 'process'.
+Encounter;event;An encounter in a game represents a specific event where players or their characters interact with challenges, enemies, or other significant elements in the game world. As a time-bound occurrence with potential consequences, it fits the 'event' stereotype.
+Object;type;Similar to 'Entity,' 'Object' is a very broad term in the context of digital games. It could represent various things within the game world, and it's best to avoid making specific assumptions about its ontological nature. 'type' provides a general categorization.
+name;inferred_stereotype;explanation
+Regular Clergy Member;subkind;A Regular Clergy Member is a specific type of Clergy Member, indicating a rigid specialization of the kind Clergy Member.
+Pope;role;The Pope is a specific role within the Catholic Church, held by a person who is also a Bishop. It represents a contingent classification based on the relational condition of being elected as the head of the Church.
+Layman;subkind;A Layman is a specific type of Person, distinct from those in Clergy, indicating a rigid specialization of the kind Person.
+Priest;subkind;A Priest is a specific type of Clergyman, indicating a rigid specialization of the kind Clergyman.
+Clergyman;subkind;A Clergyman is a specific type of Clergy Member, indicating a rigid specialization of the kind Clergy Member. This assumes Clergy Member is a kind.
+Bishop Ordination;event;Bishop Ordination represents the event of ordaining someone as a Bishop.
+Religious Profession;event;Religious Profession represents the event of a person taking vows in a religious order.
+Regular Clergy;collective;Regular Clergy represents a collection of Regular Clergy Members, where each member fulfills identical roles within the group.
+Ordinator of Bishop;role;Ordinator of Bishop represents the role played by a person (typically a higher-ranking clergy member) who performs the act of ordaining someone as a Bishop.
+Cardinal Nominator;role;Cardinal Nominator represents the role played by a person (typically the Pope) who nominates someone to become a Cardinal.
+Witness of Profession;role;Witness of Profession represents the role played by a person who observes and provides testimony to the event of a Religious Profession.
+Electorate of the Cadinal School;collective;Electorate of the Cadinal School represents the collection of Cardinals who have the right to vote in a Papal election.
+Ordination of Priest;event;Ordination of Priest represents the event of ordaining someone as a Priest.
+Cardinal;subkind;Cardinal is a specific type of Clergyman (and often a Bishop) with specific responsibilities, indicating a rigid specialization.
+Nomination;event;Nomination represents the event of someone being formally proposed for a position or role, such as being nominated for Cardinal.
+Election;event;Election represents the event of a group choosing someone for a position or role through a formal process of voting.
+College of Cardinals;collective;College of Cardinals represents the collective body of all Cardinals in the Catholic Church.
+Secular Clergy Member;subkind;A Secular Clergy Member is a specific type of Clergy Member, indicating a rigid specialization of the kind Clergy Member.
+Bishop;subkind;Bishop represents a specific rank or type within the Clergy, indicating a rigid specialization, likely of Clergyman.
+Ordinator of Priest;role;Ordinator of Priest represents the role played by a person (typically a Bishop) who performs the act of ordaining someone as a Priest.
+Clergy;collective;Clergy represents the collective body of ordained persons (Clergy Members) within a religious institution.
+Clergy Member;kind;Clergy Member seems to be a fundamental type of individual within the context, likely having a distinct identity and persistence condition within a religious structure.
+Ordinator of Deacon;role;Ordinator of Deacon represents the role played by a person (typically a Bishop) who performs the act of ordaining someone as a Deacon.
+Ordained Bishop;phase;Ordained Bishop represents a phase in the life of a Clergy Member, specifically after they undergo the event of Bishop Ordination, signifying a change in their intrinsic properties and status within the Church.
+Deacon;subkind;Deacon represents a specific rank or type within the Clergy, indicating a rigid specialization, likely of Clergyman.
+Baptism;event;Baptism represents the event of a person being baptized, which is a significant ritual in many religions.
+Person;kind;Person is a fundamental type of individual, representing human beings, and likely serves as a basis for other specializations.
+Ordination of Deacon;event;Ordination of Deacon represents the event of ordaining someone as a Deacon.
+Secular Clergy;collective;Secular Clergy represents a collection of Secular Clergy Members, where each member fulfills identical roles within the group.
+name;inferred_stereotype;explanation
+LiftUp;event;An event that represents the act of lifting up.
+Patient;role;A role played by an entity that is being lifted.
+Electricity Consumer;roleMixin;A roleMixin representing an entity that consumes electricity.
+Battery;kind;A kind of object that stores energy.
+Being Lifted;situation;A situation representing the state of something being lifted.
+Robot;kind;A kind of object that can perform tasks autonomously.
+Balance Supporter;roleMixin;A roleMixin representing an entity that provides balance support.
+Electricity Source;roleMixin;A roleMixin representing an entity that is a source of electricity.
+Being Supported;situation;A situation representing the state of something being supported.
+BalanceSupport;kind;A kind of object designed for balance support.
+Object Lifter;roleMixin;A roleMixin representing an entity that lifts objects.
+Electricity Consumption;process;A process of consuming electricity.
+Robot Handle;subkind;A specialized type of Robot Handle.
+name;inferred_stereotype;explanation
+Hired Brokerage;role;It represents a role that a Brokerage can have in the context of a stock purchase.
+Person;kind;It is a fundamental kind, representing human beings.
+Contract;relator;Represents an agreement, which is a kind of relator, as it relates a Buyer and a Seller.
+Public Traded Company;subkind;It is a specialization of the kind Company, which can be considered a subkind of Organization.
+Buyer;role;Represents the role of someone who purchases a stock.
+Brokerage;kind;Represents a type of company, therefore a kind.
+Organization;kind;It is a fundamental kind, representing a group of people with a common purpose.
+Seller;role;Represents the role of someone who sells a stock.
+Stock Keeper;role;Represents the role of someone who keeps a stock.
+Stockholder Person;subkind;It is a specialization of the kind Person, therefore a subkind.
+Stock;kind;Represents a type of financial asset, therefore a kind.
+StockHolder;role;Represents the role of someone who owns a stock.
+StockholderOrganization;subkind;It is a specialization of the kind Organization, therefore a subkind.
+Stock Exchange;kind;Represents a marketplace for trading stocks, therefore a kind.
+name;inferred_stereotype;explanation
+Trustor;role;Trustor represents a role that an individual, potentially of kind Person, can play in a trust relationship. It describes the contingent conditions of being a trustor, relying on another entity (the trustee).
+Vulnerability;mixin;Vulnerability represents a property of an entity that can be essential to some instances but accidental to others. For example, a system's vulnerability to a specific attack method could be considered a vulnerability.
+Intention Belief;subkind;Intention Belief is a specialized type of Belief, representing beliefs specifically about the intentions of an agent. This represents a rigid specialization of the Belief kind, focusing on a particular aspect of beliefs.
+Agent;kind;Agent represents a fundamental type of entity capable of acting and having intentions. It could refer to a person, organization, or any entity that demonstrates agency.
+Trustee;role;Trustee represents a role that an individual, potentially of kind Person or a Social System, can hold in a trust relationship. It signifies the entity in which trust is being placed.
+Desire;mode;Desire represents a particularized property of an agent, reflecting their wants and aspirations. It's not quantifiable on a conceptual scale, making it distinct from a quality.
+Substantial;category;Substantial represents a broad category encompassing entities that have independent existence. It defines essential properties shared by different kinds, such as having a distinct identity.
+Institution-based Trust;subkind;Institution-based Trust represents a specific type of Trust, specializing in trust placed in institutions or systems. This represents a rigid specialization, highlighting trust based on established structures.
+Loss Event;subkind;Loss Event represents a specialized type of Event, specifically referring to events that result in some form of loss. This is a rigid specialization, narrowing down the broader concept of an event.
+Object;kind;Object is a very general term, but without further context, it's best understood as a fundamental kind. It represents any entity that can be the subject or object of an action or relation.
+Performance Level;quality;Performance Level represents a measurable property that can be placed on a scale, reflecting the quality or effectiveness of something. It is quantifiable, making it a quality.
+Intention;mode;Intention represents a particularized property of an agent, reflecting their plans or aims. It is not quantifiable but reflects a specific state of mind.
+Hazardous Situation;subkind;Hazardous Situation represents a specialized type of Situation, specifically denoting situations involving potential danger or harm. This is a rigid specialization of the Situation kind.
+Capability Belief;subkind;Capability Belief is a specialized type of Belief, focusing specifically on beliefs about the capabilities of an entity. This is a rigid specialization of the Belief kind.
+Disposition;mode;Disposition represents an inherent tendency or inclination of an individual. It is a particularized property, not quantifiable but reflecting a lasting characteristic.
+Capability;mode;Capability represents a potential or aptitude for an entity to perform an action or achieve a result. It's a particularized property, not directly measurable but indicative of potential.
+Trust-Warranting Signal;subkind;Trust-Warranting Signal represents a specialized type of signal, specifically those signals or cues that contribute to the formation or strengthening of trust. This is a rigid specialization.
+Uncertainty Signal;subkind;Uncertainty Signal is a specialized type of signal that contributes to uncertainty or doubt. This represents a rigid specialization, focusing on signals with specific impacts on trust dynamics.
+Trust Degree;quality;Trust Degree represents the level or intensity of trust, measurable on a scale. It reflects a quantifiable aspect of trust, making it a quality.
+Trustor Action;subkind;Trustor Action represents a specialized type of Action undertaken by an entity playing the role of a Trustor. This is a rigid specialization, focusing on actions within the context of a trust relationship.
+Trustworthiness Evidence Influence;subkind;Trustworthiness Evidence Influence is a specialized type of Influence, specifically referring to the influence that evidence of trustworthiness has on beliefs or behaviors. This is a rigid specialization.
+Trust Calibration Signal;subkind;Trust Calibration Signal represents a specialized type of signal that influences the adjustment or calibration of trust levels. This is a rigid specialization, focusing on signals with specific impacts on trust dynamics.
+Belief;mode;Belief represents a mental state of acceptance or conviction in something. It is a particularized property, not directly measurable but reflects an individual's mental model.
+Moment;category;Moment represents a broad category encompassing entities that exist dependently on other entities or within a specific timeframe.
+Atomic Intention;subkind;Atomic Intention represents a fundamental, indivisible unit of intention. This specialization denotes intentions that cannot be broken down further, serving as building blocks for more complex intentions.
+Trustworthiness Evidence;subkind;Trustworthiness Evidence represents a specialized type of evidence that contributes to assessing the trustworthiness of an entity. This is a rigid specialization, focusing on information relevant to trustworthiness.
+Loss Situation;subkind;Loss Situation represents a specialized type of Situation characterized by the potential for loss or harm. This is a rigid specialization of the broader Situation kind.
+Disposition Belief;subkind;Disposition Belief represents a specialized type of Belief, specifically about the dispositions of an entity. This is a rigid specialization of the Belief kind, focusing on beliefs about inherent tendencies.
+Complex Intention;subkind;Complex Intention represents an intention composed of multiple atomic intentions or sub-goals. This specialization indicates a higher-order intention, built from simpler intentional elements.
+Aspectual Belief;subkind;Aspectual Belief represents a specialized type of Belief that pertains to specific aspects or attributes of an entity. This is a rigid specialization, focusing on beliefs about particular facets of something.
+Vulnerability Belief;subkind;Vulnerability Belief represents a specialized type of Belief, specifically focusing on beliefs about vulnerabilities or weaknesses. This is a rigid specialization of the Belief kind.
+Trust;mode;Trust represents a complex mental state or attitude of reliance and confidence in an entity. It is not directly measurable but reflects a disposition to depend on the trustee.
+Social Trust;subkind;Social Trust represents a specialized type of Trust, specifically focusing on trust within a social context or among members of a group. It's a rigid specialization of the Trust type.
+Mental Moment Influence;subkind;Mental Moment Influence represents a specialized type of Influence that specifically affects or shapes mental moments such as beliefs, desires, or intentions. This is a rigid specialization of Influence.
+Manifestation Likelihood;quality;Manifestation Likelihood represents the probability or likelihood of something being manifested or occurring. This is measurable on a scale, making it a quality.
+Endurant;category;Endurant represents the broad category of entities that persist over time and maintain their identity, even as they undergo changes.
+Mental Moment;subkind;Mental Moment represents a specific type of Moment, referring to transient mental states like beliefs, intentions, or emotions. This is a rigid specialization, highlighting the ephemeral nature of mental events.
+int;type;It's unclear what 'int' refers to without more context. It might stand for 'integer,' in which case it would be categorized as a basic data type within the ontology.
+Social System Trustee;roleMixin;Social System Trustee represents a role that a Social System, as an entity, can hold in a trust relationship, particularly when acting as the recipient of trust.
+Social System;kind;Social System represents a fundamental type of entity comprising interconnected individuals, groups, or institutions that interact and operate together.
+Threat Event;subkind;Threat Event represents a specialized type of Event that poses a potential danger or risk. This is a rigid specialization of Event, highlighting events with negative potential consequences.
+Trust Calibration Signal Influence;subkind;Trust Calibration Signal Influence represents a specialized type of Influence, specifically referring to the impact that Trust Calibration Signals have on trust dynamics. This is a rigid specialization of Influence.
+Trustee Action;subkind;Trustee Action represents a specialized type of Action performed by an entity fulfilling the role of a Trustee. It denotes actions within the context of a trust relationship.
+Belief Intensity;quality;Belief Intensity represents the strength or conviction associated with a belief, measurable on a scale. This is a quantifiable aspect of Belief, making it a quality.
+Trust influence;subkind;Trust Influence represents a specialized type of Influence, specifically referring to the impact that trust has on decisions, behaviors, or other aspects of interaction. It's a rigid specialization of Influence.
+Perception;mode;Perception represents the process of becoming aware of something through sensory information. It's a particularized property reflecting an individual's experience and interpretation of the environment.
+Influence;relator;Influence represents the relationship between entities where one entity's actions or characteristics have an effect on another. It's a relator as it depends on the existence of the influencing and influenced entities.

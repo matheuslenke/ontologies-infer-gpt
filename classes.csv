@@ -1,0 +1,6577 @@
+number;name;stereotype
+0;Situation;situation
+0;Disposition;category
+0;Attack;event
+0;Impact Event;event
+0;Threatening Situation Type;type
+0;Event;event
+0;Risk Enabler;roleMixin
+0;Event Type;type
+0;Controlled Situation;situation
+0;Risk Subject;roleMixin
+0;Protection Trigger;situation
+0;Vulnerability;roleMixin
+0;Control Capability;roleMixin
+0;Risk Event Type;type
+0;Attacker;roleMixin
+0;Risk Assessor;roleMixin
+0;Vulnerability Type;type
+0;Object Value Asc.;subkind
+0;Generic Intention;category
+0;Object at Risk;roleMixin
+0;Loss Event Type;type
+0;Threat Event;event
+0;Security Mechanism;roleMixin
+0;Control Chain Event;event
+0;Impactful Outcome;situation
+0;Security Designer;roleMixin
+0;Control Event;event
+0;Value;quality
+0;Experience Risk Assesment;subkind
+0;Risk;quality
+0;Value Ascription;relator
+0;Threat Object;roleMixin
+0;Trigger Event;event
+0;Risk Assessment;relator
+0;Control Event Type;type
+0;Risk Event;event
+0;Intention;category
+0;Protected Subject;roleMixin
+0;Threat Capability;roleMixin
+0;Threatening Situation;situation
+0;Risk Experience;event
+0;Agent;category
+0;Action;event
+0;Value Object;roleMixin
+0;Intention Type;type
+0;Loss Event;event
+0;Value Experience;event
+0;Controlled Situation Type;type
+0;Loss Triggering Situation Type;type
+0;Value Enabler;roleMixin
+0;Value Assessor;roleMixin
+0;Loss Situation;situation
+0;Triggering Likelihood;quality
+0;Experience Value Asc.;subkind
+0;Situation Type;type
+0;Value Event;event
+0;Object Risk Assesment;subkind
+0;Threat Event Type;type
+0;Specific Intention;category
+0;Value Subject;roleMixin
+0;Protection Event;event
+0;Causal Likelihood;quality
+0;Threat Capability Type;type
+2;Foreign Key Column;role
+2;Single Entity Table;role
+2;Entity Superclass;role
+2;Entity Table;role
+2;Primary Key Mapping;relator
+2;Entity Class;role
+2;Instance Variable;subkind
+2;One To One Relationship Mapping;relator
+2;Mapped Foreign Key;role
+2;Mapped Primary Key;role
+2;Table per Concrete Class Inheritance Mapping;relator
+2;Column;kind
+2;Inheritance Mapping;relator
+2;Spuerclass;role
+2;Variable Mapping;relator
+2;Subclass;role
+2;Relationship Association Table;role
+2;One To Many Relationship Mapping;relator
+2;Extendable Class;subkind
+2;Mapped Variable;role
+2;Inheritance;relator
+2;Single Table Inheritance Mapping;relator
+2;Entity Subclass;role
+2;Class;kind
+2;Relationship Mapping;relator
+2;Class Mapping;relator
+2;Many To One Relationship Mapping;relator
+2;Table;kind
+2;Table per Class Inheritance Mapping;relator
+2;Multiple Entities Table;role
+2;Foreign Key Mapping;relator
+2;Primary Key Column;role
+2;Nullability;quality
+2;Many to Many Relationship Mapping;relator
+3;Jogo qua agente;role
+3;Regra;kind
+3;Usabilidade;datatype
+3;QualidadeMecânica;quality
+3;Final da partidade de videogame;situation
+3;QualidadeDesign;quality
+3;Jogar;relator
+3;Inicio da partida de videogame;situation
+3;Gameplay;event
+3;MedidaQualidadeMecânica;datatype
+3;MedidaQualidadeRegra;datatype
+3;Jogador;role
+3;Design;kind
+3;Jogabilidade;quality
+3;Pessoa;kind
+3;Jogo de Videogame (software);kind
+3;Mecânica;kind
+3;QualidadeRegra;quality
+3;MedidaQualidadeDesign;datatype
+4;Endurant;category
+4;Impactful Outcome;situation
+4;Risk Experience;event
+4;Disposition;category
+4;Object Risk Assess.;subkind
+4;Root Cause Event;event
+4;Loss Situation;situation
+4;Substantial;category
+4;Loss Ascription;subkind
+4;Threat Agent;roleMixin
+4;Capability;roleMixin
+4;Risk Assessor;roleMixin
+4;Risk Enabler;roleMixin
+4;Value Enabler;roleMixin
+4;Value Perception;subkind
+4;Experience Value Asc.;subkind
+4;Object;category
+4;Object Value Asc.;subkind
+4;Relator;category
+4;Risk Event;event
+4;Value Assessor;roleMixin
+4;Valuation;event
+4;Threat Event;event
+4;Experience Risk Assessment;subkind
+4;Object at Risk;roleMixin
+4;Gain Ascription;subkind
+4;Value Asc. Ex Ante;subkind
+4;Value Experience;event
+4;Triggering Likelihood;quality
+4;Action;event
+4;Value Ascription;relator
+4;Opportunity Event;event
+4;Impact Event;event
+4;Quality;category
+4;Gain Event;event
+4;Risk Assessment;subkind
+4;Attack;event
+4;Situation Type;type
+4;Event Type;type
+4;Value;quality
+4;Causal Likelihood;quality
+4;Value Event;event
+4;Event;event
+4;Threat Object;roleMixin
+4;Mental Aspect;category
+4;Threat Capability;roleMixin
+4;Trigger Event;event
+4;Loss Event;event
+4;Risk Subject;roleMixin
+4;Vulnerability;roleMixin
+4;Value Object;roleMixin
+4;Value Asc. Component;relator
+4;Value Assertion;subkind
+4;Value Asc. Ex Post;subkind
+4;Hazardous Situation;situation
+4;Trope;category
+4;Likelihood;category
+4;Intention;category
+4;Risk;subkind
+4;Mode;category
+4;Agent;category
+4;Situation;situation
+4;Value Subject;roleMixin
+5;Office;subkind
+5;Assignment;relator
+5;Service Station;phase
+5;Board;subkind
+5;Border Station;phase
+5;Allocated Department;role
+5;Structure;category
+5;Administrative Organization;subkind
+5;Person;kind
+5;Server Allocation;relator
+5;Central Office;phase
+5;Finalistico;phase
+5;Ancillary Service;phase
+5;Advisory;subkind
+5;Allocated Office;role
+5;Local Office;phase
+5;Occupational Group;collective
+5;Land Development Technician;subkind
+5;Laboratory Technician;subkind
+5;Technical Department;subkind
+5;Regional Office;phase
+5;Operational Structure;kind
+5;Section;subkind
+5;Animal Health Inspector;subkind
+5;Allocation Unit;role
+5;Department Allocation;relator
+5;Administrative Department;subkind
+5;Organizational Structure;category
+5;Station;subkind
+5;Natural Resources Technician;subkind
+5;Administrative Structure;kind
+5;Mobile Unit;subkind
+5;Occupational Structure;category
+5;Administrative Support;subkind
+5;Operational Organization;subkind
+5;Position;kind
+5;Diagnostic Laboratory;subkind
+5;Ancillary Server;subkind
+5;Cartography Technician;subkind
+5;Occupied Position;role
+5;Technical Support;subkind
+5;Organization;kind
+5;Department;subkind
+5;Plant Health Inspector;subkind
+5;Server;role
+5;Technical Admnistrative Support;phase
+6;Actor;category
+6;Payment;relator
+6;Purchase;relator
+6;Sale;relator
+6;ProvenanceEvaluation;nonPerceivableQuality
+6;RawProduct;kind
+6;Production;relator
+6;BusinessNeed;kind
+6;ConsumerNeed;relator
+6;DeclaredProvenance;subkind
+6;GeographicIndication;subkind
+6;Provider;kind
+6;Agent;kind
+6;CounterObject;kind
+6;EndProduct;kind
+6;ValueActivity;category
+6;Consumer;kind
+6;DeclaredValue;stringNominalStructure
+6;Provenance;kind
+6;Receipt;relator
+6;Policy;kind
+6;ValueObject;category
+7;Action Draft;kind
+7;Strategic choices;category
+7;Action Planning;kind
+7;Convince;kind
+7;Anguish;subkind
+7;Peace;subkind
+7;Paper And Pencil;kind
+7;Greed;kind
+7;Aesthetics;kind
+7;Bitterness;subkind
+7;Fiero;subkind
+7;Assymetry;kind
+7;Survival_A;kind
+7;Flexible strategy;kind
+7;Action based;category
+7;Enjoyment;kind
+7;Distaste;subkind
+7;Deck;kind
+7;Hopelessness;subkind
+7;Forcefull interpretation;kind
+7;Dynamics;kind
+7;Camping;kind
+7;Risky play;kind
+7;Deduction;kind
+7;Diversion;kind
+7;Acquire information;kind
+7;Indirect effect;kind
+7;Alliance;kind
+7;Exasperation;subkind
+7;Grouping;kind
+7;Abhorrence;subkind
+7;Revenge;kind
+7;Die Marker;kind
+7;Annoyance;subkind
+7;Co-operative Play;kind
+7;Behaviour;category
+7;Fear;kind
+7;Role_Playing;kind
+7;Betting;kind
+7;Pride;subkind
+7;Game state change;kind
+7;Resource Management;kind
+7;Meta-Game;category
+7;Colection;kind
+7;Rush the game;kind
+7;Network Building;kind
+7;Dread;subkind
+7;Auction;kind
+7;Reject objectives;kind
+7;Resource extinction;kind
+7;Fury;subkind
+7;Sorrow;subkind
+7;Agressiveness;kind
+7;Combo;kind
+7;Chit-pull;kind
+7;Communication;kind
+7;Line Drawing;kind
+7;Protectionism;kind
+7;Argumentativeness;subkind
+7;Identification;kind
+7;Tile;kind
+7;Safe play;kind
+7;Curiosity;kind
+7;Schadenfreud;subkind
+7;Revulsion;subkind
+7;Count resources;kind
+7;Amusement;subkind
+7;Dice Rolling;kind
+7;Secret Unit Depoyment;kind
+7;Gamble;kind
+7;Aversion;subkind
+7;Random Draw;kind
+7;Area Movement;kind
+7;Player Elimination;kind
+7;Partnership;kind
+7;All versus one;kind
+7;Game Balance;kind
+7;Compound Emotions;kind
+7;Simultaneous Action Selection;kind
+7;One versus all;kind
+7;Compassion;subkind
+7;Tile Placement;kind
+7;Dislike;subkind
+7;Mechanics;kind
+7;Action Programming;kind
+7;Press Your Luck;kind
+7;Derived;kind
+7;Voting;kind
+7;Victory Points;kind
+7;Discouragement;subkind
+7;Sadness;kind
+7;Ecstasy;subkind
+7;Frustration;subkind
+7;Commodity Speculation;kind
+7;Grid Movement;kind
+7;Take That;kind
+7;Pick-up and Delivery;kind
+7;Collecting;kind
+7;Action;kind
+7;Area Control;kind
+7;Self objective;kind
+7;Bluffing;kind
+7;Intimidate;kind
+7;Impulse;kind
+7;Small talk;kind
+7;Repugnance;subkind
+7;Distraughtness;subkind
+7;Memory;kind
+7;Resource;kind
+7;Intention of use;category
+7;Vengefulness;subkind
+7;Card;kind
+7;Acting;kind
+7;Competition;kind
+7;Reduce options;kind
+7;Terror;subkind
+7;Component;kind
+7;Naches;subkind
+7;Sensory Pleasure;subkind
+7;Disgust;kind
+7;Goal;kind
+7;Area Enclosure;kind
+7;Anxiety;subkind
+7;Excitement;subkind
+7;Token;kind
+7;Helplessness;subkind
+7;Wonder;subkind
+7;Variable Phase Order;kind
+7;Despair;subkind
+7;Blocking;kind
+7;Desperation;subkind
+7;Trepidation;subkind
+7;Nervousness;subkind
+7;Rock-Paper-Scizors;kind
+7;Movement;kind
+7;Misery;subkind
+7;Variable Player Powers;kind
+7;Game;kind
+7;Die;kind
+7;Algorithm;kind
+7;Grief;subkind
+7;Teams;kind
+7;Disapointment;subkind
+7;Pool Building;kind
+7;Joy;subkind
+7;Card Draft;kind
+7;Survival_D;kind
+7;Relief;subkind
+7;Stock Holding;kind
+7;Action Points;kind
+7;Resignation;subkind
+7;Draft;kind
+7;Loathing;subkind
+7;Singing;kind
+7;Pattern Recognition;kind
+7;Storytelling;kind
+7;Panic;subkind
+7;Areas;kind
+7;Human Shield;kind
+7;Modular Board;kind
+7;Color Appreciation;kind
+7;Time-Track;kind
+7;Trading;kind
+7;Ruleset;kind
+7;Anger;kind
+7;Horror;subkind
+7;Phase;kind
+7;Expression;kind
+7;Trick-Taking;kind
+7;Point-toPointMovement;kind
+7;Pattern;kind
+7;Rejoicing;subkind
+7;Playing patterns;category
+7;Protection;kind
+7;Action Card;kind
+7;Data Representation;kind
+7;Sacrifice;kind
+7;Set Colection;kind
+7;Pattern Building;kind
+8;On an Exchange Stay;phase
+8;Seeking for employment;phase
+8;In requalification;phase
+8;Old Age Pensioner;role
+8;Study Interrupted;phase
+8;Employee;role
+8;Citizen´s Role;viewpoint
+8;Offspring;role
+8;Bachelor Degree Student;phase
+8;Student;role
+8;PA Client;kind
+8;Master Degree Student;phase
+8;Parenthood;relator
+8;Doctoral Degree Student;phase
+8;Pupil;phase
+8;Parent;role
+8;Unemployed;phase
+8;Enterpreneur;role
+8;Company Pensioner;role
+8;Secondary School Student;phase
+8;Company;subkind
+8;Child;phase
+8;Employed;phase
+8;Citizen;subkind
+8;Senior;phase
+9;Secular Clergy;collective
+9;Cardinal;role
+9;College of Cardinals;collective
+9;Regular Clergy Member;role
+9;Bishop;role
+9;Ordination of Deacon;relator
+9;Secular Clergy Member;role
+9;Ordinator of Bishop;role
+9;Ordained Bishop;role
+9;Person;kind
+9;Clergyman;role
+9;Deacon;role
+9;Clergy Member;role
+9;Regular Clergy;collective
+9;Nomination;relator
+9;Electorate of the Cadinal School;collective
+9;Election;relator
+9;Ordinator of Deacon;role
+9;Witness of Profession;role
+9;Bishop Ordination;relator
+9;Clergy;collective
+9;Priest;role
+9;Layman;role
+9;Cardinal Nominator;role
+9;Ordinator of Priest;role
+9;Ordination of Priest;relator
+9;Religious Profession;relator
+9;Baptism;relator
+9;Pope;role
+10;Digital;kind
+10;Individual;kind
+10;Funds;collective
+10;ArchiveManaged;role
+10;Principle of Provenance;kind
+10;Theory of the Tree Ages;kind
+10;Photography;subkind
+10;Document;kind
+10;Archive;subkind
+10;Traditional;kind
+10;Principle of Respect for Original Order;kind
+10;Collection;collective
+10;Operation;relator
+10;Archivist;role
+10;Organization;kind
+10;Document Operated;relator
+10;Management;relator
+10;Operator;role
+12;Endurant;category
+12;Trust Degree;quality
+12;Belief;category
+12;Disposition;category
+12;Disposition Belief;subkind
+12;Moment;category
+12;Trust-Warranting Signal;roleMixin
+12;Belief Intensity;quality
+12;Mental Moment Influence;subkind
+12;Loss Situation;situation
+12;Substantial;category
+12;Institution-based Trust;subkind
+12;Performance Level;quality
+12;Aspectual Belief;mode
+12;Manifestation Likelihood;quality
+12;Trust Calibration Signal;roleMixin
+12;Desire;category
+12;Capability Belief;role
+12;Social Trust;subkind
+12;Trustor;roleMixin
+12;Agent Trustee;roleMixin
+12;Object;category
+12;Influence;relator
+12;Loss Event;event
+12;int;datatype
+12;Vulnerability;roleMixin
+12;Trustworthiness Evidence;category
+12;Intention Belief;subkind
+12;Social System;kind
+12;Mental Moment;category
+12;Threat Event;event
+12;Complex Intention;category
+12;Hazardous Situation;situation
+12;Trustee Action;event
+12;Trustworthiness Evidence Influence;subkind
+12;Trust influence;subkind
+12;Vulnerability Belief;role
+12;Perception;category
+12;Trustee;roleMixin
+12;Social System Trustee;role
+12;Intention;category
+12;Atomic Intention;category
+12;Agent;category
+12;Trustor Action;event
+12;Capability;roleMixin
+12;Trust Calibration Signal Influence;subkind
+12;Trust;mode
+12;Uncertainty Signal;roleMixin
+13;Explained Attribute Key;subkind
+13;Accessible Data;role
+13;Resource;category
+13;Restricted Data Accessibility Requirements;subkind
+13;Data Accessibility Requirements;relator
+13;Authentication Protocol;subkind
+13;Data Item ID;subkind
+13;ID;subkind
+13;Rich Metadata;role
+13;Community Consensus;mode
+13;ID Registration;relator
+13;Data;collective
+13;Rich Metadata Item Attribute;role
+13;Attribute Key;kind
+13;Reusable Data;role
+13;Community;collective
+13;Provenance Metadata Item Attribute;subkind
+13;Attribute Value;kind
+13;Representation Language;kind
+13;Searchable Data;role
+13;Data Model;kind
+13;Data Usage License;relator
+13;Data Entity;category
+13;Data Access Protocol;subkind
+13;Attribute;kind
+13;Metadata Item;subkind
+13;Open Data;role
+13;Ground Data;subkind
+13;Protocol;kind
+13;Data ID;subkind
+13;Self-Explanatory Attribute Key;subkind
+13;Provenance Metadata;subkind
+13;Data Item;kind
+13;Identification Service;kind
+13;Data with Restricted Access;role
+13;Metadata;subkind
+13;Rich Provenance Metadata Item Attribute;role
+13;Rich Provenance Metadata;role
+13;Metadata Item Attribute;subkind
+13;Qualified Attribute Item;category
+13;Extrinsic Attribute Value;subkind
+13;Intrinsic Attribute Value;subkind
+13;Authorization Protocol;subkind
+13;Searchable Resource;kind
+13;Community Standard;roleMixin
+13;Registration/Indexing;relator
+14;Point;subkind
+14;Line;subkind
+14;Property;kind
+14;Surface Wind;subkind
+14;VIctim;role
+14;Sea Surface;kind
+14;Material Property;role
+14;Spatial Thing;category
+14;Severe Weather Events;event
+14;Meteorological Parameters;kind
+14;Atmospheric Pressure;subkind
+14;Weather Forecast Time Point;TimePoint
+14;Numerical Weather Prediction Models;kind
+14;Air Temperature;kind
+14;Polygon;subkind
+14;Person;kind
+14;Precipitation;subkind
+14;Cloudiness;subkind
+14;Geographic Coverage;kind
+14;National Meteorological Service;kind
+14;Temperature;subkind
+14;Global Observation System;kind
+14;Severe Weather Event Moment;TimePoint
+14;Regional Numerical Models;subkind
+14;Severe Weather Indicators;situation
+14;Weather Forecast;kind
+14;Geographic Object;kind
+14;Time Interval;kind
+14;Relative Humidity;subkind
+14;Local Data Manager;role
+14;Damage;situation
+14;Software Agent;kind
+14;Weather Forecaster;role
+14;Weather Reports;datatype
+14;World Numerical Models;subkind
+15;sportActivity;kind
+15;university;kind
+15;professor;role
+15;housingAdPost;kind
+15;services;subkind
+15;outdoor;subkind
+15;universityBoard;relator
+15;product;kind
+15;postSearch;subkind
+15;discountAmount;quantity
+15;ownProfileEditing;subkind
+15;ownProfileView;subkind
+15;productRegularPrice;phase
+15;EducationalOrganization;category
+15;post;category
+15;user;role
+15;productDiscount;phase
+15;store;kind
+15;housePrice;quality
+15;postComment;subkind
+15;image;kind
+15;entertainmentAmentity;subkind
+15;house;kind
+15;locationCollection;collective
+15;food;subkind
+15;date;quality
+15;phdStudent;role
+15;kitchenAmenity;subkind
+15;bachelorStudent;role
+15;neutralSport;subkind
+15;ownProfileInteraction;relator
+15;othersProfileInteraction;relator
+15;school;subkind
+15;houseLocation;subkind
+15;sportEvent;kind
+15;profileInteractor;role
+15;profileEmail;quality
+15;indoor;subkind
+15;location;kind
+15;person;kind
+15;pub;subkind
+15;label;quality
+15;sportOrganizationMember;role
+15;postAuthor;role
+15;creativeWork;category
+15;amenity;kind
+15;sportorganizationBoard;relator
+15;postInteraction;relator
+15;amenitiesCollection;collective
+15;profileView;subkind
+15;video;kind
+15;clothing;subkind
+15;bedroomAmentity;subkind
+15;profilePicture;quality
+15;postCreation;relator
+15;organization;category
+15;postLabeling;subkind
+15;sportOrganization;kind
+15;masterStudent;role
+15;bathroomAmenity;subkind
+15;postInteractor;role
+15;winterSport;subkind
+15;hospital;subkind
+15;profileName;quality
+15;postDeletion;subkind
+15;profileLearningLanguage;quality
+15;ownProfileDetetion;subkind
+15;nearbyHouseFacilities;quality
+15;event;category
+15;audio;kind
+15;storeLocation;subkind
+15;numberOfRooms;quality
+15;teachingAssistant;role
+15;postRating;subkind
+15;rating;quality
+15;discountPost;kind
+15;SportActivityPost;kind
+15;profileSpokenLanguage;quality
+15;eventHostsBoard;relator
+15;text;kind
+15;profileSearch;subkind
+15;postalAddress;quality
+15;postEditing;subkind
+15;parkArea;subkind
+15;profileUserAge;quality
+15;sportLocation;kind
+15;summerSport;subkind
+15;appRegistration;relator
+15;houseNumOfOccupants;quality
+15;Profile;kind
+15;profileMessage;subkind
+16;Non-functional Requirement;quality
+16;Methods;enumeration
+16;Experience Levels;enumeration
+16;Architectural styles;enumeration
+16;Proficiency Levels;enumeration
+16;Quality attribute;quality
+16;Person;kind
+16;Types;enumeration
+16;Program increment;subkind
+16;Programming framework;kind
+16;Programming environment;kind
+16;Programming langauge;kind
+16;Membership;relator
+16;Quality Levels;enumeration
+16;Story;kind
+16;Sprint;kind
+16;Business Role;role
+16;Compiler;kind
+16;Software development project;kind
+16;Platform;kind
+16;Attributes;enumeration
+16;Platforms;enumeration
+16;int;datatype
+16;Program;kind
+16;Team;kind
+16;Epic;kind
+16;Proficiency level;kind
+16;Resources;enumeration
+16;Roles;enumeration
+16;Resource;category
+16;Role;kind
+16;Importance levels;enumeration
+16;Employee;role
+16;Requirements;enumeration
+17;event;event
+17;role_in_biological_event;type
+17;regulator;historicalRoleMixin
+17;int;datatype
+17;process;event
+17;string;datatype
+17;Entity_in_process;historicalRoleMixin
+17;pathway;event
+17;output;historicalRoleMixin
+17;input;historicalRoleMixin
+17;biological_event;event
+17;biological_entity;category
+17;active_entity;phaseMixin
+17;participation_in_biological_event;event
+17;degraded_entity;phaseMixin
+18;Element_Module;relator
+18;Phase;kind
+18;Deg_Reg;relator
+18;Element;kind
+18;SubPhase;role
+18;Sub_Phase;relator
+18;Regulation;kind
+18;VariationReg;role
+18;Variant;kind
+18;PhaseWithModule;role
+18;UpperPhase;role
+18;Degree;kind
+18;Subject;kind
+18;Module_Phase;relator
+18;Module;kind
+18;Var_Reg;relator
+18;DegreeRegulation;role
+19;IT Service;kind
+19;Process;relator
+19;Data Storage;subkind
+19;Occurrence;relator
+19;Technical Vulnerability;subkind
+19;Authorization;subkind
+19;Consumer Organization;subkind
+19;User;role
+19;Event;relator
+19;Public Cloud;category
+19;Consumer Person;subkind
+19;IaaS Environment;kind
+19;IT Resource;subkind
+19;Certain Event;role
+19;Consumer;kind
+19;Authentication;subkind
+19;Uncertain Event;role
+19;Provide Service;relator
+19;Hardware;kind
+19;Software;kind
+19;Vulnerability;kind
+19;Contract;relator
+19;Threat;kind
+19;IT Service Provider;category
+19;IT Infrastructure;subkind
+19;Access Policy;kind
+19;Data Processing;subkind
+19;Administrative Vulnerability;subkind
+19;IaaS;kind
+19;Incident;kind
+19;Availability;kind
+19;Agreed Function;relator
+20;Contribution;relator
+20;Composition;relator
+20;Keyword;kind
+20;FunctionalConcern;subkind
+20;NonFunctionalConcern;subkind
+20;Source;kind
+20;Concern;kind
+20;Dependency;relator
+20;Relationship;relator
+20;SourceType;enumeration
+20;ContributionType;enumeration
+21;Problem Solution;goal
+21;Value Proposition;relator
+21;Satisfaction Level;belief
+21;Resource;object
+21;Intention;intention
+21;Control;relator
+21;Action;event
+21;Recipient;Agent
+21;Provider;Agent
+21;Value;proposition
+21;Capability;disposition
+21;Caused State;situation
+22;Game;kind
+22;Encounter;relator
+22;NonPlayerCharacter;kind
+22;Adventure;mode
+22;Goal;UFO-C
+22;State;mode
+22;Object;category
+22;Consumable;kind
+22;Campaign;mode
+22;Entity;category
+22;Mission;collective
+22;DigitalGame;kind
+22;Session;collective
+22;Match;category
+22;Etc;kind
+22;Scenario;subkind
+22;Player;role
+22;Character;kind
+22;Planning;category
+22;Equipment;kind
+22;Action;UFO-C
+22;Event;UFO-B
+22;Location;kind
+23;Jurisdiction Agent;roleMixin
+23;Object;mixin
+23;Society;kind
+23;Social Agent;category
+23;Underage;phase
+23;Qualified Situation;role
+23;Recent Rule;role
+23;Jurisdictional State;role
+23;Guarantor;role
+23;Legal Object;roleMixin
+23;State;kind
+23;Guaranteed;role
+23;Crime Author;role
+23;Superior Rule;role
+23;Juridical Person;kind
+23;General Rule;role
+23;Criminally Liable;phase
+23;Passive Juridical Person;role
+23;Crime Agent;roleMixin
+23;Physical Object;kind
+23;Mentally Sick;phase
+23;Criminally Incapable;phase
+23;Physical Agent;category
+23;Legal Agent;roleMixin
+23;Collective Social Agent;category
+23;Passive Agent;roleMixin
+23;Disallowed Situation;role
+23;Specific Rule;role
+23;Abstract Object;role
+23;Able Person;phase
+23;Allowed Situation;role
+23;Mandatory Situation;role
+23;Crime Object;roleMixin
+23;Guarantor Able Person;role
+23;Adult;phase
+23;Mentally Healthy;phase
+23;Material Object;role
+23;Social Object;kind
+23;Passive Person;role
+23;Ancient Rule;role
+23;Active Agent;role
+23;Institutional Agent;category
+23;Natural Person;kind
+23;Agent;mixin
+23;Inferior Rule;role
+23;Passive Society;role
+24;Leaf_Wetting_Duration;category
+24;Oher_Variables;kind
+24;Production_Evolution_States;category
+24;TIFF;datatype
+24;NDVI_Index;category
+24;Geolocation;subkind
+24;Digital_Images;kind
+24;Hours/day;datatype
+24;Climate_Station;kind
+24;Maximum_Temperature;category
+24;Accumulated_Precipitation;category
+24;Milimeters;datatype
+24;Percentage;datatype
+24;Crop;kind
+24;Minimum_Temperature;category
+24;Satellite_Images;subkind
+24;Degrees_Celsius;datatype
+24;Air_Relative_Humidity;category
+25;StateCompany;phase
+25;MixedEconomyCompany;phase
+25;Autarchy;subkind
+25;PublicEntity;category
+25;Organization;category
+25;PublicOrganization;category
+25;PublicAdmnistrativeUnit;subkind
+25;Company;kind
+25;UnityOfOrganization;kind
+25;NonEmpresarialPublicEntity;kind
+25;OrganizationalUnit;category
+25;Órgão Colegiado;kind
+25;PublicCompany;phase
+25;Órgão;kind
+25;Foundation;subkind
+26;Brokerage;subkind
+26;Stock;relator
+26;Public Traded Company;role
+26;Buyer;role
+26;Contract;relator
+26;Stock Exchange;subkind
+26;Hired Brokerage;role
+26;StockHolder;roleMixin
+26;StockholderOrganization;role
+26;Person;kind
+26;Stock Keeper;role
+26;Organization;kind
+26;Seller;role
+26;Stockholder Person;role
+27;Utility;mode
+27;Impact Event;event
+27;Threat Event;event
+27;Resulting Situation;situation
+27;Intention;mode
+27;Threatening Situation;situation
+27;Action Profile;event
+27;Loss Event;event
+27;Player Action;event
+27;Utility Value;quality
+27;Value Experience;event
+27;Agent;category
+27;Unity Value Ascription;mode
+27;Gain Event;event
+27;Successful Situation;situation
+27;Outcome;event
+27;Risk Event;event
+27;Game;relator
+27;Value Event;event
+27;Utility Value Magnitude;datatype
+27;Game Player;roleMixin
+27;Trigger Event;event
+28;HumanBody;kind
+28;LesserGod;subkind
+28;Sameness;kind
+28;Philosopher-king;role
+28;GuardianPerson;role
+28;World'sSoul;kind
+28;Name;subkind
+28;Belief;kind
+28;Good;mode
+28;Democratic;subkind
+28;Difference;kind
+28;Triangle;kind
+28;LivingThing;subkind
+28;Reason;kind
+28;Education;kind
+28;Auxiliaries;collective
+28;ProducerPerson;role
+28;Intellect;kind
+28;Family;collective
+28;CardinalVirtue;mode
+28;Form;kind
+28;Temperance;subkind
+28;Constitution;mode
+28;HeavenlyBody;kind
+28;Appetite;kind
+28;Isosceles;subkind
+28;PrivateProperty;subkind
+28;Property;kind
+28;HumanSoul;kind
+28;Guardians;collective
+28;SensePerception;kind
+28;OriginalName;phase
+28;Imagination;kind
+28;boolean;datatype
+28;World'sBody;kind
+28;Citizen;role
+28;NobleLie;kind
+28;Fire;subkind
+28;Class;category
+28;string;datatype
+28;Thinking;kind
+28;HumanBeing;subkind
+28;Demiurge;kind
+28;Timocratic;subkind
+28;Element;kind
+28;Citiznship;relator
+28;StateProperty;subkind
+28;Earth;subkind
+28;Convention;relator
+28;IdealCity;kind
+28;Air;subkind
+28;Courage;subkind
+28;Being;relator
+28;PsychologicalConstitution;mode
+28;Tyrannical;subkind
+28;SpecificFormOfTheName;subkind
+28;NameBearerObject;subkind
+28;Spirit;kind
+28;Justice;subkind
+28;Particular;kind
+28;God;category
+28;Recollection;kind
+28;Water;subkind
+28;Aristocratic;subkind
+28;AuxiliaryPerson;role
+28;Producers;collective
+28;Essence;kind
+28;Universe;subkind
+28;Scalene;subkind
+28;PresentName;phase
+28;Receptacle;kind
+28;Wisdom;subkind
+28;Oligarchic;subkind
+29;Recommendation Referencing Recomendation;subkind
+29;Concept Definition;relator
+29;Concept Defining Recommendation;subkind
+29;Concept;kind
+29;Problematic Recommendation;subkind
+29;Recommendation Version;kind
+29;Indirectly Recommendation Referenced Recomendation;subkind
+29;Indirectly Recommendation Referencing Recomendation;subkind
+29;Recommendation Referenced Recomendation;subkind
+29;Possibly Problematic Recommendation;subkind
+29;Publication;relator
+29;Correct Concept;subkind
+29;Recommendation;kind
+29;char;datatype
+29;int;datatype
+29;Concept Referencing Recommendation;subkind
+29;Problematic Concetp;subkind
+29;Referenced Concept;subkind
+30;Solved CR;phase
+30;Performed General Process;event
+30;Configuration Audit Report;subkind
+30;Checkout;event
+30;Configuration Item (CI);roleMixin
+30;Change Implementation;event
+30;Performed Process;event
+30;Simple Artifact;category
+30;Configuration Manager;role
+30;Evaluate CR;phase
+30;Configuration Management Plan;subkind
+30;Checkin;event
+30;Change Implementer;role
+30;Item;mixin
+30;Configuration Items Identification;event
+30;Change Requester;role
+30;Configuration Management System Establishment;event
+30;Performed Activity;event
+30;Closed CR;phase
+30;Change Request Closing;event
+30;Document;kind
+30;CR Being Solved;phase
+30;Baseline Establishment;event
+30;Request Evaluation;event
+30;Change Request (CR);subkind
+30;Information Item;kind
+30;Configuration Management Process;event
+30;Release Management and Delivery;event
+30;Reviewed CR;phase
+30;Artifact Copy;category
+30;Configuration Auditor;role
+30;Stakeholder;roleMixin
+30;Performed Simple Activity;event
+30;Software Item;kind
+30;Perofrmed Specific Process;event
+30;Configuration Auditing;event
+30;Baseline;subkind
+30;Deliverable Product;subkind
+30;Artifact;category
+30;Perfomed Composite Activity;event
+30;Change Requesting;event
+30;Change Accomplishment;event
+30;Model;kind
+30;Composite Artifact;category
+30;Software Product;kind
+30;Change Review;event
+30;Change Request Evaluator;role
+30;Change Reviewer;role
+30;Communicate CR;phase
+30;Artifact CI;role
+30;Version;mode
+30;Configuration Management Planning;event
+30;Change Control;event
+31;Value;enumeration
+31;Granulometry;enumeration
+31;Rock;quantity
+31;Oil + Porous rock;situation
+31;Siliciclastic Rock;quantity
+31;Generation;event
+31;contact;datatype
+31;LithologicUnit qua shale;kind
+31;Oil;quantity
+31;Reservoir;role
+31;Seal;role
+31;Oil + Mudstone + Porous Rock;situation
+31;LithologicUnit qua sandstone;kind
+31;Oil + Trap;situation
+31;Porosity;quality
+31;BoundaryType;enumeration
+31;Trap;mixin
+31;Sandstone;quantity
+31;Acumulation;event
+31;Structure;enumeration
+31;Source Rock;role
+31;Lithological unit;kind
+31;Dimensions;enumeration
+31;Shale;quantity
+31;Pre-generation;situation
+31;Migration;event
+31;Boundary;kind
+31;Quantity Organic matter;quality
+31;Hidrocarbon;quantity
+32;economic-resource;roleMixin
+32;to;relator
+32;transfer;kind
+32;decrement-event;roleMixin
+32;stock-flow;relator
+32;inflow;relator
+32;inside-party;relator
+32;participation;relator
+32;transformation-duality;relator
+32;duality;relator
+32;consume;role
+32;economic-agent;roleMixin
+32;from;relator
+32;produce;role
+32;transformation;kind
+32;increment-event;roleMixin
+32;take;role
+32;give;role
+32;outflow;relator
+32;trading-partner;roleMixin
+32;transfer-duality;relator
+32;economic-event;roleMixin
+32;outside-party;relator
+33;penalty;subkind
+33;major premisse;role
+33;designatedRegistry;role
+33;document;kind
+33;registry;subkind
+33;system;kind
+33;civilCommitment;relator
+33;organizationalPart;subkind
+33;serviceUnit;role
+33;destiny;kind
+33;facto;kind
+33;search;subkind
+33;title;kind
+33;designatedSection;role
+33;update;subkind
+33;Atomic;subkind
+33;action;relator
+33;source;kind
+33;organization;subkind
+33;internalAffairDepartment;subkind
+33;military;role
+33;militaryCommitment;relator
+33;conclusion;role
+33;delete;subkind
+33;attachment;kind
+33;keywordSet;collective
+33;Composed;subkind
+33;command;relator
+33;sectionResponsible;role
+33;activity;kind
+33;individualBase;phase
+33;reward;subkind
+33;message;subkind
+33;content;kind
+33;commandUnit;role
+33;policeIAD;subkind
+33;individual;subkind
+33;organizationalBase;phase
+33;norm;kind
+33;secondary premisse;role
+33;civil;role
+33;subject;kind
+33;registryResponsible;role
+33;viceInspector;role
+33;public;phase
+33;section;subkind
+33;applicationNorm;relator
+33;substitution;relator
+33;personal;phase
+33;designationResponsabilitySection;relator
+33;base;collective
+33;designationResponsabilityRegistry;relator
+33;team;collective
+33;create;subkind
+33;phenomenon;relator
+33;sanction;kind
+33;keyword;kind
+33;experience;subkind
+33;civilServiceUnit;role
+33;commitment;relator
+33;generalInspector;role
+35;Competitor;roleMixin
+35;Simple Market;subkind
+35;Equivalent Capability;role
+35;Value Proposition;relator
+35;Market Competition;relator
+35;Capability;quality
+35;Potential Competition;relator
+35;Supplier;roleMixin
+35;Scarce Resource;roleMixin
+35;Non-Competition;phase
+35;Resource;mixin
+35;Single Resource;roleMixin
+35;Direct Competitor;roleMixin
+35;Supplier Capability;role
+35;Demand for Market;mode
+35;Resource Stock;collective
+35;Market Competitor;roleMixin
+35;Resource Demand;mode
+35;Agent;category
+35;Economic Agent;category
+35;Potential Competitor;roleMixin
+35;Competition;phase
+35;Collective Demand;relator
+35;Indirect Competitor;roleMixin
+35;Market;collective
+35;Resource Type;type
+35;Composed Market;subkind
+36;Electricity Consumption;relator
+36;Robot;kind
+36;Object Lifter;role
+36;BalanceSupport;relator
+36;Robot Handle;kind
+36;Being Supported;role
+36;Patient;kind
+36;Electricity Consumer;role
+36;LiftUp;relator
+36;Balance Supporter;role
+36;Being Lifted;role
+36;Electricity Source;role
+36;Battery;kind
+37;Actor;category
+37;Payment;relator
+37;Purchase;relator
+37;Sale;relator
+37;ProvenanceEvaluation;nonPerceivableQuality
+37;RawProduct;kind
+37;Production;relator
+37;BusinessNeed;kind
+37;ConsumerNeed;relator
+37;DeclaredProvenance;subkind
+37;GeographicIndication;subkind
+37;Provider;kind
+37;Agent;kind
+37;CounterObject;kind
+37;EndProduct;kind
+37;ValueActivity;category
+37;Consumer;kind
+37;DeclaredValue;stringNominalStructure
+37;Provenance;kind
+37;Receipt;relator
+37;Policy;kind
+37;ValueObject;category
+38;Course;kind
+38;NonCharacterizedQuestion;role
+38;AnsweredQuestion;role
+38;Student;role
+38;Organization;subkind
+38;Curriculum;collective
+38;WorkContract;relator
+38;ParticipantWithQuestion;role
+38;TutoredDiscipline;role
+38;Enrollment;relator
+38;Tutor;role
+38;Topic;kind
+38;Question;kind
+38;Person;subkind
+38;Agent;kind
+38;Ementa;collective
+38;ParticipantWithanswer;role
+38;CharacterizingTopic;role
+38;EducationalInstitution;subkind
+38;OpenQuestion;role
+38;NonCharacterizingTopic;role
+38;NonTutoredDiscipline;role
+38;CharacterizedQuestion;role
+38;Participant;role
+38;Tutoring;relator
+38;Answer;kind
+38;Professor;role
+38;Discipline;kind
+38;ActiveStudent;role
+39;Offered Contribution;event
+39;Economic Offering;relator
+39;Offered Contribution Type;type
+39;Offer;event
+39;Counterpart Contribution;event
+39;Counterpart Contribution Type;type
+39;Conditional Commitment;mode
+39;Preference;mode
+39;Offeree Unconditional Agreement;mode
+39;Economic Agreement;relator
+39;Agent;category
+39;Economic Exchange;event
+39;Offeror;roleMixin
+39;Conditional Claim;mode
+39;Economic Exchange Type;type
+39;Offeree;roleMixin
+39;Offeror Unconditional Agreement;mode
+40;EventFlow;mode
+40;UseTestCase;role
+40;EntityType;kind
+40;ClassTestCase;role
+40;BasicFlow;mode
+40;RequirementTestCase;role
+40;Project;kind
+40;UseCase;kind
+40;Precondition;role
+40;NonFunctionalRequirement;subkind
+40;Module;kind
+40;Artifact;category
+40;FunctionalRequirement;subkind
+40;Class;subkind
+40;AlternativeFlow;mode
+40;BusinessRule;subkind
+40;Postcondition;role
+40;Requirement;kind
+40;Condition;kind
+40;TestCase;kind
+41;FI Monetary Credit;quality
+41;Institution-based Trust;mode
+41;Currency Quality Space Structure;kind
+41;Monetary System;kind
+41;Monetary Object;roleMixin
+41;Price;quality
+41;Purchasing Power;mode
+41;FI Monetary Debt;quality
+41;Monetary Authority;roleMixin
+41;Control;relator
+41;Not Valid Monetary Object;phaseMixin
+41;Purchaseble VC Token;roleMixin
+41;Object Type;type
+41;Pricing;relator
+41;Monetary Credit;quality
+41;Financial Institution;roleMixin
+41;Digital Monetary Object;roleMixin
+41;Virtual Currency Token;roleMixin
+41;Bidirectional Flow VC Token;roleMixin
+41;Monetary Object Type;type
+41;Valid Monetary Object;phaseMixin
+41;Virtual Currency Quality Space;datatype
+41;Normative Description;category
+41;Object;category
+41;Monetary Debt;quality
+41;Virtual Currency Token Type;type
+41;Agent;category
+41;Bidirectional VC Control;subkind
+41;Monetary Authority Credit/Debt Relation;relator
+41;Virtual Currency System;kind
+41;Object-based Credit/Debt;subkind
+41;Virtual Currency Scheme Description;category
+41;Currency Quality Space;datatype
+41;Aggregated Exchange Power;mode
+41;Currency;kind
+41;Closed VC Token;roleMixin
+41;Financial Institution Credit/Debt Relation;relator
+41;Unidirectional Flow VC Token;roleMixin
+41;Exchange Power in VC;mode
+41;Exchange Power;mode
+41;Virtual Currency Quality Structure;kind
+41;Exchange Power in Currency;mode
+41;VC Control;relator
+41;Money Status Function Description;category
+41;Registry-based Credit/Debt;subkind
+41;Physical Monetary Object;roleMixin
+41;Social Object;category
+41;Virtual currency;kind
+42;ActiveProfessor;phase
+42;Curriculum;kind
+42;CourseCoordinator;role
+42;InactiveCurriculum;phase
+42;Discipline;kind
+42;StudentMandate;relator
+42;Parity;datatype
+42;Semester;quality
+42;Enrollment;relator
+42;InactiveProfessor;phase
+42;Higher Education Institution;subkind
+42;EgressStudent;phase
+42;Center;subkind
+42;InactiveClass;phase
+42;RegularStudent;phase
+42;Field;quality
+42;Year;datatype
+42;SuspendedStudent;phase
+42;Class;role
+42;DepartmentChief;role
+42;ClassEnrollment;relator
+42;Student;role
+42;ActiveCurriculum;phase
+42;Professor;role
+42;Course;kind
+42;Organization;kind
+42;Department;subkind
+42;ProfessorMandate;relator
+42;ActiveClass;phase
+42;Date;datatype
+42;Person;kind
+42;Colegiado;role
+43;Suspensível;subkind
+43;Definitiva (art. 12,I,b);subkind
+43;Registro no exterior (art. 12,I,c, primeira parte);subkind
+43;Nacionalidade brasileira nata;subkind
+43;A requerimento (art. 12,I,c, segunda parte);subkind
+43;Na forma de lei;subkind
+43;Jus solis (art. 12,I,a);subkind
+43;Nacionalidade brasileira naturalizada;subkind
+43;Nacionalidade Brasileira;relator
+43;Estrangeiros de qualquer nacionalidade;subkind
+43;Jus sanguinis;subkind
+43;Origem país de língua portuguesa;subkind
+44;Music Composer;role
+44;Written Representation;kind
+44;Publisher;role
+44;Software Program;kind
+44;Symphonic Poem;subkind
+44;Slow Moviment;phase
+44;Musician;role
+44;Member;role
+44;Suite;subkind
+44;Person;kind
+44;Music Work;subkind
+44;Musical Member;role
+44;Symphony;subkind
+44;Dance-like Moviment;phase
+44;Orchestral Work;subkind
+44;Artistic Composition;relator
+44;Composite Moviment;subkind
+44;Publishment;relator
+44;Overture;subkind
+44;Orchestra;subkind
+44;Composer;role
+44;Artistic Group;subkind
+44;Short Moviment;phase
+44;Part;subkind
+44;Suite Short Moviment;role
+44;Fast Moviment;phase
+44;Art Work;kind
+44;Musical Group;subkind
+44;Musical Composition;relator
+44;Individual Artist;role
+44;Opera;subkind
+44;Artist;mixin
+44;Ballet;subkind
+44;Moviment;kind
+44;Long Moviment;phase
+44;Full Score;subkind
+44;Group;collective
+44;Oeuvre;kind
+44;Artistic Member;role
+44;Key;datatype
+44;Sketch;subkind
+44;Individual Moviment;subkind
+46;AlbumTrack;role
+46;Intention;mode
+46;Mother;role
+46;LocationCoordinates;datatype
+46;MentalState;mode
+46;Female Person;subkind
+46;Recording;relator
+46;Belief;mode
+46;Person;kind
+46;Album;kind
+46;Father;role
+46;Physical Object;quantity
+46;Inanimate Entity;category
+46;Material Entity;category
+46;Organization;kind
+46;Museum;kind
+46;Gallery;kind
+46;SpatialThing;category
+46;Agent;category
+46;Living Person;phase
+46;Authorship;relator
+46;PriorityLevel;datatype
+46;ActiveAgent;mixin
+46;Human Heart;kind
+46;Group;collective
+46;Deceased Person;phase
+46;SurgeryRoom;kind
+46;ActiveOrganization;phase
+46;Band;subkind
+46;GeographicalSpace;category
+46;Band Member;role
+46;Statue;kind
+46;Performer Artist;mixin
+46;Parent;role
+46;Registration;relator
+46;ExtinctOrganization;phase
+46;Biological Entity;category
+46;Desire;mode
+46;Offspring;role
+46;Male Person;subkind
+46;Individual Artist;role
+46;Human Organ;category
+46;Track;kind
+47;Loyal;phase
+47;CustomerRelationshipActivity;event
+47;Faithful;phase
+47;Lead;phase
+47;Organization;kind
+47;Strategy;event
+47;CustomerJourneyExperience;mode
+47;Consumption;phase
+47;BuyerPersona;kind
+47;Channel;kind
+47;PhysicalChannel;subkind
+47;DigitalChannel;subkind
+47;Decision;phase
+47;Awareness;phase
+47;CustomerRelationshipStatus;relator
+47;Market;collective
+47;CustomerJourneyActivity;event
+47;ValueProposition;relator
+47;Promoter;phase
+47;Stranger;phase
+47;Customer;phase
+47;Engage;event
+47;Prospect;phase
+47;Attract;event
+47;Analytic;event
+47;Delight;event
+47;Consideration;phase
+47;InformationElement;kind
+47;Advocacy;phase
+48;Receiver;roleMixin
+48;Agent;category
+48;Money Transfer Conditional Commitment;mode
+48;Cash Event;subkind
+48;Provider;roleMixin
+48;Good Transfer Conditional Commitment;mode
+48;Economic Exchange;event
+48;Economic Agent;roleMixin
+48;Sell Event;subkind
+48;Bilateral Economic Contract;relator
+48;Economic Event;event
+49;Preventive Action;subkind
+49;Item Evaluation;relator
+49;Problem Issue;role
+49;Person;kind
+49;Registered NC;phase
+49;Finished Issue;phase
+49;Identified NC;phase
+49;Cause Identification;relator
+49;Project;kind
+49;Finished NC;role
+49;Evaluation Checklist;collective
+49;Appraiser;role
+49;Evaluation Criteria;kind
+49;Employment;relator
+49;Noncompliance;kind
+49;Issue;kind
+49;Improvement Suggestion;subkind
+49;Planned NC;role
+49;Corretive Action;subkind
+49;Implementing Issue;phase
+49;Standard Process;kind
+49;Resolving NC;role
+49;Process Occurrence;mode
+49;Lesson Learned;kind
+49;Objective Evaluation;relator
+49;Planned Issue;phase
+49;Project Process;kind
+49;NC Issue;role
+49;Work Product Evaluation Criteria;subkind
+49;Canceled NC;phase
+49;Problem;kind
+49;Non Effective Issue;phase
+49;Process Evaluation Criteria;subkind
+49;Problem Action Item;relator
+49;Cause;kind
+49;Organization;kind
+49;NC Action Item;relator
+49;Evaluation Find;category
+49;Effective Issue;phase
+49;NC Cause;role
+49;Human Resource;role
+50;Tourist;role
+50;Plane;kind
+50;Passenger;role
+50;Boat;kind
+50;Hotel Reservation;subkind
+50;Route;relator
+50;string;datatype
+50;Bus Ticket;subkind
+50;Bus;kind
+50;Hotel Room;kind
+50;Plane Ticket;subkind
+50;Child;phase
+50;Transportation Mean;category
+50;Ticket;relator
+50;Destination;roleMixin
+50;National Destination;roleMixin
+50;Travel Investment;datatype
+50;Train Ticket;subkind
+50;Departure Place;roleMixin
+50;Costumer;role
+50;Date;datatype
+50;International Destination;roleMixin
+50;Airbnb;kind
+50;Train;kind
+50;International Trip;subkind
+50;Departure Date;datatype
+50;Person;kind
+50;Arrival Place;roleMixin
+50;Car;kind
+50;Driver;role
+50;Adult;phase
+50;Accommodation;category
+50;Legal Authorization;kind
+50;National Tourist;role
+50;Origin;roleMixin
+50;Reservation;relator
+50;National Trip;subkind
+50;Trip;relator
+50;International Tourist;role
+50;Arrival Date;datatype
+50;int;datatype
+50;Driving License;relator
+50;Airbnb Reservation;subkind
+50;Boat Ticket;subkind
+51;Water;subkind
+51;InQuantity;mode
+51;ChangeInPlace;event
+51;HighestGoal;subkind
+51;CelestialSphere;kind
+51;Potentiality;relator
+51;Soul;kind
+51;CelestialBody;subkind
+51;VirtuousPerson;subkind
+51;Mind;kind
+51;Premise;role
+51;Universe;subkind
+51;SmellPerception;kind
+51;MentalState;kind
+51;SubordinateGoal;subkind
+51;Imagination;kind
+51;FormedMatter;phase
+51;ChangeInQuantity;event
+51;FirstPhilosophy-Metaphysics;subkind
+51;Psychology;subkind
+51;Moved(PassiveObject);role
+51;ProductiveSciences;kind
+51;Tiranny;subkind
+51;HearPerception;kind
+51;Before&AfterInTime;subkind
+51;Wealth;subkind
+51;ResidentPopulation;collective
+51;Mathematics;subkind
+51;Figure;relator
+51;Lawgiver;role
+51;Politician;role
+51;Number;quantity
+51;Community;collective
+51;Object;kind
+51;ChangeInSubstance;event
+51;Nature;kind
+51;Polity;subkind
+51;PracticalSciences;kind
+51;Medicine;subkind
+51;TheroraticalWisdom;subkind
+51;Biology;subkind
+51;IntelectualVirtue;subkind
+51;Before&After;mode
+51;Before&AfterInChange;subkind
+51;Differentia;mode
+51;Actuality;relator
+51;ObjectOfPerception;kind
+51;Extreme;role
+51;Theatre;subkind
+51;Subject;subkind
+51;SpokenWord;subkind
+51;string;datatype
+51;Meaning;kind
+51;Term;kind
+51;PerceptiveFaculty;kind
+51;ResidentPerson;kind
+51;EssentialUniversal-SecondarySubstance;kind
+51;ConstitutionalForm;mode
+51;Oligarchy;subkind
+51;VirtuousActivity;kind
+51;UnmovedMover;kind
+51;Particular;subkind
+51;SupremeGenus-HighestKind;kind
+51;Science-Knowledge;category
+51;Assertion;kind
+51;Non-Citizen;role
+51;PrimeMatter;subkind
+51;Affirmation;subkind
+51;Desire;kind
+51;GoodLife;kind
+51;NameBearerObject;kind
+51;Perception;relator
+51;Thinking;relator
+51;PracticalWisdom;subkind
+51;ImpetuousPerson;subkind
+51;Goal;kind
+51;EvilPerson;subkind
+51;SeePerception;kind
+51;Cause;kind
+51;StateOfMind;kind
+51;Predicate;subkind
+51;InSubstance;mode
+51;Dance;subkind
+51;InQuality;mode
+51;Dry;quality
+51;PracticalMind;subkind
+51;Ethics;subkind
+51;SpecialSciences;subkind
+51;Constitution;kind
+51;Passive Intellect;role
+51;ChangeInQuality;event
+51;Territory&Assets;kind
+51;Botany;subkind
+51;FormalCause;subkind
+51;Pleasure;subkind
+51;Health;subkind
+51;Mind;kind
+51;Aether;subkind
+51;Music;subkind
+51;ObjectOfTought;kind
+51;Mood;mode
+51;Ship-building;subkind
+51;Democraty;subkind
+51;TheoreticalSciences;kind
+51;EssentialParticular-PrimarySubstance;kind
+51;TastePerception;kind
+51;Mean;kind
+51;Element;kind
+51;ActiveIntellect;role
+51;LivingBeing;kind
+51;CommonSense;kind
+51;Intelligible Form;kind
+51;DifferentiaForGenus;role
+51;Knowledge (ofObject);kind
+51;Present;phase
+51;TheoreticalMind;subkind
+51;Citizen;role
+51;Virtue;mode
+51;Future;phase
+51;IncontinentPerson;subkind
+51;Person;kind
+51;Aristocracy;subkind
+51;Matter;quantity
+51;AstronomicalTheory;subkind
+51;GoldenMean;mode
+51;CorrectForm;subkind
+51;SublunaryBody;subkind
+51;FinalCause;subkind
+51;MaterialCause;subkind
+51;Cold;quality
+51;Time;subkind
+51;DifferentiaForSpecies;role
+51;ActivePotentiality;role
+51;Reproduction;kind
+51;SublunaryMatter;subkind
+51;Air;subkind
+51;Kingship;subkind
+51;Happiness;kind
+51;boolean;datatype
+51;Word;kind
+51;Change;event
+51;LivingBody;kind
+51;InPlace;mode
+51;EthicalVirtue;subkind
+51;DeviantForm;subkind
+51;Species;subkind
+51;PoliticalOffice;kind
+51;Earth;subkind
+51;TouchPerception;kind
+51;AccidentalUniversal;kind
+51;AccidentalParticular-NonSubstantialParticular;role
+51;Past;phase
+51;WeakPerson;subkind
+51;Agriculture;subkind
+51;Right;relator
+51;City-State;kind
+51;ForcedMotion;event
+51;Wet;quality
+51;Conclusion;role
+51;Convention;relator
+51;Denial;subkind
+51;Genus;subkind
+51;Nutrition;kind
+51;Fire;subkind
+51;PassivePotentiality;role
+51;ContinentPerson;subkind
+51;NaturalMotion;event
+51;MiddleTerm;role
+51;Politics;subkind
+51;Mover(ActiveObject);role
+51;Syllogism;relator
+51;Ruler;role
+51;EfficientCause;subkind
+51;Arts;subkind
+51;Hot;quality
+51;Form;mode
+51;NaturalPhilosophy-Physics;subkind
+51;WrittenWord;subkind
+51;Proof;kind
+51;Being;mixin
+51;Memory;kind
+51;Before&AfterInPlace;subkind
+52;Solar Radiation;quantity
+52;Biological Entity;category
+52;Fracture Density;quality
+52;Rock exposed to physical stress due to surface exposition;situation
+52;Sediment exposed to physical stress due to surface exposition;situation
+52;Meteoric Water;historicalRole
+52;Chemical Weathering;event
+52;Pore Fluid;roleMixin
+52;Geological Object;category
+52;Chemical altered Geological Solid Object;situation
+52;Mass;quality
+52;Rock Physical Weathering;event
+52;Geochemical Composition;quality
+52;Broken-down Sediment and Rock;situation
+52;Pore Water;role
+52;Sediment Physical Weathering;event
+52;Geological Solid Object exposed to surface conditions;situation
+52;Physical Weathering;event
+52;Geological Solid Object;category
+52;Earth Material;category
+52;Water;quantity
+52;Broken-down Rock;situation
+52;Broken-down Sediment;situation
+52;Weathered Geologic Solid Object;situation
+52;Geological Solid Object infilled with Meteoric Water;situation
+52;Broken-down Geological Solid Object;situation
+52;Particle Size Average;quality
+52;Rock Object;kind
+52;Pore Filling;relator
+52;Weathering;event
+52;Petrographic Composition;quality
+52;Geological Solid Object exposed to physical stress due to surface exposition;situation
+52;Earth Solid;category
+52;Earth Fluid;category
+52;Source Rock;historicalRole
+52;Sediment Object;kind
+52;Chemically altered Geological Solid Object;situation
+53;Allelic Variant;role
+53;Nucleotide;kind
+53;Record;relator
+53;Alelle;collective
+53;Gene;collective
+53;Chromosome;collective
+53;Allelic Reference;role
+53;Insertion;relator
+53;Inserted Nucleotide;role
+53;RefSeq;collective
+55;Comment;subkind
+55;Learning Path;kind
+55;Resource;category
+55;Creation;subkind
+55;Tag;kind
+55;Public Interaction;subkind
+55;Editable;category
+55;Record;relator
+55;Collection;kind
+55;Component;kind
+55;Economic Activity Classification NACE;kind
+55;Creatable;category
+55;Interaction;kind
+55;Book;kind
+55;Terms;mode
+55;Edit;subkind
+55;Country;kind
+55;Corporate Resource;category
+55;Cookie consent;mode
+55;Followable;category
+55;Popular Occupation;mode
+55;Search;subkind
+55;Skill Popularity;subkind
+55;Feed;kind
+55;Commentable;category
+55;NACE Class;quality
+55;Delete;subkind
+55;Video;kind
+55;Job Description;kind
+55;Podcast;kind
+55;Offer;kind
+55;Settings;mode
+55;Comment0;relator
+55;Link;kind
+55;Education Record;kind
+55;NACE Group;quality
+55;Occupation;kind
+55;NACE Division;quality
+55;Course;kind
+55;Selection;category
+55;User;kind
+55;Labor Record;kind
+55;Popular Selection;kind
+55;Company;kind
+55;View;subkind
+55;Logged Visitor;subkind
+55;Follow;subkind
+55;Learning Manager;subkind
+55;Selected Activity;mode
+55;NACE Section;quality
+55;Public Resource;category
+55;IP Visitor;kind
+55;Upvote;subkind
+55;Subject;kind
+55;Skill;kind
+55;Private Interaction;subkind
+55;Occupation Popularity;subkind
+55;Corporate User;subkind
+55;Organization;category
+55;Anonymous Visitor;subkind
+55;Upvotable;category
+55;Deletable;category
+55;School;kind
+55;Viewable;category
+56;Visa;kind
+56;Airlain;subkind
+56;Scientific Degree;kind
+56;Application;relator
+56;Results;quality
+56;Status;quality
+56;Flight;subkind
+56;STEM School;subkind
+56;Coordination;relator
+56;Train;subkind
+56;Enrollment;relator
+56;Masters;subkind
+56;Wish;kind
+56;Secondary Azhar;subkind
+56;Technical;subkind
+56;Nile School;subkind
+56;Schedule;kind
+56;Secondary Certificate;kind
+56;Railway;subkind
+56;Check;relator
+56;Reservation;relator
+56;Ticket;relator
+56;Student;role
+56;Equivalence;relator
+56;Bachelor;subkind
+56;Foreing Country;subkind
+56;Revision;relator
+56;Traveler;role
+56;Arab Country;subkind
+56;PhD;subkind
+56;Secondary General;subkind
+56;Kind;kind
+58;Generate Student Delay;relator
+58;Employee Contract;relator
+58;Employee;role
+58;Make Reservation for Employee;relator
+58;Graduate Student;role
+58;Daily;phase
+58;Undergraduate Student;role
+58;Employee_Loan;role
+58;Employee Loan;relator
+58;Periodical;subkind
+58;Reserved Copy;relator
+58;Item;kind
+58;Student Loan;relator
+58;Videotape;subkind
+58;Administrative;role
+58;Renew Copy;role
+58;Professor;role
+58;Delay;role
+58;Graduate Contract;relator
+58;Book;subkind
+58;Student;role
+58;Item's Copy;role
+58;Undergraduate Contract;relator
+58;Renewed Copy;relator
+58;Renew Copy for Employee;role
+58;Copy;kind
+58;Reserve Copy for Employee;role
+58;Person;kind
+58;Renew Copy for Student;relator
+58;Get Copy;relator
+58;Regular;role
+58;Copy Reservation;role
+58;Fine;kind
+58;Dvd;subkind
+58;Monthly;phase
+58;Work;kind
+58;Intern;role
+58;Renew Employee;relator
+58;Return Deadline;kind
+58;Collection;collective
+58;Make Reservation for Student;relator
+58;UNISAM;kind
+58;Professor Contract;relator
+59;Person as Lessor;role
+59;Realty;kind
+59;Land Lord (Lessor);roleMixin
+59;Rental Agreement (Lease);relator
+59;Deed;relator
+59;Person as Tenant;role
+59;Tenant (Lessee);roleMixin
+59;Company as Lessor;role
+59;Company;kind
+59;Person;kind
+59;Company as Owner;role
+59;Company as Tenant;role
+59;Owner;roleMixin
+59;Person as Owner;role
+59;Rented Realty;role
+60;Allocation;relator
+60;Subtstage;collective
+60;Organization;subkind
+60;Organizational Customer;role
+60;Budget;collective
+60;Customer;roleMixin
+60;Construction Work;kind
+60;Personal Customer;role
+60;Agent;kind
+60;Employee;role
+60;Person;subkind
+60;Stage;collective
+60;Photo;kind
+61;Preference;mode
+61;Psychological Value Component;quality
+61;Loss Aversion;mode
+61;Deprecated Bearer;roleMixin
+61;Benefit;subkind
+61;Intrinsinc Moment;category
+61;Risk Seeking Preference;mode
+61;Agent;category
+61;Preferred Bearer;roleMixin
+61;Value;quality
+61;Psychological Value Ascription (PVA);mode
+61;Intuitive Choice;event
+61;Psychological Value;quality
+61;Gain;subkind
+61;(motivating) INTENTION;mode
+61;Situation;kind
+61;Intuitive Choice;event
+61;Intuition;mode
+61;PVA Component;mode
+61;Mental Moment;category
+61;Action;event
+61;Reference Point;mode
+61;Rational Value Ascription (RVA);mode
+61;Cognitive Bias;mode
+61;Loss;subkind
+61;Decision;role
+61;Decision Resulting Action;event
+61;Desire;mode
+61;Value Bearer;roleMixin
+61;Consequence;role
+61;Cognitive Bias;mode
+61;Belief;mode
+61;ValueBeholder;roleMixin
+61;RVA Component;mode
+61;Intuition;mode
+61;Intention;mode
+61;Rational Value;quality
+61;Intrinsic Moment Type;type
+61;Deliberation;event
+61;Rational Preferred Bearer;roleMixin
+61;Risk Averse Preference;mode
+61;Choice;event
+61;VA Component;mode
+61;Rational Value Component;quality
+61;Psychological Preferred Bearer;roleMixin
+61;Value Component;quality
+61;Sacrifice;subkind
+61;Intention;mode
+61;Value Ascription (VA);mode
+62;Skill Type;type
+62;Human Aspect Phase;type
+62;Social Agent;category
+62;Object;category
+62;Competence Outcome;situation
+62;Knowledge;mode
+62;Capability-requiring Role;type
+62;Capability;category
+62;Personal Competence;subkind
+62;Human Capability;mode
+62;Physical Agent;category
+62;Skill;subkind
+62;Artifact Type;type
+62;Human Aspect Type;type
+62;Disposition;category
+62;Human Aspect;category
+62;Human Capability Type;type
+62;Competence Type;type
+62;Human Characteristic;mode
+62;Task;event
+62;Social Capability;mode
+62;Capability Outcome;situation
+62;Competence Context;situation
+62;Capability Manifestation;event
+62;Attitude;mode
+62;Person;kind
+62;Artifact;category
+62;Capability Context;situation
+62;Agent;category
+62;Task Type;type
+63;Affiliation;relator
+63;UFO-C: Goal;situation
+63;Legal Perpetrator;roleMixin
+63;UFO-L: Legal Norm;kind
+63;Disclose Information;event
+63;E-OPL: Complex Organisational Unit;subkind
+63;Ethnic Group;subkind
+63;Function Variation;mode
+63;Criminal Organisation;subkind
+63;Real Consequence For Agent;situation
+63;Natural Person;kind
+63;Assignmnent;relator
+63;UFO-B: Counter-factual situation;situation
+63;Partial Ownership;subkind
+63;Failed Responsibility To Protect;subkind
+63;Human Rights Instrument;subkind
+63;Has Influence On;subkind
+63;UFO-A: Substantial;category
+63;Monitoring Event;event
+63;Professional Relationship;subkind
+63;UFO-C: Institutional Agent;category
+63;Abusive Event;event
+63;E-OPL: Standalone Organisation;subkind
+63;Duty-bearer;roleMixin
+63;Force At Work;roleMixin
+63;UFO-B: Time Frame;quality
+63;Communication Channel;mode
+63;Identity Group;kind
+63;Oppose;subkind
+63;Information Flow;subkind
+63;Formal Organisation;subkind
+63;Place;kind
+63;Absused Person;role
+63;Witness;role
+63;E-OPL: Organisational Unit;kind
+63;Height;quality
+63;UFO-L: Power Legal Norm;subkind
+63;Consequence For Resulting Event Agent;mode
+63;Human Rights Responsibility;mode
+63;Consequence On Person;subkind
+63;UFO-L: Legal Normative Description;kind
+63;Child;phase
+63;Confidentiality;mode
+63;Monitoring Process;kind
+63;Alleged Human Rights Violation;phase
+63;Ownership;subkind
+63;E-OPL: Simple Organisation;subkind
+63;Detained person;role
+63;Organisation Member;role
+63;Monitoring Record;kind
+63;UFO-B: Event;event
+63;Integrity Consequence;subkind
+63;Material Absuser;role
+63;Group;category
+63;Original Media Object;category
+63;Official Legal Record;kind
+63;Paper Document;kind
+63;Living Person;phase
+63;Information Exchange;event
+63;Moral Duty-bearer;roleMixin
+63;Complete Ownership;subkind
+63;Perpetration by commission;subkind
+63;Legal Duty-bearer;roleMixin
+63;E-OPL: Complex Organisation;subkind
+63;State Authority;subkind
+63;Justice;subkind
+63;Perpetration by ommission;subkind
+63;Human Rights Mechanism;subkind
+63;Positive Consequence On Agent;subkind
+63;E-OPL: Multiorganisation;subkind
+63;Family Relationship;subkind
+63;Common Member;role
+63;UFO-B: Situation;situation
+63;UFO-L: Legally Defined Event;event
+63;Human Rights Instrument Article;subkind
+63;Economical Consequence;subkind
+63;Detained;roleMixin
+63;Ethnicity;mode
+63;Monitoring Staff;role
+63;Complex Place;subkind
+63;Circumstantial Group;kind
+63;Detainment Conditions;situation
+63;Consequence On Collective;subkind
+63;Goal Transfer From Sender To Influence Third Agent;subkind
+63;Sex;mode
+63;Official Legal Process;kind
+63;Observation Record;subkind
+63;Detained Group;role
+63;UFO-A: Non-Agentive Substantial;category
+63;Informed Consent;mode
+63;Truth;subkind
+63;Rights-holder;roleMixin
+63;Monitoring Event Participant;role
+63;Possible Human Rights Violation;phase
+63;Nation State;kind
+63;Digital Media Object;category
+63;Money Flow;subkind
+63;Human Rights Problem;relator
+63;Person Relationship;relator
+63;E-OPL: Organisation;kind
+63;Neutral;subkind
+63;Element of Legally Defined Human Rights Violations;subkind
+63;Religious Group;subkind
+63;UFO-C: Social Object;category
+63;UFO-C: Collective Social Agent;category
+63;Territorial Consequence;subkind
+63;Membership;relator
+63;Network Connection;relator
+63;Reparation;subkind
+63;Recording;event
+63;UFO-C: Intention;mode
+63;De Facto Detainment;subkind
+63;Adult;phase
+63;Physical Media Object;category
+63;Information Exchange Record;subkind
+63;UFO-L: Agentive Legal Institution;category
+63;Benign Human Rights Problem;phase
+63;Age;quality
+63;E-OPL: Team;kind
+63;Informal Organisation;subkind
+63;Memory;subkind
+63;Negative Consequence On Agent;subkind
+63;UFO-B: Fact;situation
+63;Weight;quality
+63;Site;subkind
+63;Consequence For Agent;situation
+63;Legal Analysis;relator
+63;Risk;situation
+63;UFO-L: Conduct Legal Norm;subkind
+63;UFO-C: Human Agent;category
+63;Failed Responsibility To Respect;subkind
+63;Media Object;category
+63;Digital Folder;kind
+63;Legal Consequence;subkind
+63;UFO-B: Participation;event
+63;Atomic Place;subkind
+63;Failed Responsibility To Promote;subkind
+63;Duty-bearer representative;role
+63;UFO-C: Agent;category
+63;Head Member;role
+63;UFO-C: Social Agent;category
+63;Personal Relationship;subkind
+63;Human Rights Standard;subkind
+63;Goods Flow;subkind
+63;Confirmed Human Rights Violation;phase
+63;Information Piece;kind
+63;Goal Transfer From Sender;subkind
+63;Deceased Person;phase
+63;UFO-B: Complex event;event
+63;Merged With;subkind
+63;UFO-B: Atomic event;event
+63;Lead To;subkind
+63;De Jure Detainment;subkind
+63;Intentional Event;event
+63;UFO-L: Legal Agent;category
+63;Causation;relator
+63;Other Physical Object;kind
+63;UFO-L: Singular Legal Agent;category
+63;Remedy;subkind
+63;UFO-L: Legal Object;category
+63;Detention Centre;role
+63;Gender Identity;mode
+63;Sexual Orientation;mode
+63;Physical Consequence;subkind
+63;Psychological Consequence;subkind
+63;Detainment;relator
+63;Digital File;kind
+63;Human Rights Violation;phase
+63;UFO-B: Action;event
+63;Resulting Event;event
+63;Religion;mode
+63;UFO-C: Society;kind
+63;Reputational Consequence;subkind
+63;Support;subkind
+63;Counter-factual Consequence For Agent;situation
+63;Guarantees Of Non-Repetition;subkind
+63;Supply Flow;subkind
+63;Receive Information;event
+63;Geolocation;quality
+63;Affective Relationship;subkind
+63;Legal Process Relation;relator
+63;Legal Victim;roleMixin
+63;E-OPL: Simple Organisational Unit;subkind
+63;Observation Action;event
+63;Service Flow;subkind
+63;Legally Defined Human Rights Violation;event
+64;Elder;phase
+64;Diagnosis;kind
+64;Man;subkind
+64;MedicalSpecialization;collective
+64;Child;phase
+64;Person;kind
+64;MetabolicDisease;collective
+64;HealthUnit;kind
+64;Teenager;phase
+64;RespiratorySystem;collective
+64;HealthAppointment;relator
+64;HealthProfessional;role
+64;Woman;subkind
+64;CirculatorySystem;collective
+64;Patient;role
+64;Adult;phase
+64;ICD;category
+64;DocumentType;collective
+64;Region;kind
+64;Neighborhood;kind
+64;Document;kind
+64;NervousSystem;collective
+64;DigestiveSystem;collective
+64;PregnantWoman;phase
+66;CnA;kind
+66;PoP;kind
+66;Activity;category
+66;Core;kind
+66;Actor;category
+66;Community Development;subkind
+66;Performance Evaluation;kind
+66;Organization;subkind
+66;Counter;kind
+66;Social Need;category
+66;Labor Practices;subkind
+66;Object;category
+66;Community;subkind
+66;Organizational Governance;subkind
+66;Social Assistance Service;subkind
+67;char;datatype
+68;In production;phaseMixin
+68;Making;event
+68;Complex Action Universal;type
+68;Proposition;abstract
+68;Artifact universal;type
+68;Result;roleMixin
+68;Artefact design;category
+68;Technical object;roleMixin
+68;Designer;historicalRoleMixin
+68;Make process;type
+68;Design object;category
+68;Use effect;situation
+68;Make plan;category
+68;Usage condition;situation
+68;Object Description;category
+68;Design conversation;event
+68;Capacity universal;type
+68;Normative Description;category
+68;Use plan;category
+68;Agent;category
+68;Employed;phaseMixin
+68;Artifact;roleMixin
+68;Source;historicalRoleMixin
+68;Use process;type
+68;Physical Object;category
+68;Intention;mode
+68;Assertive (factagenic);event
+68;Communicative acts;event
+68;Capacity;quality
+68;Disposed;phaseMixin
+68;Testing;event
+68;Maker;historicalRoleMixin
+68;In maintenance;phaseMixin
+68;Observation;event
+68;Planned;phaseMixin
+68;User;historicalRoleMixin
+68;Use condition;situation
+68;Artifact variant;type
+68;Directive (actagenic);event
+68;In distribution;phaseMixin
+68;Usage effect;situation
+68;Usage;event
+68;Capacities;quality
+68;Instrument;roleMixin
+68;Material source;roleMixin
+68;Plan Description;category
+68;Using;event
+68;In use;phaseMixin
+69;Inactive Account;relator
+69;Organization;kind
+69;Organization Member;subkind
+69;Group of Organizations;collective
+69;Client;roleMixin
+69;Mobile;subkind
+69;Bank;subkind
+69;Client Organization;role
+69;Active Account;relator
+69;Account;relator
+69;Device;kind
+69;Accessed Account;relator
+69;Withdrawing ATM;role
+69;Location;mode
+69;Person;kind
+69;ATM;subkind
+69;Access;relator
+69;PC;subkind
+69;Spatial Entity;category
+69;Accessing Device;role
+69;Withdrawed Account;relator
+69;Withdraw;relator
+69;Client Person;role
+70;Object of Contract;kind
+70;Public Asset;relator
+70;Familiar Society;subkind
+70;Land Part;kind
+70;Aerial Part;kind
+70;Border Part;kind
+70;Educational Society;subkind
+70;Sketched Border;subkind
+70;Rulee;role
+70;Commitment;collective
+70;State;kind
+70;Norm;collective
+70;Legal System;relator
+70;Society Commitment;collective
+70;Dead Border;subkind
+70;Ruler;role
+70;Live Border;subkind
+70;Principal;collective
+70;Rule;collective
+70;Claim;collective
+70;State Commitment;collective
+70;Supremacy of Power;kind
+70;Society Claim;collective
+70;Social Contract;relator
+70;Population;kind
+70;Religious Society;subkind
+70;Territory;kind
+70;State Claim;collective
+70;Independent Goverment;kind
+70;Individual;kind
+70;Political Society;subkind
+70;Terrritorial Waters Part;kind
+70;Society;kind
+71;Bidder Registration;relator
+71;Published Call for Tender;role
+71;Tender Without Winner;role
+71;Call for Tender;kind
+71;Company;subkind
+71;Batch Group;collective
+71;Permission Tender in Auction;role
+71;Economic Proposal in Specific Proposal;role
+71;Empty Tender;role
+71;Failed Tender;role
+71;Proposal;relator
+71;Legal Representative;role
+71;Construction Tender;subkind
+71;Warranty;kind
+71;Proof of Fleet in General Proposal;role
+71;Tender in Internal Phase;role
+71;Grant Committee Nomination;relator
+71;Nomination of Representative;relator
+71;Warranty in General Proposal;role
+71;Homologation of Public Auction;relator
+71;Qualification;kind
+71;Proof of Fleet;kind
+71;Suspended Tender;role
+71;Public Auction;relator
+71;Anulled Tender;role
+71;Committee;collective
+71;Company Participant of Public Auction;roleMixin
+71;Publication;relator
+71;Call for Tender Publication;relator
+71;Concession Tender;subkind
+71;Tender in Proposal Reviewing;role
+71;General Proposal;relator
+71;Auction;relator
+71;Permission Grant;relator
+71;Tender in Call for Tender;role
+71;Public Hearing;relator
+71;Bussiness Plan;kind
+71;Session of Public Auction;relator
+71;Tended With Winner;role
+71;Auction for Public Tender;relator
+71;Permission Tender in External Phase;role
+71;Lease Tender;subkind
+71;Power of Attorney;role
+71;Tender in Homologation Process;role
+71;Publication Context;roleMixin
+71;Permission Grant Contract;subkind
+71;Tender in Qualification;role
+71;Service Batch;collective
+71;Tender in External Phase;role
+71;Person;kind
+71;Completed Tender;role
+71;Republication;relator
+71;Disposal Tender;subkind
+71;Economic Proposal;kind
+71;Specific Proposal;relator
+71;Bidder;role
+71;Purchase Tender;subkind
+71;Service Batch in Auction;role
+71;Service Tender;subkind
+71;Batch in Auction;roleMixin
+71;Bidder in Auction;role
+71;Grant Committee;role
+71;Bussiness Plan in Specific Proposal;role
+71;Published Object;roleMixin
+71;Legal Representative in Tender Process;role
+71;Qualification in General Proposal;role
+71;Call for Tender Republication;relator
+71;Winner of Public Auction;roleMixin
+71;Tender;kind
+71;Grant Committee Nomination Ordinance;role
+71;Permission Tender;subkind
+72;Value Object;roleMixin
+72;Object kind;category
+72;Theoretical valuation relationship;relator
+72;Desire;quality
+72;Benefit-specific valuation;relator
+72;Preference;quality
+72;VO's quality;quality
+72;VO's functional quality;role
+72;Benefit value;quality
+72;Agent;category
+72;Context;mixin
+72;Theoretical value;quality
+72;Quality domain;category
+72;Context involvement relationship;relator
+72;Cost-specific valuation;relator
+72;Perceived value;quality
+72;Cost value;quality
+72;VO's non-functional quality;role
+74;Digital Platform;kind
+74;Depicter Person;role
+74;Depicted Person with Privacy Violated;role
+74;Violation of Depicted Person's Right to Privacy;relator
+74;Right-Duty to Keep the Intimate Media Object Privately;relator
+74;Violated Duty to Keep the Intimate Media Object Privately;mode
+74;Depicted Person in Intimacy;role
+74;Uploaded Private Intimate Media Object without Consent;role
+74;Accessed Private Intimate Media Object without Consent;role
+74;Upload Private Media Object to the Digital Platform;event
+74;Public Media Object;category
+74;NaturalPerson;kind
+74;Publisher;role
+74;Intimate Private Media Object with Uploading Consent;roleMixin
+74;Private Media Object's Uploading;relator
+74;Private Intimate Media Accessing;relator
+74;Publication of the Criminal Law;event
+74;Access the Published Private Intimate Media;event
+74;Media Object;category
+74;Content Consumer;role
+74;Duty to Keep the Intimate Media Object Privately;mode
+74;Private Intimate Media Object without Consent;roleMixin
+74;Right to Privacy of Intimate Media Object;mode
+74;Acessible Digital Platform;role
+74;Private Intimate Media Object;category
+74;Violated Right to Privacy of Intimate Media Object;mode
+74;Perpetrator;role
+75;Hired Provider-Customer Interaction;event
+75;Target Customer On Negotiation;roleMixin
+75;Service Offering Claim;mode
+75;Hired Provider Action;event
+75;Target Customer;roleMixin
+75;Committed Service Customer;roleMixin
+75;Service Customer Commitment;mode
+75;Service Offer;event
+75;Agent;category
+75;Service Agreement;relator
+75;Service Customer;roleMixin
+75;Hired Provider Commitment;mode
+75;Claimed Hired Provider;roleMixin
+75;Service Agreement Description;category
+75;Service Provider;roleMixin
+75;Service Negotiation;event
+75;Service Offering Commitment;mode
+75;Specialized Service Agreement;relator
+75;Hired Provider Claim;mode
+75;Service Offering;relator
+75;Service Customer Claim;mode
+75;Service Provider On Negotiation;roleMixin
+75;Service Delivery;event
+75;Service Offering Description;category
+75;Customer Action;event
+75;Target Customer Community;collective
+75;Hired Service Provider;roleMixin
+76;Sequencing Laboratory;historicalRole
+76;Arginine;subkind
+76;Bat;kind
+76;Research Affiliation;relator
+76;Virus Collective;collective
+76;Coding Region;subkind
+76;Thymine;subkind
+76;Regular Sequence;roleMixin
+76;Sample Sequencing;event
+76;Organization;kind
+76;Virus;kind
+76;Full Consensus Sequence;subkind
+76;Biological Organism;category
+76;Sequencing Platform;kind
+76;In Vitro Host;role
+76;Virus Species;type
+76;Cytosine;subkind
+76;Viral Infection;relator
+76;Codon;subkind
+76;Sequence Deposition;relator
+76;Research Laboratory;subkind
+76;Leucine;subkind
+76;Author;role
+76;Biological Species;type
+76;Variant;relator
+76;Guanine;subkind
+76;Virus Sequencing;event
+76;Tissue Sampling;event
+76;Animal Species;type
+76;Uracil;subkind
+76;Genomic Assembly Method;type
+76;Sequence;category
+76;Molecule Type;type
+76;Amino Acid Type;type
+76;Codon Type;type
+76;Sampled Animal;historicalRoleMixin
+76;Translation;event
+76;Variant Type;type
+76;Analyst;role
+76;Amino acid;kind
+76;Nucleotide;kind
+76;Animal;category
+76;Living Host;roleMixin
+76;Proline;subkind
+76;Cell Line;kind
+76;Nucleotide Subsequence;subkind
+76;Genome Assembly;event
+76;Biological Tissue Type;type
+76;Viral Response;event
+76;Viral Disease;event
+76;Biological Data Institution;subkind
+76;Virus Sequence;kind
+76;Protein;kind
+76;Publication;relator
+76;Journal Issue;kind
+76;Variant Analysis;event
+76;Virus Raw Data;collective
+76;Virus Sequencing Endeavor;relator
+76;Analyst Affiliation;relator
+76;Biological Tissue;quantity
+76;Data Stewardship;relator
+76;Threonine;subkind
+76;Virus Infected Tissue;subkind
+76;Adenine;subkind
+76;Sampling Laboratory;historicalRole
+76;Virus Host;roleMixin
+76;Sequence Database;kind
+76;Researcher;role
+76;Reference Sequence;roleMixin
+76;Project Participation;relator
+76;Viral Disease Type;type
+76;Project Participant;role
+76;Person;kind
+76;Read;kind
+76;Virus Sequencing Publication;subkind
+76;Assembling Laboratory;historicalRole
+77;Região;kind
+77;Consulta Médica;relator
+77;Paciente;role
+77;Profissional de Saúde;role
+77;Pessoa;kind
+77;Documento;kind
+77;Unidade de Saúde;kind
+78;Justice Requirement;category
+78;COVER:Loss Event;event
+78;NFR:Requirement;category
+78;Nonmaleficence Requirement;category
+78;Beneficence Intention;role
+78;Ethical Requirement;category
+78;NFR:Quality Requirement;category
+78;Explicability Requirement;category
+78;Nonmaleficense Requirement;category
+78;UFO: Quality Region;category
+78;Beneficence Requirement;category
+78;UFO:Quality;mode
+78;UFO:Quality Value;category
+78;NFR:Requirement;category
+78;Beneficence Requirement;category
+78;UFO:Quality Universal;type
+78;UFOC:Goal;category
+78;Intention;mode
+78;Autonomy Requirement;category
+78;UFO:Agent;category
+78;Nonmaleficence Intention;role
+78;COVER:Gain Event;event
+78;UFOC:Goal;category
+78;NFR:Quality Requirement;category
+79;PhysicalAgent;HumanAgent
+79;Intention;MentalMode
+79;Activity;Activity
+79;social agent;InstitutionalAgent
+79;Agent;agent
+79;Organization;Organization
+80;Economic Event;event
+80;Debit Commitment;subkind
+80;Balanced Reciprocity (Future Market Contract);relator
+80;Liability;phase
+80;Economic Commitment;kind
+80;Off Balance;phase
+80;Debit Event;subkind
+80;Credit Event;subkind
+80;Credit Commitment;subkind
+80;Balance Duality (Spot Market Contract);relator
+80;Asset;phase
+80;Derivative Instrument;collective
+80;Plan Event Tree;event
+80;Economic Resource;kind
+80;Uncertainty Sample Space;kind
+80;Economic Agent;kind
+80;Planning and Control Policy;kind
+80;Equity;phase
+81;Declaração de Utilidade Pública;relator
+81;Estabelecimento de TAC;relator
+81;Rodovia;subkind
+81;Subárea;kind
+81;Colisão;relator
+81;VCI em Atendimento;role
+81;TAC Não Cumprido;role
+81;Denúncia;kind
+81;Seção;collective
+81;Tombamento;relator
+81;Cotação Agrupada de Produto;relator
+81;Representação em Convênio;relator
+81;Infração Praticada;kind
+81;Guincho Pesado;subkind
+81;Forma de Contato de Manifestação;roleMixin
+81;Fiscalização Indireta;relator
+81;Lavratura do TRO;relator
+81;Trabalhos Iniciais;phase
+81;Cartório;subkind
+81;Exploração de Faixa de Domínio Especial;relator
+81;Fiscalização em PFR;relator
+81;Bem Operacional Arrendado;subkind
+81;Entroncamento em T;subkind
+81;Sinalização Temporária;subkind
+81;Rampa;kind
+81;Estabelecimento;role
+81;Rodovia Vicinal;subkind
+81;Elemento Georreferenciado;category
+81;Depressão;mode
+81;Obrigação Financeira;relator
+81;Produtor;roleMixin
+81;Concessionária Rodoviária Cotadora;role
+81;Parente por Afinidade;role
+81;Rodovia Federal;subkind
+81;Serviço de Manutenção;subkind
+81;Elemento Alterado;roleMixin
+81;Balança com Defeito;phase
+81;Documento de Representação;kind
+81;ETRP Permissionária;role
+81;Entroncamento em Y;subkind
+81;Elemento Alterável;category
+81;Bem Imaterial;kind
+81;Dreno;kind
+81;Trecho de Monitoração;collective
+81;Imposto Municipal;subkind
+81;Choque com Objeto Fixo;relator
+81;Ponte com Defeito;phase
+81;Reserva de Capital;kind
+81;Infração Praticada de Transporte;subkind
+81;Marca de Sinalização;subkind
+81;Intervalo de Tempo;datatype
+81;Rotatória;subkind
+81;Linha Contínua;subkind
+81;Imóvel Edificado Arrendado Imobilizado;role
+81;Infração Média;subkind
+81;Veículo com Altura Averiguada;role
+81;Infrator por InPraTe;role
+81;Caminhão Leve;subkind
+81;Data;datatype
+81;Engavetamento;relator
+81;Empresa com Capital de Terceiros;role
+81;Item do PER Adicionado;role
+81;Seguro em Concessão;relator
+81;Livro de Manifestação;role
+81;Autorizatária de TT;role
+81;Cotação Individual;relator
+81;Posto de Fiscalização da ANTT;subkind
+81;Autuação;relator
+81;Seta Direcional;subkind
+81;Pai;role
+81;Imóvel Desapropriado;roleMixin
+81;Fiscalização Relativa ao Prestador;relator
+81;Rodovia Arterial;subkind
+81;Obra de Recuperação;subkind
+81;Órgão Público com CNPJ;subkind
+81;Classificação de Manifestação;datatype
+81;Obra com Intervenção;role
+81;Veículo Comercial;subkind
+81;Combate a Incêndio;relator
+81;Ambulância de Suporte Básico;subkind
+81;Bem Especulativo;kind
+81;Infração de TRC;enumeration
+81;Fiscalização de PEF;relator
+81;Material de Sinalização;quantity
+81;Item;kind
+81;Concessionária Rodoviária;subkind
+81;Fax;kind
+81;Tio;role
+81;Notificação de Infração;kind
+81;Passagem de Pedestre;kind
+81;Forma de Contato de Origem;roleMixin
+81;Passivo Simples;subkind
+81;Certidão de Divórcio;relator
+81;Arrendamento Financeiro;relator
+81;Área de Interesse Público;role
+81;Atropelamento e Fuga;relator
+81;Ponte Móvel;subkind
+81;Pessoa com TAC;roleMixin
+81;Endereço;datatype
+81;Tipo de Ativo Depreciável;datatype
+81;Companheiro;role
+81;Empresa Regulada;category
+81;Desnível;mode
+81;Aquisição de Permanente;relator
+81;Infrator com RE;role
+81;Contrato de Arrendamento;kind
+81;Obra Concluída;phase
+81;Faixa de Domínio;kind
+81;Ativo Permanente;mixin
+81;Pesagem;relator
+81;Licença Ambiental de Imóvel;subkind
+81;Ponte em Arco;subkind
+81;Fiscalização Especial;relator
+81;Infração Graduada por Natureza;subkind
+81;Fiscalização Rodoviária;relator
+81;Veículo Rodoviário;kind
+81;Elemento Vetado;category
+81;Túnel Ideal;phase
+81;Fecho;kind
+81;Modelo;kind
+81;Operadora de MP Fiscalizada;role
+81;Exercício Social;relator
+81;Sinalização de Advertência;subkind
+81;Rodovia Longitudinal;subkind
+81;Produto Cotado Coletivamente;role
+81;Verificação de TRO;relator
+81;Item de Terraplenos e Estruturas de Contenção;subkind
+81;Advento do Termo Contratual;relator
+81;Portaria;subkind
+81;Projeto Executivo;kind
+81;Memorial Descritivo de Obra na FD;kind
+81;Parágrafo Composto;subkind
+81;Ambulância de Resgate;subkind
+81;Tarifa de Pedágio;kind
+81;Solicitação de Bem;relator
+81;Item do PER Alterado;role
+81;Caducidade;relator
+81;Bueiro;kind
+81;Fiscalização por Equipamento;relator
+81;Rescisão do Contrato;relator
+81;Convênio de Cooperação Técnica;relator
+81;Dissipador de Energia;kind
+81;Descida D'água;kind
+81;Terreno Comprado;subkind
+81;Investimento em Imobilizado;relator
+81;Fiscal em Fiscalização em Equipe;role
+81;Fornecedor;roleMixin
+81;Construção de Imobilizado;relator
+81;Cláusula de Revogação;subkind
+81;Fenda;mode
+81;Imóvel Edificado Arrendado Explorado;role
+81;Decreto de Utilidade Pública;subkind
+81;Bem Operacional Arrendado Explorado;role
+81;Passarela;subkind
+81;Passivo Composto;subkind
+81;Aparelho de Fiscalização;kind
+81;Ressarcimento;relator
+81;Item de Pavimento;subkind
+81;Canteiro Central com Defeito;phase
+81;Área Estadual;phase
+81;Item do PER com Obra;role
+81;Terminal Rodoviário com PFA;subkind
+81;Cronograma de Execução;kind
+81;Fiscalização de Terminal Com PFA;relator
+81;TAC Pós;subkind
+81;Veículo Diplomático;subkind
+81;Sinalização Aérea;subkind
+81;Fiscalização de Rotina;relator
+81;Extinção de Concessão;relator
+81;Veículo de Inspeção;subkind
+81;Condicional por VDM;subkind
+81;Obra Em Andamento;role
+81;Trecho em Obra de Pavimentação;phase
+81;Anulação;mode
+81;Ponte Rodoviária;subkind
+81;Compra Imobilizado;relator
+81;Justificativa para Outorga;mode
+81;Sinalização de Serviço Auxiliar;subkind
+81;Colisão Traseira;relator
+81;Contrato de Concessão Ferroviária;subkind
+81;Serviço de Socorro Mecânico;relator
+81;Meta de Fiscalização;mode
+81;Exploração Utilidades;relator
+81;Comprador Sucata;roleMixin
+81;Anotação de Responsabilidade Técnica;mode
+81;Acionista;roleMixin
+81;Item de Edificação e Instalação Operacional;subkind
+81;Parente Direto;role
+81;Fiscalização em Posto Fixo;relator
+81;Ponte em Treliça;subkind
+81;Sinalização de Regulamentação;subkind
+81;Compra de Produto;relator
+81;Ativo Imobilizado;roleMixin
+81;Outorga de Autorização;relator
+81;Quota como Ativo;role
+81;Estação Meteoreológica;kind
+81;Veículo de Apreensão de Animais;subkind
+81;Ativo com Valor Inicial;phase
+81;Alínea Vetada;subkind
+81;Pista Reversível;subkind
+81;Encampação;mode
+81;Componente de GE;role
+81;Fiscalização de Produtos Perigosos;relator
+81;Subseção;subkind
+81;Escorregamento;mode
+81;Decreto Presidencial;kind
+81;Parente de 2º Grau;role
+81;Área de Preservação Permanente;phase
+81;Autorização para Receita Extraordinária;relator
+81;Seguro de Bem;relator
+81;Projeto da Ocupação da FD;kind
+81;Fiscal que Recebe Obra;role
+81;Permissão;kind
+81;Complementação de Obras do DNIT;subkind
+81;Sinalização Rodoviária Ideal;phase
+81;Ônibus;subkind
+81;Veículo Passante por Praça;role
+81;Contrato de Concessão Rodoviária;subkind
+81;Veículo de Sinalização;subkind
+81;Interseção com Defeito;phase
+81;Lei Complementar;subkind
+81;Sinalização Semafórica;subkind
+81;Operação da Rodovia;subkind
+81;Penalidade Prevista;mode
+81;Trecho Multifaixas;phase
+81;Trecho Lógico Estadual;subkind
+81;Convenente;role
+81;Imóvel Edificado Imobilizado;role
+81;Garantia em Seguro;kind
+81;Praça de Pedágio Auxiliar;subkind
+81;Ampliação de Capacidade;subkind
+81;Ponto Linear;kind
+81;VSM em Atendimento;role
+81;Decreto Singular;subkind
+81;Site;kind
+81;Sinalização Turística;subkind
+81;Documentação do Órgão Ambiental;category
+81;Posto de Fiscalização Fazendária;subkind
+81;Cabine de Pedágio;kind
+81;Área Livre;phase
+81;Item Não Obrigatório;subkind
+81;Revisão do PER;relator
+81;Entroncamento;subkind
+81;Componente Rodoviário;category
+81;Ponte;kind
+81;Participação em Empresa;roleMixin
+81;AFAC;relator
+81;ATe por Notificação do Infrator;relator
+81;Manutenção;phase
+81;Permissionária;role
+81;Lei Ordinária;subkind
+81;Modelo Cotado Individualmente;role
+81;TRO Não Cumprido;role
+81;Infração Gravíssima;subkind
+81;Infração Regulamentar;subkind
+81;Caminhão Trator;subkind
+81;Central de Atendimento;kind
+81;Terminal Rodoviário;kind
+81;Imóvel Edificado Construído Explorado;role
+81;Bisavô;role
+81;Causa de Defeito;mode
+81;Emenda à Constituição;subkind
+81;Fiscalização de Órgão Conveniado;relator
+81;Parente;role
+81;Intersecção Explorada;role
+81;Veículo Acidentado;role
+81;Interseção Ideal;phase
+81;Ativo Depreciável;roleMixin
+81;Obra de Concessão Rodoviária;kind
+81;Fiscalização Autuadora;relator
+81;Ato Normativo Base de Fiscalização;role
+81;Fila de Pedágio;mode
+81;Serviço de Conservação;subkind
+81;Concessionária;subkind
+81;Integrante de Equipe de Fiscalização;role
+81;GP em Atendimento;role
+81;Ativo Sem Amortização;phase
+81;E-mail de Manifestação;role
+81;Arrendador Operacional;roleMixin
+81;Área de Preservação Ambiental;phase
+81;Callbox;kind
+81;Filho;role
+81;Obra de Arte Corrente;category
+81;Imóvel;category
+81;Laudo de Avaliação de Imóvel;kind
+81;Sócio LTDA;roleMixin
+81;Imóvel Edificado Construído;subkind
+81;Veículo de Socorro Mecânico;subkind
+81;Apostila;subkind
+81;Penalidade Aplicada;mode
+81;Arrendamento Financeiro Imobilizado;relator
+81;Representação Não Anônima;relator
+81;Subtrecho de Concessão;collective
+81;Seção Composta;subkind
+81;Licença Ambiental de Obra;kind
+81;Capotagem;relator
+81;Providência Adotada;mode
+81;Cláusula de Vigência;subkind
+81;Elemento na Faixa de Domínio;mode
+81;Tarifa Básica de Pedágio;kind
+81;Responsável por Aporte;roleMixin
+81;Contorno Rodoviário;subkind
+81;Compra Especulativa;relator
+81;Interseção;kind
+81;Balança Ideal;phase
+81;Defeito na Interseção;mode
+81;Trecho Coincidente;role
+81;Elemento Rodoviário Modificado em Concessão;roleMixin
+81;Concessionária Rodoviária com TRO;role
+81;Faixa de Domínio Ideal;phase
+81;Entidade Recolhedora de Impostos;role
+81;Caminhonete;subkind
+81;Interseção Rodoviária;subkind
+81;Segmento Homogêneo;collective
+81;Alínea Composta;subkind
+81;Fiscalização de TRP;relator
+81;Passivo;kind
+81;Ativo Intangível;mixin
+81;Ponte Utilitária;subkind
+81;Obra Planejada;subkind
+81;Escopo do Serviço;kind
+81;Intervenção de Obra Conveniada;relator
+81;Imóvel Desapropriado com Laudo de Avaliação;roleMixin
+81;Contrato Social;relator
+81;Artigo Regulamentar;subkind
+81;Solicitado;roleMixin
+81;Certidão de Registro de Imóvel;relator
+81;Abertura;kind
+81;Acidente de Trânsito com Vítima;relator
+81;Material da Obra de Arte Especial;quantity
+81;Inexecução;relator
+81;Contrato de Permissão;relator
+81;Ambulância de Suporte Avançado;subkind
+81;Contrato de Autorização Especial;subkind
+81;Edificação Rodoviária de Apoio;subkind
+81;Outorga de Permissão;relator
+81;Penalidade;mode
+81;Sinalização Vertical;subkind
+81;Guichê;kind
+81;AL Iniciada por Reclamação;relator
+81;Veículo de Passageiro;subkind
+81;Autuação de Trânsito;relator
+81;Fiscalização de TFP;relator
+81;Título da Dívida Pública;kind
+81;Faixa Lateral;kind
+81;Veículo Oficial;subkind
+81;Nota Fiscal de Produto;subkind
+81;Órgão Privado;kind
+81;Comando Operacional;relator
+81;Certidão de Casamento;relator
+81;Bicicleta a Motor;subkind
+81;Reclamação;relator
+81;Colisão Frontal;relator
+81;Autorização de Início de Obra;relator
+81;Pagamento de Imposto sobre Resultado;relator
+81;Revisão Extraordinária da TBP;subkind
+81;Cruzamento Ortogonal;subkind
+81;Interseção Rodoferroviária;subkind
+81;Sociedade Anônima;mixin
+81;Obra Planejada que Necessita de Projeto;subkind
+81;Trecho Físico Federal;subkind
+81;Meio Fio;kind
+81;Parágrafo Simples;subkind
+81;Consórcio;kind
+81;Neblina;datatype
+81;Auto de Infração;kind
+81;Defeito na Ponte;mode
+81;Pessoa;category
+81;Filial;role
+81;Agência Reguladora Convenente;role
+81;Regramento de Área Simples;subkind
+81;Veículo de Obra;subkind
+81;Revisão Ordinária da TBP;subkind
+81;Entidade Pública em CA;role
+81;PER Revisado;role
+81;Solicitação de Desapropriação;relator
+81;Retenção de Documento;mode
+81;Reboque;subkind
+81;Autorização de Uso;relator
+81;Tarifa Básica de Pedágio Revisada;role
+81;Ponte Estática;subkind
+81;Parcela de Pagamento do Seguro;kind
+81;Fiscalização Periódica;relator
+81;Documento sobre Imóvel do Órgão Ambiental;subkind
+81;Planta Topográfica do Local;kind
+81;Lote Rodoviário Concedido;role
+81;Livro de Ocorrências;kind
+81;Pessoa Física;kind
+81;Título Componente;subkind
+81;Constituição;subkind
+81;Parâmetro de Desempenho;kind
+81;Autuação por Lavratura;relator
+81;Rodovia de Ligação;subkind
+81;Receita Rodoviária Ordinária;relator
+81;Componente de Iluminação Ideal;phase
+81;Guincho Leve;subkind
+81;Defeito no Túnel;mode
+81;Ocorrência Originadora de TRO;mode
+81;Parente em Linha Reta;role
+81;InPreTo Utilizada como Base;role
+81;Sinalização de Indicação;subkind
+81;Terreno;kind
+81;Licença de Implantação;subkind
+81;Cotação Individual de Modelo;relator
+81;Imóvel Edificado Comprado;subkind
+81;Entrada em Vigência de Alteração;relator
+81;Avô;role
+81;Motocicleta;subkind
+81;Via Lateral;subkind
+81;ETRP de Fretamento Contínuo;role
+81;Entidade Pública;subkind
+81;Contrato de Consórcio;relator
+81;Registro de Passagem;relator
+81;País;kind
+81;Capítulo;collective
+81;Radar;subkind
+81;Via Fluvial;subkind
+81;Construção;relator
+81;PNV;kind
+81;Estado;kind
+81;Trecho Rodoviário Físico com Defeito;phase
+81;Imposto Federal;subkind
+81;Resposta Final;mode
+81;Produto Adquirido em Convênio;roleMixin
+81;Capítulo Composto por Seção;subkind
+81;Cruzamento com Ilhas;subkind
+81;Trecho com Canteiro Central;phase
+81;Componente de Iluminação com Defeito;phase
+81;Fiscal da ANTT;subkind
+81;Inspeção de Tráfego;relator
+81;Concessionária Rodoviária Segurada;role
+81;Concessionária Rodoviária Fiscalizada;role
+81;Sobrinho;role
+81;Ex-companheiro;role
+81;Declaração de Inidoneidade;mode
+81;Defeito no Componente de Iluminação;mode
+81;Linha de Ônibus Autorizada Especial;role
+81;Edificação de Rodovia;subkind
+81;Aporte de Capital;relator
+81;Bem Comprado;mixin
+81;Venda de Sucata;relator
+81;Parte Especial;subkind
+81;Retenção de Veículo;mode
+81;Representante da Convenente;role
+81;Arrendamento;relator
+81;Engenheiro Responsável;role
+81;Documentação sobre Imóvel do Órgão Ambiental;kind
+81;Hierarquia de Ato Normativo;datatype
+81;Fiscalização Preventiva;relator
+81;Localização na Rodovia;datatype
+81;E-mail;kind
+81;Bem Operacional Comprado Explorado;role
+81;Comprovante de Pagamento;kind
+81;Fiscalização em Equipe;relator
+81;PPV Fixo;subkind
+81;Parte Geral;subkind
+81;Canteiro Central;subkind
+81;Elemento de Agrupamento;category
+81;Agente de Órgão Conveniado;subkind
+81;Interseção em Desnível;subkind
+81;Aquisição para Convênio;relator
+81;Entidade Pública em CCT;role
+81;Praça Unidirecional;subkind
+81;Revisão Quinquenal da TBP;subkind
+81;Grupo Econômico;collective
+81;Distrito;kind
+81;Autuação com Aplicação de MA;relator
+81;Irmão;role
+81;Inciso Composto;subkind
+81;Entrada em Vigência de Revogação;relator
+81;Parecer Técnico;kind
+81;Artigo Regulamentar com Infração Definida;subkind
+81;Registro de Veículo;relator
+81;Planta do Imóvel;kind
+81;Veículo de Suporte;subkind
+81;Avaliação de Obra;relator
+81;Contrato de Prestação de Serviço de Transporte;kind
+81;Contrato de Receita Extraórdinária com Projeto de Engenharia;role
+81;Forma de Contato de Resposta;roleMixin
+81;Câmera CFTV;subkind
+81;Veículo Ferroviário;kind
+81;PA Simplificado;subkind
+81;ICMS;subkind
+81;Defeito na Sinalização Rodoviária;mode
+81;Canteiro Central Ideal;phase
+81;Área Municipal;phase
+81;Medida Administrativa Aplicada;mode
+81;PIS;subkind
+81;Alínea;kind
+81;Cláusula Contratual com Infração Definida;subkind
+81;Revestimento de Pavimento Rodoviário;quantity
+81;Garantia de Execução;mixin
+81;Furgão;subkind
+81;Justificativa para Desapropriação;mode
+81;Marca Longitudinal;subkind
+81;Imóvel Edificado Explorado;role
+81;Solicitação de Compra em CA;relator
+81;Artigo Composto;subkind
+81;CCT com Compartilhamento de Receita;relator
+81;Queda;relator
+81;Choque;relator
+81;Via Modificada em Concessão;role
+81;Intervenção para Obra;relator
+81;Capítulo Composto por Artigo;subkind
+81;Ativo;kind
+81;Infração Grave;subkind
+81;Bem Alugado;category
+81;Separador de Pistas;kind
+81;Túnel com Defeito;phase
+81;Beneficiário;roleMixin
+81;Cruzamento;subkind
+81;Sinalização Permanente;subkind
+81;Unidade Regional;kind
+81;Objeto da Outorga;mixin
+81;Veículo Conjugado;role
+81;Empresa Regulada Fiscalizada;role
+81;Marco Regulatório;collective
+81;Convênio de Manutenção;relator
+81;Seguro de Responsabilidade Civil;relator
+81;Serviço de Monitoração;subkind
+81;Serviço em Concessão Rodoviária;subkind
+81;Drenagem de Transposição de Talvegues;subkind
+81;Fiscalização em PPV;relator
+81;PAAIAP Finalizado;phase
+81;Produto Cotado;role
+81;Contrato de Autorização;relator
+81;Área de Transbordo;kind
+81;Bem da Concessão;roleMixin
+81;Imóvel Edificado Construído Imobilizado;role
+81;Atividade;relator
+81;Desgaste;mode
+81;Atendimento Rodoviário de Acidente;relator
+81;Inciso Simples;subkind
+81;Semirreboque;subkind
+81;Sociedade de Propósito Específico;subkind
+81;Tipo de Ativo Intangível;datatype
+81;TAC Pré;subkind
+81;Atropelamento;relator
+81;Imposto sobre Serviço;subkind
+81;Artigo;kind
+81;Revisão Ordinária Ensejada por Inexecução;role
+81;Trevo Incompleto;subkind
+81;Veículo de Combate a Incêndio;subkind
+81;Pessoa com Imóvel;roleMixin
+81;Registro de Adoção;relator
+81;Pavimento Semirrígido;subkind
+81;Interventor;roleMixin
+81;Marca de Canalização;subkind
+81;Cotação Agrupada de Modelo;relator
+81;Trecho Planejado;phase
+81;Convênio com Participação da Concessionária;relator
+81;Exploração de Faixa de Domínio;relator
+81;Receita Rodoviária Extraordinária;relator
+81;Anel Rodoviário;subkind
+81;Trecho Travessia;phase
+81;Bem Arrendado;category
+81;Ordem de Serviço;kind
+81;Linha Tracejada;subkind
+81;Obstáculo Sobreposto;kind
+81;Melhoramento da Rodovia;subkind
+81;Outorga de Concessão Rodoviária;relator
+81;Sistema de Drenagem Ideal;phase
+81;Construção de Intangível;relator
+81;Proposta de Desapropriação;mode
+81;Modelo Cotado;role
+81;Projeto as Built;kind
+81;Declaração de Caducidade;mode
+81;Região Política;category
+81;Posto de Fiscalização Rodoviária;subkind
+81;PIF da PRF;kind
+81;Comando Operacional Temático;relator
+81;Parente de 4º Grau ou Maior;role
+81;Produto Cotado Individualmente;role
+81;Fiscalização de VP;relator
+81;Regramento de Área Composta;subkind
+81;Veículo Pesado;role
+81;Imóvel Edificado Cedido;subkind
+81;Colisão Transversal;relator
+81;Infrator por InPraTo;role
+81;Caminhão;subkind
+81;Obra de Arte Especial;category
+81;Agente da ANTT;subkind
+81;Intervenção;mode
+81;Bisneto;role
+81;Legenda;subkind
+81;Termo de Registro de Ocorrência;kind
+81;Sinalização Horizontal;subkind
+81;Seção Componente;subkind
+81;Responsável pela Verificação de TRO;role
+81;Tema;datatype
+81;Atendimento para Primeiros Socorros;relator
+81;InPreTe Utilizada como Base;role
+81;Interventor Conveniado;role
+81;Imposto;kind
+81;Sócio;roleMixin
+81;Primo;role
+81;Pessoa Jurídica;kind
+81;Anexo;kind
+81;Agente;subkind
+81;Medida Administrativa Prevista;mode
+81;Fretamento;kind
+81;Livro;collective
+81;Sistema de Drenagem com Defeito;phase
+81;Fiscalização de VP de Operadora de Rodovia;relator
+81;Artigo de Inclusão;subkind
+81;Via Lacustre;subkind
+81;Líder de Equipe de Fiscalização;role
+81;Área Regulada;kind
+81;Autor de Reclamação;role
+81;Infração Prevista;kind
+81;Dotação Orçamentária;mode
+81;Comprador de Ativo;roleMixin
+81;Defeito na Faixa de Domínio;mode
+81;Poder Público;kind
+81;Artigo Componente de Seção;subkind
+81;Responsável por Serviço Delegado;role
+81;Acionista Votante;roleMixin
+81;Pavimento Rodoviário com Defeito;phase
+81;PAAIAP em Aberto;phase
+81;Livro Componente;subkind
+81;Infraestrutura de Ponte;kind
+81;Serviço;kind
+81;Trecho Rodoviário Concedido com Serviço;role
+81;Defeito na Drenagem;mode
+81;Item de Canteiro Central e Faixa de Domínio;subkind
+81;Balança Móvel;subkind
+81;Item de Obras de Arte Especiais;subkind
+81;Licenciamento Ambiental;relator
+81;Interventor Poder Público;role
+81;Venda de Ativo;relator
+81;Lei Delegada;subkind
+81;Autorizatária;role
+81;Desapropriação;relator
+81;Contrato;kind
+81;Rodovia Local;subkind
+81;Solicitação de Modelo;relator
+81;Defeito na Balança;mode
+81;Trecho Pista Tripla;phase
+81;Exploração de Acesso;relator
+81;Encadeamento;kind
+81;Termo de Ajuste de Conduta;kind
+81;Responsável por Adiantamento;roleMixin
+81;Buraco;mode
+81;Atendimento Rodoviário;relator
+81;Fax de Manifestação;role
+81;Agência Reguladora Autorizatária de Obra;role
+81;Ação Ordinária;subkind
+81;Proprietário de Veículo;roleMixin
+81;Atividade Extraordinária;relator
+81;Assunto da Manifestação;mode
+81;Veículo Administrativo;subkind
+81;Entrada em Vigência de Inclusão;relator
+81;Procedimento Executivo;kind
+81;Seção Simples;subkind
+81;Equipe de Fiscalização;kind
+81;Infrator;roleMixin
+81;Preâmbulo;kind
+81;Artigo Composto por Parágrafos;subkind
+81;Epígrafe;kind
+81;Trecho em Obra de Duplicação;phase
+81;Ocorrência de Transporte;mode
+81;Fiscalização Relativa à Prestação;relator
+81;Infrator com RG;role
+81;Solicitante;roleMixin
+81;Artigo Legal;subkind
+81;Atividade Não Operacional;relator
+81;Infração Legal;subkind
+81;Artigo Legal com Infração Definida;subkind
+81;Lote Ferroviário;kind
+81;Pista de Rolamento Multipista;subkind
+81;Extinção da Concessão Não Indenizável;relator
+81;Objetivo da Outorga;mode
+81;Projeto Básico;kind
+81;Expedidor;roleMixin
+81;Estrado;kind
+81;Fiscal Conveniado;subkind
+81;Recibo de TRO da Concessionária;mode
+81;PAAIAP com TAC;subkind
+81;Rescisão;mode
+81;Trecho Rodoviário Lógico;kind
+81;Defeito de Trecho Rodoviário;mode
+81;Área da União;phase
+81;Fiança Bancária;kind
+81;Contrato de Receita Extraodrinária;subkind
+81;Correção Emergencial;subkind
+81;Rodovia Estadual;subkind
+81;Licença de Operação;subkind
+81;Obra Não Iniciada;phase
+81;Fiscalização de VP de Operadora do Meio de Pagamento;relator
+81;Saída de Pista;relator
+81;Receita Acessória;relator
+81;Matriz;role
+81;Atividade da Cabine;mode
+81;Ativo Amortizado;phase
+81;Marca de Delimitação;subkind
+81;Condição Climática;datatype
+81;Via;category
+81;Solicitação de Compra;relator
+81;PAAIAP;kind
+81;Fiscalização de Plataforma;relator
+81;Ato Normativo;kind
+81;Título;collective
+81;Tipo de Produto;datatype
+81;Obra Recebida;role
+81;Infração Prevista com MA;subkind
+81;Execução de Serviço;relator
+81;Item de Sistema Elétrico e de Iluminação;subkind
+81;Fiscalização Apurativa;relator
+81;Fonte de Receita Rodoviária;relator
+81;Terreno Explorado;role
+81;Pagamento;relator
+81;Fiscalização Apurativa e Punitiva;relator
+81;Terreno Alugado;subkind
+81;Decreto;subkind
+81;Praça de Pedágio;subkind
+81;Órgão Conveniado;role
+81;Produtor de Serviço;role
+81;Revisão Ordinária Ensejada por Receita Extraordinária;role
+81;Unidade de Medida;enumeration
+81;Termo de Cessão de Bens;kind
+81;Faixa de Domínio com Defeito;phase
+81;Provimento de Serviço;relator
+81;Bem Construído;category
+81;Concessionária Ferroviária;subkind
+81;Comprador;roleMixin
+81;Trecho Lógico Federal;subkind
+81;VAA em Atendimento;role
+81;Trabalhos ao Longo da Concessão;phase
+81;Infração Leve;subkind
+81;Artigo Componente de Capítulo;subkind
+81;Área Simples;subkind
+81;Veículo Rodoviário Atendido;role
+81;Cotação;relator
+81;Posse de Ação;relator
+81;Responsável Técnico;role
+81;Entidade Pública Cedente;role
+81;Inconformidade;mode
+81;Ativo Investimento;mixin
+81;Parecer Técnico Sobre Obra;role
+81;Imposto sobre Resultado;subkind
+81;Fornecedor de Compra;roleMixin
+81;Infração Prevista de Transporte;subkind
+81;Outorgado;mixin
+81;Obra de Reparação;subkind
+81;Inciso;kind
+81;Garantia em Caução;kind
+81;Autorizatária Especial;role
+81;Delegação;relator
+81;Ementa;kind
+81;Cruzamento Esconso;subkind
+81;Via Terrestre;category
+81;Autuação Proveniente de TRO;relator
+81;Lote Rodoviário;collective
+81;GL em Atendimento;role
+81;Via de Tráfego Rodoviário;kind
+81;Balança Fixa Estática;subkind
+81;Trecho Rodoviário em Obra;role
+81;Escalonamento;mode
+81;Ponte em Laje;subkind
+81;Autuação de Transporte;relator
+81;Elemento de Discriminação;category
+81;Superestrutura de Ponte;kind
+81;Item do PER;kind
+81;Bem Operacional Comprado Imobilizado;role
+81;Área Protegida;phase
+81;Tarifa de Pedágio Reajustada;role
+81;Medida Administrativa;mode
+81;Alínea Simples;subkind
+81;PFR Fiscalizador;role
+81;Pagamento de Pedágio;relator
+81;Convênio de Realização de Obra;relator
+81;Tio-avô;role
+81;Remoção de Veículo;mode
+81;Trecho Pavimentado;phase
+81;Acidente de Trânsito;relator
+81;Solicitação;relator
+81;Cor;datatype
+81;Manifestação Com Localização;relator
+81;Cláusula Contratual;kind
+81;PAAI de Transporte;subkind
+81;Entidade Responsável por Extinção;role
+81;Parente em Linha Colateral;role
+81;Centro de Controle Operacional;subkind
+81;Túnel;kind
+81;Item de Operação;subkind
+81;Convênio de Aquisição;relator
+81;Imóvel Edificado Comprado Imobilizado;role
+81;Objetivo de Fiscalização;mode
+81;Arrendamento Financeiro Intangível;relator
+81;Bem Operacional Explorado;role
+81;Drenagem do Pavimento;subkind
+81;Item de Elemento de Proteção e Segurança;subkind
+81;Elemento Original;category
+81;Base Operacional;subkind
+81;Posto da PRF;subkind
+81;Imposto Estadual;subkind
+81;PPV Fiscalizador;role
+81;Rodovia Transversal;subkind
+81;Certidão de Nascimento;relator
+81;Via Marginal;subkind
+81;Sinalização Rodoviária com Defeito;phase
+81;Cessão de Bens;relator
+81;Produto;category
+81;CSLL;subkind
+81;Pagamento de Imposto sobre Serviço;relator
+81;Bem Cedido;category
+81;Melhoria Física e Operacional;subkind
+81;Decreto Autônomo;subkind
+81;Infração Graduada por Grupo;subkind
+81;Fiscalização de TRC;relator
+81;Veículo Rodoviário Rebocado;subkind
+81;Recebimento de Obra;relator
+81;Receita de Aplicações Financeiras;relator
+81;Rodovia Diagonal;subkind
+81;Infração Contratual;subkind
+81;Imóvel Edificado Alugado;subkind
+81;Outorgante;role
+81;Assentamento;mode
+81;Pavimento Rodoviário;quantity
+81;Artigo Simples;subkind
+81;Financiamento;relator
+81;Choque com Veículo Estacionado;relator
+81;Empresa Originária de Licitação;mixin
+81;Execução de Serviço em Rodovia Programado;relator
+81;Classe da Rodovia;enumeration
+81;Modificação de ElementoRodoviário;relator
+81;Balança Fixa;subkind
+81;Seguro de Danos Materiais;relator
+81;Fiscalização em Terminal Sem PFA;relator
+81;Elemento Modificado;category
+81;Rodovia Municipal;subkind
+81;Ponte em Viga;subkind
+81;Advertência;mode
+81;Linha de Ônibus Outorgada;role
+81;Meta da Concessão;mode
+81;Carta de Manifestação;role
+81;Terreno Arrendado Explorado;role
+81;Obra Conveniada;role
+81;Valor Monetário;datatype
+81;Cabine de Pedágio Automática;subkind
+81;Bem Operacional Imobilizado;role
+81;IR;subkind
+81;Carta;kind
+81;Multa;mode
+81;Órgão Público sem CNPJ;kind
+81;Compra Solicitada;relator
+81;Separador Rígido;subkind
+81;Curva;kind
+81;Interseção Ferroviária;subkind
+81;Elemento Componente de Ato Normativo;category
+81;Parte Múltipla;subkind
+81;Ondulação;mode
+81;Condicional por VDM ou Prazo;subkind
+81;Colisão Lateral;relator
+81;Obra de Construção;subkind
+81;Autorizatária de TRIIP por Fretamento;role
+81;Imóvel em Área de Interesse Público;roleMixin
+81;Fiscalização;relator
+81;Solo;quantity
+81;Concessão Rodoviária Extinta;role
+81;Parte;collective
+81;Órgão;category
+81;Parte Dupla;subkind
+81;Outorga de Concessão;relator
+81;Medição de Altura;relator
+81;Terminal Rodoviário sem PFA;subkind
+81;Área Destinada a Reforma Agrária;phase
+81;Destaque Orçamentário e Financeiro;mode
+81;Trecho Rodoviário em Lote;role
+81;Fiscalização em Rodovia;relator
+81;Avaliação de Imóvel;relator
+81;Área Composta;subkind
+81;Fiscal_2;role
+81;Parágrafo Vetado;subkind
+81;Item Condicional;subkind
+81;Fiscalização de RNTRC;relator
+81;Bem Operacional Cedido;subkind
+81;Empresa com Reserva;role
+81;Trecho Rodoviário Físico Ideal;phase
+81;Bem Material;category
+81;Trecho Rodoviário Concedido;role
+81;Emissora de Debênture;role
+81;Fiscalização de Terminal;relator
+81;Faixa de Acostamento;subkind
+81;Serviço Executado;role
+81;Trecho Implantado;phase
+81;Parada de Ônibus;kind
+81;Veículo Rodoviário Automotor;subkind
+81;Concessionária Rodoviária Solicitada;role
+81;Bem Operacional Arrendado Imobilizado;role
+81;Coordenada Geográfica;datatype
+81;Artigo de Alteração;subkind
+81;Fiscal Conveniado_2;subkind
+81;Posto de Pesagem Veicular;subkind
+81;Componente Rodoviário Modificado em Concessão;roleMixin
+81;Ponte Ferroviária;subkind
+81;Capítulo Componente;subkind
+81;Notificação do Infrator;kind
+81;Garantia em Dinheiro;kind
+81;Trecho Plataforma;phase
+81;Variante;subkind
+81;Sinalização por Placa;subkind
+81;Serviço de Operação;subkind
+81;Ponte em Caixão;subkind
+81;Via de Tráfego Ferroviário;kind
+81;Inciso Componente de Artigo;subkind
+81;Sarjeta;kind
+81;PFA;kind
+81;Veículo Contado;role
+81;Obra da Concessão;category
+81;Item de Sistema de Drenagem e Obra de Arte Corrente;subkind
+81;Quebra;mode
+81;Símbolo;subkind
+81;Fiscalização Indireta Autuadora;relator
+81;Estimativa de Receita;mode
+81;Cotação em CA;relator
+81;Pavimento Flexível;subkind
+81;Motoneta;subkind
+81;Classe de Bem Material;datatype
+81;Cotação Agrupada;relator
+81;Atividade Financeira;relator
+81;Parente de 3º Grau;role
+81;Interventor Concessionária;role
+81;Operadora de Meio de Pagamento;subkind
+81;Manifestante;roleMixin
+81;Artigo Ordinário;subkind
+81;Call Box;kind
+81;Ativo Explorado;mixin
+81;Responsável pela Lavratura de TRO;role
+81;Transbordo;mode
+81;Interseção em Nível;subkind
+81;Outorga com Licitação;relator
+81;Empresa;subkind
+81;Monitoração da Rodovia;subkind
+81;Ação como Ativo;role
+81;Área Quilombola;phase
+81;Apólice de Seguro;kind
+81;Terreno Comprado Explorado;role
+81;Sobrinho-neto;role
+81;Outorga de Concessão Ferroviária;relator
+81;Pagamento de Compra de Produto;relator
+81;Componente de Iluminação;kind
+81;Serviço com Intervenção;subkind
+81;Anulação do Contrato;relator
+81;Obra de Arte Corrente Linear;category
+81;Regramento de Área;collective
+81;Ponte Estaiada;subkind
+81;VI em Atendimento;role
+81;Fiscalização de Excesso de Peso;relator
+81;Extinção da Concessão Indenizável;relator
+81;Drenagem Superficial;subkind
+81;Degradação;mode
+81;Fiscalização Orientativa;relator
+81;Vendedor;roleMixin
+81;Ativo Depreciado;phase
+81;Terreno Arrendado;subkind
+81;Serviço de Recuperação;subkind
+81;PA Ordinário;subkind
+81;Conservação Corretiva Rotineira;subkind
+81;Obra com Desapropriação;role
+81;Acidente de Trânsito com Atendimento;relator
+81;Agravante;mode
+81;Apreensão de Animais;relator
+81;ETRP Autorizatária em RE;role
+81;Via Marítima;subkind
+81;ATe por N. Infração Iniciada por TAC;relator
+81;Contrato de Convênio;subkind
+81;Ação;kind
+81;Infrator por InPraTe com TRO;role
+81;Estatuto Social;relator
+81;Memorial Descritivo do Local;kind
+81;Recuperação da Rodovia;subkind
+81;Terreno Imobilizado;role
+81;Elemento Revogado;roleMixin
+81;Infração Prevista de Trânsito;subkind
+81;Via Aquática;kind
+81;Fiscal em Fiscalização Individual;role
+81;Trecho Rodoviário Físico;kind
+81;Empresa Limitada;role
+81;Decreto Legislativo;subkind
+81;Pavimento Rodoviário Ideal;phase
+81;Sistema de Drenagem;kind
+81;Inscrição no Pavimento;subkind
+81;Veículo de Primeiros Socorros;subkind
+81;Elemento Incluído;roleMixin
+81;Balança;kind
+81;Obra Paralisada;phase
+81;ISSQN;subkind
+81;Obra com Licença Ambiental;role
+81;Órgão Conveniado Fiscalizador;role
+81;Compra por Licitação;relator
+81;Assunto;datatype
+81;Cláusula;kind
+81;Serviço de Guincho;relator
+81;Solicitação de Produto;relator
+81;Trecho com Cooperação Técnica;role
+81;Centro de Atendimento ao Usuário;subkind
+81;Detector de Altura;kind
+81;Serviço Delegado;role
+81;Site com Manifestação;role
+81;Fiscal Autuador;role
+81;Ponto Espacial;kind
+81;Posse de Quota;relator
+81;Cotador;roleMixin
+81;Veículo;category
+81;Balança Fixa Dinâmica;subkind
+81;Infrator por InPraTe Concessionária;role
+81;Delegação em Convênio de Manutenção;relator
+81;Revisão da Tarifa Básica de Pedágio;kind
+81;Área Pública;phase
+81;Seguro de Obra;relator
+81;Trecho Físico Estadual;subkind
+81;Outorga Precedida de Obra Pública;relator
+81;Automóvel;subkind
+81;Trilha de Roda;mode
+81;Veículo de Rodagem Dupla;subkind
+81;Terreno Comprado Imobilizado;role
+81;Muro;kind
+81;Item de Compra;kind
+81;Trecho Rodoviário Multipista;subkind
+81;Trevo Completo;subkind
+81;Decreto Regulamentar;subkind
+81;Revisão da TBP com Revisão do PER;role
+81;Atividade Ordinária;relator
+81;Área Indígena;phase
+81;Empréstimo;relator
+81;Índice de Inflação;kind
+81;Plano de Trabalho;kind
+81;Posto de Fiscalização de OC;subkind
+81;Trecho Rodoviário Físico com Atendimento;role
+81;Pagamento de Imposto;relator
+81;Item do PER Excluído;role
+81;Reconhecimento de Paternidade;relator
+81;Decisão Final com Penalidade;mode
+81;Órgão Responsável por Fiscalização;role
+81;Autorização para Cobrança de Pedágio;mode
+81;Unidade de Conservação;phase
+81;Infrator por InPraTe com TAC;role
+81;Autor de Representação;roleMixin
+81;Imóvel Edificado;kind
+81;Fiscalização Direta;relator
+81;Veículo de Rodagem Simples;subkind
+81;Falência da Concessionária;relator
+81;Representação;relator
+81;Convênio em Concessão Rodoviária;relator
+81;Inciso Componente de Parágrafo;subkind
+81;Órgão Público;category
+81;Defeito no Canteiro Central;mode
+81;Infrator Reincidente;role
+81;Ocorrência Originadora de TAC;mode
+81;Rodovia Radial;subkind
+81;Ambulância de Transporte;subkind
+81;Investimento em Intangível;relator
+81;Holding;role
+81;Trecho Planejada Implantação;phase
+81;Callbox com Manifestação;role
+81;Título como Garantia;role
+81;PAAI de Trânsito;subkind
+81;Seguradora;subkind
+81;Serviço de Manutenção Delegado;role
+81;Linha de Ônibus Permissionada;role
+81;Sinalização de Educação;subkind
+81;Apreensão de Veículo;mode
+81;Lote Ferroviário Concedido;role
+81;Neto;role
+81;Taxa de Juros;datatype
+81;Transportador;roleMixin
+81;Sugestão;relator
+81;Recibo de AI da Concessionária;mode
+81;Recuperação;phase
+81;Fiscalização Constante;relator
+81;Cassação;mode
+81;Formulário de Reclamação;kind
+81;Autorização Especial;subkind
+81;Fiscalização Individual;relator
+81;Central de Atendimento com Manifestação;role
+81;Terreno Arrendado Imobilizado;role
+81;Manifestação de Usuário de Rodovia;relator
+81;Autor de ATe por N. de Infração;role
+81;Empresa Participante em Consórcio;role
+81;Autor de ATe por N. do Infrator;role
+81;Obra com Inexecução;role
+81;Bem Imóvel;category
+81;Viatura de Inspeção de Tráfego;subkind
+81;VPS em Atendimento;role
+81;Provedor de Serviço;mixin
+81;Caminhão-Irrigadeira;subkind
+81;COFINS;subkind
+81;Pista de Rolamento;kind
+81;Item Obrigatório;subkind
+81;Município;kind
+81;Trevo;subkind
+81;Concessionária Rodoviária Convenente;role
+81;Faixa de Rolamento;kind
+81;Empresa com AFAC;role
+81;Fissura;mode
+81;Rodovia Coletora;subkind
+81;ATe por Lavratura de AI;relator
+81;Escada;kind
+81;Decreto Presidencial de Desapropriação de Imóvel;subkind
+81;Serviço de Melhoramento;subkind
+81;Exploração de Faixa de Domínio sem Receita;relator
+81;Terreno Cedido;subkind
+81;Acesso;subkind
+81;Objeto Fiscalizado;mixin
+81;Concessionária Rodoviária Compradora;role
+81;Bem Segurado;roleMixin
+81;Ponte Suspensa;subkind
+81;Parente de 1º Grau;role
+81;ETRP de Fretamento ET;role
+81;Pagante;roleMixin
+81;Contador de Veículo;subkind
+81;Data Completa;datatype
+81;Trinca;mode
+81;Trecho de Concessão;collective
+81;Modelo Cotado Coletivamente;role
+81;Exploração de Publicidade;relator
+81;Contrato de Prestação de ST Fiscalizado;role
+81;Atividade Operacional;relator
+81;Fiscalização de Guichê;relator
+81;Indenização de Extinção de Concessão;relator
+81;Exploração da Faixa de Domínio com Receita;relator
+81;Compra de Bem;relator
+81;Bem Operacional Alugado;subkind
+81;Resolução da ANTT;subkind
+81;Cabine de Pedágio Manual;subkind
+81;Regramento de Subárea;collective
+81;Modelo Solicitado;role
+81;Rodovia com Fiscalização;role
+81;Serviços de Auxílio aos Usuários;subkind
+81;Cabine de Pedágio Inativa;phase
+81;Serviço Executado em Concessão Rodoviária;role
+81;Outorga de Autorização Especial;relator
+81;Área Privada;phase
+81;Base de Pavimento Rodoviário;quantity
+81;Compra por Cotação;relator
+81;Receita Complementar;relator
+81;Infração Praticada com Agravante;subkind
+81;Elemento Espacial;category
+81;Autorização;kind
+81;Parágrafo;kind
+81;Outorga;relator
+81;Arrendamento Operacional;relator
+81;Veículo em Atendimento;role
+81;Empresa SA Regular;role
+81;Infração Praticada de Trânsito;subkind
+81;Ativo Simples;subkind
+81;Trecho Rodoviário com Acidente;role
+81;Ponte Ideal;phase
+81;Defeito no Pavimento;mode
+81;Elemento Linear;category
+81;Artigo Composto por Incisos;subkind
+81;Produto Solicitado;role
+81;Trecho Natural Implantação;phase
+81;Exploração de FD com Projeto de Engenharia;relator
+81;Programa de Exploração da Rodovia;kind
+81;Resolução;subkind
+81;Praça Bidirecional;subkind
+81;Drenagem de Travessia Urbana;subkind
+81;Caminhão Munck;subkind
+81;Ativo Composto;subkind
+81;Autuação com Prazo;relator
+81;Conservação da Rodovia;subkind
+81;Decisão Final;mode
+81;Trecho Leito Natural;phase
+81;Linha de Ônibus;kind
+81;Fonte de Capital;roleMixin
+81;Cabine de Pedágio Ativa;phase
+81;Trecho Duplicado;phase
+81;Abalroamento;relator
+81;ATe por Notificação de Infração;relator
+81;Marca Transversal;subkind
+81;Contrato de Outorga;subkind
+81;Resposta;mode
+81;Faixa de Refúgio;subkind
+81;Entidade Pública em CA Solicitante;role
+81;Imóvel Edificado Arrendado;subkind
+81;Receita de Convênio;relator
+81;Imóvel Edificado Comprado Explorado;role
+81;Faixa de Domínio Utilizada;role
+81;Suspensão;mode
+81;Via Aérea;kind
+81;Emissão de Debênture;relator
+81;Fiscalização por Denúncia;relator
+81;Inciso Vetado;subkind
+81;Área;kind
+81;Elemento de Projeto de Engenharia de Faixa de Domínio;category
+81;Outorga de Autorização Regular;relator
+81;Bem Operacional Comprado;subkind
+81;Receita Alternativa;relator
+81;Fiscal;subkind
+81;Obra de Arte Corrente Pontual;category
+81;Arrendador Financeiro;roleMixin
+81;Praça de Pedágio Autorizada;role
+81;Item do PER Revisado;role
+81;Convenente Responsável por Serviço Delegado;role
+81;Agência Reguladora;subkind
+81;Pavimento Rígido;subkind
+81;PPV Móvel;subkind
+81;Conservação Preventiva Períodica;subkind
+81;Fiscalização Eventual;relator
+81;Drenagem Subterrânea;subkind
+81;Posto de Pedágio;subkind
+81;Compra Intangível;relator
+81;Reajuste de Tarifa de Pedágio;relator
+81;Fiscalização de VP de Contrato;relator
+81;Receita de Projeto Associado;relator
+81;Artigo Vetado;subkind
+81;Licença Prévia;subkind
+81;Execução de Serviço em Rodovia;relator
+81;Medida Provisória;subkind
+81;Cotação Individual de Produto;relator
+81;Sinalização Rodoviária;kind
+81;Sinalização de Obra;subkind
+81;Convênio;relator
+81;Setor;collective
+81;Trecho com Manutenção Conveniada;role
+81;Elemento Pontual;category
+81;Elemento de Utilidade Pública;category
+81;Bem Operacional;kind
+81;Defeito;mode
+81;Ativo Vendido;mixin
+82;Composed Section;subkind
+82;Letter Discriminator;kind
+82;Component Section;subkind
+82;Revocation Clause;subkind
+82;Article component of Chapter;subkind
+82;Subsection;subkind
+82;General Part;subkind
+82;Paragraph;kind
+82;Simple Article;subkind
+82;Item;kind
+82;Article composed of Item;subkind
+82;Composed Item;subkind
+82;Part;collective
+82;Epigraph;kind
+82;Simple Letter;subkind
+82;Simple Item;subkind
+82;Chapter composed by Article;subkind
+82;Simple Section;subkind
+82;Component Charter;subkind
+82;Normative Act;kind
+82;Letter;kind
+82;Double Part;subkind
+82;Composed Article;subkind
+82;Special Part;subkind
+82;Brief;kind
+82;string;datatype
+82;Chapter;collective
+82;int;datatype
+82;char;datatype
+82;Ordinary Article;subkind
+82;Book;collective
+82;Article component of Section;subkind
+82;Article composed of Paragraph;subkind
+82;Preamble;kind
+82;Composed Letter;subkind
+82;Multiple Part;subkind
+82;Article;kind
+82;Component Chapter;subkind
+82;Chapter composed by Section;subkind
+82;Charter;collective
+82;Component Book;subkind
+82;Caput;kind
+82;Section;collective
+82;Item component of Article;subkind
+82;Duration Clause;subkind
+83;Hardware Resource Participation;event
+83;Organizational Standard Process;type
+83;Standard Activity;type
+83;Artifact Creation;event
+83;Scheduled Activity;mode
+83;Method Workflow;type
+83;Software Product;kind
+83;Simple Method Activity;type
+83;Information Item;kind
+83;Agent;category
+83;Hardware Resource;role
+83;Hardware Type;type
+83;Social Agent;category
+83;Model;kind
+83;Software Item;kind
+83;General Intended Process;mode
+83;Document;kind
+83;Person Stakeholder;role
+83;Procedure Participation;event
+83;Scheduled Process;mode
+83;Physical Agent;category
+83;Method;kind
+83;Software Resource Participation;event
+83;Performed Organizational Process;event
+83;Stakeholder Allocation;relator
+83;Specific Standard Process;type
+83;CASE Tool;subkind
+83;Software Resource;role
+83;Hybrid Standard Process;type
+83;Artifact Participation;event
+83;Process Universal;type
+83;Standard Process;type
+83;Hardware Equipment;kind
+83;Project Process;mode
+83;Artifact Usage;event
+83;Composite Method Activity;type
+83;Project Stakeholder;roleMixin
+83;Simple Intended Activity;mode
+83;Simple Standard Activity;type
+83;Stakeholder;roleMixin
+83;Performed General Process;event
+83;Stakeholder Main Participation;event
+83;Standard Process Definition Document;kind
+83;Technique;kind
+83;Performed Project Process;event
+83;Organizational Intended Process;mode
+83;Software Project;subkind
+83;Software Product Type;type
+83;Intended Activity;mode
+83;Intended Process;mode
+83;Team Stakeholder;role
+83;Document Type;type
+83;Artifact Change;event
+83;Simple Artifact;category
+83;Performed Process;event
+83;Performed Composite Activity;event
+83;Performed Simple Activity;event
+83;Artifact Type;type
+83;Project Standard Process;type
+83;Artifact;category
+83;Person;kind
+83;Specific Intended Process;mode
+83;Composite Intended Activity;mode
+83;Procedure;category
+83;Performed Activity;event
+83;General Standard Process;type
+83;Composite Standard Activity;type
+83;Activity Universal;type
+83;Document Template;kind
+83;Performed Specific Process;event
+83;Method Activity;type
+83;Stakeholder Participation;event
+83;Composite Artifact;category
+83;Organization Stakeholder;role
+83;Resource;roleMixin
+84;Composed;subkind
+84;Person;kind
+84;Performed Activity;phase
+84;Performed Schedule;mode
+84;Resource Allocation;relator
+84;Activity;kind
+84;Human Resource;role
+84;Planned Schedule;mode
+84;Atomic;subkind
+84;Financial Resource;role
+84;Resource;roleMixin
+84;Project;kind
+84;Planned Activity;phase
+84;Money;kind
+85;CommunicativeCommitment;mode
+85;IntentionInternalCommitment;mode
+85;AppStore;mode
+85;MailingList;mode
+85;Words;kind
+85;FeedbackChannel;mode
+85;Sentence;kind
+85;ArtificialAgent;kind
+85;Communication;relator
+85;FeedbackCollection;relator
+85;Message;kind
+85;FeedbackAnalyst;role
+85;FeedbackClassification;relator
+85;PerlocutionaryAct;mode
+85;Video;subkind
+85;Image;subkind
+85;Receiver;roleMixin
+85;Metadata;mode
+85;Attachment;kind
+85;Drawing;mode
+85;Person;kind
+85;OpenForum;mode
+85;FeedbackCollector;role
+85;CommunicativeAct;mode
+85;Perception;mode
+85;InterpretedIntention;mode
+85;CommunicativeIntention;mode
+85;PerformativeVerb;kind
+85;AttachedInformation;mode
+85;Agent;category
+85;FeedbackProvider;role
+85;MobileTechnology;mode
+85;SharedDescription;role
+85;PresentationFormat;enumeration
+85;IssueTrackingSystem;mode
+85;Sender;roleMixin
+85;FeedbackClassified;role
+85;IllocutionaryAct;mode
+85;FeedbackDescription;kind
+85;FeedbackType;enumeration
+85;SoftwareApplication;kind
+85;LocutionaryAct;mode
+85;AnalysisTechnique;enumeration
+85;FeedbackAnalyzed;role
+85;Audio;subkind
+85;FeedbackAnalysis;relator
+85;Topic;mode
+85;SpeechAct;mode
+85;Gesture;mode
+85;NonLinguisticAct;mode
+86;:CataloguedResource DescriptorType;category
+86;foaf:Agent;category
+86;dcat:Resource;category
+86;:AttributionRole;subkind
+86;dcat:Distribution;mode
+86;:CataloguedData DescriptorType;kind
+86;dcat:Relationship;relator
+86;skos:Concept;category
+86;:Attribution RoleValue;datatype
+86;ISO-19115-1_Value;datatype
+86;:TargetDataset Type;role
+86;dcat:Dataset;kind
+86;dcat:Catalog;subkind
+86;skos:ConceptScheme;category
+86;:RelationRole Value;datatype
+86;dcat:DataService;kind
+86;:SourceDescriptor Type;roleMixin
+86;:RelationRole;subkind
+86;:Relation_isOwner;relator
+86;IANA_relator_Value;datatype
+86;dcat:Role;quality
+86;dcat:CatalogRecord;relator
+86;:DatasetDescriptorType;subkind
+86;dcat:RelationShip;type
+87;<Perpetrator> Perpetrator;roleMixin
+87;<Legally Defined Human Rights Violation> Legally Defined Human Rights Violation;event
+87;DEF-LocationTypeList;enumeration
+87;DEF-ConfidentialityManagement;datatype
+87;DEF-PersonRelationshipsTypeList;enumeration
+87;<Organisation Member> Member;role
+87;<Information Piece> Information Piece;kind
+87;DEF-MonitoringIntentionList;enumeration
+87;DEF-Timepoint;datatype
+87;DEF-ConfirmedStatusList;enumeration
+87;int;datatype
+87;DEF-AgentType;enumeration
+87;<UFO-B: Situation> Situation;situation
+87;<Network Connection> Network Connection;relator
+87;<Monitoring Process> Monitoring Process;kind
+87;<UFO-B: Event> Event;event
+87;DEF-HumanRightsStandardTypeList;enumeration
+87;DEF-ContactDetails;datatype
+87;DEF-ReligionList;enumeration
+87;DEF-EthnicGroupList;enumeration
+87;string;datatype
+87;<Monitoring Event> Monitoring Event;event
+87;<UFO-C: Agent> Agent;category
+87;DEF-CivilStatusList;enumeration
+87;DEF-SexualOrientationList;enumeration
+87;<Site> Site;subkind
+87;<Consequence For Agent> Consequence For Agent;situation
+87;<Legal Process Relation> Legal Process Relation;relator
+87;<Membership> Membership;relator
+87;<Detained Person> Detained Person;role
+87;<Victim> Victim;roleMixin
+87;DEF-ConfidentialityConditionList;enumeration
+87;<Official Legal Process> Official Legal Process;kind
+87;DEF-ConfidentialityLevelList;enumeration
+87;<Digital File> Digital File;kind
+87;<Official Legal Record> Official Legal Record;kind
+87;DEF-OwnerShipList;enumeration
+87;DEF-OHCHRThematicIssue;enumeration
+87;<Human Rights Instrument> Human Rights Instrument;kind
+87;<UFO-C: Social Agent> Organisation OR Group;kind
+87;<Person Relationship> Person Relationship;relator
+87;DEF-InstrumentTypeList;enumeration
+87;<Place> Place;kind
+87;DEF-RoleTypeList;enumeration
+87;<Natural Person> Person;kind
+87;DEF-DateTime;datatype
+87;<Human Rights Violation> Human Rights Violation;phase
+87;DEF-MonitoringParticipationList;enumeration
+87;boolean;datatype
+87;<Detention Centre> Detention Centre;role
+87;DEF-SexList;enumeration
+87;<Causation> Causation;relator
+87;DEF-Time;datatype
+87;<Detained Group> Detained Group;role
+87;<Human Rights Standard> Human Rights Standard;kind
+87;DEF-ChannelList;enumeration
+87;<Human Rights Mechanism> Human Rights Mechanism;subkind
+87;DEF-CountryList;enumeration
+87;<Monitoring Action Participant> Monitoring Event Participant;role
+87;DEF-Date;datatype
+87;<Detainment Conditions> Detainment Conditions;situation
+88;Hypothesis;kind
+88;Experiment;kind
+88;Problem;kind
+88;Location;kind
+88;Group;collective
+88;Goal;kind
+88;Inductive;kind
+88;Reference;kind
+88;EndDate;datatype
+88;Reasoning;mode
+88;Theoretical;mode
+88;Precedent;kind
+88;InitialDate;datatype
+88;Result;kind
+88;Report;kind
+88;Measure;kind
+88;Outcome;kind
+88;Experimental;mode
+88;Conclusion;kind
+88;Context;kind
+88;Person;mode
+88;Deductive;kind
+89;Mental Moment;mode
+89;Sacrifice;quality
+89;Criterion;role
+89;Value Ascription;relator
+89;Decision Resulting Action;event
+89;Preferred Bearer;roleMixin
+89;Goal;kind
+89;Consequence;role
+89;Value;quality
+89;Benefit;quality
+89;Delegation;relator
+89;Value Component;quality
+89;Intention;mode
+89;Decision;role
+89;Situation;kind
+89;VA Component;relator
+89;Desire;mode
+89;Action;event
+89;Social Capability;mode
+89;Intrinsic Moment;mode
+89;Value Bearer;roleMixin
+89;Belief;mode
+89;Proposition;kind
+89;Capability;mode
+89;Agent;mixin
+89;Deliberative Act;event
+89;Preference;relator
+89;Individual Capability;mode
+89;Deprecated Bearer;roleMixin
+89;intrinsic Moment Type;type
+90;MedicalProcedureTrigger;mixin
+90;MedicalConditionStage;enumeration
+90;GeneralPractitioner;role
+90;User;subkind
+90;SpecialistMedicalProcedure;role
+90;MildSymptom;phase
+90;SevereSymptom;phase
+90;SymptomEnum;enumeration
+90;PalliativeProcedure;subkind
+90;TherapeuticProcedure;subkind
+90;DoseSchedule;kind
+90;Date;datatype
+90;DiagnosticProcedure;subkind
+90;SpecialistDoctor;role
+90;Drug;kind
+90;MedicalProcedure;relator
+90;PrescribedDoseSchedule;role
+90;PreviousIllness;subkind
+90;PhysicalExam;subkind
+90;SevereOutcome;phase
+90;Address;datatype
+90;ReportingPatient;role
+90;DiagnosisMethod;enumeration
+90;ContactPoint;datatype
+90;boolean;datatype
+90;PatientReport;relator
+90;VisitRequest;subkind
+90;Doctor;role
+90;TreatmentPatient;role
+90;NonSevereOutcome;phase
+90;Diagnosis;subkind
+90;MedicalHistory;collective
+90;HoursSpecification;datatype
+90;PrescribedDrug;role
+90;MedicalCondition;kind
+90;Rating;enumeration
+90;string;datatype
+90;PresenceMedicalProcedure;subkind
+90;MedicalSpeciality;datatype
+90;RemoteMedicalProcedure;subkind
+90;float;datatype
+90;Prescription;relator
+90;MedicalProcedureOutcome;kind
+90;NamedEntity;category
+90;Patient;role
+90;SurgicalProcedure;subkind
+90;Symptom;subkind
+90;Person;kind
+91;Technological implementation;category
+91;Pedagogical architecture;kind
+91;Mediado;role
+91;Objeto físico;category
+91;Pedagogical method;category
+91;Atividade pedagógica;kind
+91;Work plan AP;subkind
+91;Objeto Virtual;category
+91;intencão;mode
+91;Agente;category
+91;Agente Humano;kind
+91;Estudante;role
+91;Recurso pedagógico físico;role
+91;Recursos Pedagógicos;roleMixin
+91;Mediador;role
+91;Plano de trabalho AP;subkind
+91;Pesquisador;role
+91;Virtual pedagogical resource;roleMixin
+91;Agent;category
+91;Mediacão pedagógica;relator
+91;Agente Sintético;kind
+91;Recurso Pedagógico Virtual;role
+91;Tutor;role
+91;Objetivo pedagógico;mode
+91;Professor;role
+91;Método pedagógico;category
+91;Pedagogical objective intention;mode
+91;Plano de trabalho;kind
+91;Pedagogical activity;kind
+91;Work plan;kind
+91;Arquitetura pedagógica;kind
+91;PA Creator;role
+92;Building;kind
+92;Finished project;event
+92;Entity;category
+92;CurrentPropertyState;phase
+92;(Q) Afwerking;subkind
+92;QuantitativeValue;quality
+92;organisation;kind
+92;externalProducts;kind
+92;(Y) Kozijnen;subkind
+92;value;quality
+92;TechnicalDesign;event
+92;House;subkind
+92;GeometryContext;event
+92;ManufacturingSchedule;subkind
+92;double;datatype
+92;AssemblySchedule;subkind
+92;ConceptDevelopment;event
+92;describedAttributeInSecondColumn;subkind
+92;ProductModel;category
+92;Product;category
+92;Current Geometry State;situation
+92;GeometryState;situation
+92;OutdatedPropertyState;phase
+92;PropertyValue;quality
+92;EngineeringSchedule;subkind
+92;Entry2D;subkind
+92;describedAttributeInFirstColumn;subkind
+92;drawing;kind
+92;postalAdress;kind
+92;ProjectDevelopment;event
+92;WebAPI;category
+92;(Z) Fundering;subkind
+92;(G) Daken;subkind
+92;Integration;event
+92;Place;category
+92;StructuredValue;quality
+92;(E) E-Installaties;subkind
+92;AnalysisAndDefinition;event
+92;describesAttribute;relator
+92;PremoduDevelopment;event
+92;DynamicEntity;kind
+92;FinalDesign;event
+92;Unit;kind
+92;UpcommingProject;event
+92;Geometry;category
+92;Interval;subkind
+92;Schedule;kind
+92;PreliminaryDesign;event
+92;List2D;subkind
+92;(S) Sanitair;subkind
+92;Housing Block;subkind
+92;Event;event
+92;(F) Vloeren;subkind
+92;ProductDevelopment;event
+92;(E) Wanden;subkind
+92;activity;situation
+92;Property;quality
+92;Module;kind
+92;creativeWork;category
+92;ClassifiedObject;category
+92;deleted;phase
+92;ExploreOptions;event
+92;WorkPreparationSchedule;subkind
+92;element;kind
+92;string;datatype
+92;PropertyState;quality
+92;WIP project;event
+92;componentConnection;relator
+92;DigitalDocumentPermission;mode
+92;person;kind
+92;Attribute;subkind
+92;Component;category
+92;priceSpecification;quality
+92;VersionRelease;event
+92;BuildingElement;kind
+92;Testing;event
+92;SingularEntity;kind
+92;ProcurementSchedule;subkind
+92;ConstructionSchedule;subkind
+92;InitiationPhase;event
+92;Agent;category
+92;Complementing;event
+92;(L) LosLeveren;subkind
+92;RangedAttribute;subkind
+92;internalProducts;kind
+92;ReferencedContent;datatype
+92;Assembly;category
+92;RealisationPhase;event
+92;DevelopmentPhase;event
+92;DevelopmentPlanning;event
+92;(W) W-Installaties;subkind
+92;ProductOrServiceModel;category
+92;boolean;datatype
+92;NeedsAndDemands;event
+92;DigitalDocument;kind
+93;Blockchain;collective
+93;Transaction;kind
+93;Human Agent;role
+93;Data Object;kind
+93;Business Rule;kind
+93;Block;kind
+93;Act;event
+93;Agent;roleMixin
+93;Service;event
+93;Smart Contract;relator
+93;Transaction;kind
+93;State Variable;kind
+93;Payload;NonPerceivableQuality
+93;Contract Storage;relator
+93;Function;mode
+93;External Actor;subkind
+93;Physical Object;kind
+93;Goal;NonPerceivableQuality
+93;Off-chain Storage;kind
+93;Process Participant;roleMixin
+93;Account Wallet;kind
+93;Fact;kind
+93;State;NonPerceivableQuality
+93;Initiator;role
+93;Business Object;category
+93;Artificial Object;kind
+93;Value;NonPerceivableQuality
+93;Transaction Trie;kind
+93;Event;event
+93;Key;NonPerceivableQuality
+93;Data Object;kind
+93;Lifecycle Stage;phaseMixin
+93;Business Artifact Type;category
+93;Artificial Agent;role
+93;Transaction Phase;phase
+93;Inter-organizational Process;collective
+93;Process Contract;kind
+93;Business Artifact;kind
+93;Executor;role
+94;Component Interface Design;event
+94;Software Architect;role
+94;Simple Artifact;category
+94;User Inteface Design;event
+94;Architecture Development;event
+94;Software Item;kind
+94;Stakeholder;roleMixin
+94;Composite Artifact;category
+94;Artifact;category
+94;Information Item;kind
+94;Design Documentation;event
+94;Architectural Component;subkind
+94;Detailed Design;event
+94;Architectural Element;subkind
+94;Architectural Connector;subkind
+94;User Interface Specification;subkind
+94;Interface Specification;subkind
+94;Performed General Process;event
+94;Requirements Document;subkind
+94;Data Design;event
+94;Interface High-level Design;event
+94;Design Document;subkind
+94;Component Design;event
+94;Data Model;subkind
+94;Software Architecture;subkind
+94;Software Product;kind
+94;Document;kind
+94;Performed Process;event
+94;Performed Simple Activity;event
+94;Design Evaluation;event
+94;Performed Specific Process;event
+94;Model;kind
+94;Performed Activity;event
+94;Performed Composite Activity;event
+94;Architectural Design;event
+94;Designer;role
+94;Design Process;event
+94;Design Evaluation Document;subkind
+94;Data Definitions;subkind
+94;Data High-level Design;event
+95;Location;kind
+95;Resilient Network;category
+95;UPS/Generator Switching;relator
+95;Application-based;subkind
+95;Bank of Battery;subkind
+95;Network Provider;subkind
+95;Redundant Power Supply;subkind
+95;Physical Media;subkind
+95;Refrigeação;kind
+95;Data Replication;kind
+95;Componente de IT;category
+95;Peripheral;subkind
+95;UPS Standby;subkind
+95;Data Storage;kind
+95;Network Component;kind
+95;Storage-based;subkind
+95;Cooling;kind
+95;Replication Technology;category
+95;Telecom Asset;subkind
+95;IT Architecture;category
+95;Monitoring Software;subkind
+95;Cluster;kind
+95;Incident;relator
+95;Media Backup/Restore;subkind
+95;Power Distributor;subkind
+95;Sistema;kind
+95;Asynchronous;subkind
+95;Host-based;subkind
+95;Appliance;kind
+95;Site;kind
+95;Energia;kind
+95;Power;kind
+95;Platform;category
+95;Snapshot;kind
+95;Link;subkind
+95;Passive;role
+95;Armazenamento de Dados;kind
+95;Cooling Fan;subkind
+95;Replication;relator
+95;Contingency;role
+95;Warranty And Support;kind
+95;UPS Online;subkind
+95;Dual Network Device;subkind
+95;Alerta;relator
+95;Remote Replication;subkind
+95;Cooler Redundante;subkind
+95;Sistema Computacional;kind
+95;System;kind
+95;ITSC Component;category
+95;Warning;relator
+95;Installation;relator
+95;Generator;subkind
+95;Online;role
+95;IT Component;category
+95;Offline;role
+95;Dispositive de drede dual;subkind
+95;Remote;subkind
+95;Periferico;subkind
+95;Rede;category
+95;Management Suite;subkind
+95;Mirroring;kind
+95;Appropriate Level of Warranty;relator
+95;Garantia eSuporte;kind
+95;Synchronous;subkind
+95;Fonte Redundante;subkind
+95;Backup;role
+95;Site;kind
+95;Alimentação dupla;subkind
+95;Monitoramento;kind
+95;RAID;kind
+95;UPS;kind
+95;UPS/Battery Switching;relator
+95;Service Continuity;kind
+95;Active;role
+95;Local Replication;subkind
+95;Plataforma;category
+95;Site Model;kind
+95;Dual Power Inlet;subkind
+95;Local;subkind
+95;Monitoring;kind
+95;Nível de Garantia Apropriado;relator
+95;DBMS-based;subkind
+95;Automatic Switching;relator
+95;Computer System;kind
+96;Repair Appointment;relator
+96;Child;role
+96;Organization Unit;subkind
+96;Transferred Car;role
+96;Woman;subkind
+96;Personal Customer;role
+96;Insurable Item;mixin
+96;Closed Car Rental Agreement;phase
+96;Trainee;role
+96;Maintenance Appointment;relator
+96;Insured Driver;role
+96;Licensing Authority;subkind
+96;Car Rental Agreement;relator
+96;Mid-level Employee;role
+96;Spouse;role
+96;Insurance Company;role
+96;Car;kind
+96;Passenger Car;subkind
+96;Parent;role
+96;Website;kind
+96;Receiver Branch;role
+96;Website Ownership;relator
+96;Online Website;phase
+96;Employee;role
+96;Car Manufacturer;role
+96;Legal Parenthood;relator
+96;Junior Employee;role
+96;Corporate Customer;role
+96;Valid Driver's LIcense;phase
+96;Employment Contract;relator
+96;Organization;kind
+96;Governmental Agency;subkind
+96;Deceased Person;phase
+96;Car Scheduled for Repair;role
+96;Cargo Car;subkind
+96;Car Production;relator
+96;Transfer Agreement;relator
+96;Marriage;relator
+96;Car Needing Maintenance;phase
+96;Expired Driver's License;phase
+96;Car Needing Repair;phase
+96;Driver's License;relator
+96;Driver;role
+96;Functional Car;phase
+96;Car Rental Agreement Closed With Damage;role
+96;Living Person;phase
+96;Damage Report;relator
+96;Car Scheduled for Maintenance;role
+96;Customer;roleMixin
+96;Sender Branch;role
+96;Rental Insurance;relator
+96;Senior Employee;role
+96;Insurance;relator
+96;Service Depot;subkind
+96;Adult;phase
+96;Person;kind
+96;Offline Website;phase
+96;Car Ownership;relator
+96;Branch;subkind
+96;Car Returned with Damage;role
+96;Teenage;phase
+96;Infant;phase
+96;Extented Car Rental Agreement;phase
+96;Active Car Rental Agreement;phase
+96;Man;subkind
+96;Car Agency;subkind
+97;Redirected Walk;phase
+97;Redirected Destination Intention;mode
+97;Jog;mode
+97;Woman;subkind
+97;Spouse Type;type
+97;Jog State;event
+97;Conjugal Relationship;relator
+97;Finalized Walk;phase
+97;Course Teacher Assignment;relator
+97;Flower;kind
+97;Man;subkind
+97;School;kind
+97;Wife;role
+97;Destination;role
+97;Person;kind
+97;Right Rear Leg;role
+97;Table Top Component;subkind
+97;Ongoing Walk;phase
+97;Walker;role
+97;Flower Color Values;enumeration
+97;Wooden Table;kind
+97;Rose;subkind
+97;Track;kind
+97;Teacher;role
+97;School Enrollment;relator
+97;Jogging Track;role
+97;Walking While Jogging;event
+97;Employment;relator
+97;Running While Jogging;event
+97;Jogging Locomotion;event
+97;Jogging Process;event
+97;Husband;role
+97;Course Enrollment;relator
+97;Spouse;role
+97;Left Front Leg;role
+97;Originally Intended Destination;role
+97;Sucessful Walk;phase
+97;Conjugal Relationship Type;type
+97;Color;quality
+97;Wood Portion;quantity
+97;Walk;mode
+97;Monogamous Heteresexual Marriage;subkind
+97;Right Front Leg;role
+97;Person;kind
+97;Jogging Event;event
+97;Flower Color;subkind
+97;Jogging Speed Values;enumeration
+97;Student;role
+97;Course;kind
+97;Course Offering;relator
+97;Left Rear Leg;role
+97;Person;kind
+97;Table Leg Component;subkind
+97;Wood Component Constituent;role
+97;Top Component;role
+97;Jogging Perdurant;event
+97;Class;collective
+97;Wooden Table Component;kind
+97;Person;kind
+97;Redirected Destination;role
+97;Jogger;role
+97;Place;kind
+98;Adherence Evaluation;event
+98;Process Evaluation;event
+98;Evaluated Artifact;role
+98;Quality Assurance Plan;subkind
+98;Noncompliance Identification;event
+98;Quality Assurance Planning;event
+98;Noncompliance Register;subkind
+98;Noncompliance Responsible;role
+98;Evaluation Report;subkind
+98;Noncompliance Control;event
+98;Quality Auditor;role
+98;Noncompliance Resolution;event
+98;Quality Assurance Process;event
+98;Noncompliance Closing;event
+98;Artifact Evaluation;event
+98;Evaluated Process;role
+100;SubFuncão;kind
+100;Pessoa Credor;role
+100;Empresa Credor;role
+100;Funcão;kind
+100;Processo Execucão;relator
+100;Governo Estadual;kind
+100;Contrato Aditivo;relator
+100;Programa;kind
+100;Contrato com Licitacão;relator
+100;Despesa;kind
+100;Categoria Econômica;kind
+100;Processo;relator
+100;Dispensa Licitacão;relator
+100;Órgão;kind
+100;Despesa Paga;role
+100;Despesa Liquidada;role
+100;Governo Federal;kind
+100;Governo Municipal;kind
+100;Liquidacão;relator
+100;Empresa;kind
+100;Natureza Despesa;kind
+100;Execucão Despesa;relator
+100;Processo Licitatório;relator
+100;Acão;kind
+100;Contrato Inicial;relator
+100;Exeucão com Contrato;relator
+100;Contrato com Dispensa;relator
+100;Pagamento;relator
+100;Acão Licitatória;relator
+100;Local;kind
+100;Unidade Gestora;role
+100;Credor;roleMixin
+100;Empenho;relator
+100;Modalidade Aplicacão;kind
+100;Execucão sem Contrato;relator
+100;Governo;category
+100;Grupo Natureza;kind
+100;Pessoa;kind
+100;Licitacão;relator
+100;Despesa Empenhada;role
+100;Subtítulo;role
+100;Contrato;relator
+101;Performed Activity;event
+101;Performed Process;event
+101;Intended Activity;mode
+101;Performed General Process;event
+101;General Intended Process;mode
+101;Stakeholder;roleMixin
+101;Scheduled Process;mode
+101;Software Project;subkind
+101;Intended Process;mode
+101;Stakeholder Allocation;relator
+101;Performed Project Process;event
+101;Scheduled Activity;mode
+101;Project Process;mode
+101;Specific Intended Process;mode
+101;Stakeholder Participation;event
+101;Deliverable;mode
+101;Performed Specific Process;event
+102;Autor Científico Independente;role
+102;Autoria Científica;relator
+102;Veículos de Publicação Científica;category
+102;Obra Científica Publicada;role
+102;Fascículo;subkind
+102;JCR;quality
+102;Pessoa Jurídica;kind
+102;Afiliação;relator
+102;Qualis;quality
+102;Volume de Periódico;kind
+102;Autor Científico;role
+102;Índice de Texto Científico Publicado;subkind
+102;Área de Pesquisa;kind
+102;Resumo Publicado;role
+102;Editor;roleMixin
+102;Artigo de Periódico Publicado;role
+102;Índice de Veículo de Publicação;subkind
+102;Edição do Evento;kind
+102;Capítulo de Livro Publicado;role
+102;Colaborador Afiliado;role
+102;Artigo Publicado;role
+102;Coleção de Textos Científicos;collective
+102;Edição de Obra Científica;relator
+102;Autor Científico Afilidado;role
+102;Publicador;roleMixin
+102;Índice de Autor;subkind
+102;Entidades Avaliáveis;mixin
+102;Publicação de Obra Científica;relator
+102;Evento;kind
+102;Índice de Qualidade Científica;category
+102;Livro;kind
+102;Texto Científico;kind
+102;Texto Científico Editado;role
+102;Artigo de Evento Publicado;role
+102;Pessoa Física;kind
+102;Obra Científica Editada;role
+102;H-10;quality
+102;Edição de Livro;subkind
+102;Instituição;subkind
+102;Periódico;kind
+102;Anais de Evento;subkind
+102;H-index;quality
+102;Texto Científico Publicado;role
+103;Source SN-FP;kind
+103;Adaptation Source;subkind
+103;Bidirectional Access Transport Entity;subkind
+103;Termination Source - A So Connected;role
+103;OIC;subkind
+103;PM - Termination Source Connected;role
+103;Layer Processor Sink Input;kind
+103;Bidirectional Termination - Bi M Connected;role
+103;Source Path FEP;category
+103;Bidirectional LPF-FEP;kind
+103;Architectural Component;category
+103;Section Layer Termination;subkind
+103;Termination Source - SN Connected;role
+103;Bidirectional LP-FP;kind
+103;Egress SN So;role
+103;Sink LPF-FEP Bi Component;role
+103;Mapped TF Input;roleMixin
+103;Layer Processor Sink Output;kind
+103;NC Supported by LC;role
+103;Termination Sink - A Sk Connected;role
+103;Path NC Forwarding;relator
+103;Matrix Output;kind
+103;Bidirectional LC;subkind
+103;LC Connected RP;roleMixin
+103;Sink Path FEP;category
+103;Topological Subnetwork;kind
+103;Fowarding Rule Sk SN;relator
+103;Transport Function Equipment Component;roleMixin
+103;Bi Intermediate MC;subkind
+103;Source PM-FEP;kind
+103;Sink Active RP - Path LC connected;roleMixin
+103;Sink PM-FEP Binding;relator
+103;Active Sk PM-FEP - PM NC connected;role
+103;Geographical Element With Alias;category
+103;Termination Source - PM Connected;role
+103;Termination Sink - SN Connected;role
+103;Topological M Representation;subkind
+103;Source PM-FEP Binding;relator
+103;Bidirectional PM NC;subkind
+103;Active Sk SN-FP - Int CFTE connected;role
+103;PM LC Bi Component;role
+103;Co-located Termination;phase
+103;T Sk Input - Sk M-FEP Bound;role
+103;Sink A-FEP Binding;relator
+103;Path-Section Layers AF;subkind
+103;Active Sk SN-FEP - End CFTE connected;role
+103;Sink MC Bi Component;role
+103;Sink AP Binding;relator
+103;Forwarding Rule LC;relator
+103;Ingress SN Sk-So;role
+103;Uni Matrix - A So Connected;role
+103;Geographical Element;category
+103;Bidirectional Termination - Bi LPF Connection;role
+103;Adaptation Source - T So Connected;role
+103;Section-Physical Media Layers AF;subkind
+103;Egress MC So;role
+103;Source LPF-FEP Binding;relator
+103;Connected Unidirectional Matrix;role
+103;Bi A - Bi Subnetwork Connected;role
+103;Client Section Layer;role
+103;Path-Path Layers AF;subkind
+103;Active Sk M-FEP - Sk MC connected;role
+103;Path LC Forwarding;relator
+103;T Sk - Adaptation Sink Connected;role
+103;Source AP;kind
+103;Termination Source Process;kind
+103;Active So SN-FEP - So CFTE connected;role
+103;Unidirectional Subnetwork;role
+103;LPF - Sk L-FEP Bound;role
+103;Supporting CFTE;role
+103;Bidirectional LPF - Bi Termination Connected;role
+103;Active Bidirectional PM-FEP - PM NC Connected;role
+103;Sink LPF-FEP;kind
+103;Connected Output Interface;role
+103;Supporting LC;role
+103;Bidirectional Adaptation - LPF Bi Connected;role
+103;Sink M-FEP;kind
+103;Sink M-FEP Bi Component;role
+103;Sink SN-FP Bi Component;role
+103;Equipment;kind
+103;T So Output - So SN-FEP Bound;role
+103;Source M-FP;kind
+103;Sink LP-FP Binding;relator
+103;SN Intput - Sk SN-FP Bound;role
+103;Adaptation Sink - T Sk Connected;role
+103;Active Bidirectional Path FEP - Path NC Connected;roleMixin
+103;Ingress MC So;role
+103;Unidirectional Matrix;kind
+103;Connected Reference Point;roleMixin
+103;Ingress SN So-Sk;role
+103;Source A-FEP Bi Component;role
+103;Unidirectional NC;subkind
+103;Termination Source - LPF Connected;role
+103;A Sk Output - Sk LP-FP Bound;role
+103;Termination Sink Output;kind
+103;Adaptation Function;kind
+103;SN Outtput - So SN-FP Bound;role
+103;Bidirectional SN-FP;kind
+103;So MC Forwarding;relator
+103;Ingress MC Sk;role
+103;A Sk Output - Sk A-FEP Bound;role
+103;Active So PM-FEP - PM LC connected;role
+103;SN-FP;category
+103;Bidirectional Termination - Bi A Connected;role
+103;Sink MC;subkind
+103;Active Sk M-FP - Int MC connected;role
+103;Bidirectional PM-FEP;kind
+103;Forwarding Rule MC So;relator
+103;Forwarding Rule So-Sk;relator
+103;Layer Network;kind
+103;Transmission Media Layer Termination;subkind
+103;Ingress MC Sk-So;role
+103;Sink A-FEP Bi Component;role
+103;Termination Sink;subkind
+103;Single Physical Media;kind
+103;Active So SN-FP - Int CFTE connected;role
+103;Unidirectional Path NC Bidirectional Component;role
+103;Source A-FEP Binding;relator
+103;Active Bidirectional AP;role
+103;Adaptation So Bidirectional Component;subkind
+103;Forwarding Point;category
+103;Uni A-FP Bi Component;role
+103;Section Layer Network;subkind
+103;A So - Uni Subnetwork Connected;role
+103;Source CFTE Bi Component;role
+103;M - Termination Source Connected;role
+103;A - Layer Processor Sink Connected;role
+103;Bidirectional A-FEP;kind
+103;Active Sink AP;role
+103;Path Layer Network;role
+103;Module Mapped TF Input;roleMixin
+103;A So - Termination Source Connected;role
+103;Active So M-FP - So MC connected;role
+103;Source M-FEP Bi Component;role
+103;Sink Site;role
+103;Forwarding Function CFTE So-Sk;role
+103;Bidirectional Sink-Source Matrix;subkind
+103;Possible LC Connected RP;category
+103;Physical Media Layer Component;roleMixin
+103;Bidirectional NC;subkind
+103;Source LPF-FEP;kind
+103;Active Sk SN-FP - Sk CFTE connected;role
+103;Termination Source;subkind
+103;WSS;subkind
+103;Source M-FEP;kind
+103;Active Sk Path-FEP - Path NC connected;roleMixin
+103;T So Output - So PM-FEP Bound;role
+103;A Sk Output - Sk SN-FP Bound;role
+103;Possible Ingress LC;roleMixin
+103;Output Interface;kind
+103;Unidirectional Path NC;subkind
+103;Active So SN-FP - So CFTE connected;role
+103;Bidirectional FEP;category
+103;Forwarding Function So M Connected;role
+103;Physical Media Component;role
+103;Source CFTE;subkind
+103;Supporting Access Transport Entity;role
+103;Adaptation Sink - A So Connected;role
+103;Path Layer Network_2;subkind
+103;T Sk Input - Sk SN-FEP Bound;role
+103;Reference Point;category
+103;Bi Subnetwork - A Bi Connected;role
+103;Supporting MC;role
+103;Output;category
+103;AP Forwarding;relator
+103;Egress SN Sk-So_2;role
+103;T Sk Input - Sk PM-FEP Bound;role
+103;T So Output - So LPF-FEP Bound;role
+103;A-FP Binding;relator
+103;LPF So Bidirectional Component;subkind
+103;Sink M-FP Binding;relator
+103;Sink CFTE;subkind
+103;PM NC Forwarding;relator
+103;Mapped Output Interface;role
+103;LP Input - Sk LP-FP Bound;role
+103;Single AG;subkind
+103;NC Supported by MC;role
+103;Bi Termination - Bidirectional A Connected;role
+103;Forwarding Function Sk-So Connected;role
+103;Sink PM-FEP;kind
+103;Forwarding Function Sk M Connected;role
+103;Mapped Input Interface;role
+103;T So Output - So M-FEP Bound;role
+103;Active Path Bidirectional SN-FEP;role
+103;Module Mapped TF Output;roleMixin
+103;LP-FP;category
+103;Supporting NC;role
+103;Termination Sink Process;kind
+103;Subnetwork Output;kind
+103;Subnetwork;kind
+103;Intermediate MC Bi Component;role
+103;Possible Egress LC;roleMixin
+103;Related Layer Network;role
+103;PM - Termination Sink Connected;role
+103;Topological Component;category
+103;Unidirectional CFTE;subkind
+103;Ingress LC;roleMixin
+103;Composed AG;subkind
+103;Access Transport Entity;kind
+103;Bidirectional AP;kind
+103;Transport Processing Function;category
+103;Layer Processor Source - A Connected;role
+103;Bi SN - Bidirectional Termination Connected;role
+103;Bidirectional Adaptation - Bi A Connected;role
+103;Forwarding Function LC Connected;role
+103;SN Input - So S-FEP Bound;role
+103;Bi Intermediate CFTE;subkind
+103;Single Equipment Site Component;role
+103;Composed Topological Layer;role
+103;A-FP;category
+103;Physical Media Output;kind
+103;ODU Switch;subkind
+103;PM LC;subkind
+103;Active So M-FP - Int MC connected;role
+103;Bidirectional Termination - Bi SN Connected;role
+103;Source SN-FP Binding;relator
+103;Sk MC Forwarding;relator
+103;PM Output - Sk PM-FEP Bound;role
+103;Source AP Binding;relator
+103;Adaptation Sink Process;kind
+103;Path Bidirectional Matrix;subkind
+103;Source SN-FEP Binding;relator
+103;Int MC Forwarding;relator
+103;Aggregated Physical Media;collective
+103;Link Connection;kind
+103;Sink SN-FP;kind
+103;Bidirectional Path FEP;category
+103;Path LC Bi Component;role
+103;Transport Entity;category
+103;Intermediate MC;subkind
+103;PM Interface Bound Output;role
+103;Source A-FEP;kind
+103;Source SN-FP Bi Component;role
+103;LPF Input - So L-FEP Bound;role
+103;Single Equipment Site;role
+103;Source M-FP Bi Component;role
+103;Sink M-FP Bi Component;role
+103;M-FP;category
+103;Subnetwork Input;kind
+103;Bidirectional Termination - Ag PM Connected;role
+103;Bound Input Interface;role
+103;M - Termination Sink Connected;role
+103;A So Input - So M-FP Bound;role
+103;Bidirectional A-FP;kind
+103;Active Path Bidirectional M-FP;role
+103;Uni Sk-So Matrix Bi Component;role
+103;PM Interface Bound Input;role
+103;End CFTE;subkind
+103;Sink AP;kind
+103;Bidirectional MC;subkind
+103;Active Path Bidirectional M-FEP;role
+103;Active Source AP;role
+103;Forwarding Function CFTE Sk;role
+103;A Sk Input - Sk AP Bound;role
+103;SN - Termination Sink Connected;role
+103;Component LPF;role
+103;A Sk Output - Sk M-FP Bound;role
+103;A - LPF Source Connected;role
+103;Forwarding;relator
+103;Bi Path CFTE;subkind
+103;Active Intermediate Bidirectional SN-FP;role
+103;Termination Sk Bidirectional Component;subkind
+103;Adaptation Sink;subkind
+103;Active Sk SN-FEP - Sk CFTE connected;role
+103;Source LP-FP Bi Component;role
+103;Termination So Bidirectional Component;subkind
+103;Egress SN Sk-So;role
+103;Bi Path MC;subkind
+103;Unidirectional Port;category
+103;Connected Relatable TC;roleMixin
+103;Active Sk M-FP - Sk MC connected;role
+103;Equipment Composed of Modules;role
+103;T So Output - So A-FEP Bound;role
+103;Topological Layer;kind
+103;Sink SN-FP Binding;relator
+103;A So Input - A-FP Bound;role
+103;Composed PM Layer;role
+103;So Matrix Bi Component;role
+103;M Output - So M-FP Bound;role
+103;Bidirectional Adaptation;subkind
+103;Unidirectional PM NC;subkind
+103;Input;category
+103;Sink FEP;category
+103;Forwarding Function CFTE So;role
+103;M Output - Sk M-FEP Bound;role
+103;T So Input - So AP Bound;role
+103;Active So Path-FEP - Path NC connected;roleMixin
+103;Uni Subnetwork - A So Connected;role
+103;M Input - Sk M-FP Bound;role
+103;Adaptation Sink Output;kind
+103;Termination Sink - PM Connected;role
+103;Bound Output Interface PM;role
+103;Matrix Connection;kind
+103;So CFTE Forwarding;relator
+103;Topological Link;kind
+103;Sink A-FEP;kind
+103;Physical Media Layer Network;subkind
+103;Termination Sink - M Connected;role
+103;Relatable Topological Components;category
+103;Unidirectional A-FP;kind
+103;Active Possible Bi LC Connected RP;roleMixin
+103;Sink AP Bi Component;role
+103;Egress MC Sk-So;role
+103;Intermediate CFTE Bi Component;role
+103;Source Site;role
+103;Forwarding Function CFTE Sk-So;role
+103;A So - Uni Matrix Connected;role
+103;Forwarding Rule MC Sk-So;relator
+103;Layer Processor Function Sink;subkind
+103;Active So PM-FEP - PM NC connected;role
+103;Possible Bi LC Connected RP;category
+103;T Sk Input - Sk LPF-FEP Bound;role
+103;NC Supported by CFTE;role
+103;Sink SN-FEP Bi Component;role
+103;Layer Processor Source Input;kind
+103;Channel Forwarding Transport Entity;kind
+103;Sk CFTE Forwarding;relator
+103;Module;kind
+103;Sink LPF-FEP Bound;relator
+103;Int CFTE Forwarding;relator
+103;Path Layer Termination;subkind
+103;M Input - So M-FEP Bound;role
+103;T So - Adaptation Source Connected;role
+103;Bound Input-Output;roleMixin
+103;Unidirectional Access Transport Entity Bidirectional Component;role
+103;Client Path Layer;role
+103;Bi PM LC;subkind
+103;Bound Input Interface Equipment;role
+103;Server Section Layer;role
+103;Matrix Input;kind
+103;PM LC Forwarding;relator
+103;Path Connected Reference Point;roleMixin
+103;Path-Path Client Layer;role
+103;Directly Connected Transport Entity;category
+103;Adaptation Sk Bidirectional Component;subkind
+103;TE Connected Reference Point;roleMixin
+103;Forwarding Function;kind
+103;Sink PM-FEP Bi Component;role
+103;Sink Matrix;role
+103;Access Group;kind
+103;LPF Output - So L-FP Bound;role
+103;T Sk Output - Sk AP Bound;role
+103;Egress LC;roleMixin
+103;Equipment Composed Site;role
+103;PM Input - So PM-FEP Bound;role
+103;Bound Transport Function;roleMixin
+103;Server Physical Media Layer;role
+103;Active Path Bidirectional SN-FP;role
+103;CIC;subkind
+103;Uni Subnetwork - A Sk Connected;role
+103;Adaptation Source Output;kind
+103;Bidirectional Matrix;kind
+103;Bidirectional M-FP;kind
+103;Component Matrix;roleMixin
+103;Matrix Composed Path Layer;role
+103;Source Matrix;role
+103;Layer Processor Function Source;subkind
+103;Component Subnetwork;role
+103;Sink LP-FP;kind
+103;NIC;subkind
+103;Binding;relator
+103;Egress SN Sk;role
+103;Connected Input Interface;role
+103;Input Interface;kind
+103;Adaptation Source Process;kind
+103;Source Active RP - Path LC connected;roleMixin
+103;Active Bidirectional PM-FEP - PM LC Connected;role
+103;Switch OTN;subkind
+103;A Sk - Uni Subnetwork Connected;role
+103;Unidirectional Access Transport Entity;subkind
+103;Source AP Bi Component;role
+103;Path-Section Client Layer;role
+103;Unidirectional PM NC Bidirectional Component;role
+103;Forwarding Function LC;subkind
+103;A So Output - So AP Bound;role
+103;Forwarding Rule MC Sk;relator
+103;Server Path Layer;role
+103;End CFTE Bi Component;role
+103;Source PM-FEP Bi Component;role
+103;Site Component Equipment;role
+103;Network Connection;kind
+103;Termination Sink - LPF Connected;role
+103;Bound Output Interface Equipment;role
+103;Unidirectional Sink-Source Matrix;role
+103;SN Output - Sk S-FEP Bound;role
+103;Single Termination;phase
+103;Sink CFTE Bi Component;role
+103;A Sk - Uni Matrix Connected;role
+103;Transport Function Module Component;roleMixin
+103;Termination Source - M Connected;role
+103;Module Output Interface;kind
+103;Bidirectional Adaptation - Bi T Connected;role
+103;Defined Geographical Element;category
+103;Source SN-FEP Bi Component;role
+103;Forwarding End Point;category
+103;Site;kind
+103;Layer Processor Function;kind
+103;Bidirectional Connected Subnetwork;role
+103;Termination Source Output;kind
+103;Source M-FP Binding;relator
+103;Active Intermediate Bidirectional M-FP;role
+103;Sink M-FEP Binding;relator
+103;Ingress SN Sk;role
+103;Source LPF-FEP Bi Component;role
+103;Subnetwork Composed Path Layer;role
+103;Bi M - Bidirectional Termination Connected;role
+103;Mapped TF Output;roleMixin
+103;A So - Adaptation Sink Connected;role
+103;Uni Matrix - A Sk Connected;role
+103;Module Switch OTN;subkind
+103;Active Sk PM-FEP - PM LC connected;role
+103;Forwarding Function CFTE;subkind
+103;LC Composed Layer Network;role
+103;Mapped Module Input Interface;role
+103;Topological SN Representation;subkind
+103;Bound Input Interface PM;role
+103;Sink SN-FEP Binding;relator
+103;Source MC;subkind
+103;Source MC Bi Component;role
+103;LPF Sk Bidirectional Component;subkind
+103;SN - Termination Source Connected;role
+103;Source LP-FP;kind
+103;Intermediate CFTE;subkind
+103;Egress MC Sk;role
+103;Forwarding Rule Sk-So;relator
+103;LPF - Termination Source Connected;role
+103;Active So M-FEP - So MC connected;role
+103;Bidirectional Layer Processor Function;kind
+103;Bi A - Bi Matrix Connected;role
+103;Bi Matrix - A Bi Connected;role
+103;Bidirectional SN-FEP;kind
+103;T Sk Input - Sk A-FEP Bound;role
+103;Bidirectional M-FEP;kind
+103;Directly Bound Reference Point;category
+103;A So Input - So L-FP Bound;role
+103;Access Point;category
+103;Source FEP;category
+103;A So Input - So SN-FP Bound;role
+103;Bidirectional Layer Processor - A Bi Connected;role
+103;Sink M-FP;kind
+103;Source M-FEP Binding;relator
+103;Transport Function;category
+103;Ingress SN So;role
+103;Source L-FP Binding;relator
+103;Sk Matrix Bi Component;role
+103;Physical Media;category
+103;Equipment Site Component;role
+103;Matrix;category
+103;Sink LP-FP Bi Component;role
+103;Termination Source Input;kind
+103;Physical Media Layer Termination;subkind
+103;Layer Processor Source Process;kind
+103;Termination Sink Input;kind
+103;A So Input - So A-FEP Bound;role
+103;Transmission Media Layer Network;subkind
+103;Adaptation Sink Input;kind
+103;Bidirectional Path NC;subkind
+103;Bound Output Interface;role
+103;End Forwarding;relator
+103;Mapped Module Output Interface;role
+103;Source SN-FEP;kind
+103;Bi End CFTE;subkind
+103;Multiple Equipment Composed Site;role
+103;Forwarding Rule;relator
+103;Bi A - Bidirectional Termination Connected;role
+103;Bidirectional CFTE;subkind
+103;LPF - Termination Sink Connected;role
+103;Unidirectional LC;subkind
+103;Layer Processor Sink - A Connected;role
+103;Termination Function;kind
+103;Active So SN-FEP - End CFTE connected;role
+103;Forwarding Function Matrix;subkind
+103;A Sk Output - A-FP Bound;role
+103;Active End Bidirectional SN-FEP;role
+103;Physical Media Input;kind
+103;Adaptation Source Input;kind
+103;Forwarding Rule So SN;relator
+103;Sink SN-FEP;kind
+103;Bidirectional Termination;subkind
+103;Unidirectional MC;subkind
+103;Bi Path LC;subkind
+103;Ag PM - Bidirectional Termination Connected;role
+103;A Sk - Termination Sink Connected;role
+103;Layer Processor Process;kind
+103;Layer Processor Source Output;kind
+103;Module Input Interface;kind
+103;Path LC;subkind
+104;PersonUnderECGMonitoring;role
+104;HeartElectricalActivity;quality
+104;ECGLeadBipolarLimb;subkind
+104;ECGRecordingSession;ComplexAction
+104;Property;quality
+104;Measurement;kind
+104;Device;kind
+104;LivingPerson;phase
+104;UnitOfMeasurement;category
+104;TimeSeriesMeasurements;collective
+104;Sensor;kind
+104;ECGSampleSequence;subkind
+104;ElectricPotential;quantity
+104;ECGDevice;subkind
+104;ECGLeadUnipolar;subkind
+104;Task;ComplexEvent
+104;ECGLead;kind
+104;float;datatype
+105;Normal;subkind
+105;BodySurface;kind
+105;RightVentricle;kind
+105;CSAAsCEIConductor;role
+105;SANodeMyocytesPolarized;phase
+105;HisPurkinjeElectricalImpulse;kind
+105;DepolarizationOfCSVMyocytes;event
+105;Baseline;subkind
+105;HeartAsBloodContainer;role
+105;ECMOfCSA;quantity
+105;BloodInLungs;kind
+105;AVNodeCells;subkind
+105;ECGForm;kind
+105;BodySurfaceRegionAsObjectOfMeasure;role
+105;PeripheralsAsBloodContainer;role
+105;DateDomain;datatype
+105;TimeDomain;datatype
+105;HisElectricalImpulse;phase
+105;ToGenerateCEI;mode
+105;LVBloodStoring;relator
+105;SANodeAsCEIConductor;role
+105;PurkinjeElectircalImpulse;phase
+105;BloodInPeripherals;kind
+105;BodySurfaceRegion;kind
+105;ECMOfCSV;quantity
+105;CSAMyocytesPolarized;phase
+105;Observation;event
+105;DepolarizationOfPacemakerSANodeMyocytes;event
+105;LeftVentricleAsPump;role
+105;Patient;role
+105;LABloodStoring;relator
+105;STSegment;subkind
+105;PeripheralsBloodStoring;relator
+105;p.d.Seq({mV});datatype
+105;RightAtriumAsBloodContainer;role
+105;Chamber;category
+105;RightAtriumAsPump;role
+105;CSVMyocytes;collective
+105;TWave;subkind
+105;CSAMyocytesDepolarized;phase
+105;WaveForm;subkind
+105;RightVentricleAsPump;role
+105;RightVentricleAsBloodContainer;role
+105;BloodInHumanBody;kind
+105;Muscle;category
+105;Peripherals;kind
+105;Person;kind
+105;CSVAsEPsAccumulator;role
+105;ElectrodeAsAMeasurer;role
+105;LungAsBloodContainer;role
+105;ConductingSystemOfVentricles;kind
+105;LungBloodStoring;relator
+105;ECMOfSANode;quantity
+105;CEIConductor;roleMixin
+105;Geometric Form;category
+105;SANodeAsCEIGenerator;role
+105;LowpassFilter;subkind
+105;Wave;subkind
+105;ObservationSeries;event
+105;TransitionalSANodeMyocytes;collective
+105;Abnormal;subkind
+105;PWave;subkind
+105;FilteringTecnique;kind
+105;Segment;subkind
+105;DepolarizationOfCSAMyocytes;event
+105;QRSComplex;subkind
+105;AVElectricalImpulse;kind
+105;ConductingSystemOfAtria;kind
+105;Electrode;kind
+105;NonPacemakerCells;subkind
+105;CEIGenerator;roleMixin
+105;EPsAccumulator;roleMixin
+105;LeftAtriumAsBloodContainer;role
+105;CSVMyocytesPolarized;phase
+105;RABloodStoring;relator
+105;CardiacElectricalImpulse;mode
+105;PacemakerSANodeMyocytes;collective
+105;RightAtrium;kind
+105;CSVMyocytesDepolarized;phase
+105;RVContraction;relator
+105;BloodInLeftVentricle;kind
+105;RAContraction;relator
+105;Cycle;subkind
+105;Physician;role
+105;LeftAtriumAsPump;role
+105;LeftVentricleAsBloodContainer;role
+105;SAElecticalImpulse;kind
+105;SWave;subkind
+105;ECGRecord;kind
+105;Lead;kind
+105;BloodinRightAtrium;kind
+105;Non-ElementaryForm;subkind
+105;SANodeCells;subkind
+105;ECGRecordingDevice;kind
+105;BloodinRightVentricle;kind
+105;SANodeMyocytes;collective
+105;SANodeMyocytesDepolarized;phase
+105;ECGRecordingSession;event
+105;Lungs;kind
+105;CSVAsCEIConductor;role
+105;EPR;kind
+105;HeartCells;collective
+105;SANode;kind
+105;ToConductCEI;mode
+105;RVBloodStoring;relator
+105;PRSegment;subkind
+105;LAContraction;relator
+105;Sample;kind
+105;ElementaryForm;subkind
+105;BandpassFilter;subkind
+105;CSAMyocytes;collective
+105;HumanHeart;kind
+105;PacemakerCells;subkind
+105;p.d.(mV);datatype
+105;CorrelatedObservationSeries;event
+105;LeftVentricle;kind
+105;SampleSequence;collective
+105;sampleRate(Hz);datatype
+105;LeftAtrium;kind
+105;ToRestoreEPs;mode
+105;Period(ms);datatype
+105;HeartAsPump;kind
+105;Placement;relator
+105;ElectricalPotential(mV);datatype
+105;HumanBody;kind
+105;LVContraction;relator
+105;RepolarizationOfCSVMyocytes;event
+105;BloodInLeftAtrium;kind
+105;QWave;subkind
+105;RWave;subkind
+105;Treatment;relator
+105;Annotation;datatype
+105;TPSegment;subkind
+106;LEEDCertified;role
+106;Equipment;kind
+106;LEEDSilver;role
+106;BusStop;subkind
+106;LEEDGold;role
+106;Score;quality
+106;CityData;kind
+106;IndoorEnvironmentQuality;subkind
+106;EnergyAtmosphere;subkind
+106;Space;subkind
+106;Construction;subkind
+106;Zone;kind
+106;Certificate;relator
+106;Park;subkind
+106;Floor;subkind
+106;WaterEfficiency;subkind
+106;BuildinCertified;subkind
+106;LocationTransportation;subkind
+106;MaterialClassification;mode
+106;CertificationArea;subkind
+106;LEEDPlatinum;role
+106;BikePath;subkind
+106;MaterialResource;subkind
+106;Material;kind
+106;Geometry;category
+106;IntegrativeProcess;subkind
+106;SustainableSite;subkind
+106;Certification;kind
+106;Area;quality
+107;Flow Termination Sink Input;kind
+107;Flow Termination Sink;subkind
+107;Source AP Binding;relator
+107;Flow Termination Function;kind
+107;FT So Input - So AP Binded;role
+107;Adaptation Sink Input;kind
+107;Adaptation Source Output;kind
+107;Source AP;role
+107;Flow Termination Source Input;kind
+107;FT Sk Output - Sk AP Binded;role
+107;A Sk Input - Sk AP Binded;role
+107;AP;kind
+107;Adaptation Sink;subkind
+107;Adaptation Function;kind
+107;Adaptation Source Input;kind
+107;A So Output - So AP Binding;role
+107;Flow Termination Source;subkind
+107;Sink AP;role
+107;Adaptation Source;subkind
+107;Flow Termination Source Output;kind
+107;Transport Processing Function;category
+107;Flow Termination Sink Output;kind
+107;Adaptation Sink Output;kind
+107;Sink AP Binding;relator
+108;Inheritance Visibility;quality
+108;Mutability;quality
+108;Attribute (Member Variable);subkind
+108;Superclass;role
+108;Inheritance;relator
+108;Method (Member Function);kind
+108;Class Variable;subkind
+108;Primitive Type;subkind
+108;Extendable Class;subkind
+108;Concrete Method;subkind
+108;Element Visibility;quality
+108;Physical Module;subkind
+108;Type;category
+108;Non-Overridable Method;subkind
+108;Instance Method;subkind
+108;Software System;kind
+108;Code;kind
+108;Logical Module;subkind
+108;Instance Variable;subkind
+108;Destructor Method;subkind
+108;Return Type;quality
+108;Type Parameter;kind
+108;Abstract Method;subkind
+108;Root Class;subkind
+108;Module;kind
+108;Class Method;subkind
+108;Artifact;category
+108;Subclass;role
+108;Object-Oriented Programming Language;subkind
+108;Overridable Method;subkind
+108;Parameter Variabe;subkind
+108;Programming Language;subkind
+108;Generic Method;subkind
+108;Non-Extendable Class;subkind
+108;Named Element;category
+108;Software Item;category
+108;Name;quality
+108;Accessor Method;subkind
+108;Value Type;quality
+108;Class;kind
+108;Local Variable;subkind
+108;Language;kind
+108;Object-Oriented Source Code;subkind
+108;Variable;kind
+108;Constructor Method;subkind
+108;Abstract Class;subkind
+108;Block;kind
+108;Source Code;subkind
+108;Type Parameter;kind
+108;Method Variable;subkind
+108;Nested Class;role
+108;Generic Class;subkind
+108;Nesting;relator
+108;Program;kind
+108;Member;category
+108;Concrete Class;subkind
+109;HighWaterProtectionImplementer;role
+109;WeatherOrganization;subkind
+109;FloodDamage;kind
+109;EvacuationRegistration;kind
+109;FloodEvacuationPlan;kind
+109;FloodDefenseManager;role
+109;Organization;kind
+109;WeatherForecast;kind
+109;FloodEvent;kind
+109;EvacuationOrganization;subkind
+109;WeatherForecaster;role
+109;FloodDefenseMeasuresImplementer;role
+109;FloodForecaster;role
+109;Resource;kind
+109;FloodEvacuation;kind
+109;HighWaterProtectionMeasureEvaluator;role
+109;HighWaterProtectionMeasure;kind
+109;FloodForecast;kind
+109;People;kind
+109;FloodDefenseOrganization;subkind
+109;FloodEvacuationImplementer;role
+109;Area;kind
+109;SelectedHighWaterProtectionMeasure;phase
+109;FloodManagementOrganization;subkind
+109;EvaluatedHighWaterProtectionMeasure;phase
+109;HighWaterController;role
+109;Victim;role
+109;FloodDefenseMeasures;kind
+109;ImplementedHighWaterProtectionMeasure;phase
+109;FloodEvacuationManager;role
+110;Enrolment;relator
+110;Insurance Policy;kind
+110;Student;role
+110;Obligatory Internship;relator
+110;Employer;role
+110;Natural Person;subkind
+110;Voluntary Internship;relator
+110;Intern;role
+110;Internship;relator
+110;Insurance Carrier;role
+110;Post Graduate Student;role
+110;Supervisor;role
+110;Personal Injury Insurance;relator
+110;Employee;role
+110;Organization Insured;role
+110;Educational Institution;role
+110;High School Student;role
+110;Employment;relator
+110;Legal Person;kind
+110;College Student;role
+110;Part Time Internship;relator
+110;Educational Supervisor;role
+110;Internship Provider Organization;role
+110;Full Time Internship;relator
+110;Juridical Person;subkind
+110;Term of commitment;kind
+111;Shipper;role
+111;Legal_Rule;subkind
+111;Duty_Holder;roleMixin
+111;Right_Holder;roleMixin
+111;Right_to_Indemnity;mode
+111;Duty_to_Indemnity;mode
+111;Carrier;role
+111;Inaccuracies;kind
+111;Loss_or_Damage_of_Goods;event
+111;Right_Duty_to_Indemnity;relator
+112;Software Sytem;collective
+112;Program;collective
+113;Technology;collective
+113;Object;category
+113;Community;collective
+113;Physical Object;category
+113;Data File;category
+113;Program File;category
+113;Digital Technology;collective
+113;Object Structure;category
+113;Object Function;category
+113;Technological Object;category
+113;Technical Identity of Object;relator
+113;Component Part;category
+113;Bitstring;category
+113;Social Object;category
+113;Digital Object;category
+113;Syntactic Object;category
+113;Nonmaterial;category
+113;Hybrid;category
+113;Material;category
+114;Operating Expense;kind
+114;Increment Event;subkind
+114;....;subkind
+114;...;subkind
+114;REA Duality;relator
+114;Asset;phase
+114;Revenue Account;subkind
+114;Balanced Duality;relator
+114;Resource Cost Driver;relator
+114;Routing;relator
+114;Equipment;subkind
+114;Activity Pool;subkind
+114;Cost Pool;subkind
+114;Expense Account;subkind
+114;Debit Event;subkind
+114;Asset Account;subkind
+114;Decrement Event;subkind
+114;Activity;kind
+114;Activity Level;kind
+114;Capacity Resource;subkind
+114;Raw Material;subkind
+114;Production Volume;kind
+114;Equity Account;subkind
+114;Data Pool;kind
+114;General Ledger Account;kind
+114;Personnel;subkind
+114;Liability Account;subkind
+114;Claim;phase
+114;Material Resource;subkind
+114;Economic Resource;kind
+114;Activity Cost Driver;relator
+114;Bill of Material;relator
+114;Equity;phase
+114;Finished Good;subkind
+114;Planning Period;kind
+114;Economic Agent;kind
+114;Liability;phase
+114;Credit Event;subkind
+114;Economic Event;kind
+115;AppleCultivar;type
+115;ApplePathology;mode
+115;ApplePostHarvestPathologyEnablingFactor;category
+115;AppleQualityState;event
+115;SpatialEntity;category
+115;StorageFacility;role
+115;Photograph;kind
+115;PathogenSign;relator
+115;PressureMarkInApple;mode
+115;Photographer;role
+115;AppleColor;quality
+115;AppleNutritionalFactor;quality
+115;SpatialRegion;kind
+115;Temperature;quality
+115;AppleColorSpace;datatype
+115;ApplePart;category
+115;ApplePathologyManifestation;event
+115;HumidityQualitySpace;datatype
+115;PhysicalQualityStateOfSpatialEntityDuringAppleHandling;event
+115;AppleLowNutritionalFactor;quality
+115;AppleSymptomsPrototypeAssignment;relator
+115;AppleExocarp;subkind
+115;AppleDiseaseType;type
+115;PrototypicalApplePathogenSignPhotograph;role
+115;PhysicalQualityState;event
+115;Event;category
+115;HoleInApple;mode
+115;AppleEndurant;category
+115;AppleSymptomManifestation;event
+115;PathologicalAppleSubstance;phase
+115;AppleStain;mode
+115;PathogenType;type
+115;ApplePreHarvestPathologyEnablingFactor;category
+115;Apple;kind
+115;PhotographAutorship;relator
+115;InsectStingInApple;mode
+115;AppleSubstance;category
+115;GasConcentrationQualitySpace;datatype
+115;AppleDisorderType;type
+115;AppleStorage;event
+115;AppleQualitySpace;datatype
+115;PathogenCollective;collective
+115;Building;kind
+115;AppleFeature;category
+115;AppleTaste;quality
+115;AppleDisposition;category
+115;AppleBatch;collective
+115;Pathogen;category
+115;ApplePathogenInfectionPhotograph;subkind
+115;InadequatePhysicalQualityStateOfSpatialEntityDuringAppleHandling;event
+115;PysicalQuality;category
+115;ApplePathologyType;type
+115;PhysicalQualitySpace;datatype
+115;Person;kind
+115;ApplePathologyEnablingFactor;mixin
+115;InfectedAppleSubstance;role
+115;PrototypicalAppleSymptomsPhotograph;role
+115;AppleAspect;category
+115;GasConcentration;quality
+115;Humidity;quality
+115;AppleHandlingActivity;event
+115;ApplePathogenInfectionPrototypeAssignment;relator
+115;AppleSymptomType;type
+115;AppleSymptomsPhotograph;subkind
+115;AplleEndocarp;subkind
+115;TemperatureQualitySpace;datatype
+115;AppleQuality;category
+115;AppleHarvest;event
+116;Chapter(ki);kind
+116;Teacher;role
+116;Credit non passed;phase
+116;ki non passed;phase
+116;Test(t);kind
+116;p non passed;phase
+116;t passed;phase
+116;Person;kind
+116;Credit passed;phase
+116;p passed;phase
+116;t non passed;phase
+116;Course started;phase
+116;ci non passed;phase
+116;Course;kind
+116;Exercise(ci);kind
+116;Project(p);kind
+116;ki passed;phase
+116;Student;role
+116;ci passed;phase
+117;Language;kind
+117;Employed;phase
+117;Full Time;subkind
+117;Educational Organization;kind
+117;Local Languages;kind
+117;Application;relator
+117;Unemployed;phase
+117;Bachelor Graduate;phase
+117;Masters Graduate;phase
+117;University;subkind
+117;Language Requirement;kind
+117;Student Club;kind
+117;Admission Period;relator
+117;Employment History;kind
+117;Hybrid;subkind
+117;High School Graduate;phase
+117;Part Time;subkind
+117;Hobbies;kind
+117;College;subkind
+117;Online;subkind
+117;Academic Instructor;kind
+117;Machine Learning;abstract
+117;Applicant;kind
+117;Country;kind
+117;Institute;subkind
+117;Faculty;kind
+117;Co-Op Program;subkind
+117;City;kind
+117;In Presence;subkind
+117;Degree Requirement;kind
+117;Study Program;kind
+117;Course;kind
+117;Educational History;kind
+117;Vocational school;subkind
+118;ClassifiedEntity;role
+118;MacroEcosystem;subkind
+118;AmazonicRegion;category
+118;Cerrado;subkind
+118;Sandy;subkind
+118;LifeStage;mixin
+118;ResponsibleInstitution;role
+118;MoonPhase;mode
+118;BlackWater;subkind
+118;ObjectClassifier;role
+118;SocialPoliticalRegion;category
+118;EcosystemType;type
+118;Species;type
+118;Tropical;category
+118;ConservationUnity;subkind
+118;Person;kind
+118;MacroEnvironment;mode
+118;PublicLocation;subkind
+118;CostalRegion;category
+118;CollectedEntity;role
+118;Lowland;subkind
+118;InstitutionalContract;relator
+118;Flora;collective
+118;Saltwater;subkind
+118;HighLuminosity;mode
+118;CollectionLocation;role
+118;BioticEntity;category
+118;ResponsibleForCollection;role
+118;DevoluteLand;subkind
+118;CollectionInstrument;role
+118;Air;quantity
+118;Litholic;subkind
+118;ResearcherParticipant;role
+118;FieldsRegion;category
+118;SocialPoliticalRegionType;type
+118;Asexual;category
+118;City;kind
+118;StateLand;subkind
+118;Cloudy;mode
+118;Restinga;subkind
+118;Freshwater;subkind
+118;LowLuminosity;mode
+118;Humous;subkind
+118;Caatinga;subkind
+118;Forest;subkind
+118;FederalLand;subkind
+118;MataAtlantica;subkind
+118;Field;subkind
+118;GeographicPoint;category
+118;Luminosity;mode
+118;IndiandLand;subkind
+118;GeographicCoordinate;datatype
+118;Pantanal;subkind
+118;Collection;relator
+118;Embryo;mixin
+118;PhytophysiognomicRegion;category
+118;PrivateLocation;subkind
+118;AverageLuminosity;mode
+118;NewMoon;mode
+118;Adult;mixin
+118;Water;quantity
+118;RandomCollection;relator
+118;Environment;mode
+118;State;kind
+118;CostalZone;subkind
+118;BrackishWater;subkind
+118;WhiteWater;subkind
+118;Location;kind
+118;Genus;type
+118;CityLand;subkind
+118;Female;category
+118;NonExamined;category
+118;AbioticEntity;category
+118;Semiarid;category
+118;Clayey;subkind
+118;Clearwater;subkind
+118;BiomeType;type
+118;InstrumentedCollection;relator
+118;Biome;subkind
+118;TrapCollection;relator
+118;Settlement;subkind
+118;ClimateRegion;category
+118;Rainy;mode
+118;ManualCollection;relator
+118;Bisexual;category
+118;Instrument;kind
+118;CocaisRegion;category
+118;FullMoon;mode
+118;Fauna;collective
+118;Family;type
+118;CerradoRegion;category
+118;GeographicSpace;category
+118;Ecosystem;kind
+118;Microorganism;category
+118;PatanalRegion;category
+118;TropicalWetAndDry;category
+118;FederalArea;subkind
+118;WeatherCondition;mode
+118;Microbiota;collective
+118;Amazonia;subkind
+118;Thorp;subkind
+118;Researcher;role
+118;Community;subkind
+118;ResearchInstitution;kind
+118;Capoeira;subkind
+118;CaatingaRegion;category
+118;Juvenile;mixin
+118;Male;category
+118;MicroEnvironment;mode
+118;ParticipantInCollection;role
+118;Village;subkind
+118;AssistantInCollection;role
+118;Pupa;mixin
+118;Plant;category
+118;Gender;category
+118;Taxon;type
+118;CollectionThroughFraction;relator
+118;Soil;quantity
+118;Igapo;subkind
+118;Sunny;mode
+118;ClimateRegionType;type
+118;Egg;mixin
+118;Rocky;subkind
+118;AraucariasRegion;category
+118;PhytophysiognomicRegionType;type
+118;AtlanticRegion;category
+118;Temperate;category
+118;FirstQuarterMoon;mode
+118;Animal;category
+118;Hydromorphic;subkind
+118;Classification;relator
+118;EtimologicalUmbrellaCollection;relator
+118;Hermaphrodite;category
+118;NetCollection;relator
+118;HumidSubtropical;category
+118;MesoEcosystem;subkind
+118;MicorEcosystem;subkind
+118;Unknown;category
+118;MaterialEntity;category
+118;EntityInStudy;role
+118;Unknown_;mixin
+118;SpatialLocation;category
+118;LastQuarterMoon;mode
+118;Maggot;mixin
+118;Country;kind
+118;Vegetation;kind
+118;Equatorial;category
+119;Pessoa Doente;phase
+119;Pessoa Viva;phase
+119;Transplantador;role
+119;Sistema Circulatório;kind
+119;Doador;role
+119;Transplante;relator
+119;Córnea;kind
+119;Pessoa com PCR;phase
+119;Tecido;category
+119;Item Captado;roleMixin
+119;Sistema Orgânico;category
+119;Item Transplantado;roleMixin
+119;Pessoa Morta;phase
+119;Pessoa;kind
+119;Captador;role
+119;Pessoa com ME;phase
+119;Não Funcional;phase
+119;Receptor;role
+119;Funcional;phase
+119;Homem;subkind
+119;Órgão;category
+119;Coração;kind
+119;Captação;relator
+119;Mulher;subkind
+119;Pessoa Saudável;phase
+120;Operability;roleMixin
+120;Consistency;roleMixin
+120;Simplicity;roleMixin
+120;Verifiability;roleMixin
+120;Performability;roleMixin
+120;Completeness;roleMixin
+120;Conciseness;roleMixin
+120;Intuitiveness;roleMixin
+120;Publicity;roleMixin
+120;Dependability;roleMixin
+120;Availability;roleMixin
+120;Extensibility;roleMixin
+120;Transparency;roleMixin
+120;Correctness;roleMixin
+120;Controlability;roleMixin
+120;Current;roleMixin
+120;Validity;roleMixin
+120;Comparable;roleMixin
+120;Clarity;roleMixin
+120;Auditability;roleMixin
+120;User-friendliness;roleMixin
+120;Impact;roleMixin
+120;Accountability;roleMixin
+120;Understandability;roleMixin
+120;Decomposability;roleMixin
+120;Informativeness;roleMixin
+120;Acessibility;roleMixin
+120;Uniformity;roleMixin
+120;Usability;roleMixin
+120;Adaptability;roleMixin
+120;Portability;roleMixin
+120;Accuracy;roleMixin
+120;Composability;roleMixin
+120;Integrity;roleMixin
+120;Traceability;roleMixin
+121;Skiing;subkind
+121;Multi Line String;subkind
+121;Cycling;subkind
+121;resturant visit;subkind
+121;food and wine tour;kind
+121;language certificate;role
+121;finish;phase
+121;paid;role
+121;cultural visit;kind
+121;string;datatype
+121;Line String;subkind
+121;booking;relator
+121;receipt;kind
+121;certification;relator
+121;int;datatype
+121;tourist;role
+121;float;datatype
+121;completed;phase
+121;feedback;relator
+121;sport activity;kind
+121;path;category
+121;user;kind
+121;online payment;subkind
+121;itinerary;kind
+121;Adress;datatype
+121;Tourist Guide;role
+121;location;category
+121;church visit;subkind
+121;point;datatype
+121;activity certificate;role
+121;Climbing;subkind
+121;time;datatype
+121;museum visit;subkind
+121;plan;relator
+121;Winery visit;subkind
+121;city center visit;subkind
+121;offer;quality
+121;planed;phase
+121;credit/debit card payment;subkind
+121;Point;subkind
+121;being processed;phase
+121;castel visit;subkind
+121;Hiking;subkind
+121;long;datatype
+121;activity;category
+121;in progres;phase
+121;Multi_point;subkind
+121;payment;kind
+121;geometry;quality
+122;Contributor;roleMixin
+122;Publisher;roleMixin
+122;Audio Object;kind
+122;string;datatype
+122;Composite Area;subkind
+122;Agent;category
+122;Published;phase
+122;Snowpark Category;subkind
+122;Ski Slope Category;subkind
+122;In-Person Event;phase
+122;float;datatype
+122;Person;kind
+122;Multi-Polygon;subkind
+122;Media Object;category
+122;Closed;phaseMixin
+122;Area Owner;roleMixin
+122;Line String;subkind
+122;Snow Measurement;relator
+122;Address;datatype
+122;Time Instant;datatype
+122;Snowpark;subkind
+122;Permanently Closed;phaseMixin
+122;License Type;type
+122;Ski Slope;subkind
+122;Organization;kind
+122;Range;datatype
+122;Snowpark Feature;subkind
+122;Streaming Platform;kind
+122;Contact Point;datatype
+122;Difficulty;quality
+122;License Holder;roleMixin
+122;Mountain Area Category;subkind
+122;Snow Type;type
+122;Geometry;quality
+122;int;datatype
+122;boolean;datatype
+122;Lift Category;subkind
+122;Trail Category;subkind
+122;Feature;type
+122;Place;category
+122;Media Object Category;subkind
+122;Author;roleMixin
+122;Operational;phaseMixin
+122;Time;datatype
+122;Point;subkind
+122;Hybrid Event;phase
+122;EU Difficulty;enumeration
+122;Lift;kind
+122;Event Series Category;subkind
+122;Venue;roleMixin
+122;Hours Specification;datatype
+122;Video Object;kind
+122;Day of Week;enumeration
+122;Geospatial Feature;category
+122;Image Object;kind
+122;Time Interval;datatype
+122;Multi-Point;subkind
+122;Named Entity;category
+122;Cancelled;phase
+122;Virtual Event;phase
+122;US Difficulty;enumeration
+122;Simple Event;subkind
+122;Multi Line String;subkind
+122;Composite Event;subkind
+122;Target Audience;collective
+122;Event Series;subkind
+122;Mountain Area;kind
+122;Coordinate;datatype
+122;SimpleArea;subkind
+122;Sponsor;roleMixin
+122;Snowpark Difficulty;enumeration
+122;Trail;kind
+122;Frequency;datatype
+122;Polygon;subkind
+122;Organizer;roleMixin
+122;Event Plan;relator
+122;Category;type
+122;Event Plan Category;subkind
+123;SemanticallySimple;mode
+123;SemanticallyComplex;mode
+123;Spoken-WrittenProposition;subkind
+123;ImproperSense;subkind
+123;SyncategorematicConcept;subkind
+123;SyntacticallySimple;mode
+123;MentalProposition;subkind
+123;MentalSuppositum;role
+123;ScienceInStrictSense;subkind
+123;SemanticallyComplexSpoken-WrittenTerm;subkind
+123;Proposition;kind
+123;Token;kind
+123;Science;kind
+123;ImproperSupposition;subkind
+123;PersonalSupposition;subkind
+123;Mind;kind
+123;MaterialSuppositionForSyncatogramaticTerm;subkind
+123;SimpleSupposition;subkind
+123;ProperSense;subkind
+123;Similarity;relator
+123;Logic;category
+123;Term;kind
+123;MaterialSupposition;subkind
+123;Convention;mode
+123;MentalPersonalSupposition;subkind
+123;PracticalScience;subkind
+123;CategorematicTerm;subkind
+123;LawOfReasoning;kind
+123;Inscription;subkind
+123;TokenType;kind
+123;Expression;subkind
+123;Concept;kind
+123;SemanticallyComplexExpression;role
+123;LogicalDoctrine;subkind
+123;Spoken-WrittenSuppositum;role
+123;Logic-in-use;kind
+123;LogicalRule;kind
+123;Spoken-WrittenTerm;subkind
+123;SyntacticallyComplex;mode
+123;CategorematicConcept;subkind
+123;MixedTerm;mixin
+123;ProperSuppositon;subkind
+123;Context;mode
+123;Signification;relator
+123;SuppositionInConventionalLanguage;subkind
+123;Concept;subkind
+123;SyncategorematicTerm;subkind
+123;Supposition;relator
+123;ComplexConcept;subkind
+123;Interpretation;relator
+123;Suppositum;role
+123;SemanticallySimple Expression;role
+123;Utterance;subkind
+123;Object;kind
+124;Sculpture;kind
+124;Bird;kind
+124;Decommissioned;phase
+124;Edition Publishing;relator
+124;Suez-class Ship;subkind
+124;Ship Class by Size;subkind
+124;Emperor Penguin;subkind
+124;Writer;role
+124;Publisher;roleMixin
+124;Book Authorship;relator
+124;Person;kind
+124;Discontinued Ship Type;phase
+124;Ship;kind
+124;Painter;role
+124;Copyrighted Work;phaseMixin
+124;Discoverer;role
+124;Recognized Species;role
+124;Temporary;phase
+124;Awarded Work;roleMixin
+124;Ship Type;type
+124;Extinct Species;phase
+124;Agent;category
+124;Discovery Entitlement;relator
+124;Least Concern Species;phase
+124;Captain;role
+124;Canal;kind
+124;Size;quality
+124;Organization;kind
+124;Bird Species;type
+124;Sculptor;role
+124;On Route;phase
+124;Painting;kind
+124;Book;type
+124;Commissioned;phase
+124;Canal Restrictions;relator
+124;Person;kind
+124;Book Copy;kind
+124;Permanent;phase
+124;Licensing;relator
+124;License Holder;roleMixin
+124;Threatened Species;phase
+124;Author;roleMixin
+124;Assignment;relator
+124;Golden Eagle;subkind
+124;Captain License;mode
+124;Person;kind
+124;Public Domain Work;phaseMixin
+124;Panama-class Ship;subkind
+124;Creative Work;category
+124;Licensed Ship Type;role
+124;Current Ship Type;phase
+125;Updated Idea;role
+125;Update Idea;relator
+125;Idea Attachment;mode
+125;Merged_1;role
+125;Partially Implemented;phase
+125;User with Idea Contest Comment;role
+125;Revised Idea;role
+125;Submitting User;role
+125;Read Authorization;relator
+125;Idea Contest;kind
+125;Relatee;role
+125;Rating Range;datatype
+125;Idea with a Comment;role
+125;Idea;kind
+125;Submitted Idea;role
+125;User with Comment;role
+125;Category;type
+125;Describes Part;relator
+125;Up Down Rating Range;datatype
+125;Idea Relationship;relator
+125;Rejected;phase
+125;Idea Category;type
+125;Textual Review;relator
+125;Described;role
+125;Metric;datatype
+125;Online Account;kind
+125;Implemented;phase
+125;User with Account;role
+125;Edited;relator
+125;SubCategory;type
+125;Reviewer;role
+125;Idea Updater User;role
+125;Submission;relator
+125;Similarity;relator
+125;Updated Contest;role
+125;Review Rating;mode
+125;User in a Group;role
+125;User;kind
+125;Write Authorization;relator
+125;Idea Contest Comment;relator
+125;Creation;relator
+125;Idea Comment;relator
+125;Submission Method;datatype
+125;Rating Review;relator
+125;Account Ownership;relator
+125;Similaree;role
+125;MinMax Rating Range;datatype
+125;Draft;phase
+125;User Group;collective
+125;Describee;role
+125;Merged;role
+125;Similar Idea;role
+125;Deployed;phase
+125;Merging;relator
+125;Accepted;phase
+125;Review;relator
+125;Related Idea;role
+125;Contest with Access Authorization;role
+125;Review Category;type
+125;User with Idea;role
+125;Contest with Idea;role
+125;User Editor;role
+125;Commented Contest;role
+125;Access Authorized Group;role
+125;Submited by Method;mode
+125;Idea Contest Attachment;mode
+125;Authorization;relator
+125;User Group in a Group;collective
+126;Environmental Influences;kind
+126;Aims and goals;mode
+126;Perceived image (Perception);kind
+126;External stekaholders;collective
+126;Identity;category
+126;Positioning;mode
+126;Value Proposition;kind
+126;Customers;collective
+126;Noise;category
+126;Mission;mode
+126;Communication;relator
+126;Essence;mode
+126;Image;category
+126;Values;mode
+126;Desired Image;kind
+126;Presentation;mode
+126;Visual components;kind
+126;Stakeholders;collective
+126;Structure;mode
+126;Official stakeholders;collective
+126;Vision;kind
+126;Expression;kind
+126;Internal stakeholders;collective
+126;Behaviors;kind
+126;Culture;kind
+126;Reputation;subkind
+126;Personality;mode
+126;Brand heritage;subkind
+126;Employees;collective
+126;Customer reflection;kind
+127;Authorship;relator
+127;Library Number;quality
+127;Access Clearance;quality
+127;Librarian;role
+127;Article;subkind
+127;Woman;subkind
+127;Finished;phase
+127;Suspended Account;phase
+127;Ongoing;phase
+127;Patent;subkind
+127;Copy;mode
+127;Publisher;subkind
+127;Proceedings;subkind
+127;Artifact;kind
+127;Recording;subkind
+127;Work Contract;relator
+127;Digitized;subkind
+127;Destroyed;phase
+127;Video Recording;subkind
+127;Book;subkind
+127;Work;subkind
+127;Discarded;phase
+127;Chapter;subkind
+127;Library Card;kind
+127;Sound Recording;subkind
+127;Employee;role
+127;Man;subkind
+127;Undamaged;phase
+127;Client;roleMixin
+127;Publication;event
+127;Borrowed;phase
+127;Registered Organization;role
+127;Series;collective
+127;Loan;relator
+127;Library Account;relator
+127;Person;kind
+127;Object;subkind
+127;Data Medium;quality
+127;Translated Edition;subkind
+127;Translator;role
+127;Registered Person;role
+127;Library;subkind
+127;Damaged;phase
+127;Lent Copy;role
+127;Edition;mode
+127;Available;phase
+127;Organization;kind
+127;Newspaper;subkind
+127;Address;quality
+127;Translation;relator
+127;Age;quality
+127;Document;subkind
+127;Active Account;phase
+127;Registration;event
+127;Writer;role
+128;Application System;subkind
+128;1 Gbps Port;subkind
+128;Mailbox;kind
+128;Data Center;kind
+128;File in Disk;kind
+128;Defective Disk;phase
+128;MAN;subkind
+128;Server;kind
+128;Disk;kind
+128;Channel;kind
+128;LAN;subkind
+128;Technician;role
+128;Conventional File;role
+128;Switch-core;kind
+128;Database;kind
+128;Communication Port;kind
+128;Executable File;role
+128;IT Team;collective
+128;IT Service;kind
+128;WAN;subkind
+128;Communication Module;kind
+128;Storage;kind
+128;Person;kind
+128;Functional Disk;phase
+128;10 Gbps Port;subkind
+128;Functional Module;phase
+128;DBMS;subkind
+128;Email;subkind
+128;Defective Module;phase
+128;Manager;role
+128;Database File;role
+129;Superintendent;role
+129;Person;kind
+129;Witness;role
+129;Criminal Investigation;relator
+129;Suspect;role
+129;Lead Detective;role
+129;Junior Detective;role
+129;Senior Detective;role
+129;Interrogation;relator
+129;Detective;role
+130;SpeedControl;relator
+130;Controller;role
+130;MA with TSR;kind
+130;Transportation;relator
+130;Dispatcher;kind
+130;Wireless Network;kind
+130;Monitor;relator
+130;Communication;relator
+130;BeingSensed;role
+130;RBC;kind
+130;Channel;role
+130;Control Parameter Communication;relator
+130;Provider;role
+130;SDU;kind
+130;Train;kind
+130;On-board System;kind
+130;Speed/Distance Message;kind
+130;BeingControlled;role
+130;Receiver;role
+130;Mover;role
+130;Message;role
+130;Place;role
+130;Sensor;role
+130;TSR Area;kind
+130;Train Wheel;kind
+131;DBMS Item;category
+131;Artifact;category
+131;Language;kind
+131;Line;kind
+131;Loaded DBMS Copy;mode
+131;Data Schema;subkind
+131;Schema;kind
+131;Dictionary;kind
+131;Data File;kind
+131;Database System;subkind
+131;Relational Data Language;subkind
+131;DBMS;subkind
+131;External Data Type;subkind
+131;Foreign Key Constraint;subkind
+131;Constraint;kind
+131;DBMS Account;kind
+131;Table;kind
+131;Computer System;kind
+131;RDBMS Item;category
+131;Primary Key Column;role
+131;RDBMS;subkind
+131;Software Item;category
+131;Loaded RDBMS Copy;mode
+131;Relational Database;subkind
+131;Column Type Constraint;subkind
+131;Line Type;kind
+131;Data Type Constraint;subkind
+131;Relational Schema;subkind
+131;Information Schema;subkind
+131;Column;kind
+131;Base Table;subkind
+131;Data Language;subkind
+131;Foreign Key Column;role
+131;Loaded Software System Copy;mode
+131;Primary Key Constraint;subkind
+131;Internal Data Type;subkind
+131;Relational Database System;subkind
+131;Derived Table;subkind
+131;Column Constraint;subkind
+131;Software System;subkind
+131;Data Type;kind
+131;Check Constraint;subkind
+131;Database;collective
+133;User Community of PRCS;collective
+133;User of PRCS;role
+133;Regulatory Agency;role
+133;PRCS Offering Claim;mode
+133;Eventual Passenger Rail Chartered Service;relator
+133;Interested Agent;role
+133;PRCS Description;category
+133;Railway Usage Agreement;relator
+133;PRCS Offering Commitment;mode
+133;Regulatory Legislation;category
+133;Railway Concessionaire;role

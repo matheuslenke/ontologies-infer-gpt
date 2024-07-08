@@ -1,0 +1,87 @@
+Prompt items: 
+appRegistration, housePrice, winterSport, profileSearch, othersProfileInteraction, amenitiesCollection, food, universityBoard, hospital, houseLocation, ownProfileView, sportorganizationBoard, sportActivity, EducationalOrganization, amenity, sportEvent, professor, postalAddress, discountAmount, bathroomAmenity, event, masterStudent, label, pub, creativeWork, profileSpokenLanguage, profileLearningLanguage, postDeletion, profileInteractor, storeLocation, postEditing, postInteractor, date, sportOrganization, bedroomAmentity, product, postRating, clothing, discountPost, postInteraction, eventHostsBoard, summerSport, ownProfileEditing, postSearch, kitchenAmenity, profileMessage, locationCollection, university, productRegularPrice, store, person, housingAdPost, school, postCreation, profilePicture, profileEmail, post, sportOrganizationMember, postAuthor, image, outdoor, Profile, sportLocation, ownProfileDetetion, text, services, location, parkArea, ownProfileInteraction, organization, numberOfRooms, teachingAssistant, profileName, indoor, neutralSport, house, rating, SportActivityPost, postComment, profileView, video, audio, productDiscount, nearbyHouseFacilities, houseNumOfOccupants, entertainmentAmentity, profileUserAge, bachelorStudent, phdStudent, postLabeling, user, 
+amout of items: 91
+ I will read the names of the elements provided in the list and infer one possible OntoUML stereotype for each element with a missing stereotype from the given list. Here are my findings:
+
+| name          | inferred_stereotype   |
+|--------------|----------------------|
+| appRegistration      | None                  |
+| housePrice            | None                  |
+| winterSport             | sportActivity       |
+| profileSearch         | None                  |
+| othersProfileInteraction        | role               |
+| amenitiesCollection      | category            |
+| food              | quality             |
+| universityBoard       | organization         |
+| hospital          | organization          |
+| houseLocation     | location             |
+| ownProfileView    | profileUserAge       |
+| sportorganizationBoard       | organization           |
+| sportActivity        | event                |
+| EducationalOrganization   | organization           |
+| amenity            | quality              |
+| sportEvent          | event                |
+| professor          | person                   |
+| postalAddress      | location             |
+| discountAmount     | quantity               |
+| bathroomAmenity     | amenity              |
+| event         | None                  |
+| masterStudent    | bachelorStudent       |
+| label            | quality             |
+| pub          | establishment           |
+| creativeWork      | artifact              |
+| profileSpokenLanguage | category            |
+| profileLearningLanguage      | category           |
+| postDeletion       | historicalRoleMixin  |
+| profileInteractor     | role                  |
+| storeLocation    | location             |
+| postEditing        | event                |
+| postInteractor   | profileUserAge      |
+| date             | event                |
+| sportOrganization | organization            |
+| bedroomAmenity     | amenity              |
+| product           | artifact               |
+| postRating      | quality             |
+| clothing        | category            |
+| discountPost   | productDiscount      |
+| postInteraction | interaction           |
+| eventHostsBoard       | organization          |
+| summerSport    | sportActivity        |
+| ownProfileEditing  | event                |
+| postSearch      | None                  |
+| kitchenAmenity   | amenity             |
+| profileMessage    | communication           |
+| locationCollection| category            |
+| university         | EducationalOrganization        |
+| productRegularPrice       | price                |
+| store              | establishment           |
+| person             | None                  |
+| housingAdPost      | post                |
+| school      | EducationalOrganization   |
+| postCreation    | event                |
+| profilePicture   | artifact             |
+| profileEmail       | communication     |
+| post          | content           |
+| sportOrganizationMember    | member              |
+| postAuthor    | author            |
+| image        | artifact          |
+| outdoor         | environment         |
+| Profile        | None                  |
+| sportLocation  | location           |
+| ownProfileDetetion | event                |
+| text             | communication      |
+| services   | category             |
+| parkArea   | location             |
+| ownProfileInteraction | interaction     |
+| organization     | None                  |
+| numberOfRooms    | quantity             |
+| teachingAssistant     | person            |
+| profileName       | name                |
+| neutralSport      | sportActivity        |
+| house             | endurant           |
+| rating           | evaluation          |
+| SportActivityPost     | post              |
+| postComment    | communication     |
+| profileView   | observation         |
+| video         | artifact             |
+| audio    | artifact            |
